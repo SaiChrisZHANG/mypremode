@@ -74,21 +74,24 @@
 \definecolor{lightorange}{HTML}{f19e58}
 \definecolor{myblue}{cmyk}{1,.72,0,.38}
 \definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
+%\definecolor{mygreen}{RGB}{196, 255, 118}
+\definecolor{mygreen}{rgb}{0.53, 0.66, 0.42}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
 
-\renewcommand{\CancelColor}{\color{orange}}
+\renewcommand{\CancelColor}{\color{mygreen}}
 
 \makeatletter
 \newcommand{\mybox}[1]{%
   \setbox0=\hbox{#1}%
   \setlength{\@tempdima}{\dimexpr\wd0+13pt}%
-  \begin{tcolorbox}[colback=orange,colframe=orange,boxrule=0.5pt,arc=4pt,
+  \begin{tcolorbox}[colback=mygreen,colframe=mygreen,boxrule=0.5pt,arc=4pt,
       left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,width=\@tempdima]
     \textcolor{white}{#1}
   \end{tcolorbox}
 }
 \makeatother
 
-\usecolortheme[named=orange]{structure}
+\usecolortheme[named=mygreen]{structure}
 \usecolortheme{sidebartab}
 \usecolortheme{orchid}
 \usecolortheme{whale}
