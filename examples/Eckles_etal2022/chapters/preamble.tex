@@ -98,9 +98,9 @@
 \setbeamercolor{alerted text}{fg=yellow}
 \setbeamercolor{block title alerted}{bg=alerted text.fg!90!black}
 \setbeamercolor{block title example}{bg=lightorange!60!black}
-\setbeamercolor{background canvas}{bg=gray}
-\setbeamercolor{normal text}{bg=gray,fg=white}
-\setbeamercolor{subsection in head/foot}{bg=white, fg=gray}
+\setbeamercolor{background canvas}{bg=gray!80!black}
+\setbeamercolor{normal text}{bg=gray!80!black,fg=white}
+\setbeamercolor{subsection in head/foot}{bg=white, fg=gray!80!black}
 
 
 \setbeamertemplate{blocks}[rectangle]
@@ -156,6 +156,16 @@
 \end{center}
 }
 
+\newcommand{\boxgreen}[1]{
+\begin{center}
+\fcolorbox{mygreen}{gray!80!black}{
+\begin{minipage}{0.95\textwidth}
+#1
+\end{minipage}
+}
+\end{center}
+}
+
 \newcommand{\boxgrey}[1]{
 \begin{center}
 \fcolorbox{black!85!white}{lightgray!35!white}{
@@ -171,7 +181,9 @@
 % Block colors
 \colorlet{orangeTitleBlockColor}{orange}
 \colorlet{orangeBlockColor}{orange!25!gray}
-\colorlet{blockTitleTextColor}{gray}
+\colorlet{greenTitleBlockColor}{mygreen}
+\colorlet{greenBlockColor}{mygreen!25!gray}
+\colorlet{blockTitleTextColor}{gray!80!black}
 \colorlet{blockBodyTextColor}{white}
 
 \setbeamertemplate{blocks}[rectangle]
