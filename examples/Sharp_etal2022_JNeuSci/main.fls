@@ -1,9 +1,9 @@
-PWD /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022
+PWD /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.tex
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.log
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.tex
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -210,7 +210,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemedefaul
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.pdf
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
@@ -231,8 +231,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/chapters/preamble.tex
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/chapters/preamble.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/preamble.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/preamble.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
@@ -401,10 +401,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.aux
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.aux
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.aux
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -417,13 +417,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -437,32 +437,32 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-numbers
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.bcf
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.bbl
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.bbl
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.bbl
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.nav
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.nav
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bcf
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.nav
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.nav
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.toc
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.toc
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.nav
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.toc
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.snm
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.aux
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.nav
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.snm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.run.xml
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.run.xml
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.run.xml
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.run.xml
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb

@@ -77,21 +77,34 @@
 %\definecolor{mygreen}{RGB}{196, 255, 118}
 \definecolor{mygreen}{rgb}{0.53, 0.66, 0.42}
 \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{blush}{rgb}{0.87, 0.36, 0.51}
+\definecolor{cardinal}{rgb}{0.77, 0.12, 0.23}
+\definecolor{ceil}{rgb}{0.57, 0.63, 0.81}
+\definecolor{chestnut}{rgb}{0.8, 0.36, 0.36}
+\definecolor{chocolate}{rgb}{0.82, 0.41, 0.12}
+\definecolor{citrine}{rgb}{0.89, 0.82, 0.04}
+\definecolor{dandelion}{rgb}{0.94, 0.88, 0.19}
+\definecolor{darklavender}{rgb}{0.45, 0.31, 0.59}
+\definecolor{frenchlilac}{rgb}{0.53, 0.38, 0.56}
+\definecolor{ferngreen}{rgb}{0.31, 0.47, 0.26}
+\definecolor{fuzzywuzzy}{rgb}{0.8, 0.4, 0.4}
+\definecolor{glaucous}{rgb}{0.38, 0.51, 0.71}
+\definecolor{goldenrod}{rgb}{0.85, 0.65, 0.13}
 
-\renewcommand{\CancelColor}{\color{mygreen}}
+\renewcommand{\CancelColor}{\color{darklavender}}
 
 \makeatletter
 \newcommand{\mybox}[1]{%
   \setbox0=\hbox{#1}%
   \setlength{\@tempdima}{\dimexpr\wd0+13pt}%
-  \begin{tcolorbox}[colback=mygreen,colframe=mygreen,boxrule=0.5pt,arc=4pt,
+  \begin{tcolorbox}[colback=darklavender,colframe=darklavender,boxrule=0.5pt,arc=4pt,
       left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,width=\@tempdima]
     \textcolor{white}{#1}
   \end{tcolorbox}
 }
 \makeatother
 
-\usecolortheme[named=mygreen]{structure}
+\usecolortheme[named=darklavender]{structure}
 \usecolortheme{sidebartab}
 \usecolortheme{orchid}
 \usecolortheme{whale}
@@ -166,6 +179,16 @@
 \end{center}
 }
 
+\newcommand{\boxlavender}[1]{
+\begin{center}
+\fcolorbox{darklavender}{gray!80!black}{
+\begin{minipage}{0.95\textwidth}
+#1
+\end{minipage}
+}
+\end{center}
+}
+
 \newcommand{\boxgrey}[1]{
 \begin{center}
 \fcolorbox{black!85!white}{lightgray!35!white}{
@@ -183,6 +206,8 @@
 \colorlet{orangeBlockColor}{orange!25!gray}
 \colorlet{greenTitleBlockColor}{mygreen}
 \colorlet{greenBlockColor}{mygreen!25!gray}
+\colorlet{purpleTitleBlockColor}{darklavender}
+\colorlet{purpleBlockColor}{darklavender!25!gray}
 \colorlet{blockTitleTextColor}{gray!80!black}
 \colorlet{blockBodyTextColor}{white}
 
