@@ -70,6 +70,90 @@
       \field{pages}{383\bibrangedash 391}
       \range{pages}{9}
     \endentry
+    \entry{buergers2022role}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=488e171d30547fdc48df78be38f936ad}{%
+           family={Buergers},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=aa75d1fd2da3db1601cf369da8eb0fb5}{%
+           family={Noppeney},
+           familyi={N\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{fullhash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{bibnamehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{authorbibnamehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{authornamehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{authorfullhash}{6b122b8a3bcadbabc92a9c8894767898}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{number}{5}
+      \field{title}{The role of alpha oscillations in temporal binding within and across the senses}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{732\bibrangedash 742}
+      \range{pages}{11}
+    \endentry
+    \entry{cecere2015individual}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=049dfde231fdab685e82d608101fa2f6}{%
+           family={Cecere},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=972ed9a4debfec29e252f2704e99b3c4}{%
+           family={Rees},
+           familyi={R\bibinitperiod},
+           given={Geraint},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bcff69356daff0a03b1afc888ccc036}{%
+           family={Romei},
+           familyi={R\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{971ca91e2804971fbfa76da06ee24c7b}
+      \strng{fullhash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \strng{bibnamehash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \strng{authorbibnamehash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \strng{authornamehash}{971ca91e2804971fbfa76da06ee24c7b}
+      \strng{authorfullhash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{2}
+      \field{title}{Individual differences in alpha frequency drive crossmodal illusory perception}
+      \field{volume}{25}
+      \field{year}{2015}
+      \field{pages}{231\bibrangedash 235}
+      \range{pages}{5}
+    \endentry
     \entry{hein2006visual}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=eac1e3a211a6868ce9411e3fe5461fd3}{%
@@ -156,6 +240,108 @@
       \field{title}{The effects of spatial attention on temporal integration measured with the ternus display.}
       \field{year}{2021}
     \endentry
+    \entry{minami2017illusory}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=249e45ebe965a88ea4637aa37dbaf20b}{%
+           family={Minami},
+           familyi={M\bibinitperiod},
+           given={Sorato},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a3354e2b8d6bad748b961b418f414f55}{%
+           family={Amano},
+           familyi={A\bibinitperiod},
+           given={Kaoru},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{fullhash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{bibnamehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{authorbibnamehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{authornamehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{authorfullhash}{2d56d1a187bb7406205bf652073f56b7}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{15}
+      \field{title}{Illusory jitter perceived at the frequency of alpha oscillations}
+      \field{volume}{27}
+      \field{year}{2017}
+      \field{pages}{2344\bibrangedash 2351}
+      \range{pages}{8}
+    \endentry
+    \entry{mioni2020modulation}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=e008a79ae9077fc8d52ab723e4ba84aa}{%
+           family={Mioni},
+           familyi={M\bibinitperiod},
+           given={Giovanna},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=11bd42408a1ad9de2764363c593b68ff}{%
+           family={Shelp},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e8408a87268133fd89db7df84b6f5915}{%
+           family={Stanfield-Wiswell},
+           familyi={S\bibinithyphendelim W\bibinitperiod},
+           given={Candice\bibnamedelima T},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a0565b159d1c64c8bf0c473dc70bd0ae}{%
+           family={Gladhill},
+           familyi={G\bibinitperiod},
+           given={Keri\bibnamedelima A},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5a8b571c4b6c6d208dd3e0cb586e73f4}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={Farah},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2e26b1691f95eca1067cbfab3b656acc}{%
+           family={Wiener},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{3ccfea63a5ba04f34b4ebce134ea85e8}
+      \strng{fullhash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \strng{bibnamehash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \strng{authorbibnamehash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \strng{authornamehash}{3ccfea63a5ba04f34b4ebce134ea85e8}
+      \strng{authorfullhash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cerebral Cortex Communications}
+      \field{number}{1}
+      \field{title}{Modulation of individual alpha frequency with tacs shifts time perception}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{tgaa064}
+      \range{pages}{-1}
+    \endentry
     \entry{nobre2018anticipated}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=41758fb8add62f1c3b53391c3e515f16}{%
@@ -194,6 +380,90 @@
       \field{year}{2018}
       \field{pages}{34\bibrangedash 48}
       \range{pages}{15}
+    \endentry
+    \entry{ronconi2018alpha}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=831d4076573598a472e52409ffacd924}{%
+           family={Ronconi},
+           familyi={R\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e56368dbbab1f95574211d0a77e083a5}{%
+           family={Busch},
+           familyi={B\bibinitperiod},
+           given={Niko\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19a15658a59473a58a662e200ce7f233}{%
+           family={Melcher},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a87c07734af482faadbd1ffcc98c8946}
+      \strng{fullhash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \strng{bibnamehash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \strng{authorbibnamehash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \strng{authornamehash}{a87c07734af482faadbd1ffcc98c8946}
+      \strng{authorfullhash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{number}{1}
+      \field{title}{Alpha-band sensory entrainment alters the duration of temporal windows in visual perception}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{samaha2015speed}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8f7056cade2d543eff8f88809358ccd4}{%
+           family={Samaha},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa57fbb7faf4df0808b10f1b5d6d8c5a}{%
+           family={Postle},
+           familyi={P\bibinitperiod},
+           given={Bradley\bibnamedelima R},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{fullhash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{bibnamehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{authorbibnamehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{authornamehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{authorfullhash}{2e1740b1ae9035833efea10faf3aca67}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{22}
+      \field{title}{The speed of alpha-band oscillations predicts the temporal resolution of visual perception}
+      \field{volume}{25}
+      \field{year}{2015}
+      \field{pages}{2985\bibrangedash 2990}
+      \range{pages}{6}
     \endentry
     \entry{sharp2022spatial}{article}{}
       \name{author}{4}{uniquelist=2}{%
@@ -288,6 +558,51 @@
       \field{year}{2018}
       \field{pages}{1214\bibrangedash 1228}
       \range{pages}{15}
+    \endentry
+    \entry{wutz2018frequency}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d693a66a3d32698e884122648d252b69}{%
+           family={Wutz},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19a15658a59473a58a662e200ce7f233}{%
+           family={Melcher},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8f7056cade2d543eff8f88809358ccd4}{%
+           family={Samaha},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{f166f229c054e3d42e0e645995a5cd26}
+      \strng{fullhash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \strng{bibnamehash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \strng{authorbibnamehash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \strng{authornamehash}{f166f229c054e3d42e0e645995a5cd26}
+      \strng{authorfullhash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{6}
+      \field{title}{Frequency modulation of neural oscillations according to visual task demands}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{pages}{1346\bibrangedash 1351}
+      \range{pages}{6}
     \endentry
   \enddatalist
 \endrefsection

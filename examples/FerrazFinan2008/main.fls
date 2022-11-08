@@ -1,9 +1,9 @@
-PWD /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci
+PWD /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.tex
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.log
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.tex
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -210,7 +210,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemedefaul
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.pdf
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
@@ -231,8 +231,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/preamble.tex
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/preamble.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/preamble.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/preamble.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
@@ -401,10 +401,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.aux
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -417,13 +417,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -437,23 +437,23 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-numbers
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bcf
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.nav
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.nav
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.bcf
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.bbl
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.bbl
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.bbl
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.nav
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.nav
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.toc
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/1_introduction.tex
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/1_introduction.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/1_introduction.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/1_introduction.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -477,24 +477,24 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/2_data.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/2_data.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi12.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
@@ -504,4 +504,109 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/3_empirical.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/3_empirical.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi9.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig2.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig2.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig2.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/4_results.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/4_results.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/5_discuss.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/5_discuss.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.nav
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.toc
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.snm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.aux
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.run.xml
+OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.run.xml
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb

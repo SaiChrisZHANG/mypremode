@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  8 NOV 2022 05:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  7 NOV 2022 23:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.tex"
-(/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.tex
+**"/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.tex"
+(/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
@@ -523,7 +523,7 @@ LaTeX Info: Redefining \textlatin on input line 1839.
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-)) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/preamble.tex (/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+)) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/preamble.tex (/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
  (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
@@ -2192,7 +2192,7 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)))) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux)
+)))) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -2281,7 +2281,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
- (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out)
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
 
@@ -2305,15 +2305,10 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl)
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.bbl)
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
- (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.nav)
-Overfull \hbox (47.73587pt too wide) in paragraph at lines 12--12
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[1
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.nav) [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
 Non-PDF special ignored!
@@ -2331,23 +2326,15 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
-] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc) [2
+] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.toc) [2
 
-] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/1_introduction.tex [3
+] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/1_introduction.tex [3
 
 ] [4
 
 ] [5
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [6
+] [6
 
 ] [7
 
@@ -2359,50 +2346,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [11
 
-] [12
-
 ]
-<images/fig1.png, id=283, 803.0pt x 600.2425pt>
-File: images/fig1.png Graphic file (type png)
-<use images/fig1.png>
-Package pdftex.def Info: images/fig1.png  used on input line 107.
-(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
- [13
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [12
 
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png>]
-File: images/fig1.png Graphic file (type png)
-<use images/fig1.png>
-Package pdftex.def Info: images/fig1.png  used on input line 107.
-(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
- [14
+] [13
 
-]
-File: images/fig1.png Graphic file (type png)
-<use images/fig1.png>
-Package pdftex.def Info: images/fig1.png  used on input line 107.
-(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
- [15
+] [14
 
-]
-File: images/fig1.png Graphic file (type png)
-<use images/fig1.png>
-Package pdftex.def Info: images/fig1.png  used on input line 107.
-(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
- [16
+] [15
 
-]
-File: images/fig1.png Graphic file (type png)
-<use images/fig1.png>
-Package pdftex.def Info: images/fig1.png  used on input line 107.
-(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
- [17
+] [16
 
-]
-File: images/fig1.png Graphic file (type png)
-<use images/fig1.png>
-Package pdftex.def Info: images/fig1.png  used on input line 107.
-(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
- [18
+] [17
+
+] [18
 
 ] [19
 
@@ -2418,7 +2382,508 @@ Package pdftex.def Info: images/fig1.png  used on input line 107.
 
 ] [25
 
+] [26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/2_data.tex [37
+
+]
+<images/fig1.png, id=2186, 1955.305pt x 1391.1975pt>
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [38
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig1.png>]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [39
+
 ]
 File: images/fig1.png Graphic file (type png)
 <use images/fig1.png>
-Package pdftex.def Info: images/
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [40
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [41
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [42
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [43
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [44
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [45
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [46
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [47
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 75.
+(pdftex.def)             Requested size: 201.59856pt x 143.43736pt.
+ [48
+
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+] [55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
+
+] [65
+
+] [66
+
+] [67
+
+] [68
+
+] [69
+
+] [70
+
+] [71
+
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/3_empirical.tex [72
+
+] [73
+
+] [74
+
+] [75
+
+] [76
+
+] [77
+
+] [78
+
+] [79
+
+] [80
+
+] [81
+
+] [82
+
+] [83
+
+] [84
+
+] [85
+
+]
+<images/fig2.png, id=4722, 1891.065pt x 1248.665pt>
+File: images/fig2.png Graphic file (type png)
+<use images/fig2.png>
+Package pdftex.def Info: images/fig2.png  used on input line 124.
+(pdftex.def)             Requested size: 217.22263pt x 143.43736pt.
+ [86
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig2.png>] [87
+
+] [88
+
+] [89
+
+] [90
+
+] [91
+
+] [92
+
+] [93
+
+] [94
+
+] [95
+
+] [96
+
+] [97
+
+] [98
+
+] [99
+
+] [100
+
+] [101
+
+] [102
+
+] [103
+
+] [104
+
+] [105
+
+] [106
+
+] [107
+
+] [108
+
+] [109
+
+] [110
+
+] [111
+
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/4_results.tex [112
+
+] [113
+
+] [114
+
+] [115
+
+] [116
+
+] [117
+
+] [118
+
+] [119
+
+] [120
+
+]
+<images/fig3.png, id=6570, 1778.645pt x 1288.815pt>
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 99.
+(pdftex.def)             Requested size: 197.9313pt x 143.43736pt.
+ [121
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig3.png>]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 148.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [122
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 148.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [123
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 201.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [124
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 201.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [125
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 201.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [126
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 243.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [127
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 243.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [128
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 243.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [129
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 281.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [130
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 281.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [131
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 281.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [132
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 281.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [133
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 281.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [134
+
+]
+File: images/fig3.png Graphic file (type png)
+<use images/fig3.png>
+Package pdftex.def Info: images/fig3.png  used on input line 281.
+(pdftex.def)             Requested size: 167.48033pt x 121.37189pt.
+ [135
+
+] [136
+
+] [137
+
+] [138
+
+] [139
+
+] [140
+
+]
+<images/fig4.png, id=7629, 1736.4875pt x 1240.635pt>
+File: images/fig4.png Graphic file (type png)
+<use images/fig4.png>
+Package pdftex.def Info: images/fig4.png  used on input line 361.
+(pdftex.def)             Requested size: 200.76497pt x 143.43736pt.
+ [141
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/images/fig4.png>]
+File: images/fig4.png Graphic file (type png)
+<use images/fig4.png>
+Package pdftex.def Info: images/fig4.png  used on input line 361.
+(pdftex.def)             Requested size: 200.76497pt x 143.43736pt.
+ [142
+
+]
+File: images/fig4.png Graphic file (type png)
+<use images/fig4.png>
+Package pdftex.def Info: images/fig4.png  used on input line 361.
+(pdftex.def)             Requested size: 200.76497pt x 143.43736pt.
+ [143
+
+]
+File: images/fig4.png Graphic file (type png)
+<use images/fig4.png>
+Package pdftex.def Info: images/fig4.png  used on input line 361.
+(pdftex.def)             Requested size: 200.76497pt x 143.43736pt.
+ [144
+
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/chapters/5_discuss.tex [145
+
+] [146
+
+] [147
+
+] [148
+
+] [149
+
+] [150
+
+] [151
+
+] [152
+
+] [153
+
+] [154
+
+] [155
+
+] [156
+
+] [157
+
+] [158
+
+] [159
+
+] [160
+
+] [161
+
+] [162
+
+] [163
+
+] [164
+
+] [165
+
+] [166
+
+] [167
+
+] [168
+
+] [169
+
+] [170
+
+] [171
+
+] [172
+
+]) [173
+
+ </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [174
+
+
+] [175
+
+
+] [176
+
+]
+\tf@nav=\write10
+\openout10 = `main.nav'.
+
+\tf@toc=\write11
+\openout11 = `main.toc'.
+
+\tf@snm=\write12
+\openout12 = `main.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 952C08EEFD16300A6BD78FF18D0A3CDD;304.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 17 ({)
+### simple group (level 1) entered at line 14 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 41708 strings out of 492649
+ 817524 string characters out of 6129623
+ 1324723 words of memory out of 5000000
+ 44498 multiletter control sequences out of 15000+600000
+ 543504 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,20n,105p,10503b,3971s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.pdf" (176 pages, 1491595 bytes).
+PDF statistics:
+ 9662 PDF objects out of 10688 (max. 8388607)
+ 9297 compressed objects within 93 object streams
+ 393 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+
