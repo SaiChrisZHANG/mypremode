@@ -19,6 +19,63 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{capilla2014dissociated}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=2be8ba1492206a152b59dd97db2cf514}{%
+           family={Capilla},
+           familyi={C\bibinitperiod},
+           given={Almudena},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eb5477779e4e54ef17ae649411c088eb}{%
+           family={Schoffelen},
+           familyi={S\bibinitperiod},
+           given={Jan-Mathijs},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a9f81022ad89d44aba1ae3f292b13804}{%
+           family={Paterson},
+           familyi={P\bibinitperiod},
+           given={Gavin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2c26f56916aa5df88c59fd3d8801e327}{%
+           family={Thut},
+           familyi={T\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d039ee785963d74cf7ea3c7a18f9c865}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{05a038e7fc9948504ef649aed906d851}
+      \strng{fullhash}{d612395d39e5957be3fb9e9d50703101}
+      \strng{bibnamehash}{d612395d39e5957be3fb9e9d50703101}
+      \strng{authorbibnamehash}{d612395d39e5957be3fb9e9d50703101}
+      \strng{authornamehash}{05a038e7fc9948504ef649aed906d851}
+      \strng{authorfullhash}{d612395d39e5957be3fb9e9d50703101}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cerebral Cortex}
+      \field{number}{2}
+      \field{title}{Dissociated $\alpha$-band modulations in the dorsal and ventral visual pathways in visuospatial attention and perception}
+      \field{volume}{24}
+      \field{year}{2014}
+      \field{pages}{550\bibrangedash 561}
+      \range{pages}{12}
+    \endentry
     \entry{sharp2022spatial}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=157554f049782471ab8378324fc08889}{%
@@ -69,6 +126,51 @@
       \field{year}{2022}
       \field{pages}{7824\bibrangedash 7832}
       \range{pages}{9}
+    \endentry
+    \entry{wutz2018frequency}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d693a66a3d32698e884122648d252b69}{%
+           family={Wutz},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19a15658a59473a58a662e200ce7f233}{%
+           family={Melcher},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8f7056cade2d543eff8f88809358ccd4}{%
+           family={Samaha},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{f166f229c054e3d42e0e645995a5cd26}
+      \strng{fullhash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \strng{bibnamehash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \strng{authorbibnamehash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \strng{authornamehash}{f166f229c054e3d42e0e645995a5cd26}
+      \strng{authorfullhash}{8bb0ee8ff4b2c2254a24aa67809a225d}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{6}
+      \field{title}{Frequency modulation of neural oscillations according to visual task demands}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{pages}{1346\bibrangedash 1351}
+      \range{pages}{6}
     \endentry
   \enddatalist
 \endrefsection
