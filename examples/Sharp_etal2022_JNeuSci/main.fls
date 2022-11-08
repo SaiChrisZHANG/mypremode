@@ -451,6 +451,12 @@ INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/1_introduction.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/1_introduction.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
@@ -468,4 +474,5 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.p
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb
