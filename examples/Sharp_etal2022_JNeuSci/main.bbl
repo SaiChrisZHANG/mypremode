@@ -19,27 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{alesina2007bureaucrats}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=64e826b22be55f993a32de8986e58901}{%
-           family={Alesina},
+    \entry{akyurek2007adaptive}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=27a7e5939ef7a2ad490d1ee86ef325d6}{%
+           family={Aky{ü}rek},
            familyi={A\bibinitperiod},
-           given={Alberto},
-           giveni={A\bibinitperiod},
+           given={Elkan\bibnamedelima G},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=5c48e1a82e30b93eec473760eccb65e9}{%
-           family={Tabellini},
+        {{uniquename=0,uniquepart=base,hash=9517202431b1d1df662bd145091a9c84}{%
+           family={Riddell},
+           familyi={R\bibinitperiod},
+           given={Patricia\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e9ede676ca0c7a32b290aa767ea81c78}{%
+           family={Toffanin},
            familyi={T\bibinitperiod},
-           given={Guido},
-           giveni={G\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ac8532d299618b6b03ce7079a5cf0695}{%
+           family={Hommel},
+           familyi={H\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{f396617986465223a145fee5a5bbc9e8}
-      \strng{fullhash}{f396617986465223a145fee5a5bbc9e8}
-      \strng{bibnamehash}{f396617986465223a145fee5a5bbc9e8}
-      \strng{authorbibnamehash}{f396617986465223a145fee5a5bbc9e8}
-      \strng{authornamehash}{f396617986465223a145fee5a5bbc9e8}
-      \strng{authorfullhash}{f396617986465223a145fee5a5bbc9e8}
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2badd83fe4abc4ecbd5822e8e09eead2}
+      \strng{fullhash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
+      \strng{bibnamehash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
+      \strng{authorbibnamehash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
+      \strng{authornamehash}{2badd83fe4abc4ecbd5822e8e09eead2}
+      \strng{authorfullhash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{extradatescope}{labelyear}
@@ -47,127 +62,99 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{American Economic Review}
-      \field{number}{1}
-      \field{title}{Bureaucrats or politicians? Part I: a single policy task}
-      \field{volume}{97}
-      \field{year}{2007}
-      \field{pages}{169\bibrangedash 179}
-      \range{pages}{11}
-    \endentry
-    \entry{besley2006handcuffs}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=57c77888db637677332c102812686993}{%
-           family={Besley},
-           familyi={B\bibinitperiod},
-           given={Timothy},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=f766860a95ac88ce120bb6d241b6f3b9}{%
-           family={Prat},
-           familyi={P\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{16f270e42f808165ee6884e50f8d133e}
-      \strng{fullhash}{16f270e42f808165ee6884e50f8d133e}
-      \strng{bibnamehash}{16f270e42f808165ee6884e50f8d133e}
-      \strng{authorbibnamehash}{16f270e42f808165ee6884e50f8d133e}
-      \strng{authornamehash}{16f270e42f808165ee6884e50f8d133e}
-      \strng{authorfullhash}{16f270e42f808165ee6884e50f8d133e}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{American economic review}
+      \field{journaltitle}{Psychophysiology}
       \field{number}{3}
-      \field{title}{Handcuffs for the grabbing hand? Media capture and government accountability}
-      \field{volume}{96}
-      \field{year}{2006}
-      \field{pages}{720\bibrangedash 736}
-      \range{pages}{17}
+      \field{title}{Adaptive control of event integration: Evidence from event-related potentials}
+      \field{volume}{44}
+      \field{year}{2007}
+      \field{pages}{383\bibrangedash 391}
+      \range{pages}{9}
     \endentry
-    \entry{downs1957economic}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=edbc744b7095af3d7da169d97b58101d}{%
-           family={Downs},
-           familyi={D\bibinitperiod},
-           given={Anthony},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {The University of Chicago Press}%
-      }
-      \strng{namehash}{edbc744b7095af3d7da169d97b58101d}
-      \strng{fullhash}{edbc744b7095af3d7da169d97b58101d}
-      \strng{bibnamehash}{edbc744b7095af3d7da169d97b58101d}
-      \strng{authorbibnamehash}{edbc744b7095af3d7da169d97b58101d}
-      \strng{authornamehash}{edbc744b7095af3d7da169d97b58101d}
-      \strng{authorfullhash}{edbc744b7095af3d7da169d97b58101d}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of political economy}
-      \field{number}{2}
-      \field{title}{An economic theory of political action in a democracy}
-      \field{volume}{65}
-      \field{year}{1957}
-      \field{pages}{135\bibrangedash 150}
-      \range{pages}{16}
-    \endentry
-    \entry{majumdar2004politics}{article}{}
+    \entry{hein2006visual}{article}{}
       \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=05fa536d79d7330dc845d0963281c9df}{%
-           family={Majumdar},
-           familyi={M\bibinitperiod},
-           given={Sumon},
-           giveni={S\bibinitperiod},
+        {{uniquename=0,uniquepart=base,hash=eac1e3a211a6868ce9411e3fe5461fd3}{%
+           family={Hein},
+           familyi={H\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=d2451fe79f2f7161005cf51fc6325967}{%
-           family={Mani},
-           familyi={M\bibinitperiod},
-           given={Anandi},
-           giveni={A\bibinitperiod},
+        {{uniquename=0,uniquepart=base,hash=087a15f53ae73d7e245fd347d57eaa45}{%
+           family={Rolke},
+           familyi={R\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=deb65f24ac0e5b47b2ba090ee1f33aaf}{%
-           family={Mukand},
-           familyi={M\bibinitperiod},
-           given={Sharun\bibnamedelima W},
-           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+        {{uniquename=0,uniquepart=base,hash=cd232e96ac4d3e8d7096c18c860af07d}{%
+           family={Ulrich},
+           familyi={U\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Elsevier}%
+        {Taylor \& Francis}%
       }
-      \strng{namehash}{988c1a385b867d5ad29ddabc6aa80118}
-      \strng{fullhash}{9dbe0d5aad23eb7ac6384305a1c1970d}
-      \strng{bibnamehash}{9dbe0d5aad23eb7ac6384305a1c1970d}
-      \strng{authorbibnamehash}{9dbe0d5aad23eb7ac6384305a1c1970d}
-      \strng{authornamehash}{988c1a385b867d5ad29ddabc6aa80118}
-      \strng{authorfullhash}{9dbe0d5aad23eb7ac6384305a1c1970d}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \strng{namehash}{928ec27c564f07413e4a775c6da85d06}
+      \strng{fullhash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \strng{bibnamehash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \strng{authorbibnamehash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \strng{authornamehash}{928ec27c564f07413e4a775c6da85d06}
+      \strng{authorfullhash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Development Economics}
+      \field{journaltitle}{Visual Cognition}
       \field{number}{1}
-      \field{title}{Politics, information and the urban bias}
-      \field{volume}{75}
-      \field{year}{2004}
-      \field{pages}{137\bibrangedash 165}
-      \range{pages}{29}
+      \field{title}{Visual attention and temporal discrimination: Differential effects of automatic and voluntary cueing}
+      \field{volume}{13}
+      \field{year}{2006}
+      \field{pages}{29\bibrangedash 50}
+      \range{pages}{22}
+    \endentry
+    \entry{hochmitz2021effects}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f23c4f461a3621bd2694f1dc9458996a}{%
+           family={Hochmitz},
+           familyi={H\bibinitperiod},
+           given={Ilanit},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eac1e3a211a6868ce9411e3fe5461fd3}{%
+           family={Hein},
+           familyi={H\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=029dcff140fde7b78c274f2adf106978}{%
+           family={Yeshurun},
+           familyi={Y\bibinitperiod},
+           given={Yaffa},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{ab6cfabea3f236f8fe9f1ff01e2ff480}
+      \strng{fullhash}{4b913f963e72a1e3825e104abcd12d55}
+      \strng{bibnamehash}{4b913f963e72a1e3825e104abcd12d55}
+      \strng{authorbibnamehash}{4b913f963e72a1e3825e104abcd12d55}
+      \strng{authornamehash}{ab6cfabea3f236f8fe9f1ff01e2ff480}
+      \strng{authorfullhash}{4b913f963e72a1e3825e104abcd12d55}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology: Human Perception and Performance}
+      \field{title}{The effects of spatial attention on temporal integration measured with the ternus display.}
+      \field{year}{2021}
     \endentry
     \entry{nobre2018anticipated}{article}{}
       \name{author}{2}{}{%
@@ -208,122 +195,8 @@
       \field{pages}{34\bibrangedash 48}
       \range{pages}{15}
     \endentry
-    \entry{persson2000political}{book}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=f1fa15cf0ff6f6015cc43a7429eab414}{%
-           family={Persson},
-           familyi={P\bibinitperiod},
-           given={Torsten},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=5c48e1a82e30b93eec473760eccb65e9}{%
-           family={Tabellini},
-           familyi={T\bibinitperiod},
-           given={Guido},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {MIT press}%
-      }
-      \strng{namehash}{c85c5e6be06972ac6bdc491095031ef8}
-      \strng{fullhash}{c85c5e6be06972ac6bdc491095031ef8}
-      \strng{bibnamehash}{c85c5e6be06972ac6bdc491095031ef8}
-      \strng{authorbibnamehash}{c85c5e6be06972ac6bdc491095031ef8}
-      \strng{authornamehash}{c85c5e6be06972ac6bdc491095031ef8}
-      \strng{authorfullhash}{c85c5e6be06972ac6bdc491095031ef8}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Political economics: explaining economic policy}
-      \field{year}{2000}
-    \endentry
-    \entry{przeworski1999democracy}{book}{}
-      \name{author}{4}{}{%
-        {{uniquename=0,uniquepart=base,hash=237ce3973c734b4bc7f49bb4a367df9d}{%
-           family={Przeworski},
-           familyi={P\bibinitperiod},
-           given={Adam},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=f21f2002fac7ef4ad056e431c4a4499b}{%
-           family={Stokes},
-           familyi={S\bibinitperiod},
-           given={Susan\bibnamedelimb Carol\bibnamedelima Stokes},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=bf77535e15336811c4ac5ee96de9859e}{%
-           family={Stokes},
-           familyi={S\bibinitperiod},
-           given={Susan\bibnamedelima C},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=53330ddde0011db6cb8733d604c66e38}{%
-           family={Manin},
-           familyi={M\bibinitperiod},
-           given={Bernard},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{e1366071886476f99a4834b42d31cd88}
-      \strng{fullhash}{4110ffa7ff6749693e7b13db8cb94433}
-      \strng{bibnamehash}{4110ffa7ff6749693e7b13db8cb94433}
-      \strng{authorbibnamehash}{4110ffa7ff6749693e7b13db8cb94433}
-      \strng{authornamehash}{e1366071886476f99a4834b42d31cd88}
-      \strng{authorfullhash}{4110ffa7ff6749693e7b13db8cb94433}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Democracy, accountability, and representation}
-      \field{volume}{2}
-      \field{year}{1999}
-    \endentry
-    \entry{rabin1998psychology}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=1d58017f407382aff3b1c661d8dd2b59}{%
-           family={Rabin},
-           familyi={R\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {JSTOR}%
-      }
-      \strng{namehash}{1d58017f407382aff3b1c661d8dd2b59}
-      \strng{fullhash}{1d58017f407382aff3b1c661d8dd2b59}
-      \strng{bibnamehash}{1d58017f407382aff3b1c661d8dd2b59}
-      \strng{authorbibnamehash}{1d58017f407382aff3b1c661d8dd2b59}
-      \strng{authornamehash}{1d58017f407382aff3b1c661d8dd2b59}
-      \strng{authorfullhash}{1d58017f407382aff3b1c661d8dd2b59}
-      \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of economic literature}
-      \field{number}{1}
-      \field{title}{Psychology and economics}
-      \field{volume}{36}
-      \field{year}{1998}
-      \field{pages}{11\bibrangedash 46}
-      \range{pages}{36}
-    \endentry
     \entry{sharp2022spatial}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{uniquelist=2}{%
         {{uniquename=0,uniquepart=base,hash=157554f049782471ab8378324fc08889}{%
            family={Sharp},
            familyi={S\bibinitperiod},
@@ -352,17 +225,16 @@
       \list{publisher}{1}{%
         {Soc Neuroscience}%
       }
-      \strng{namehash}{20547dc87ab145e6edb46fdd8d9c6c35}
+      \strng{namehash}{bc576984a16110b05ff58dc990ebf1f9}
       \strng{fullhash}{bfcfd3db72b43bec1c23e6b87f780ffd}
       \strng{bibnamehash}{bfcfd3db72b43bec1c23e6b87f780ffd}
       \strng{authorbibnamehash}{bfcfd3db72b43bec1c23e6b87f780ffd}
-      \strng{authornamehash}{20547dc87ab145e6edb46fdd8d9c6c35}
+      \strng{authornamehash}{bc576984a16110b05ff58dc990ebf1f9}
       \strng{authorfullhash}{bfcfd3db72b43bec1c23e6b87f780ffd}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Neuroscience}
@@ -372,6 +244,50 @@
       \field{year}{2022}
       \field{pages}{7824\bibrangedash 7832}
       \range{pages}{9}
+    \endentry
+    \entry{sharp2018endogenous}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=157554f049782471ab8378324fc08889}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Poppy},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19a15658a59473a58a662e200ce7f233}{%
+           family={Melcher},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa13ab88f977c5be9ccb7cc7dc3ab07b}{%
+           family={Hickey},
+           familyi={H\bibinitperiod},
+           given={Clayton},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f23e0db655f9592f8a7b05e9df4393a9}
+      \strng{fullhash}{f91b688500cbd22c9935ec3d51666846}
+      \strng{bibnamehash}{f91b688500cbd22c9935ec3d51666846}
+      \strng{authorbibnamehash}{f91b688500cbd22c9935ec3d51666846}
+      \strng{authornamehash}{f23e0db655f9592f8a7b05e9df4393a9}
+      \strng{authorfullhash}{f91b688500cbd22c9935ec3d51666846}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Attention, Perception, \& Psychophysics}
+      \field{number}{5}
+      \field{title}{Endogenous attention modulates the temporal window of integration}
+      \field{volume}{80}
+      \field{year}{2018}
+      \field{pages}{1214\bibrangedash 1228}
+      \range{pages}{15}
     \endentry
   \enddatalist
 \endrefsection
