@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  8 NOV 2022 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  8 NOV 2022 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1991,4 +1991,572 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \blx@tempcntc=\count402
 \blx@maxsection=\count403
 \blx@maxsegment@0=\count404
-\blx@notetype=\coun
+\blx@notetype=\count405
+\blx@parenlevel@text=\count406
+\blx@parenlevel@foot=\count407
+\blx@sectionciteorder@0=\count408
+\labelnumberwidth=\skip73
+\labelalphawidth=\skip74
+\biblabelsep=\skip75
+\bibitemsep=\skip76
+\bibnamesep=\skip77
+\bibinitsep=\skip78
+\bibparsep=\skip79
+\bibhang=\skip80
+\blx@bcfin=\read3
+\blx@bcfout=\write8
+\c@mincomprange=\count409
+\c@maxcomprange=\count410
+\c@mincompwidth=\count411
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2018/04/02 v7.7 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count412
+\c@savedafterword=\count413
+\c@annotator=\count414
+\c@savedannotator=\count415
+\c@author=\count416
+\c@savedauthor=\count417
+\c@bookauthor=\count418
+\c@savedbookauthor=\count419
+\c@commentator=\count420
+\c@savedcommentator=\count421
+\c@editor=\count422
+\c@savededitor=\count423
+\c@editora=\count424
+\c@savededitora=\count425
+\c@editorb=\count426
+\c@savededitorb=\count427
+\c@editorc=\count428
+\c@savededitorc=\count429
+\c@foreword=\count430
+\c@savedforeword=\count431
+\c@holder=\count432
+\c@savedholder=\count433
+\c@introduction=\count434
+\c@savedintroduction=\count435
+\c@namea=\count436
+\c@savednamea=\count437
+\c@nameb=\count438
+\c@savednameb=\count439
+\c@namec=\count440
+\c@savednamec=\count441
+\c@translator=\count442
+\c@savedtranslator=\count443
+\c@shortauthor=\count444
+\c@savedshortauthor=\count445
+\c@shorteditor=\count446
+\c@savedshorteditor=\count447
+\c@with=\count448
+\c@savedwith=\count449
+\c@writer=\count450
+\c@savedwriter=\count451
+\c@producer=\count452
+\c@savedproducer=\count453
+\c@execproducer=\count454
+\c@savedexecproducer=\count455
+\c@director=\count456
+\c@saveddirector=\count457
+\c@labelname=\count458
+\c@savedlabelname=\count459
+\c@institution=\count460
+\c@savedinstitution=\count461
+\c@lista=\count462
+\c@savedlista=\count463
+\c@listb=\count464
+\c@savedlistb=\count465
+\c@listc=\count466
+\c@savedlistc=\count467
+\c@listd=\count468
+\c@savedlistd=\count469
+\c@liste=\count470
+\c@savedliste=\count471
+\c@listf=\count472
+\c@savedlistf=\count473
+\c@location=\count474
+\c@savedlocation=\count475
+\c@organization=\count476
+\c@savedorganization=\count477
+\c@origlocation=\count478
+\c@savedoriglocation=\count479
+\c@origpublisher=\count480
+\c@savedorigpublisher=\count481
+\c@publisher=\count482
+\c@savedpublisher=\count483
+\c@language=\count484
+\c@savedlanguage=\count485
+\c@origlanguage=\count486
+\c@savedoriglanguage=\count487
+\c@pageref=\count488
+\c@savedpageref=\count489
+\shorthandwidth=\skip81
+\shortjournalwidth=\skip82
+\shortserieswidth=\skip83
+\shorttitlewidth=\skip84
+\shortauthorwidth=\skip85
+\shorteditorwidth=\skip86
+\locallabelnumberwidth=\skip87
+\locallabelalphawidth=\skip88
+\localshorthandwidth=\skip89
+\localshortjournalwidth=\skip90
+\localshortserieswidth=\skip91
+\localshorttitlewidth=\skip92
+\localshortauthorwidth=\skip93
+\localshorteditorwidth=\skip94
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count490
+\c@textcitetotal=\count491
+\c@textcitemaxnames=\count492
+\c@biburlnumpenalty=\count493
+\c@biburlucpenalty=\count494
+\c@biburllcpenalty=\count495
+\c@smartand=\count496
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2018/04/02 v7.7 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count497
+\c@bbx:relatedtotal=\count498
+))
+Package biblatex Info: Trying to load citation style 'authoryear-comp'...
+Package biblatex Info: ... file 'authoryear-comp.cbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
+File: authoryear-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemesidebartab.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)))) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 433.34402pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=433.34402pt
+* \textheight=227.62207pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count499
+\scratchdimen=\dimen352
+\scratchbox=\box114
+\nofMPsegments=\count500
+\nofMParguments=\count501
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count502
+\MPscratchDim=\dimen353
+\MPnumerator=\count503
+\makeMPintoPDFobject=\count504
+\everyMPtoPDFconversion=\toks65
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box115
+Package hyperref Info: Link coloring OFF on input line 12.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count505
+)
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.out)
+\@outlinefile=\write9
+\openout9 = `main.out'.
+
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout8 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.bbl)
+Package biblatex Info: Reference section=0 on input line 12.
+Package biblatex Info: Reference segment=0 on input line 12.
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.nav)
+Overfull \hbox (47.73587pt too wide) in paragraph at lines 12--12
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc) [2
+
+] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/3_results.tex [3
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
+
+]
+<images/res1.png, id=138, 895.345pt x 706.64pt>
+File: images/res1.png Graphic file (type png)
+<use images/res1.png>
+Package pdftex.def Info: images/res1.png  used on input line 85.
+(pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
+ [5
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res1.png>]
+File: images/res1.png Graphic file (type png)
+<use images/res1.png>
+Package pdftex.def Info: images/res1.png  used on input line 85.
+(pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
+ [6
+
+]
+File: images/res1.png Graphic file (type png)
+<use images/res1.png>
+Package pdftex.def Info: images/res1.png  used on input line 85.
+(pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
+ [7
+
+]
+File: images/res1.png Graphic file (type png)
+<use images/res1.png>
+Package pdftex.def Info: images/res1.png  used on input line 85.
+(pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
+ [8
+
+]
+<images/res2.png, id=226, 1212.53pt x 1025.8325pt>
+File: images/res2.png Graphic file (type png)
+<use images/res2.png>
+Package pdftex.def Info: images/res2.png  used on input line 110.
+(pdftex.def)             Requested size: 182.5747pt x 154.47179pt.
+ [9
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res2.png>]
+File: images/res2.png Graphic file (type png)
+<use images/res2.png>
+Package pdftex.def Info: images/res2.png  used on input line 110.
+(pdftex.def)             Requested size: 182.5747pt x 154.47179pt.
+ [10
+
+]
+File: images/res2.png Graphic file (type png)
+<use images/res2.png>
+Package pdftex.def Info: images/res2.png  used on input line 110.
+(pdftex.def)             Requested size: 182.5747pt x 154.47179pt.
+ [11
+
+]
+<images/res3_1.png, id=291, 1421.31pt x 905.3825pt>
+File: images/res3_1.png Graphic file (type png)
+<use images/res3_1.png>
+Package pdftex.def Info: images/res3_1.png  used on input line 135.
+(pdftex.def)             Requested size: 242.487pt x 154.47179pt.
+ [12
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res3_1.png>]
+File: images/res3_1.png Graphic file (type png)
+<use images/res3_1.png>
+Package pdftex.def Info: images/res3_1.png  used on input line 135.
+(pdftex.def)             Requested size: 242.487pt x 154.47179pt.
+ [13
+
+]
+File: images/res3_1.png Graphic file (type png)
+<use images/res3_1.png>
+Package pdftex.def Info: images/res3_1.png  used on input line 135.
+(pdftex.def)             Requested size: 242.487pt x 154.47179pt.
+ [14
+
+]
+<images/res3_2.png, id=355, 1505.625pt x 704.6325pt>
+File: images/res3_2.png Graphic file (type png)
+<use images/res3_2.png>
+Package pdftex.def Info: images/res3_2.png  used on input line 164.
+(pdftex.def)             Requested size: 235.75876pt x 110.33748pt.
+ [15
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res3_2.png>]
+File: images/res3_2.png Graphic file (type png)
+<use images/res3_2.png>
+Package pdftex.def Info: images/res3_2.png  used on input line 164.
+(pdftex.def)             Requested size: 235.75876pt x 110.33748pt.
+ [16
+
+]
+File: images/res3_2.png Graphic file (type png)
+<use images/res3_2.png>
+Package pdftex.def Info: images/res3_2.png  used on input line 164.
+(pdftex.def)             Requested size: 235.75876pt x 110.33748pt.
+ [17
+
+]
+<images/res4_1.png, id=420, 965.6075pt x 1162.3425pt>
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 193.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [18
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res4_1.png>]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 193.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [19
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 193.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [20
+
+]
+<images/res4_2.png, id=483, 1593.955pt x 979.66pt>
+File: images/res4_2.png Graphic file (type png)
+<use images/res4_2.png>
+Package pdftex.def Info: images/res4_2.png  used on input line 202.
+(pdftex.def)             Requested size: 269.26624pt x 165.50621pt.
+ [21
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res4_2.png>]
+<images/res5.png, id=506, 947.54pt x 497.86pt>
+File: images/res5.png Graphic file (type png)
+<use images/res5.png>
+Package pdftex.def Info: images/res5.png  used on input line 231.
+(pdftex.def)             Requested size: 230.9999pt x 121.37189pt.
+ [22
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res5.png>]
+File: images/res5.png Graphic file (type png)
+<use images/res5.png>
+Package pdftex.def Info: images/res5.png  used on input line 231.
+(pdftex.def)             Requested size: 230.9999pt x 121.37189pt.
+ [23
+
+]
+File: images/res5.png Graphic file (type png)
+<use images/res5.png>
+Package pdftex.def Info: images/res5.png  used on input line 231.
+(pdftex.def)             Requested size: 230.9999pt x 121.37189pt.
+ [24
+
+]
+<images/res6.png, id=570, 1294.8375pt x 1369.115pt>
+File: images/res6.png Graphic file (type png)
+<use images/res6.png>
+Package pdftex.def Info: images/res6.png  used on input line 260.
+(pdftex.def)             Requested size: 156.51973pt x 165.50621pt.
+ [25
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res6.png>]
+File: images/res6.png Graphic file (type png)
+<use images/res6.png>
+Package pdftex.def Info: images/res6.png  used on input line 260.
+(pdftex.def)             Requested size: 156.51973pt x 165.50621pt.
+ [26
+
+]
+File: images/res6.png Graphic file (type png)
+<use images/res6.png>
+Package pdftex.def Info: images/res6.png  used on input line 260.
+(pdftex.def)             Requested size: 156.51973pt x 165.50621pt.
+ [27
+
+]) [28
+
+ </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [29
+
+]
+\tf@nav=\write10
+\openout10 = `main.nav'.
+
+\tf@toc=\write11
+\openout11 = `main.toc'.
+
+\tf@snm=\write12
+\openout12 = `main.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+ (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6CDD6854FE46663A22E4FEC277D3E0EB;120.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 17 ({)
+### simple group (level 1) entered at line 14 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 40923 strings out of 492649
+ 804966 string characters out of 6129623
+ 1300392 words of memory out of 5000000
+ 44041 multiletter control sequences out of 15000+600000
+ 543684 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,20n,105p,10510b,3971s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.pdf" (29 pages, 3030233 bytes).
+PDF statistics:
+ 725 PDF objects out of 1000 (max. 8388607)
+ 632 compressed objects within 7 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+
