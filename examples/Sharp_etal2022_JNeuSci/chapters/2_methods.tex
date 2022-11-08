@@ -1,7 +1,16 @@
-\section{Data}
+\section{Materials and Methods}
     
     \frame{\sectionpage}
-    
+
+    \begin{frame}{Trial Structure}
+        \begin{figure}\label{fig:trial_structure}
+        \centering
+        \includegraphics[height = 0.65 \textheight]{images/fig.png}
+        \caption{Program Timeline}
+        \end{figure}
+        
+    \end{frame}
+
     \begin{frame}{\textit{Treatment:} The Anti-corruption Program in Brazil}
     
     \begin{columns}
@@ -34,46 +43,19 @@
     \end{block}
     }
     
-    \only<5>{
-    \begin{block}{\small \textbf{Important details}}
-    \footnotesize
-       26 + 7$\times$50 + 5$\times$60 = 676 selections were made
-       
-       7 duplicated selections
-       
-       \textbf{669} municipalities were randomly selected 
-    \end{block}
-    }
-    
-    \only<6-7>{
-    \begin{block}{\small \textbf{Important details}}
-    \footnotesize
-       \only<6-7>{\begin{itemize}
-           \item<6-7> 10-15 auditors
-           \item<6-7> 10 days of auditing
-           \item<7> \textbf{validity}: hired competitively; well trained and paid; supervised
-       \end{itemize}}
-    \end{block}
-    }
-    
-    \only<8-9>{
-    \begin{block}{\small \textbf{Important details}}
-    \footnotesize
-       \only<8-9>{\begin{itemize}
-           \item<8-9> reports: legislators/prosecutors
-           \item<8-9> \textbf{summary}: \textbf<9>{\textcolor<9>{orange}{media}} and the Internet
-           \item<9> {What form of media?} \textbf{\textcolor{orange}{radio}}
-       \end{itemize}}
-    \end{block}
-    }
-    
-    \only<10-11>{\vspace{15pt}\textbf{\textcolor{orange}{Is the information really used by voters?}}}
-    
-    \only<11>{Yes, allegedly.}
     \end{column}
     \end{columns}
     \end{frame}
     
+
+    \begin{frame}{Technical details}
+        \begin{itemize}
+            \item<+-> Participants: 29 (\textcolor{lightlavender}{\textbf{normal/corrected-to-normal}} vision; age $24\pm 2.7$ years; 11 male, 18 female)
+            \item<+-> Stimuli: projected at 120Hz onto
+        \end{itemize}
+        
+    \end{frame}
+
     \begin{frame}{\textit{Information:} The Measure of Corruption}
     
     \only<1-7>{
@@ -132,41 +114,3 @@
         
     \end{frame}
     
-    \begin{frame}{\textit{Political Consequence:} Municipal Election Results}
-    \only<1->{
-    \underline{Outcome: \textbf<2->{\textcolor<2->{orange}{Reelection results}}} 
-    
-    \begin{itemize}
-        
-        \item<3-> \textbf{\textcolor{orange}{Data source:}} Tribunal Superior Eleitoral (TSE)
-        
-        \item<3-> \textbf{\textcolor{orange}{Time frame:}} 2000 and 2004 voting results
-        
-        \item<3->
-        \textbf{\textcolor{orange}{Voting information:}} Vote totals for each candidate by municipality
-        
-        \item<4-> \textbf{\textcolor{orange}{Sample selection:}} only first-term mayors eligible for reelection included
-        
-        \hspace*{\fill}\textbf<5->{(\textcolor<5->{orange}{373 municipalities}\only<5->{, 60\% of all mayors})}
-
-    \end{itemize}}
-        
-    \end{frame}
-    
-    \begin{frame}{\textit{Covariates:} Candidate and Municipal Characteristics}
-    \begin{itemize}
-        \item<+-> Candidate characteristics from TSE
-        \item<+-> Municipal characteristics from Brazilian Institute of Geography and Statistics (IBGE) 
-        \begin{itemize}
-            \item<+-> \textbf<6>{\textcolor<6>{orange}{2000}} population census: demographics
-            \item<+-> \textbf<6>{\textcolor<6>{orange}{1999}} municipality survey: various controls
-            \begin{itemize}
-                \item public administration information: budgetary and planning procedures, public infrastructures, judiciary features, etc.
-                \item measures of the \textbf<5->{\textcolor<5->{orange}{availability of media}}: the number of radio stations, daily newspapers, etc. 
-            \end{itemize}
-        \end{itemize}
-        
-    \end{itemize}
-    
-        
-    \end{frame}
