@@ -3,114 +3,148 @@
     \frame{\sectionpage}
 
     \begin{frame}{Trial Structure}
-        \begin{figure}\label{fig:trial_structure}
-        \centering
-        \includegraphics[height = 0.65 \textheight]{images/fig.png}
-        \caption{Program Timeline}
-        \end{figure}
-        
-    \end{frame}
-
-    \begin{frame}{\textit{Treatment:} The Anti-corruption Program in Brazil}
     
     \begin{columns}
 
-    \begin{column}{0.5\textwidth}
-        \begin{figure}\label{fig1}
+    \begin{column}{0.7\textwidth}
+        \begin{figure}\label{fig:trial_structure}
         \centering
-        \includegraphics[height = 0.65 \textheight]{images/fig1.png}
-        \caption{Program Timeline}
+        \includegraphics[height = 0.65 \textheight]{images/fig2_1.png}
+        \caption{Trial Structure}
         \end{figure}
     \end{column}
     
-    \begin{column}{0.4\textwidth}
-    
-    \begin{itemize}
-      	\item<2-> sample: population \textbf<3->{\textcolor<3->{orange}{$<$450,000}}
-      	\item<5-> selection by lottery
-      	\item<6-> auditing process
-      	\item<8-> audit report release
-      \end{itemize}
-    
-    \only<3-4>{
-    \begin{block}{\small \textbf{Important details}}
-    \footnotesize
-       \only<3-4>{\begin{itemize}
-           \item<3-4> 92\% of all municipalities
-           \item<3-4> 73\% of total population
-           \item<4> excluding most state capitals/coastal cities
-       \end{itemize}}
-    \end{block}
-    }
-    
-    \end{column}
-    \end{columns}
-    \end{frame}
-    
+    \begin{column}{0.25\textwidth}
 
-    \begin{frame}{Technical details}
-        \begin{itemize}
-            \item<+-> Participants: 29 (\textcolor{lightlavender}{\textbf{normal/corrected-to-normal}} vision; age $24\pm 2.7$ years; 11 male, 18 female)
-            \item<+-> Stimuli: projected at 120Hz onto
-        \end{itemize}
-        
-    \end{frame}
-
-    \begin{frame}{\textit{Information:} The Measure of Corruption}
-    
-    \only<1-7>{
-    \underline{What information is revealed on the audit reports}?
-    \begin{itemize}
-        \item<2-> \textbf{\textcolor{orange}{Quantitative:}} total amount of federal funds  transferred and the amount audited
-        \item<3->\textbf{\textcolor{orange}{Qualitative:}} an itemized list describing each irregularity
-    \end{itemize}}
-    
-    \begin{columns}[T]
-
-    \begin{column}{0.3\textwidth}
-        \uncover<4->{\begin{block}{\small \centering \textbf{Irregular procurement}}
-        \uncover<5->{\footnotesize
-        \begin{itemize}
-            \item[-] no call for bids or minimum number of bids not attained
-            \item[-] evidence of fraud
-        \end{itemize}
-        }
-        \end{block}}
-    \end{column}
-    
-    \begin{column}{0.3\textwidth}
-        \uncover<4->{\begin{block}{\small \centering \textbf{Diversion of public funds}}
-        \uncover<6->{\footnotesize
-        \begin{itemize}
-            \item[-] expenditure without proof
-            \item[-] direct evidence of diversion
-        \end{itemize}
-        }
-        \end{block}}
-    \end{column}
-    
-    \begin{column}{0.3\textwidth}
-        \uncover<4->{\begin{block}{\small \centering \textbf{Over-invoicing}}
-        \uncover<7->{\footnotesize
-        \begin{itemize}
-            \item[-] purchase of public goods and services above the market price
-        \end{itemize}
-        }
-        \end{block}}
-    \end{column}
-    
-    \end{columns}
-    
-    \only<8->{
-    \vspace{15pt}
-    \underline{Construct a single measure}: the \textbf<9>{\textcolor<9>{orange}{total number of times}} each one of the three irregularities appears
-    \begin{itemize}
+    \only<2>{
         \small
-        \item<10-> \textbf{\color{orange}Justification 1}: most common
-        \item<11-> \textbf{\color{orange}Justification 2}: often complementary
-        \item<12> {\footnotesize My interpretation: Layer 1 measure of corruption magnitude, could be more detailed, quantitatively}
+        Timeline:
+        \begin{itemize}
+            \item pre-cue: 1000-1500ms
+            \item cue interval: 850-1350ms (randomized)
+            \item display: 16.67ms
+            \item ISI: 48.3ms
+            \item response delay: 400ms 
+        \end{itemize}
+        }
+    
+    \only<3>{
+    \small
+    visual cue: \textcolor{red}{\textbf{red}} cross
+    \begin{itemize}
+        \item 75\% (T): one of the arms turn \textcolor{green}{\textbf{green}}
+        \item 25\% (C): neutral cue
     \end{itemize}
     }
+
+    \only<4>{
+    \small
+    2 displays: complementary, non-overlapping
+    \begin{itemize}
+        \item \underline{neutral cue}: the 2 displays \textcolor{lightlavender}{\textbf{complete}} each other
+        \item \underline{empty}: one left \textcolor{lightlavender}{\textbf{empty}} in both
+    \end{itemize}
+    }
+
+    \only<5>{
+    \small
+    task: moving a highlighted square
+    \begin{itemize}
+        \item \textcolor{lightlavender}{\textbf{\underline{segregation}}}: targeting the half circle
+        \item \textcolor{lightlavender}{\textbf{\underline{integration}}}: targeting the empty spot
+    \end{itemize}
+    }
+    
+    \end{column}
+    \end{columns}
+
+    \end{frame}
+
+\begin{frame}{Measures}
+
+    \begin{columns}[T]
+
+        \begin{column}{0.45\textwidth}
+            \uncover<1->{\begin{block}{\small \centering \textbf{Eye tracking}}
+            \uncover<2->{\footnotesize
+            \begin{itemize}
+                \item sampling rate: 1kHz
+                \item rejection: 
+                \begin{itemize}
+                    \item[-] saccades: 7$\pm$7\% trials
+                    \item[-] blinks: 3$\pm$4\% trials
+                \end{itemize}
+            \end{itemize}
+            }
+            \end{block}}
+        \end{column}
+        
+        \begin{column}{0.45\textwidth}
+            \uncover<1->{\begin{block}{\small \centering \textbf{MEG recording}}
+            \uncover<3->{\footnotesize
+            \begin{itemize}
+                \item estimate instantaneous $\alpha-$frequency: 7- to 14-Hz frequency band
+                \item rejection
+                \begin{itemize}
+                    \item[-] nonbiological noise: 10$\pm$1 channels 
+                \end{itemize}
+            \end{itemize}
+            }
+            \end{block}}
+        \end{column}
+        
+        \end{columns}
+    
+\end{frame}
+
+
+\begin{frame}{Analysis}
+
+    \begin{columns}[T]
+
+        \begin{column}{0.45\textwidth}
+            \uncover<1->{\begin{block}{\small \centering \textbf{Source analysis}}
+            \uncover<2->{\footnotesize
+            \begin{itemize}
+                \item combine head digitization data with \textcolor{lightlavender}{\underline{\textbf{anatomic MRI}}} data
+                \item regions of interest:
+                {
+                    \begin{itemize}
+                        \footnotesize
+                    \item[-] parietal cortex
+                    \item[-] occipital cortex
+                \end{itemize}}
+            \end{itemize}
+            }
+            \end{block}}
+        \end{column}
+        
+        \begin{column}{0.45\textwidth}
+            \uncover<1->{\begin{block}{\small \centering \textbf{Numerical analysis}}
+            \uncover<3->{\footnotesize
+            \begin{itemize}
+                \item method: 2-way repeated ANOVA
+                \item noise of raw estimates of $\alpha$ frequency: center on results following a \textcolor{lightlavender}{\textbf{\underline{neutral-cue}}}
+                \begin{itemize}\footnotesize
+                    \item[-] within each of the integration/segragation conditions separately
+                \end{itemize}
+            \end{itemize}
+            }
+            \end{block}}
+        \end{column}
+        
+        \end{columns}
+    
+\end{frame}
+    
+
+    \begin{frame}{Other technical details}
+        \begin{itemize}
+            \item<+-> Participants: 29 (\textcolor{lightlavender}{\textbf{normal/corrected-to-normal}} vision; age 24$\pm$2.7 years; 11 male, 18 female)
+            \item<+-> Stimuli: projected at 120Hz onto a translucent screen, at a viewing distance of \textcolor{lightlavender}{\textbf{1m}}
+            \item<+-> Pre-MEG: 30 practice trials to achieve at least 25\% accuracy
+            \item<+-> Number of trials: 10 blocks $\times$ 67 trials/block
+            \item<+-> Base for numerical analysis: a shift in the \textcolor{lightlavender}{\textbf{neutral-cue}} baseline emerges equally in \textcolor{lightlavender}{\textbf{ipsilateral}} and \textcolor{lightlavender}{\textbf{contralateral}} signals
+        \end{itemize}
         
     \end{frame}
-    
