@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  8 NOV 2022 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  8 NOV 2022 14:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2333,190 +2333,438 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 ] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.toc) [2
 
-] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/3_results.tex [3
+] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/1_introduction.tex [3
+
+] [4
+
+] [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+) [6
+
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
 
 ]
-<images/res1.png, id=138, 895.345pt x 706.64pt>
+<images/fig1.png, id=620, 803.0pt x 600.2425pt>
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 107.
+(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
+ [13
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig1.png>]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 107.
+(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
+ [14
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 107.
+(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
+ [15
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 107.
+(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
+ [16
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 107.
+(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
+ [17
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 107.
+(pdftex.def)             Requested size: 147.6092pt x 110.33748pt.
+ [18
+
+] [19
+
+] [20
+
+] [21
+
+] [22
+
+] [23
+
+] [24
+
+] [25
+
+]
+File: images/fig1.png Graphic file (type png)
+<use images/fig1.png>
+Package pdftex.def Info: images/fig1.png  used on input line 144.
+(pdftex.def)             Requested size: 162.36156pt x 121.37189pt.
+ [26
+
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/2_methods.tex [27
+
+]
+<images/fig2_1.png, id=1276, 2280.52pt x 1166.3575pt>
+File: images/fig2_1.png Graphic file (type png)
+<use images/fig2_1.png>
+Package pdftex.def Info: images/fig2_1.png  used on input line 63.
+(pdftex.def)             Requested size: 280.43619pt x 143.43736pt.
+ [28
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/fig2_1.png>]
+File: images/fig2_1.png Graphic file (type png)
+<use images/fig2_1.png>
+Package pdftex.def Info: images/fig2_1.png  used on input line 63.
+(pdftex.def)             Requested size: 280.43619pt x 143.43736pt.
+ [29
+
+]
+File: images/fig2_1.png Graphic file (type png)
+<use images/fig2_1.png>
+Package pdftex.def Info: images/fig2_1.png  used on input line 63.
+(pdftex.def)             Requested size: 280.43619pt x 143.43736pt.
+ [30
+
+]
+File: images/fig2_1.png Graphic file (type png)
+<use images/fig2_1.png>
+Package pdftex.def Info: images/fig2_1.png  used on input line 63.
+(pdftex.def)             Requested size: 280.43619pt x 143.43736pt.
+ [31
+
+]
+File: images/fig2_1.png Graphic file (type png)
+<use images/fig2_1.png>
+Package pdftex.def Info: images/fig2_1.png  used on input line 63.
+(pdftex.def)             Requested size: 280.43619pt x 143.43736pt.
+ [32
+
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/3_results.tex [44
+
+] [45
+
+]
+<images/res1.png, id=2006, 895.345pt x 706.64pt>
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 85.
 (pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
- [5
+ [46
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res1.png>]
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 85.
 (pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
- [6
+ [47
 
 ]
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 85.
 (pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
- [7
+ [48
 
 ]
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 85.
 (pdftex.def)             Requested size: 195.71962pt x 154.47179pt.
- [8
+ [49
 
 ]
-<images/res2.png, id=226, 1212.53pt x 1025.8325pt>
+<images/res2.png, id=2171, 1212.53pt x 1025.8325pt>
 File: images/res2.png Graphic file (type png)
 <use images/res2.png>
 Package pdftex.def Info: images/res2.png  used on input line 110.
 (pdftex.def)             Requested size: 182.5747pt x 154.47179pt.
- [9
+ [50
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res2.png>]
 File: images/res2.png Graphic file (type png)
 <use images/res2.png>
 Package pdftex.def Info: images/res2.png  used on input line 110.
 (pdftex.def)             Requested size: 182.5747pt x 154.47179pt.
- [10
+ [51
 
 ]
 File: images/res2.png Graphic file (type png)
 <use images/res2.png>
 Package pdftex.def Info: images/res2.png  used on input line 110.
 (pdftex.def)             Requested size: 182.5747pt x 154.47179pt.
- [11
+ [52
 
 ]
-<images/res3_1.png, id=291, 1421.31pt x 905.3825pt>
+<images/res3_1.png, id=2296, 1421.31pt x 905.3825pt>
 File: images/res3_1.png Graphic file (type png)
 <use images/res3_1.png>
 Package pdftex.def Info: images/res3_1.png  used on input line 135.
 (pdftex.def)             Requested size: 242.487pt x 154.47179pt.
- [12
+ [53
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res3_1.png>]
 File: images/res3_1.png Graphic file (type png)
 <use images/res3_1.png>
 Package pdftex.def Info: images/res3_1.png  used on input line 135.
 (pdftex.def)             Requested size: 242.487pt x 154.47179pt.
- [13
+ [54
 
 ]
 File: images/res3_1.png Graphic file (type png)
 <use images/res3_1.png>
 Package pdftex.def Info: images/res3_1.png  used on input line 135.
 (pdftex.def)             Requested size: 242.487pt x 154.47179pt.
- [14
+ [55
 
 ]
-<images/res3_2.png, id=355, 1505.625pt x 704.6325pt>
+<images/res3_2.png, id=2420, 1505.625pt x 704.6325pt>
 File: images/res3_2.png Graphic file (type png)
 <use images/res3_2.png>
 Package pdftex.def Info: images/res3_2.png  used on input line 164.
 (pdftex.def)             Requested size: 235.75876pt x 110.33748pt.
- [15
+ [56
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res3_2.png>]
 File: images/res3_2.png Graphic file (type png)
 <use images/res3_2.png>
 Package pdftex.def Info: images/res3_2.png  used on input line 164.
 (pdftex.def)             Requested size: 235.75876pt x 110.33748pt.
- [16
+ [57
 
 ]
 File: images/res3_2.png Graphic file (type png)
 <use images/res3_2.png>
 Package pdftex.def Info: images/res3_2.png  used on input line 164.
 (pdftex.def)             Requested size: 235.75876pt x 110.33748pt.
- [17
+ [58
 
 ]
-<images/res4_1.png, id=420, 965.6075pt x 1162.3425pt>
+<images/res4_1.png, id=2544, 965.6075pt x 1162.3425pt>
 File: images/res4_1.png Graphic file (type png)
 <use images/res4_1.png>
 Package pdftex.def Info: images/res4_1.png  used on input line 193.
 (pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
- [18
+ [59
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res4_1.png>]
 File: images/res4_1.png Graphic file (type png)
 <use images/res4_1.png>
 Package pdftex.def Info: images/res4_1.png  used on input line 193.
 (pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
- [19
+ [60
 
 ]
 File: images/res4_1.png Graphic file (type png)
 <use images/res4_1.png>
 Package pdftex.def Info: images/res4_1.png  used on input line 193.
 (pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
- [20
+ [61
 
 ]
-<images/res4_2.png, id=483, 1593.955pt x 979.66pt>
+<images/res4_2.png, id=2668, 1593.955pt x 979.66pt>
 File: images/res4_2.png Graphic file (type png)
 <use images/res4_2.png>
 Package pdftex.def Info: images/res4_2.png  used on input line 202.
 (pdftex.def)             Requested size: 269.26624pt x 165.50621pt.
- [21
+ [62
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res4_2.png>]
-<images/res5.png, id=506, 947.54pt x 497.86pt>
+<images/res5.png, id=2711, 947.54pt x 497.86pt>
 File: images/res5.png Graphic file (type png)
 <use images/res5.png>
 Package pdftex.def Info: images/res5.png  used on input line 231.
 (pdftex.def)             Requested size: 230.9999pt x 121.37189pt.
- [22
+ [63
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res5.png>]
 File: images/res5.png Graphic file (type png)
 <use images/res5.png>
 Package pdftex.def Info: images/res5.png  used on input line 231.
 (pdftex.def)             Requested size: 230.9999pt x 121.37189pt.
- [23
+ [64
 
 ]
 File: images/res5.png Graphic file (type png)
 <use images/res5.png>
 Package pdftex.def Info: images/res5.png  used on input line 231.
 (pdftex.def)             Requested size: 230.9999pt x 121.37189pt.
- [24
+ [65
 
 ]
-<images/res6.png, id=570, 1294.8375pt x 1369.115pt>
+<images/res6.png, id=2836, 1294.8375pt x 1369.115pt>
 File: images/res6.png Graphic file (type png)
 <use images/res6.png>
 Package pdftex.def Info: images/res6.png  used on input line 260.
 (pdftex.def)             Requested size: 156.51973pt x 165.50621pt.
- [25
+ [66
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/images/res6.png>]
 File: images/res6.png Graphic file (type png)
 <use images/res6.png>
 Package pdftex.def Info: images/res6.png  used on input line 260.
 (pdftex.def)             Requested size: 156.51973pt x 165.50621pt.
- [26
+ [67
 
 ]
 File: images/res6.png Graphic file (type png)
 <use images/res6.png>
 Package pdftex.def Info: images/res6.png  used on input line 260.
 (pdftex.def)             Requested size: 156.51973pt x 165.50621pt.
- [27
+ [68
 
-]) [28
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/chapters/4_discuss.tex [69
 
- </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [29
+] [70
+
+] [71
+
+] [72
+
+] [73
+
+] [74
+
+] [75
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 51.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [76
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 51.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [77
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 51.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [78
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 51.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [79
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 51.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [80
+
+]
+File: images/res3_1.png Graphic file (type png)
+<use images/res3_1.png>
+Package pdftex.def Info: images/res3_1.png  used on input line 76.
+(pdftex.def)             Requested size: 242.487pt x 154.47179pt.
+ [81
+
+]
+File: images/res3_1.png Graphic file (type png)
+<use images/res3_1.png>
+Package pdftex.def Info: images/res3_1.png  used on input line 76.
+(pdftex.def)             Requested size: 242.487pt x 154.47179pt.
+ [82
+
+]
+File: images/res3_1.png Graphic file (type png)
+<use images/res3_1.png>
+Package pdftex.def Info: images/res3_1.png  used on input line 76.
+(pdftex.def)             Requested size: 242.487pt x 154.47179pt.
+ [83
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 105.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [84
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 105.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [85
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 105.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [86
+
+]
+File: images/res4_1.png Graphic file (type png)
+<use images/res4_1.png>
+Package pdftex.def Info: images/res4_1.png  used on input line 105.
+(pdftex.def)             Requested size: 137.48262pt x 165.50621pt.
+ [87
+
+]) [88
+
+ </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [89
+
+
+] [90
+
+
+] [91
 
 ]
 \tf@nav=\write10
@@ -2534,7 +2782,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6CDD6854FE46663A22E4FEC277D3E0EB;120.
+(rerunfilecheck)             Checksum: CA29D0917D6F0AAA5870993FD93D624D;268.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2545,18 +2793,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 40923 strings out of 492649
- 804966 string characters out of 6129623
- 1300392 words of memory out of 5000000
- 44041 multiletter control sequences out of 15000+600000
- 543684 words of font info for 73 fonts, out of 8000000 for 9000
+ 41335 strings out of 492649
+ 811687 string characters out of 6129623
+ 1316338 words of memory out of 5000000
+ 44300 multiletter control sequences out of 15000+600000
+ 544396 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,20n,105p,10510b,3971s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.pdf" (29 pages, 3030233 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/Sharp_etal2022_JNeuSci/main.pdf" (91 pages, 3462082 bytes).
 PDF statistics:
- 725 PDF objects out of 1000 (max. 8388607)
- 632 compressed objects within 7 object streams
- 73 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3958 PDF objects out of 4296 (max. 8388607)
+ 3746 compressed objects within 38 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

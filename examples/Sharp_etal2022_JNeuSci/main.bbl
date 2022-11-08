@@ -19,6 +19,96 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{akyurek2007adaptive}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=27a7e5939ef7a2ad490d1ee86ef325d6}{%
+           family={Aky{ü}rek},
+           familyi={A\bibinitperiod},
+           given={Elkan\bibnamedelima G},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9517202431b1d1df662bd145091a9c84}{%
+           family={Riddell},
+           familyi={R\bibinitperiod},
+           given={Patricia\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e9ede676ca0c7a32b290aa767ea81c78}{%
+           family={Toffanin},
+           familyi={T\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ac8532d299618b6b03ce7079a5cf0695}{%
+           family={Hommel},
+           familyi={H\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2badd83fe4abc4ecbd5822e8e09eead2}
+      \strng{fullhash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
+      \strng{bibnamehash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
+      \strng{authorbibnamehash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
+      \strng{authornamehash}{2badd83fe4abc4ecbd5822e8e09eead2}
+      \strng{authorfullhash}{1e9e4301bfd1bc4d22501bd3c6eadd14}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychophysiology}
+      \field{number}{3}
+      \field{title}{Adaptive control of event integration: Evidence from event-related potentials}
+      \field{volume}{44}
+      \field{year}{2007}
+      \field{pages}{383\bibrangedash 391}
+      \range{pages}{9}
+    \endentry
+    \entry{buergers2022role}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=488e171d30547fdc48df78be38f936ad}{%
+           family={Buergers},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=aa75d1fd2da3db1601cf369da8eb0fb5}{%
+           family={Noppeney},
+           familyi={N\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{fullhash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{bibnamehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{authorbibnamehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{authornamehash}{6b122b8a3bcadbabc92a9c8894767898}
+      \strng{authorfullhash}{6b122b8a3bcadbabc92a9c8894767898}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{number}{5}
+      \field{title}{The role of alpha oscillations in temporal binding within and across the senses}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{732\bibrangedash 742}
+      \range{pages}{11}
+    \endentry
     \entry{capilla2014dissociated}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=2be8ba1492206a152b59dd97db2cf514}{%
@@ -76,8 +166,439 @@
       \field{pages}{550\bibrangedash 561}
       \range{pages}{12}
     \endentry
+    \entry{cecere2015individual}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=049dfde231fdab685e82d608101fa2f6}{%
+           family={Cecere},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=972ed9a4debfec29e252f2704e99b3c4}{%
+           family={Rees},
+           familyi={R\bibinitperiod},
+           given={Geraint},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bcff69356daff0a03b1afc888ccc036}{%
+           family={Romei},
+           familyi={R\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{971ca91e2804971fbfa76da06ee24c7b}
+      \strng{fullhash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \strng{bibnamehash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \strng{authorbibnamehash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \strng{authornamehash}{971ca91e2804971fbfa76da06ee24c7b}
+      \strng{authorfullhash}{a3cbf014dd705dc23ed9d301745fbc52}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{2}
+      \field{title}{Individual differences in alpha frequency drive crossmodal illusory perception}
+      \field{volume}{25}
+      \field{year}{2015}
+      \field{pages}{231\bibrangedash 235}
+      \range{pages}{5}
+    \endentry
+    \entry{di2022tuning}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,uniquepart=base,hash=d04de2e4f1d64b0ebe5288312b981c2f}{%
+           family={Di\bibnamedelima Gregorio},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bced9b17eece331c835d8e57668c44f3}{%
+           family={Trajkovic},
+           familyi={T\bibinitperiod},
+           given={Jelena},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8596d3ae36786abcbdf3b3ee5901fd89}{%
+           family={Roperti},
+           familyi={R\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ae28c7047cc33167ff4b2150e68f0671}{%
+           family={Marcantoni},
+           familyi={M\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7eeb100ff059f4537c20476ed13a4b22}{%
+           family={Di\bibnamedelima Luzio},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=84e3ca697af68300514d76758dc5f378}{%
+           family={Avenanti},
+           familyi={A\bibinitperiod},
+           given={Alessio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2c26f56916aa5df88c59fd3d8801e327}{%
+           family={Thut},
+           familyi={T\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bcff69356daff0a03b1afc888ccc036}{%
+           family={Romei},
+           familyi={R\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ae0bbfce070ef1cc69fe5eb293ca0440}
+      \strng{fullhash}{04306008b35e589b6f3972fa027a8c80}
+      \strng{bibnamehash}{0737e454407cc7004944863396123578}
+      \strng{authorbibnamehash}{0737e454407cc7004944863396123578}
+      \strng{authornamehash}{ae0bbfce070ef1cc69fe5eb293ca0440}
+      \strng{authorfullhash}{04306008b35e589b6f3972fa027a8c80}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{5}
+      \field{title}{Tuning alpha rhythms to shape conscious visual perception}
+      \field{volume}{32}
+      \field{year}{2022}
+      \field{pages}{988\bibrangedash 998}
+      \range{pages}{11}
+    \endentry
+    \entry{hein2006visual}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=eac1e3a211a6868ce9411e3fe5461fd3}{%
+           family={Hein},
+           familyi={H\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=087a15f53ae73d7e245fd347d57eaa45}{%
+           family={Rolke},
+           familyi={R\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cd232e96ac4d3e8d7096c18c860af07d}{%
+           family={Ulrich},
+           familyi={U\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{928ec27c564f07413e4a775c6da85d06}
+      \strng{fullhash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \strng{bibnamehash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \strng{authorbibnamehash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \strng{authornamehash}{928ec27c564f07413e4a775c6da85d06}
+      \strng{authorfullhash}{5df0d5eb7b8442844e1c78e7b594fea9}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Visual Cognition}
+      \field{number}{1}
+      \field{title}{Visual attention and temporal discrimination: Differential effects of automatic and voluntary cueing}
+      \field{volume}{13}
+      \field{year}{2006}
+      \field{pages}{29\bibrangedash 50}
+      \range{pages}{22}
+    \endentry
+    \entry{hochmitz2021effects}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f23c4f461a3621bd2694f1dc9458996a}{%
+           family={Hochmitz},
+           familyi={H\bibinitperiod},
+           given={Ilanit},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eac1e3a211a6868ce9411e3fe5461fd3}{%
+           family={Hein},
+           familyi={H\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=029dcff140fde7b78c274f2adf106978}{%
+           family={Yeshurun},
+           familyi={Y\bibinitperiod},
+           given={Yaffa},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{ab6cfabea3f236f8fe9f1ff01e2ff480}
+      \strng{fullhash}{4b913f963e72a1e3825e104abcd12d55}
+      \strng{bibnamehash}{4b913f963e72a1e3825e104abcd12d55}
+      \strng{authorbibnamehash}{4b913f963e72a1e3825e104abcd12d55}
+      \strng{authornamehash}{ab6cfabea3f236f8fe9f1ff01e2ff480}
+      \strng{authorfullhash}{4b913f963e72a1e3825e104abcd12d55}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology: Human Perception and Performance}
+      \field{title}{The effects of spatial attention on temporal integration measured with the ternus display.}
+      \field{year}{2021}
+    \endentry
+    \entry{minami2017illusory}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=249e45ebe965a88ea4637aa37dbaf20b}{%
+           family={Minami},
+           familyi={M\bibinitperiod},
+           given={Sorato},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a3354e2b8d6bad748b961b418f414f55}{%
+           family={Amano},
+           familyi={A\bibinitperiod},
+           given={Kaoru},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{fullhash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{bibnamehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{authorbibnamehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{authornamehash}{2d56d1a187bb7406205bf652073f56b7}
+      \strng{authorfullhash}{2d56d1a187bb7406205bf652073f56b7}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{15}
+      \field{title}{Illusory jitter perceived at the frequency of alpha oscillations}
+      \field{volume}{27}
+      \field{year}{2017}
+      \field{pages}{2344\bibrangedash 2351}
+      \range{pages}{8}
+    \endentry
+    \entry{mioni2020modulation}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=e008a79ae9077fc8d52ab723e4ba84aa}{%
+           family={Mioni},
+           familyi={M\bibinitperiod},
+           given={Giovanna},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=11bd42408a1ad9de2764363c593b68ff}{%
+           family={Shelp},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e8408a87268133fd89db7df84b6f5915}{%
+           family={Stanfield-Wiswell},
+           familyi={S\bibinithyphendelim W\bibinitperiod},
+           given={Candice\bibnamedelima T},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a0565b159d1c64c8bf0c473dc70bd0ae}{%
+           family={Gladhill},
+           familyi={G\bibinitperiod},
+           given={Keri\bibnamedelima A},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5a8b571c4b6c6d208dd3e0cb586e73f4}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={Farah},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2e26b1691f95eca1067cbfab3b656acc}{%
+           family={Wiener},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{3ccfea63a5ba04f34b4ebce134ea85e8}
+      \strng{fullhash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \strng{bibnamehash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \strng{authorbibnamehash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \strng{authornamehash}{3ccfea63a5ba04f34b4ebce134ea85e8}
+      \strng{authorfullhash}{f1b1ad91481b931578bd4f461b2c9e1c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cerebral Cortex Communications}
+      \field{number}{1}
+      \field{title}{Modulation of individual alpha frequency with tacs shifts time perception}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{tgaa064}
+      \range{pages}{-1}
+    \endentry
+    \entry{nobre2018anticipated}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=41758fb8add62f1c3b53391c3e515f16}{%
+           family={Nobre},
+           familyi={N\bibinitperiod},
+           given={Anna\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8149feadc9420cb50d3208b1476abbb2}{%
+           family={Van\bibnamedelima Ede},
+           familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Freek},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{1122140c615a44beddafc22c5c53252d}
+      \strng{fullhash}{1122140c615a44beddafc22c5c53252d}
+      \strng{bibnamehash}{1122140c615a44beddafc22c5c53252d}
+      \strng{authorbibnamehash}{1122140c615a44beddafc22c5c53252d}
+      \strng{authornamehash}{1122140c615a44beddafc22c5c53252d}
+      \strng{authorfullhash}{1122140c615a44beddafc22c5c53252d}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{1}
+      \field{title}{Anticipated moments: temporal structure in attention}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{pages}{34\bibrangedash 48}
+      \range{pages}{15}
+    \endentry
+    \entry{ronconi2018alpha}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=831d4076573598a472e52409ffacd924}{%
+           family={Ronconi},
+           familyi={R\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e56368dbbab1f95574211d0a77e083a5}{%
+           family={Busch},
+           familyi={B\bibinitperiod},
+           given={Niko\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19a15658a59473a58a662e200ce7f233}{%
+           family={Melcher},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a87c07734af482faadbd1ffcc98c8946}
+      \strng{fullhash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \strng{bibnamehash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \strng{authorbibnamehash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \strng{authornamehash}{a87c07734af482faadbd1ffcc98c8946}
+      \strng{authorfullhash}{80c420ed56de4ff7ee84bafd9684a17b}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{number}{1}
+      \field{title}{Alpha-band sensory entrainment alters the duration of temporal windows in visual perception}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{samaha2015speed}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8f7056cade2d543eff8f88809358ccd4}{%
+           family={Samaha},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa57fbb7faf4df0808b10f1b5d6d8c5a}{%
+           family={Postle},
+           familyi={P\bibinitperiod},
+           given={Bradley\bibnamedelima R},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{fullhash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{bibnamehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{authorbibnamehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{authornamehash}{2e1740b1ae9035833efea10faf3aca67}
+      \strng{authorfullhash}{2e1740b1ae9035833efea10faf3aca67}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{22}
+      \field{title}{The speed of alpha-band oscillations predicts the temporal resolution of visual perception}
+      \field{volume}{25}
+      \field{year}{2015}
+      \field{pages}{2985\bibrangedash 2990}
+      \range{pages}{6}
+    \endentry
     \entry{sharp2022spatial}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{uniquelist=2}{%
         {{uniquename=0,uniquepart=base,hash=157554f049782471ab8378324fc08889}{%
            family={Sharp},
            familyi={S\bibinitperiod},
@@ -106,17 +627,16 @@
       \list{publisher}{1}{%
         {Soc Neuroscience}%
       }
-      \strng{namehash}{20547dc87ab145e6edb46fdd8d9c6c35}
+      \strng{namehash}{bc576984a16110b05ff58dc990ebf1f9}
       \strng{fullhash}{bfcfd3db72b43bec1c23e6b87f780ffd}
       \strng{bibnamehash}{bfcfd3db72b43bec1c23e6b87f780ffd}
       \strng{authorbibnamehash}{bfcfd3db72b43bec1c23e6b87f780ffd}
-      \strng{authornamehash}{20547dc87ab145e6edb46fdd8d9c6c35}
+      \strng{authornamehash}{bc576984a16110b05ff58dc990ebf1f9}
       \strng{authorfullhash}{bfcfd3db72b43bec1c23e6b87f780ffd}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Neuroscience}
@@ -126,6 +646,50 @@
       \field{year}{2022}
       \field{pages}{7824\bibrangedash 7832}
       \range{pages}{9}
+    \endentry
+    \entry{sharp2018endogenous}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=157554f049782471ab8378324fc08889}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Poppy},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19a15658a59473a58a662e200ce7f233}{%
+           family={Melcher},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa13ab88f977c5be9ccb7cc7dc3ab07b}{%
+           family={Hickey},
+           familyi={H\bibinitperiod},
+           given={Clayton},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f23e0db655f9592f8a7b05e9df4393a9}
+      \strng{fullhash}{f91b688500cbd22c9935ec3d51666846}
+      \strng{bibnamehash}{f91b688500cbd22c9935ec3d51666846}
+      \strng{authorbibnamehash}{f91b688500cbd22c9935ec3d51666846}
+      \strng{authornamehash}{f23e0db655f9592f8a7b05e9df4393a9}
+      \strng{authorfullhash}{f91b688500cbd22c9935ec3d51666846}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Attention, Perception, \& Psychophysics}
+      \field{number}{5}
+      \field{title}{Endogenous attention modulates the temporal window of integration}
+      \field{volume}{80}
+      \field{year}{2018}
+      \field{pages}{1214\bibrangedash 1228}
+      \range{pages}{15}
     \endentry
     \entry{wutz2018frequency}{article}{}
       \name{author}{3}{}{%

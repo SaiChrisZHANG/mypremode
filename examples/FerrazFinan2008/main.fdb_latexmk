@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1667890839 "main.bcf" "main.bbl" "main" 1667890897
+["biber main"] 1667890839 "main.bcf" "main.bbl" "main" 1667933408
   "bib.bib" 1664778894 6155 347a94292d3e997e77d7d651f88a3365 ""
   "main.bcf" 1667890897 113867 1436961bef4adefb367f235ebfb35423 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1667890869 "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.tex" "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.pdf" "main" 1667890897
+  "main.bbl"
+["pdflatex"] 1667890869 "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.tex" "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.pdf" "main" 1667933408
   "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.aux" 1667890897 51470 f3faf359bcbf71596233ebef8812b2f1 ""
   "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.tex" 1664779820 2722 c28f0eae5f3cd7dd78acfa4e581004af ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -310,14 +310,14 @@
   "main.tex" 1664779820 2722 c28f0eae5f3cd7dd78acfa4e581004af ""
   "main.toc" 1667890897 539 52060d0ceb2666d454b6598848551371 ""
   (generated)
-  "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.log"
-  "main.pdf"
-  "main.bcf"
-  "main.nav"
-  "main.snm"
   "main.out"
-  "main.log"
   "main.run.xml"
-  "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.pdf"
-  "main.toc"
   "main.aux"
+  "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.pdf"
+  "/Users/admin/Dropbox/SAI presentations/mypremode/examples/FerrazFinan2008/main.log"
+  "main.snm"
+  "main.nav"
+  "main.log"
+  "main.bcf"
+  "main.pdf"
+  "main.toc"
