@@ -159,10 +159,21 @@
     \end{block}
 
     \uncover<2->{
-        \vspace*{10pt}
+        \vspace*{5pt}
         \begin{itemize}
-            \item 
+            \item<2-> $\mathbb{E}\left[Y^2\right], \mathbb{E}\left[\gamma_{-}\left(Z\right)^{2}\right],\mathbb{E}\left[\gamma_{+}\left(Z\right)^{2}\right]<\infty$
+            \item<3-> $\gamma_{+}(\cdot),\gamma_-(\cdot)$ are weighting functions s.t.
+            \begin{itemize}
+                \item<4->[-] $\gamma_{+}\left(z\right)=0$ for $z<c$: assign non-zero weights only to \textcolor{mygreen}{\textbf{treated}} units
+                \item<5->[-] $\gamma_{-}\left(z\right)=0$ for $z\geq c$: assign non-zero weights only to \textcolor{mygreen}{\textbf{control}} units
+            \end{itemize}
         \end{itemize}
+    }
+
+    \uncover<6->{
+        \vspace*{5pt}
+        To achieve balance in the \textcolor{mygreen}{\textbf{latent variable}}: $h(\cdot,\gamma_+)\approx h(\cdot,\gamma_-)$
+        \vspace*{10pt}
     }
     
     
