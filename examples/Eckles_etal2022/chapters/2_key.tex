@@ -69,12 +69,101 @@
 
         \begin{block}{\textbf{Assumption 2: Noisy running variable}}
             $$
-                Z_i\mid U_i \sim p\left(\cdot \mid U_i\right)
+                Z_i\mid U_i \sim \only<1>{p\left(\cdot \mid U_i\right)} \only<2>{\textcolor{mygreen}{ \mathcal{N}(U_i,\nu^2), \nu>0}} \only<3>{\textcolor{mygreen}{ \mathrm{Binomial}(K,U_i),K\in\mathbb{N}}}
             $$
-            $\ $ - $p(\cdot\mid\cdot)$ is a \textbf{\underline{known}} conditional density w.r.t. to a measure $\lambda$
-
-            $\ $ - the latent variable $U_i$ has an \textbf{\underline{unknown}} distribution $G$
+            where $p(\cdot\mid\cdot)$ is a \textbf{\underline{known}} conditional density w.r.t. to a measure $\lambda$, the latent variable $U_i$ has an \textbf{\underline{unknown}} distribution $G$
             
         \end{block}
 
     \end{frame}
+
+    \begin{frame}{Sharp RD Design with A Noisy Running Variable}
+    
+        \begin{figure}[h!]
+            \centering
+            \begin{tikzpicture}[scale=0.9]
+        
+            \node[circle,draw, minimum size=1cm] (Z) at  (-4,0) {Z};
+            \node[circle,draw, minimum size=1cm] (W) at  (0,0) {W};
+            \node[circle,draw,dashed,color=mygreen, minimum size=1cm] (U) at (0,1.5) {U};
+            \node[circle,draw, minimum size=1cm] (Y) at (4,0) {Y};
+            \draw[->] (U) -- (Z) node[midway, font=\footnotesize, sloped, above] { $Z\sim p\left(\cdot\mid U\right)$};
+            \draw[->] (Z) -- (W) node[midway, font=\footnotesize, sloped, below] { $W= 1\left( \left\{ Z\geq c \right\} \right)$};
+            \draw[->] (W) -- (Y);
+            \draw[->] (U) -- (Y);
+        \end{tikzpicture}
+        \end{figure}
+
+        \only<1->{
+            \begin{block}{\textbf{Assumption 3: Exogeneity}}
+                $$
+                \left[\left\{ Y_{i}\left(0\right),Y_{i}\left(1\right)\right\} \perp Z_{i}\right]\mid U_{i}
+                $$
+                which implies $\mathbb{E}\left[Y_{i}\mid U_{i},Z_{i}\right]=\alpha_{\left(W_{i}\right)}\left(u\right)$\uncover<2>{, where $\alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$ is the \textcolor{mygreen}{\textbf{response functions}} for the potential oucomes conditional on the latent variable $u$}
+            \end{block}
+        }
+
+    \end{frame}
+
+
+\begin{frame}{Sharp RD Design with A Noisy Running Variable}
+    \begin{columns}[T]
+        \begin{column}{0.45\textwidth}
+            \begin{figure}[h!]
+                \centering
+                \begin{tikzpicture}[scale=0.75]
+            
+                \node[circle,draw, minimum size=0.5cm] (Z) at  (-4,0) {Z};
+                \node[circle,draw, minimum size=0.5cm] (W) at  (0,0) {W};
+                \node[circle,draw,dashed,color=mygreen, minimum size=0.5cm] (U) at (0,1.5) {U};
+                \node[circle,draw, minimum size=0.5cm] (Y) at (4,0) {Y};
+                \draw[->] (U) -- (Z) node[midway, font=\tiny, sloped, above] { $Z\sim p\left(\cdot\mid U\right)$};
+                \draw[->] (Z) -- (W) node[midway, font=\tiny, sloped, below] { $W= 1\left( \left\{ Z\geq c \right\} \right)$};
+                \draw[->] (W) -- (Y);
+                \draw[->] (U) -- (Y);
+            \end{tikzpicture}
+            \end{figure}
+        \end{column}
+
+        \begin{column}{0.45\textwidth}
+            \begin{itemize}
+                \item[A1] \textcolor{mygreen}{\underline{\textbf{Sharp}}} RD
+                \item[A2] \textcolor{mygreen}{\underline{\textbf{Noisy}}} $Z_i$: $Z_i\mid U_i \sim \only<1>{p\left(\cdot \mid U_i\right)}$
+                \item[A3] \textcolor{mygreen}{\underline{\textbf{Exogeneity}}}: $\left[\left\{ Y_{i}\left(0\right),Y_{i}\left(1\right)\right\} \perp Z_{i}\right]\mid U_{i}$
+            \end{itemize}
+        \end{column}
+    \end{columns}
+
+    \uncover<2->{
+            \vspace*{15pt}
+            \begin{block}{\textbf{Proposition 1}}
+                \small
+                Let $\gamma_{+}(\cdot),\gamma_{-}(\cdot)$ be measurable functions of $Z$, then under A1-A3:
+                \begin{align*}
+                    \mathbb{E}\left[\gamma_{+}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right], & \mathbb{E}\left[\gamma_{-}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]
+                \end{align*}
+                where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$
+            \end{block}
+        }
+    
+\end{frame}
+
+\begin{frame}{Sharp RD Design with A Noisy Running Variable}
+    \begin{block}{\textbf{Proposition 1}}
+        \small
+        Let $\gamma_{+}(\cdot),\gamma_{-}(\cdot)$ be measurable functions of $Z$, then under A1-A3:
+        \begin{align*}
+            \mathbb{E}\left[\gamma_{+}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right], & \mathbb{E}\left[\gamma_{-}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]
+        \end{align*}
+        where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$
+    \end{block}
+
+    \uncover<2->{
+        \vspace*{10pt}
+        \begin{itemize}
+            \item 
+        \end{itemize}
+    }
+    
+    
+\end{frame}
