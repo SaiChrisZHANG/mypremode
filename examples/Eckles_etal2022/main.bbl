@@ -19,6 +19,82 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{armstrong2018optimal}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e60e3cda90c145f09c0db30aa64f4208}{%
+           family={Armstrong},
+           familyi={A\bibinitperiod},
+           given={Timothy\bibnamedelima B},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
+           family={Koles{á}r},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{fullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{bibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorbibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authornamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorfullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{title}{Optimal inference in a class of regression models}
+      \field{volume}{86}
+      \field{year}{2018}
+      \field{pages}{655\bibrangedash 683}
+      \range{pages}{29}
+    \endentry
+    \entry{armstrong2020simple}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e60e3cda90c145f09c0db30aa64f4208}{%
+           family={Armstrong},
+           familyi={A\bibinitperiod},
+           given={Timothy\bibnamedelima B},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
+           family={Koles{á}r},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{fullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{bibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorbibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authornamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorfullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantitative Economics}
+      \field{number}{1}
+      \field{title}{Simple and honest confidence intervals in nonparametric regression}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 39}
+      \range{pages}{39}
+    \endentry
     \entry{eckles2020noise}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=38f08340334bc0297926fa8aaa2c18d8}{%

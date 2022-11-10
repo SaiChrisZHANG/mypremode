@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'main.blg'
-[43] biber-darwin:313> INFO - === Wed Nov  9, 2022, 12:22:39
-[73] Biber.pm:371> INFO - Reading 'main.bcf'
-[193] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
-[214] Biber.pm:3976> INFO - Processing section 0
-[232] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[235] bibtex.pm:1500> INFO - LaTeX decoding ...
-[321] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
-[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[351] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[351] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[355] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[359] bbl.pm:720> INFO - Output to main.bbl
+[35] biber-darwin:313> INFO - === Wed Nov  9, 2022, 17:17:49
+[59] Biber.pm:371> INFO - Reading 'main.bcf'
+[169] Biber.pm:857> INFO - Found 4 citekeys in bib section 0
+[203] Biber.pm:3976> INFO - Processing section 0
+[227] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[230] bibtex.pm:1500> INFO - LaTeX decoding ...
+[285] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
+[324] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[325] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[325] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[325] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[330] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[333] bbl.pm:720> INFO - Output to main.bbl

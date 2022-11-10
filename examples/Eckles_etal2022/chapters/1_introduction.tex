@@ -26,7 +26,11 @@
     \end{align*}
         
     \uncover<3->{
-        assuming the conditional response functions $\mu_{w}(z)=\mathbb{E}\left[Y(w)\mid Z=z\right]$ are \textcolor{mygreen}{\textbf{\underline{continuous}}}
+        assuming
+        \begin{itemize}
+            \item the conditional response functions $\mu_{w}(z)=\mathbb{E}\left[Y(w)\mid Z=z\right]$ are \textcolor{mygreen}{\textbf{\underline{continuous}}}
+            \item<4-> $\mu_w(z)$ to have a uniformly \textcolor{mygreen}{\textbf{\underline{bounded 2nd derivative}}} for CIs {\footnotesize\citep{armstrong2018optimal,armstrong2020simple}}
+        \end{itemize}
     }
 
 \end{frame}
@@ -45,6 +49,43 @@
         \citet{lee2008randomized}: \textcolor{mygreen}{\textbf{\underline{continuous measurement error}}} in the running variable by units
     }
 
-    
+\end{frame}
 
+\begin{frame}{RD Identification: Measurement Error}
+    \begin{table}[h!]
+    \begin{center}
+        \begin{tabular}{ccccccc}
+        
+       \uncover<1->{$\textcolor<2->{mygreen}{\underbrace{U_i}_{\text{{latent variable}}}}$} & \uncover<3->{$\xRightarrow{Z_i=U_i+\textcolor<4->{mygreen}{e_i}}$} & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$\\
+        &\\
+           \hline
+           & \\
+          \uncover<2->{\textcolor{mygreen}{ability}}  & & test scores & & admission & & outcomes\\
+          \uncover<2->{\textcolor{mygreen}{condition}}  & & test results && medication && outcomes
+        \end{tabular}
+    \end{center}
+    \end{table}
+
+    \uncover<4->{
+        \vspace*{15pt}
+        Why don't we take advantage of the {\textcolor{mygreen}{\textbf{\underline{measurement error}}}} itself for inference?
+    }
+
+\end{frame}
+
+\begin{frame}{This Paper}
+    \begin{table}[h!]
+        \begin{center}
+            \begin{tabular}{ccccccc}
+          $\underbrace{U_i}_{\text{{latent variable}}}$ & $\xRightarrow{Z_i=U_i+\textcolor{mygreen}{e_i}}$ & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$
+            \end{tabular}
+        \end{center}
+        \end{table}
+
+    Weighted treatment effects can be estimated if the measurement error in $Z_i$
+    \begin{itemize}
+        \item<2-> has a \textcolor{mygreen}{\textbf{\underline{known distribution}}}
+        \item<3-> is \textcolor{mygreen}{\textbf{\underline{conditionally {\footnotesize(on $U_i$)} independent}}} of potential outcomes
+    \end{itemize}
+    
 \end{frame}
