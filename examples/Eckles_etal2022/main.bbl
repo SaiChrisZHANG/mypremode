@@ -19,82 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{armstrong2018optimal}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=e60e3cda90c145f09c0db30aa64f4208}{%
-           family={Armstrong},
-           familyi={A\bibinitperiod},
-           given={Timothy\bibnamedelima B},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
-           family={Koles{á}r},
-           familyi={K\bibinitperiod},
-           given={Michal},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{fullhash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{bibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{authorbibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{authornamehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{authorfullhash}{5920fa171c71d3a5aaf203d1657cd454}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Econometrica}
-      \field{number}{2}
-      \field{title}{Optimal inference in a class of regression models}
-      \field{volume}{86}
-      \field{year}{2018}
-      \field{pages}{655\bibrangedash 683}
-      \range{pages}{29}
-    \endentry
-    \entry{armstrong2020simple}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=e60e3cda90c145f09c0db30aa64f4208}{%
-           family={Armstrong},
-           familyi={A\bibinitperiod},
-           given={Timothy\bibnamedelima B},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
-           family={Koles{á}r},
-           familyi={K\bibinitperiod},
-           given={Michal},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{fullhash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{bibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{authorbibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{authornamehash}{5920fa171c71d3a5aaf203d1657cd454}
-      \strng{authorfullhash}{5920fa171c71d3a5aaf203d1657cd454}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Quantitative Economics}
-      \field{number}{1}
-      \field{title}{Simple and honest confidence intervals in nonparametric regression}
-      \field{volume}{11}
-      \field{year}{2020}
-      \field{pages}{1\bibrangedash 39}
-      \range{pages}{39}
-    \endentry
     \entry{eckles2020noise}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=38f08340334bc0297926fa8aaa2c18d8}{%
@@ -138,39 +62,6 @@
       \field{journaltitle}{arXiv preprint arXiv:2004.09458}
       \field{title}{Noise-induced randomization in regression discontinuity designs}
       \field{year}{2020}
-    \endentry
-    \entry{lee2008randomized}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=9675aeb2a7e235d2a3a2925621ce0eab}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={David\bibnamedelima S},
-           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{9675aeb2a7e235d2a3a2925621ce0eab}
-      \strng{fullhash}{9675aeb2a7e235d2a3a2925621ce0eab}
-      \strng{bibnamehash}{9675aeb2a7e235d2a3a2925621ce0eab}
-      \strng{authorbibnamehash}{9675aeb2a7e235d2a3a2925621ce0eab}
-      \strng{authornamehash}{9675aeb2a7e235d2a3a2925621ce0eab}
-      \strng{authorfullhash}{9675aeb2a7e235d2a3a2925621ce0eab}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Econometrics}
-      \field{number}{2}
-      \field{title}{Randomized experiments from non-random selection in US House elections}
-      \field{volume}{142}
-      \field{year}{2008}
-      \field{pages}{675\bibrangedash 697}
-      \range{pages}{23}
     \endentry
   \enddatalist
 \endrefsection
