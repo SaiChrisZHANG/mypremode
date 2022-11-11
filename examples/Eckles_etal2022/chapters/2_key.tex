@@ -128,7 +128,7 @@
         \begin{column}{0.45\textwidth}
             \begin{itemize}
                 \item[A1] \textcolor{mygreen}{\underline{\textbf{Sharp}}} RD
-                \item[A2] \textcolor{mygreen}{\underline{\textbf{Noisy}}} $Z_i$: $Z_i\mid U_i \sim \only<1>{p\left(\cdot \mid U_i\right)}$
+                \item[A2] \textcolor{mygreen}{\underline{\textbf{Noisy}}} $Z_i$: $Z_i\mid U_i \sim {p\left(\cdot \mid U_i\right)}$
                 \item[A3] \textcolor{mygreen}{\underline{\textbf{Exogeneity}}}: $\left[\left\{ Y_{i}\left(0\right),Y_{i}\left(1\right)\right\} \perp Z_{i}\right]\mid U_{i}$
             \end{itemize}
         \end{column}
@@ -142,7 +142,7 @@
                 \begin{align*}
                     \mathbb{E}\left[\gamma_{+}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right], & \mathbb{E}\left[\gamma_{-}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]
                 \end{align*}
-                where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$
+                where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$, $\alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$
             \end{block}
         }
     
@@ -155,7 +155,7 @@
         \begin{align*}
             \mathbb{E}\left[\gamma_{+}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right], & \mathbb{E}\left[\gamma_{-}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]
         \end{align*}
-        where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$
+        where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$, $\alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$
     \end{block}
 
     \uncover<2->{
@@ -172,9 +172,52 @@
 
     \uncover<6->{
         \vspace*{5pt}
-        To achieve balance in the \textcolor{mygreen}{\textbf{latent variable}}: $h(\cdot,\gamma_+)\approx h(\cdot,\gamma_-)$
+        To achieve balance in the \textcolor{mygreen}{\textbf{\underline{latent variable}}}: $h(\cdot,\gamma_+)\approx h(\cdot,\gamma_-)$
         \vspace*{10pt}
     }
-    
+   
+\end{frame}
+
+\begin{frame}{Sharp RD Design with A Noisy Running Variable}
+    \begin{columns}[T]
+        \begin{column}{0.45\textwidth}
+            \begin{figure}[h!]
+                \centering
+                \begin{tikzpicture}[scale=0.75]
+            
+                \node[circle,draw, minimum size=0.5cm] (Z) at  (-4,0) {Z};
+                \node[circle,draw, minimum size=0.5cm] (W) at  (0,0) {W};
+                \node[circle,draw,dashed,color=mygreen, minimum size=0.5cm] (U) at (0,1.5) {U};
+                \node[circle,draw, minimum size=0.5cm] (Y) at (4,0) {Y};
+                \draw[->] (U) -- (Z) node[midway, font=\tiny, sloped, above] { $Z\sim p\left(\cdot\mid U\right)$};
+                \draw[->] (Z) -- (W) node[midway, font=\tiny, sloped, below] { $W= 1\left( \left\{ Z\geq c \right\} \right)$};
+                \draw[->] (W) -- (Y);
+                \draw[->] (U) -- (Y);
+            \end{tikzpicture}
+            \end{figure}
+        \end{column}
+
+        \begin{column}{0.45\textwidth}
+            \begin{itemize}
+                \item[A1] \textcolor{mygreen}{\underline{\textbf{Sharp}}} RD
+                \item[A2] \textcolor{mygreen}{\underline{\textbf{Noisy}}} $Z_i$: $Z_i\mid U_i \sim {p\left(\cdot \mid U_i\right)}$
+                \item[A3] \textcolor{mygreen}{\underline{\textbf{Exogeneity}}}: $\left[\left\{ Y_{i}\left(0\right),Y_{i}\left(1\right)\right\} \perp Z_{i}\right]\mid U_{i}$
+            \end{itemize}
+        \end{column}
+    \end{columns}
+
+    \uncover<2->{
+        \vspace*{15pt}
+        \begin{itemize}
+            \item \textcolor{mygreen}{\textbf{\underline{No need}}} to know $G$ {\footnotesize (distribution of $U$)}
+            \item \textcolor{mygreen}{\textbf{\underline{Need}}} to know \textcolor<3->{mygreen}{$p(z\mid u)$} {\footnotesize (conditional distribution of the noise)}
+            \begin{itemize}
+                \item<3->[-] test-retest data, prior modelling of responses to tests, physical model of the measurement device, biomedical knowledge, etc.
+                \item<4->[-] still valid when \textcolor{mygreen}{\textbf{underestimating}} the true noise level
+            \end{itemize}
+
+        \end{itemize}
+        
+    }
     
 \end{frame}
