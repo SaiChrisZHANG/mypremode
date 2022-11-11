@@ -19,6 +19,127 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{armstrong2018optimal}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e60e3cda90c145f09c0db30aa64f4208}{%
+           family={Armstrong},
+           familyi={A\bibinitperiod},
+           given={Timothy\bibnamedelima B},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
+           family={Koles{á}r},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{fullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{bibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorbibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authornamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorfullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{title}{Optimal inference in a class of regression models}
+      \field{volume}{86}
+      \field{year}{2018}
+      \field{pages}{655\bibrangedash 683}
+      \range{pages}{29}
+    \endentry
+    \entry{armstrong2020simple}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e60e3cda90c145f09c0db30aa64f4208}{%
+           family={Armstrong},
+           familyi={A\bibinitperiod},
+           given={Timothy\bibnamedelima B},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
+           family={Koles{á}r},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{fullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{bibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorbibnamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authornamehash}{5920fa171c71d3a5aaf203d1657cd454}
+      \strng{authorfullhash}{5920fa171c71d3a5aaf203d1657cd454}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantitative Economics}
+      \field{number}{1}
+      \field{title}{Simple and honest confidence intervals in nonparametric regression}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 39}
+      \range{pages}{39}
+    \endentry
+    \entry{calonico2014robust}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=bf76a9cacec95807f53a25a560e9b6bb}{%
+           family={Calonico},
+           familyi={C\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f624ebde3b721f34dccddc022d473c08}{%
+           family={Cattaneo},
+           familyi={C\bibinitperiod},
+           given={Matias\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=91e723da014c0226c229d581ea9ab290}{%
+           family={Titiunik},
+           familyi={T\bibinitperiod},
+           given={Rocio},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{38ef1a26241dec791142fce8dec2f76b}
+      \strng{fullhash}{2c670e24fc7fd032c39b3f8dfcf75dc7}
+      \strng{bibnamehash}{2c670e24fc7fd032c39b3f8dfcf75dc7}
+      \strng{authorbibnamehash}{2c670e24fc7fd032c39b3f8dfcf75dc7}
+      \strng{authornamehash}{38ef1a26241dec791142fce8dec2f76b}
+      \strng{authorfullhash}{2c670e24fc7fd032c39b3f8dfcf75dc7}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{6}
+      \field{title}{Robust nonparametric confidence intervals for regression-discontinuity designs}
+      \field{volume}{82}
+      \field{year}{2014}
+      \field{pages}{2295\bibrangedash 2326}
+      \range{pages}{32}
+    \endentry
     \entry{eckles2020noise}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=38f08340334bc0297926fa8aaa2c18d8}{%
@@ -62,6 +183,201 @@
       \field{journaltitle}{arXiv preprint arXiv:2004.09458}
       \field{title}{Noise-induced randomization in regression discontinuity designs}
       \field{year}{2020}
+    \endentry
+    \entry{hahn2001identification}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=9f17ae9c1144a00e95dc36d6be53dccc}{%
+           family={Hahn},
+           familyi={H\bibinitperiod},
+           given={Jinyong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=24654531fff06b35dca1039b558200e8}{%
+           family={Todd},
+           familyi={T\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9c83d3b4ca266aecd500de52f2f2bf3a}{%
+           family={Van\bibnamedelimb der\bibnamedelima Klaauw},
+           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Wilbert},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{47cb449bed466be04f01f115e49f8771}
+      \strng{fullhash}{59297089080d13a46229f6e3bb82d923}
+      \strng{bibnamehash}{59297089080d13a46229f6e3bb82d923}
+      \strng{authorbibnamehash}{59297089080d13a46229f6e3bb82d923}
+      \strng{authornamehash}{47cb449bed466be04f01f115e49f8771}
+      \strng{authorfullhash}{59297089080d13a46229f6e3bb82d923}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{1}
+      \field{title}{Identification and estimation of treatment effects with a regression-discontinuity design}
+      \field{volume}{69}
+      \field{year}{2001}
+      \field{pages}{201\bibrangedash 209}
+      \range{pages}{9}
+    \endentry
+    \entry{imbens2008regression}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=5543f1c4ecfa6d3b059abad0fe833cc7}{%
+           family={Imbens},
+           familyi={I\bibinitperiod},
+           given={Guido\bibnamedelima W},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=261b3be4ecb61f279cdbd85e8fcdcc32}{%
+           family={Lemieux},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3eb81e6d3f635e7f5024d25bdbbc9993}
+      \strng{fullhash}{3eb81e6d3f635e7f5024d25bdbbc9993}
+      \strng{bibnamehash}{3eb81e6d3f635e7f5024d25bdbbc9993}
+      \strng{authorbibnamehash}{3eb81e6d3f635e7f5024d25bdbbc9993}
+      \strng{authornamehash}{3eb81e6d3f635e7f5024d25bdbbc9993}
+      \strng{authorfullhash}{3eb81e6d3f635e7f5024d25bdbbc9993}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of econometrics}
+      \field{number}{2}
+      \field{title}{Regression discontinuity designs: A guide to practice}
+      \field{volume}{142}
+      \field{year}{2008}
+      \field{pages}{615\bibrangedash 635}
+      \range{pages}{21}
+    \endentry
+    \entry{imbens2012optimal}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=f74fd63923a56fa58b8687fdf1cc7ff2}{%
+           family={Imbens},
+           familyi={I\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=27542d134592544576bea33df39d74df}{%
+           family={Kalyanaraman},
+           familyi={K\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{d78eac9782932f78ddba0ba4a2494910}
+      \strng{fullhash}{d78eac9782932f78ddba0ba4a2494910}
+      \strng{bibnamehash}{d78eac9782932f78ddba0ba4a2494910}
+      \strng{authorbibnamehash}{d78eac9782932f78ddba0ba4a2494910}
+      \strng{authornamehash}{d78eac9782932f78ddba0ba4a2494910}
+      \strng{authorfullhash}{d78eac9782932f78ddba0ba4a2494910}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of economic studies}
+      \field{number}{3}
+      \field{title}{Optimal bandwidth choice for the regression discontinuity estimator}
+      \field{volume}{79}
+      \field{year}{2012}
+      \field{pages}{933\bibrangedash 959}
+      \range{pages}{27}
+    \endentry
+    \entry{imbens2019optimized}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=f74fd63923a56fa58b8687fdf1cc7ff2}{%
+           family={Imbens},
+           familyi={I\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=e22c2c3bb1bd12e43f46c07ea788b581}{%
+           family={Wager},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}%
+      }
+      \strng{namehash}{ff9999290ee8a02bc8502812f61ccef8}
+      \strng{fullhash}{ff9999290ee8a02bc8502812f61ccef8}
+      \strng{bibnamehash}{ff9999290ee8a02bc8502812f61ccef8}
+      \strng{authorbibnamehash}{ff9999290ee8a02bc8502812f61ccef8}
+      \strng{authornamehash}{ff9999290ee8a02bc8502812f61ccef8}
+      \strng{authorfullhash}{ff9999290ee8a02bc8502812f61ccef8}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{number}{2}
+      \field{title}{Optimized regression discontinuity designs}
+      \field{volume}{101}
+      \field{year}{2019}
+      \field{pages}{264\bibrangedash 278}
+      \range{pages}{15}
+    \endentry
+    \entry{kolesar2018inference}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
+           family={Koles{á}r},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b98767ce8e584018c5f3c145667152d}{%
+           family={Rothe},
+           familyi={R\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3540cc6d2107a8714a539f0a9b343ae3}
+      \strng{fullhash}{3540cc6d2107a8714a539f0a9b343ae3}
+      \strng{bibnamehash}{3540cc6d2107a8714a539f0a9b343ae3}
+      \strng{authorbibnamehash}{3540cc6d2107a8714a539f0a9b343ae3}
+      \strng{authornamehash}{3540cc6d2107a8714a539f0a9b343ae3}
+      \strng{authorfullhash}{3540cc6d2107a8714a539f0a9b343ae3}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{8}
+      \field{title}{Inference in regression discontinuity designs with a discrete running variable}
+      \field{volume}{108}
+      \field{year}{2018}
+      \field{pages}{2277\bibrangedash 2304}
+      \range{pages}{28}
     \endentry
   \enddatalist
 \endrefsection

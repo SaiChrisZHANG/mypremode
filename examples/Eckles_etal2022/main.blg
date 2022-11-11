@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'main.blg'
-[51] biber-darwin:313> INFO - === Fri Nov 11, 2022, 08:16:18
-[81] Biber.pm:371> INFO - Reading 'main.bcf'
-[248] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
-[272] Biber.pm:3976> INFO - Processing section 0
-[292] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[295] bibtex.pm:1500> INFO - LaTeX decoding ...
-[388] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
-[421] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[422] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[422] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[422] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[424] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[426] bbl.pm:720> INFO - Output to main.bbl
+[20] Config.pm:305> INFO - Logfile is 'main.blg'
+[67] biber-darwin:313> INFO - === Fri Nov 11, 2022, 15:34:59
+[102] Biber.pm:371> INFO - Reading 'main.bcf'
+[230] Biber.pm:857> INFO - Found 9 citekeys in bib section 0
+[252] Biber.pm:3976> INFO - Processing section 0
+[268] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[272] bibtex.pm:1500> INFO - LaTeX decoding ...
+[354] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
+[503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[503] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[503] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[523] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[536] bbl.pm:720> INFO - Output to main.bbl

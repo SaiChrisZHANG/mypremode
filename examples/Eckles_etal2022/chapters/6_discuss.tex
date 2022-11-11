@@ -1,17 +1,39 @@
 \section{Discussion}
     
     \frame{\sectionpage}
+    
+    \begin{frame}{Literature: Continuity-Based RD}
+        
+            Most popular: local linear regression \citep{hahn2001identification,imbens2008regression}
+        $$
+        \hat{\tau}_{c}=\arg\min_{\tau}\left\{ \sum_{i=1}^{n}\textcolor<2->{mygreen}{\underbrace{K}_{\text{weighting}}}\left(\frac{\left|Z_{i}-c\right|}{\textcolor<2->{mygreen}{\underbrace{h_{n}}_{\text{bandwidth}}}}\right)\left(Y_{i}-a-\tau W_{i}-\beta_{-}\left(Z_{i}-c\right)_{-}-\beta_{+}\left(Z_{i}-c\right)_{+}\right)^{2}\right\} 
+        $$
+        
+        \uncover<3->{
+            \begin{itemize}
+                \item $\mu_{(w)}(z)=\mathbb{E}\left[Y(w)\mid Z=z\right] $ is \textcolor{mygreen}{\textbf{smooth}}
+                \item $h_n$ decays at an \textcolor{mygreen}{\textbf{appropriate}} rate
+            \end{itemize}
+        }
 
-    \begin{frame}{Noise-Induced RD vs Continuity-Based RD}
-        \begin{align*}
-            \tau_c &= \lim_{z\downarrow c}\mathbb{E}\left[Y\mid Z=z\right] - \lim_{z\uparrow c} \mathbb{E}\left[ Y\mid Z=z \right]
-        \end{align*}
-
+        \uncover<4->{Robust CIs {\footnotesize\citep{armstrong2020simple,calonico2014robust,kolesar2018inference}}}; \uncover<5->{Data-adaptive bandwidths {\footnotesize \citep{imbens2012optimal}}}
         
     \end{frame}
-    
-    \begin{frame}{Literature: Concerns addressed}
-        
-    \end{frame}
 
+    \begin{frame}{Literature: Continuity-Based RD extended}
+        
+    $$
+    \mu_{(w)}(z)=\mathbb{E}\left[Y(w)\mid Z=z\right]
+    $$
+    If further assume \textcolor{mygreen}{\textbf{convexity}} of $\mu_{(w)}(z)$, e.g.:
+    $$
+        \left\vert \mu_{(w)}''(z) \right\vert \leq B, \forall z\in\mathbb{R}
+    $$
+    \uncover<2->{\textcolor{mygreen}{\textbf{\underline{Optimization-based RD}}}: the treatment effect $\tau_c$ can be estimated {\footnotesize (minimax linear estimation)} via \textcolor{mygreen}{\textbf{numerical convex optimization}} {\footnotesize \citep{armstrong2018optimal,imbens2019optimized}}
+    }
     
+\end{frame}
+
+\begin{frame}{Literature: Randomization Inference RD}
+    
+\end{frame}
