@@ -379,6 +379,115 @@
       \field{pages}{2277\bibrangedash 2304}
       \range{pages}{28}
     \endentry
+    \entry{li2021regression}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=99b3b2e56c8f5ffeb95b882b3da68136}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ad9ed8f0ec4660bb8af6bd1be680ef53}{%
+           family={Mercatanti},
+           familyi={M\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa129070c524ee6b668f885b9fb4f801}{%
+           family={M{ä}kinen},
+           familyi={M\bibinitperiod},
+           given={Taneli},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=404ac2c923365de5033b300b4e5bca85}{%
+           family={Silvestrini},
+           familyi={S\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Mathematical Statistics}%
+      }
+      \strng{namehash}{7eaa53c1a406a920b08d8587b3fa5133}
+      \strng{fullhash}{67c115c67f4a779881572c59f489dcaf}
+      \strng{bibnamehash}{67c115c67f4a779881572c59f489dcaf}
+      \strng{authorbibnamehash}{67c115c67f4a779881572c59f489dcaf}
+      \strng{authornamehash}{7eaa53c1a406a920b08d8587b3fa5133}
+      \strng{authorfullhash}{67c115c67f4a779881572c59f489dcaf}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Applied Statistics}
+      \field{number}{1}
+      \field{title}{A regression discontinuity design for ordinal running variables: Evaluating central bank purchases of corporate bonds}
+      \field{volume}{15}
+      \field{year}{2021}
+      \field{pages}{304\bibrangedash 322}
+      \range{pages}{19}
+    \endentry
+    \entry{rokkanen2015exam}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c862df391a757f2bfbbd0e868a0f303e}{%
+           family={Rokkanen},
+           familyi={R\bibinitperiod},
+           given={Miikka\bibnamedelima AT},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c862df391a757f2bfbbd0e868a0f303e}
+      \strng{fullhash}{c862df391a757f2bfbbd0e868a0f303e}
+      \strng{bibnamehash}{c862df391a757f2bfbbd0e868a0f303e}
+      \strng{authorbibnamehash}{c862df391a757f2bfbbd0e868a0f303e}
+      \strng{authornamehash}{c862df391a757f2bfbbd0e868a0f303e}
+      \strng{authorfullhash}{c862df391a757f2bfbbd0e868a0f303e}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exam schools, ability, and the effects of affirmative action: Latent factor extrapolation in the regression discontinuity design}
+      \field{year}{2015}
+    \endentry
+    \entry{rubin2008objective}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=557f967471a621bf5ed42b091c523bd9}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Mathematical Statistics}%
+      }
+      \strng{namehash}{557f967471a621bf5ed42b091c523bd9}
+      \strng{fullhash}{557f967471a621bf5ed42b091c523bd9}
+      \strng{bibnamehash}{557f967471a621bf5ed42b091c523bd9}
+      \strng{authorbibnamehash}{557f967471a621bf5ed42b091c523bd9}
+      \strng{authornamehash}{557f967471a621bf5ed42b091c523bd9}
+      \strng{authorfullhash}{557f967471a621bf5ed42b091c523bd9}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The annals of applied statistics}
+      \field{number}{3}
+      \field{title}{For objective causal inference, design trumps analysis}
+      \field{volume}{2}
+      \field{year}{2008}
+      \field{pages}{808\bibrangedash 840}
+      \range{pages}{33}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

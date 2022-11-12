@@ -35,5 +35,49 @@
 \end{frame}
 
 \begin{frame}{Literature: Randomization Inference RD}
+    Posit a non-trivial interval $\mathcal{I}$ with $c\in\mathcal{I}$ s.t.
+    $$
+    \left\{ Y_{i}\left(0\right),Y_{i}\left(1\right)\right\} \perp Z_i \mid \left\{ Z_{i}\in\mathcal{I}\right\}
+    $$
+    then focus on this interval, perform classical \textcolor{mygreen}{\textbf{randomized}} study inference
+
     
+        \begin{itemize}
+            \item<2-> Design-based approach {\footnotesize\citep{rubin2008objective}}
+            \item<3-> Strong assumption
+            
+            No \textcolor{mygreen}{\textbf{data-driven way}} of choosing $\mathcal{I}$
+                    
+            If the interval $\mathcal{I}$ is known a-priori, the problem collapses to a \textcolor{mygreen}{\textbf{RCT}}
+        \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Measurement Error Induced RD}
+    \uncover<2->{
+        \citet{rokkanen2015exam} considers a similar approach, assuming:
+        \begin{itemize}
+            \item<3-> noisy running variables \textcolor{mygreen}{\textbf{(A2)}} and exogeneity of the noise \textcolor{mygreen}{\textbf{(A3)}}
+            \item<4-> \textcolor{mygreen}{\textbf{NOT}} assuming prior knowledge of the noise distribution $p(\cdot \mid u)$
+            \item<5-> A stronger assumption: observing at least 3 noisy measurements of the latent variable $U_i$, $\left\{ Z_i, \textcolor<6->{mygreen}{Z_i',Z_i''} \right\}$ 
+            \uncover<7->{\begin{itemize}
+                \item[-] $(U_i,Z_i,Z_i',Z_i'')$ is \textcolor{mygreen}{\textbf{joint normal}} 
+                \item[-] $\alpha_{(w)}(u) = \mathbb{E}\left[ Y_i(w)\mid U_i=uu\right]$ is \textcolor{mygreen}{\textbf{linear}} w.r.t. $u$
+            \end{itemize}}
+            
+        \end{itemize}
+    }
+\end{frame}
+
+\begin{frame}{RD with Ordinal Running Variables}
+     Similarly, ordinal $Z_i$ {\footnotesize(bond rating, custody security score, etc.)} can be seen as a noisy measurement of a latent variable $U_i$.
+
+     \citet{li2021regression} assume 
+     $$
+        U_i = \mathbf{X}_i \mathbf{\beta}
+     $$
+     then use \textcolor{mygreen}{\textbf{inverse-propensity weighting}} with estimated propensities $e(u)=\mathbb{P}\left[ Z_i\geq c\mid U_i=u \right]$ for inference.
+
+
+     \uncover<2->{\textcolor{mygreen}{\textbf{Assuming}}: $U_i$ can be observed, and well predicted by $\mathbf{X}_i$}
 \end{frame}
