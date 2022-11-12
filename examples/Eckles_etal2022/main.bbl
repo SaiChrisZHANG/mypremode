@@ -95,6 +95,51 @@
       \field{pages}{1\bibrangedash 39}
       \range{pages}{39}
     \endentry
+    \entry{bartalotti2021correction}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f2291c0f13caf274bd104e7968c25520}{%
+           family={Bartalotti},
+           familyi={B\bibinitperiod},
+           given={Ot{á}vio},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=43a453c4c0eb6028d05ca3ea3ad291e6}{%
+           family={Brummet},
+           familyi={B\bibinitperiod},
+           given={Quentin},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=16c8bb4c5daa8c658b34d86625f35bd4}{%
+           family={Dieterle},
+           familyi={D\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{c14c6ae07e17c4c70a09fb4168880542}
+      \strng{fullhash}{69ae7b40cdfed0c07ce7ca92a46df505}
+      \strng{bibnamehash}{69ae7b40cdfed0c07ce7ca92a46df505}
+      \strng{authorbibnamehash}{69ae7b40cdfed0c07ce7ca92a46df505}
+      \strng{authornamehash}{c14c6ae07e17c4c70a09fb4168880542}
+      \strng{authorfullhash}{69ae7b40cdfed0c07ce7ca92a46df505}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business \& Economic Statistics}
+      \field{number}{3}
+      \field{title}{A correction for regression discontinuity designs with group-specific mismeasurement of the running variable}
+      \field{volume}{39}
+      \field{year}{2021}
+      \field{pages}{833\bibrangedash 848}
+      \range{pages}{16}
+    \endentry
     \entry{calonico2014robust}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=bf76a9cacec95807f53a25a560e9b6bb}{%
@@ -139,6 +184,77 @@
       \field{year}{2014}
       \field{pages}{2295\bibrangedash 2326}
       \range{pages}{32}
+    \endentry
+    \entry{davezies2017regression}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=dec67263fbe57ebabdc243b75c9be392}{%
+           family={Davezies},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb3c7f3d5b5ffcb3959d2a8fa524bfa7}{%
+           family={Le\bibnamedelima Barbanchon},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{772fde51c2efe7e6899aa29488f1fc7a}
+      \strng{fullhash}{772fde51c2efe7e6899aa29488f1fc7a}
+      \strng{bibnamehash}{772fde51c2efe7e6899aa29488f1fc7a}
+      \strng{authorbibnamehash}{772fde51c2efe7e6899aa29488f1fc7a}
+      \strng{authornamehash}{772fde51c2efe7e6899aa29488f1fc7a}
+      \strng{authorfullhash}{772fde51c2efe7e6899aa29488f1fc7a}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of econometrics}
+      \field{number}{2}
+      \field{title}{Regression discontinuity design with continuous measurement error in the running variable}
+      \field{volume}{200}
+      \field{year}{2017}
+      \field{pages}{260\bibrangedash 281}
+      \range{pages}{22}
+    \endentry
+    \entry{dong2021can}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=7eb242ba49f799fe7e9af881329e9b87}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Yingying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
+           family={Koles{á}r},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0545eb8dd315683673a7bab81e83250}
+      \strng{fullhash}{c0545eb8dd315683673a7bab81e83250}
+      \strng{bibnamehash}{c0545eb8dd315683673a7bab81e83250}
+      \strng{authorbibnamehash}{c0545eb8dd315683673a7bab81e83250}
+      \strng{authornamehash}{c0545eb8dd315683673a7bab81e83250}
+      \strng{authorfullhash}{c0545eb8dd315683673a7bab81e83250}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2111.07388}
+      \field{title}{When Can We Ignore Measurement Error in the Running Variable?}
+      \field{year}{2021}
     \endentry
     \entry{eckles2020noise}{article}{}
       \name{author}{4}{}{%
@@ -343,6 +459,45 @@
       \field{pages}{264\bibrangedash 278}
       \range{pages}{15}
     \endentry
+    \entry{jiang2020measurement}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=99c56ff58f2bbe9966c064f969e9e8e8}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Zhichao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=284b1660e81956ee8b9e73c17795c851}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2e4a6921af79c237c3d3c44642fa6c8d}
+      \strng{fullhash}{2e4a6921af79c237c3d3c44642fa6c8d}
+      \strng{bibnamehash}{2e4a6921af79c237c3d3c44642fa6c8d}
+      \strng{authorbibnamehash}{2e4a6921af79c237c3d3c44642fa6c8d}
+      \strng{authornamehash}{2e4a6921af79c237c3d3c44642fa6c8d}
+      \strng{authorfullhash}{2e4a6921af79c237c3d3c44642fa6c8d}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
+      \field{title}{Measurement errors in the binary instrumental variable model}
+      \field{volume}{107}
+      \field{year}{2020}
+      \field{pages}{238\bibrangedash 245}
+      \range{pages}{8}
+    \endentry
     \entry{kolesar2018inference}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=36619a933fa91c52aedf5de916afa389}{%
@@ -378,6 +533,45 @@
       \field{year}{2018}
       \field{pages}{2277\bibrangedash 2304}
       \range{pages}{28}
+    \endentry
+    \entry{kuroki2014measurement}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d018ff0601e07dab0253227e813151ff}{%
+           family={Kuroki},
+           familyi={K\bibinitperiod},
+           given={Manabu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=809f695b398afbb54b544c49e8d1bbbb}{%
+           family={Pearl},
+           familyi={P\bibinitperiod},
+           given={Judea},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4629785d58aaa70b1751e1b7d6854668}
+      \strng{fullhash}{4629785d58aaa70b1751e1b7d6854668}
+      \strng{bibnamehash}{4629785d58aaa70b1751e1b7d6854668}
+      \strng{authorbibnamehash}{4629785d58aaa70b1751e1b7d6854668}
+      \strng{authornamehash}{4629785d58aaa70b1751e1b7d6854668}
+      \strng{authorfullhash}{4629785d58aaa70b1751e1b7d6854668}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{2}
+      \field{title}{Measurement bias and effect restoration in causal inference}
+      \field{volume}{101}
+      \field{year}{2014}
+      \field{pages}{423\bibrangedash 437}
+      \range{pages}{15}
     \endentry
     \entry{li2021regression}{article}{}
       \name{author}{4}{}{%
@@ -429,6 +623,67 @@
       \field{year}{2021}
       \field{pages}{304\bibrangedash 322}
       \range{pages}{19}
+    \endentry
+    \entry{pearl2012measurement}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=809f695b398afbb54b544c49e8d1bbbb}{%
+           family={Pearl},
+           familyi={P\bibinitperiod},
+           given={Judea},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{fullhash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{bibnamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authorbibnamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authornamehash}{809f695b398afbb54b544c49e8d1bbbb}
+      \strng{authorfullhash}{809f695b398afbb54b544c49e8d1bbbb}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1203.3504}
+      \field{title}{On measurement bias in causal inference}
+      \field{year}{2012}
+    \endentry
+    \entry{pei2017devil}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0785f5b29ead60d947b708c09b2fbbb4}{%
+           family={Pei},
+           familyi={P\bibinitperiod},
+           given={Zhuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=892b04462b0f32976a05e06bdfe9b4a0}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Publishing Limited}%
+      }
+      \strng{namehash}{cdfe9fac43a2bd849da6b124ca24c8e8}
+      \strng{fullhash}{cdfe9fac43a2bd849da6b124ca24c8e8}
+      \strng{bibnamehash}{cdfe9fac43a2bd849da6b124ca24c8e8}
+      \strng{authorbibnamehash}{cdfe9fac43a2bd849da6b124ca24c8e8}
+      \strng{authornamehash}{cdfe9fac43a2bd849da6b124ca24c8e8}
+      \strng{authorfullhash}{cdfe9fac43a2bd849da6b124ca24c8e8}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Regression discontinuity designs}
+      \field{title}{The devil is in the tails: Regression discontinuity design with measurement error in the assignment variable}
+      \field{year}{2017}
     \endentry
     \entry{rokkanen2015exam}{article}{}
       \name{author}{1}{}{%

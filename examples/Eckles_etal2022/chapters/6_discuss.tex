@@ -54,15 +54,15 @@
 \end{frame}
 
 \begin{frame}{Measurement Error Induced RD}
-    \uncover<2->{
+    \uncover<1->{
         \citet{rokkanen2015exam} considers a similar approach, assuming:
         \begin{itemize}
-            \item<3-> noisy running variables \textcolor{mygreen}{\textbf{(A2)}} and exogeneity of the noise \textcolor{mygreen}{\textbf{(A3)}}
-            \item<4-> \textcolor{mygreen}{\textbf{NOT}} assuming prior knowledge of the noise distribution $p(\cdot \mid u)$
-            \item<5-> A stronger assumption: observing at least 3 noisy measurements of the latent variable $U_i$, $\left\{ Z_i, \textcolor<6->{mygreen}{Z_i',Z_i''} \right\}$ 
-            \uncover<7->{\begin{itemize}
+            \item<2-> noisy running variables \textcolor{mygreen}{\textbf{(A2)}} and exogeneity of the noise \textcolor{mygreen}{\textbf{(A3)}}
+            \item<2-> \textcolor{mygreen}{\textbf{NOT}} assuming prior knowledge of the noise distribution $p(\cdot \mid u)$
+            \item<3-> A stronger assumption: observing at least 3 noisy measurements of the latent variable $U_i$, $\left\{ Z_i, \textcolor<4->{mygreen}{Z_i',Z_i''} \right\}$ 
+            \uncover<5->{\begin{itemize}
                 \item[-] $(U_i,Z_i,Z_i',Z_i'')$ is \textcolor{mygreen}{\textbf{joint normal}} 
-                \item[-] $\alpha_{(w)}(u) = \mathbb{E}\left[ Y_i(w)\mid U_i=uu\right]$ is \textcolor{mygreen}{\textbf{linear}} w.r.t. $u$
+                \item[-] $\alpha_{(w)}(u) = \mathbb{E}\left[ Y_i(w)\mid U_i=u\right]$ is \textcolor{mygreen}{\textbf{linear}} w.r.t. $u$
             \end{itemize}}
             
         \end{itemize}
@@ -79,5 +79,42 @@
      then use \textcolor{mygreen}{\textbf{inverse-propensity weighting}} with estimated propensities $e(u)=\mathbb{P}\left[ Z_i\geq c\mid U_i=u \right]$ for inference.
 
 
-     \uncover<2->{\textcolor{mygreen}{\textbf{Assuming}}: $U_i$ can be observed, and well predicted by $\mathbf{X}_i$}
+     \uncover<2->{\vspace*{20pt}\textcolor{mygreen}{\textbf{Assuming}}: $U_i$ can be observed, and well predicted by $\mathbf{X}_i$}
+\end{frame}
+
+\begin{frame}{Measurement Errors}
+    \begin{itemize}
+        \item The \textcolor{mygreen}{\textbf{running variable}} is unobserved, only a noisy measurement is observed
+        
+        \citet{bartalotti2021correction,davezies2017regression,dong2021can,pei2017devil}
+        \item Measurement error in causal inference beyond RD
+        
+        \citet{pearl2012measurement,kuroki2014measurement,jiang2020measurement}
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{A Comparison}
+    \begin{table}[h!]
+    \small
+    \begin{center}
+        \label{tab:summary}
+        \begin{tabular}{rl}
+        
+        RD designs & Assumptions\\
+        \hline
+        & \\
+        Noise-induced RD & a \textcolor{mygreen}{\textbf{known distribution}} of the measurement error $p(\cdot\mid u)$\\
+        Noise-induced RD {\footnotesize\citep{rokkanen2015exam}} & \textcolor{mygreen}{\textbf{multiple joint-normal}} noisy measurements $(U_i,Z_i,Z_i',Z_i'')$\\
+        & \textcolor{mygreen}{\textbf{linear}} $\alpha_{(w)}(u) = \mathbb{E}\left[ Y_i(w)\mid U_i=u\right]$ \\
+        & \\
+        \hline
+        & \\
+        Continuity-based RD & $\mu_{(w)}=\mathbb{E}\left[Y(w)\mid Z=z\right]$ is \textcolor{mygreen}{\textbf{smooth}}\\
+        OPtimization-based RD & \textcolor{mygreen}{\textbf{convexity}} of $\mu_{(w)}(z)$: $ \left\vert \mu_{(w)}''(z) \right\vert \leq B, \forall z\in\mathbb{R}$ \\
+        Randomization inference RD & an \textcolor{mygreen}{\textbf{"RCT"}} interval $\mathcal{I}$: $\left\{ Y_{i}\left(0\right),Y_{i}\left(1\right)\right\} \perp Z_i \mid \left\{ Z_{i}\in\mathcal{I}\right\}$ \\
+        RD with ordinal $Z_i$ & $U_i$ can be observed, and well predicted by $\mathbf{X}_i$
+        \end{tabular}
+    \end{center}
+    \end{table}
 \end{frame}
