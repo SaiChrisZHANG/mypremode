@@ -51,6 +51,28 @@
         }
     \end{frame}
 
+    \begin{frame}{Weighted Treatment Effects: Examples}
+        $$
+        \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} \textcolor<3>{mygreen}{\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
+        $$
+        where $\tau(u)$ \textcolor{mygreen}{\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
+
+        \uncover<2->{
+            \begin{itemize}
+                \item<2> RD paramater:
+                $$
+                \tau_{c}=\mathbb{E}\left[ Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid Z_{i}=c\right] = \int\frac{p\left(c\mid u\right)}{\int p\left(c\mid u\right)\mathrm{d}G\left(u\right)} \tau\left(u\right) \mathrm{d}G\left(u\right)
+                $$
+                \item<3> Changing the cutoff: 
+                $$
+                \tau_{\pi}=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid c'\leq Z_{i}<c\right]= \int\tau\left(u\right)\frac{\int_{\left[c',c\right)}p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)}{\int_{\left[c',c\right)}\mathrm{d}F\left(z\right)}\mathrm{d}G\left(u\right)
+                $$
+            \end{itemize}
+        }
+        
+        
+    \end{frame}
+
 
     \begin{frame}{Asymptotic Bias}
         \begin{block}{\textbf{Theorem 2: Asymptotic Limit of $\hat{\tau}_\gamma$}}
@@ -114,8 +136,8 @@
             \uncover<4->{\item \textcolor{mygreen}{\textbf{CATE heterogeneity bias:}} }
             \uncover<5->{
                 \begin{itemize}
-                    \uncover<6->{\item[-] $\tau(u)$ being constant w.r.t. $u$}, a constant conditional treatment effect
-                    \uncover<7->{\item[-] $h(u,\gamma_+)=w(u),\forall u$ }, an absolutely correct weighting function
+                    \uncover<6->{\item[-] $\tau(u)$ being constant w.r.t. $u$, a constant conditional treatment effect}
+                    \uncover<7->{\item[-] $h(u,\gamma_+)=w(u),\forall u$, an absolutely correct weighting function}
                 \end{itemize}
             }
         \end{itemize}}
