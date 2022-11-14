@@ -51,28 +51,53 @@
         }
     \end{frame}
 
-    \begin{frame}{Weighted Treatment Effects: Examples}
+    \begin{frame}{Weighted Treatment Effects: Example 1}
         $$
-        \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} \textcolor<3>{mygreen}{\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
+        \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
         $$
         where $\tau(u)$ \textcolor{mygreen}{\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
-
+        \vspace*{15pt}
         \uncover<2->{
             \begin{itemize}
                 \item<2> RD paramater:
                 $$
                 \tau_{c}=\mathbb{E}\left[ Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid Z_{i}=c\right] = \int\frac{p\left(c\mid u\right)}{\int p\left(c\mid u\right)\mathrm{d}G\left(u\right)} \tau\left(u\right) \mathrm{d}G\left(u\right)
                 $$
-                \item<3> Changing the cutoff: 
+            \end{itemize}
+        }
+        
+    \end{frame}
+
+    \begin{frame}{Weighted Treatment Effects: Example 2}
+        $$
+        \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
+        $$
+        where $\tau(u)$ {\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
+        \vspace*{15pt}
+            \begin{itemize}
+                \item Changing the cutoff from $c$ to $c'<c$: 
                 $$
                 \tau_{\pi}=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid c'\leq Z_{i}<c\right]= \int\tau\left(u\right)\frac{\int_{\left[c',c\right)}p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)}{\int_{\left[c',c\right)}\mathrm{d}F\left(z\right)}\mathrm{d}G\left(u\right)
                 $$
             \end{itemize}
-        }
-        
         
     \end{frame}
 
+    \begin{frame}{Weighted Treatment Effects: Example 3}
+        $$
+        \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
+        $$
+        where $\tau(u)$ \textcolor{mygreen}{\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
+        \vspace*{15pt}
+            \begin{itemize}
+                \item Measurement error reduced from $Z_i\mid U_i\sim \mathcal{N}(U_i,\nu^2)$ to $Z_i'\mid U_i \sim \mathcal{N}(U_i,{\nu'}^2)$: 
+                \begin{align*}
+                    \tau_{\pi}&=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid W'_{i}>W_{i}\right] \\
+                    &= \int\tau\left(u\right)\frac{\left(1-\Phi_{\nu'}\left(c-u\right)\right)\Phi_{\nu}\left(c-u\right)}{\int\left(1-\Phi_{\nu'}\left(c-u\right)\right)\Phi_{\nu}\left(c-u\right)\mathrm{d}G\left(u\right)}\mathrm{d}G\left(u\right)
+                \end{align*}
+            \end{itemize}
+        
+    \end{frame}
 
     \begin{frame}{Asymptotic Bias}
         \begin{block}{\textbf{Theorem 2: Asymptotic Limit of $\hat{\tau}_\gamma$}}
