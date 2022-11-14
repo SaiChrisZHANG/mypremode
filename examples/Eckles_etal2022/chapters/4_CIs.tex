@@ -16,9 +16,233 @@
         \small
         Suppose the sequence of weighting kernels $\gamma_{+}^{\left(n\right)}$ and $\gamma_{-}^{\left(n\right)}$ is deterministic, and  $\exists\beta\in\left(0,\frac{1}{2}\right), C,C'>0$ s.t. $\forall n$ large enough:
         \begin{align*}
-            \sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right|&<Cn^{\beta}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right] & \sup_{u}\left|h\left(u,\gamma_{\diamond}^{\left(n\right)}\right)\right|&<C'\mathbb{E}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right], & \diamond&=\left\{ +,-\right\} 
+            \sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right|&<Cn^{\beta} \mathbb{E} \left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right] & \sup_{u}\left|h\left(u,\gamma_{\diamond}^{\left(n\right)}\right)\right|&<C'\mathbb{E}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right], & \diamond&=\left\{ +,-\right\} 
         \end{align*}
-        where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$, $\alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$
+        Then 
+        $$
+        \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\sqrt{V_{\gamma}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+        where 
+        $$
+        V_{\gamma}=\frac{\mathbb{E}\left[\gamma_{+}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}+\frac{\mathbb{E}\left[\gamma_{-}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,-}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{-}\left(Z_{i}\right)\right]^{2}}
+        $$
     \end{block}
     
  \end{frame}
+
+ \begin{frame}{Asymptotic Normality}
+    \begin{block}{\textbf{Theorem: Asymptotic Normality of $\hat{\tau}$}}
+        \small
+        Suppose the sequence of weighting kernels $\gamma_{+}^{\left(n\right)}$ and $\gamma_{-}^{\left(n\right)}$ is deterministic, and  $\exists\beta\in\left(0,\frac{1}{2}\right), C,C'>0$ s.t. $\forall n$ large enough: $\sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right| <Cn^{\beta}  \mathbb{E} \left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]$, $\sup_{u}\left|h\left(u,\gamma_{\diamond}^{\left(n\right)}\right)\right| <C'\mathbb{E}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]$ where $\diamond=\left\{ +,-\right\}$
+        Then 
+        $$
+        \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\sqrt{V_{\gamma}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+        where $V_{\gamma}=\frac{\mathbb{E}\left[\gamma_{+}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}+\frac{\mathbb{E}\left[\gamma_{-}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,-}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{-}\left(Z_{i}\right)\right]^{2}}$
+    \end{block}
+
+    \vspace*{5pt}
+    Assumption:
+    \begin{itemize}
+        \item The repsonse $Y_i$ is bounded: $Y_i \in [0,1]$
+        \item $\inf_z\mathrm{Var}\left[Y_i\mid Z_i=z\right]>0$
+    \end{itemize}
+    \vspace*{5pt}
+ \end{frame}
+
+ \begin{frame}{Asymptotic Normality: A Sketch of the Proof}
+    $$
+    \frac{\sqrt{n}\left[ \left(\hat{\mu}_{\gamma,+}-\hat{\mu}_{\gamma,-}\right) - \left({\mu}_{\gamma,+}-{\mu}_{\gamma,-}\right) \right]}{\sqrt{ \frac{\mathbb{E}\left[\gamma_{+}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}+\frac{\mathbb{E}\left[\gamma_{-}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,-}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{-}\left(Z_{i}\right)\right]^{2}} }}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+    $$
+
+    \uncover<2->{
+        $$
+        \frac{\sqrt{n}\left(\hat{\mu}_{\gamma,+}-\mu_{\gamma,+}\right)}{\sqrt{\frac{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+    }
+
+    \uncover<3->{
+        $$
+        \frac{\sqrt{n}\left( \frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)Y_{i}}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}-\mu_{\gamma,+} \right)}{\sqrt{\frac{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+    }
+    
+ \end{frame}
+
+ \begin{frame}{Asymptotic Normality: A Sketch of the Proof}
+    \uncover<1->{
+        $$
+        \frac{\sqrt{n}\left( \frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)Y_{i}}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}-\mu_{\gamma,+} \right)}{\sqrt{\frac{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+    }
+    \uncover<2->{
+        $$
+        \frac{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}}{\frac{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}} =
+         \underbrace{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}}_{\xrightarrow{d}\mathcal{N}(0,1)} \cdot \frac{1}{\underbrace{\boxed{\frac{\frac{1}{n}\sum_{i}\gamma_{+}\left(Z_{i}\right)}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}}}_{=1+o_p(1)}} \xrightarrow{d} \mathcal{N}(0,1)
+        $$
+    }
+    
+ \end{frame}
+
+ \begin{frame}{Asymptotic Normality: A Sketch of the Proof}
+    $$
+    \frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}} \xrightarrow{d} \mathcal{N}(0,1)
+    $$
+
+    \begin{itemize}
+        \footnotesize
+        \item \textcolor{mygreen}{$\boxed{\inf_{z}\mathrm{Var}\left[Y_{i}\mid Z_{i}=z\right]>0}$}: $\mathrm{Var}\left[\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)\right] \geq \underline{\sigma}^{2} \mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\right]$
+        \item \textcolor{mygreen}{${\boxed{\sup_{u}\left|h\left(u,\gamma_{\diamond}^{\left(n\right)}\right)\right|<C'\mathbb{E}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]}}$} and \textcolor{mygreen}{$\boxed{Y_{i}\in\left[0,1\right]}$}: $\left|\mu_{\gamma,+}\right|=\left|\frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}\right| \leq C'$
+        \item \textcolor{mygreen}{$\boxed{\sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right|<Cn^{\beta}  \mathbb{E} \left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]}$} and \textcolor{mygreen}{Lyapunov CLT condition}: {\scriptsize $$\frac{n\mathbb{E}\left[\left|\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)\right|^{2+q}\right]}{\left(n\mathrm{Var}\left[\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)\right]\right)^{\frac{2+q}{2}}} \leq\left(\frac{C'+1}{\underline{\sigma}}\right)^{2+q}\left(Cn^{\beta-\frac{1}{2}}\right)^{q}\xrightarrow{0\rightarrow\infty} 0$$}
+    \end{itemize}
+ \end{frame}
+
+ \begin{frame}{Asymptotic Normality: A Sketch of the Proof}
+    $$
+    \frac{\frac{1}{n}\sum_{i}\gamma_{+}\left(Z_{i}\right)}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]} \xrightarrow{p} 1
+    $$
+
+    \begin{itemize}
+        \item \textcolor{mygreen}{$\boxed{\sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right|<Cn^{\beta}  \mathbb{E} \left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]}$} and \textcolor{mygreen}{Chebyshev's inequality}:
+        \begin{align*}
+            \mathbf{P}\left\{ \left|\mathbb{E}_{n}\left[\gamma_{+}\left(Z_{i}\right)\right]-\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]\right|\geq\epsilon\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]\right\} &\leq\frac{\mathrm{Var}\left[\gamma_{+}\left(Z_{i}\right)\right]}{n\epsilon^{2}\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}} \\ 
+            & \leq \left(\frac{C}{\epsilon}\cdot n^{\beta-\frac{1}{2}}\right)^{2}\xrightarrow{n\rightarrow\infty}0
+        \end{align*}
+    \end{itemize}
+ \end{frame}
+
+ \begin{frame}{Plug-in Estimator for $V_{\gamma}$}
+
+    $$
+    V_{\gamma}=\frac{\mathbb{E}\left[\gamma_{+}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}+\frac{\mathbb{E}\left[\gamma_{-}^{2}\left(Z_{i}\right)\left(Y_{i}-\mu_{\gamma,-}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{-}\left(Z_{i}\right)\right]^{2}}
+    $$
+    \uncover<2->{
+        \begin{block}{\textbf{Proposition: Plug-in Estimator $\hat{V}_{\gamma}$}}
+            \small
+            Under the same assumptions, we have $\frac{\hat{V}_{\gamma}}{V_{\gamma}}=1+o_p(1)$ where
+            $$
+            \hat{V}_{\gamma} = \frac{\frac{1}{n}\sum_{i=1}^{n}\gamma_{+}^{2}\left(Z_{i}\right)\left(Y_{i}-\hat{\mu}_{\gamma,+}\right)^{2}}{\left[\frac{1}{n}\sum_{i=1}^{n}\gamma_{+}\left(Z_{i}\right)\right]^{2}}+\frac{\frac{1}{n}\sum_{i=1}^{n}\gamma_{-}^{2}\left(Z_{i}\right)\left(Y_{i}-\hat{\mu}_{\gamma,-}\right)^{2}}{\left[\frac{1}{n}\sum_{i=1}^{n}\gamma_{-}\left(Z_{i}\right)\right]^{2}}
+            $$
+        \end{block}
+    }
+ \end{frame}
+
+ \begin{frame}{Upper Bound for the Potential Bias $ \lvert b_{\gamma} \rvert = \lvert \theta_{\gamma}-\tau_{w} \rvert$}
+    \begin{align*}
+        a\mathrm{Bias}=\theta_{\gamma}-\tau_{w}=&\underbrace{\int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{h\left(u,\gamma_{-}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{-}\right)\right]}\right)\alpha_{\left(0\right)}\left(u\right)\mathrm{d}G\left(u\right)}_{\text{Confounding bias}}\\
+        &+\underbrace{\int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\right)\tau\left(u\right)\mathrm{d}G\left(u\right)}_{\text{CATE heterogeneity bias}}
+    \end{align*}
+
+    \uncover<2->{
+        The distribution of $G(\cdot)$ is \textcolor{mygreen}{\textbf{unknown}}
+    }
+    
+ \end{frame}
+
+
+ \begin{frame}{Upper Bound for the Potential Bias $ \lvert b_{\gamma} \rvert = \lvert \theta_{\gamma}-\tau_{w} \rvert$}
+    Bound the \textcolor{mygreen}{\textbf{worst-case}} bias:
+    \begin{itemize}
+        \item<2-> Back out the class of latent variable distribution from $\hat{F}_n(t)=\frac{1}{n}\sum^n_{i=1}\mathbf{1}(Z_i\leq t)$, the empirical distribution of $Z_i$ \citep{massart1990tight}:
+        \begin{align*}
+            \mathcal{G}_n &= \left\{ G(\cdot): \sup_{t\in\mathbb{R}}\left|F_{G}\left(t\right)-\hat{F}_{n}\left(t\right)\right|\leq\sqrt{\frac{\log\left(2/\alpha_{n}\right)}{2n}}  \right\}, & \alpha_n&=\min\left\{0.05,n^{-1/4} \right\}
+        \end{align*}
+        \item<3-> Take treatment effect heterogeneity into consideration: 
+        \begin{align*}
+            \mathcal{T}_{M} &=\left\{ \tau\left(\cdot\right)\mid\tau\left(u\right)=\bar{\tau}+\Delta\left(u\right), \bar{\tau}\in\mathbb{R},\left|\Delta\left(u\right)\right|\leq M\right\},& M&\in[0,1]
+        \end{align*}
+        \uncover<4->{
+            \begin{itemize}
+                \item[-] $\mathcal{T}_0$ ($M=0$): constant CATE
+                \item[-] $\mathcal{T}_1$ ($M=1$): no assumptions
+                \item[-] $\mathcal{T}_{1/2}$ ($M=0$): a conservative choice for a monotonicity restriction
+            \end{itemize}
+            \vspace*{10pt}
+        }
+    \end{itemize}
+    
+ \end{frame}
+
+ \begin{frame}{Upper Bound for the Potential Bias $ \lvert b_{\gamma} \rvert = \lvert \theta_{\gamma}-\tau_{w} \rvert$}
+    
+    \begin{block}{\textbf{Proposition: Upper Bound for the Potential Bias $\hat{B}_{\gamma,M}$}}
+        \small
+        Under asymptotic normality and all necessary assumptions, for $\tau(\cdot)\in \mathcal{T}_M$, the upper bound of bias is
+        \begin{align*}
+            \hat{B}_{\gamma,M}=\sup\left\{ \left|\mathrm{Bias}\left[\gamma_{\pm},\tau_{w};\alpha_{0}\left(\cdot\right),\tau\left(\cdot\right),G\right]\right|:G\in\mathcal{G}_{n},\alpha_{\left(0\right)}\left(\cdot\right)\in\left[0,1\right],\tau\left(\cdot\right)\in\mathcal{T}_{M}\right\} 
+        \end{align*}
+        then $\mathbf{P}\left(\left|b_{\gamma}\right|\leq\hat{B}_{\gamma,M}\right)\xrightarrow{n\rightarrow\infty}1$
+        
+    \end{block}
+    \uncover<2->{
+        \small
+
+            $$\left\{ G\in\mathcal{G}_{n}\right\} \subset\left\{ \left|b_{\gamma}\right|\leq\hat{B}_{\gamma,M}\right\} \Rightarrow \mathbf{P}\left(\left|b_{\gamma}\right|\leq\hat{B}_{\gamma,M}\right) \geq \mathbf{P}\left(G\in\mathcal{G}_{n}\right)$$
+            \uncover<3->{
+            and for $G\in \mathcal{G}_n$, DKW inequality gives:
+            $$
+            \mathbf{P}\left(G\in\mathcal{G}_{n}\right)\geq\mathbf{P}\left[\sup_{t\in\mathbb{R}}\left|F_{G}\left(t\right)-\hat{F}_{n}\left(t\right)\right|\leq\sqrt{\frac{\log\left(2/\alpha_{n}\right)}{2n}}\right]\geq 1-\alpha_{n} \xrightarrow[n\rightarrow \infty]{\alpha_n=\min\left\{0.05,n^{-1/4} \right\} }1
+            $$}
+        }
+
+ \end{frame}
+
+ \begin{frame}{Recap: What We Have Derived}
+    \begin{itemize}
+        \item<2-> Asymptotic limit: 
+        $$
+         \hat{\tau}_{\gamma}\xrightarrow{p}\theta_{\gamma}=\frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{-}\right)\right]}
+        $$
+        \item<3-> Asymptotic normality:
+        $$
+        \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\sqrt{V_{\gamma}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+        \item<4-> Upper bound of the asymptotic bias:  
+        $$
+        \hat{B}_{\gamma,M}=\sup\left\{ \left|\mathrm{Bias}\left[\gamma_{\pm},\tau_{w};\alpha_{0}\left(\cdot\right),\tau\left(\cdot\right),G\right]\right|:G\in\mathcal{G}_{n},\alpha_{\left(0\right)}\left(\cdot\right)\in\left[0,1\right],\tau\left(\cdot\right)\in\mathcal{T}_{M}\right\} 
+        $$
+    \end{itemize}
+    
+ \end{frame}
+
+ \begin{frame}{Bias-aware Confidence Intervals}
+
+    \begin{block}{\textbf{Corollary: Valid Confidence Intervals}}
+        \small
+        Under asymptotic normality and all necessary assumptions, for $\tau(\cdot)\in \mathcal{T}_M$, consider the CIs
+        \begin{align*}
+            \hat{\tau}_{\gamma}&\pm l_{\alpha}, &l_{\alpha}&=\min\left\{ l:\mathbf{P}\left[\left|b+n^{-\frac{1}{2}}\hat{V}_{\gamma}^{\frac{1}{2}}\tilde{Z}\right|\leq l\right]\geq1-\alpha,\forall\left|b\right|\leq\hat{B}_{\gamma,M}\right\} 
+        \end{align*}
+        where
+        \begin{itemize}
+            \item $\tilde{Z}$ is a standard Guassian random variable
+            \item $\alpha\in\left(0,1\right)$ is the significant level
+            \item $\hat{V}_{\gamma}$ is an estimate of the sampling variance $V_{\gamma}$
+        \end{itemize}
+        then
+        $$
+        \lim\inf_{n\rightarrow\infty}\mathbf{P}\left[\tau_{w}\in\hat{\tau}_{\gamma}\pm l_{\alpha}\right]\geq1-\alpha
+        $$
+        
+    \end{block}
+    
+ \end{frame}
+
+ \begin{frame}{Bias-aware Confidence Intervals}
+    CLT (with bias considered) is 
+    $$\frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\tau_{w}-b_{\gamma}\right)}{\hat{V}_{\gamma}^{1/2}}\xrightarrow{d}\mathcal{N}\left(0,1\right)$$ 
+    where $b_{\gamma}=\theta_{\gamma}-\tau_{w}$, then let $\tilde{Z}\sim\mathcal{N}\left(0,1\right) $ we have 
+    {\small
+    \begin{align*}
+        \mathbf{P}\left[\tau_{w}\in\hat{\tau}_{\gamma}\pm l_{\alpha}\right] = & \mathbf{P}\left[-l_{\alpha}-b_{\gamma}\leq\hat{\tau}_{\gamma}-\tau_{w}-b_{\gamma}\leq l_{\alpha}-b_{\gamma}\right]\\
+        = & \mathbf{P}\left[-\sqrt{n}\hat{V}_{\gamma}^{-1/2}\left(l_{\alpha}+b_{\gamma}\right)\leq\sqrt{n}\hat{V}_{\gamma}^{-1/2}\left(\hat{\tau}_{\gamma}-\tau_{w}-b_{\gamma}\right)\leq\sqrt{n}\hat{V}_{\gamma}^{-1/2}\left(l_{\alpha}-b_{\gamma}\right)\right]\\
+        \textcolor<2->{mygreen}{=} & \textcolor<2->{mygreen}{\mathbb{E}\left(\mathbf{P}\left[-\sqrt{n}\hat{V}_{\gamma}^{-1/2}\left(l_{\alpha}+b_{\gamma}\right)\leq\tilde{Z}\leq\sqrt{n}\hat{V}_{\gamma}^{-1/2}\left(l_{\alpha}-b_{\gamma}\right)\right]\mid\hat{V}_{\gamma},\hat{B}_{\gamma,M},\hat{\tau}_{\gamma}\right)+o\left(1\right)}\\
+        = & \mathbb{E}\left[\mathbf{P}\left(-l_{\alpha}\leq n^{-1/2}\hat{V}_{\gamma}^{1/2}\tilde{Z}+b_{\gamma}\leq l_{\alpha}\right)\mid\hat{V}_{\gamma},\hat{B}_{\gamma,M},\hat{\tau}_{\gamma}\right]+o\left(1\right)\\
+        = & 1-\alpha+o\left(1\right)
+    \end{align*}}
+        
+ \end{frame}
+
+\begin{frame}{Robustness to CATE Heterogeneity}
+    
+\end{frame}
