@@ -179,6 +179,23 @@
 \end{frame}
 
 \begin{frame}{Sharp RD Design with A Noisy Running Variable}
+    \begin{block}{\textbf{Proposition 1}}
+        \small
+        Let $\gamma_{+}(\cdot),\gamma_{-}(\cdot)$ be measurable functions of $Z$, then under A1-A3:
+        \begin{align*}
+            \mathbb{E}\left[\gamma_{+}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right], & \mathbb{E}\left[\gamma_{-}\left(Z\right)Y\right]&=\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]
+        \end{align*}
+        where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$, $\alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$
+    \end{block}
+    \begin{align*}
+        \mathbb{E}\left[\gamma_{+}\left(Z\right)Y\mid U\right] & \uncover<2->{= \mathbb{E}\left[ \textcolor<2>{mygreen}{\gamma_{+}\left(Z\right)} Y\cdot \textcolor<2>{mygreen}{\mathbf{1}\left(\left\{ Z\geq c\right\} \right)} \mid U\right]}\\
+        & \uncover<3->{= \mathbb{E}\left[\gamma_{+}\left(Z\right) \textcolor<3>{mygreen}{Y\left(1\right)} \cdot\mathbf{1}\left(\left\{ Z\geq c\right\} \right)\mid U\right]}\\
+        & \uncover<4->{ = \underbrace{\mathbb{E}\left[Y\left(1\right)\mid U\right]}_{\textcolor{mygreen}{=\alpha_{\left(1\right)}\left(U\right)}}\cdot\underbrace{\mathbb{E}\left[\gamma_{+}\left(Z\right)\mathbf{1}\left(\left\{ Z\geq c\right\} \right)\mid U\right]}_{=\mathbb{E}\left[\gamma_{+}\left(Z\right)\mid U\right] = \int\gamma_{+}\left(z\right)p\left(z\mid U\right)\mathrm{d}\lambda\left(z\right) \textcolor{mygreen}{= h(U,\gamma_+)} } }
+    \end{align*} 
+    
+\end{frame}
+
+\begin{frame}{Sharp RD Design with A Noisy Running Variable}
     \begin{columns}[T]
         \begin{column}{0.45\textwidth}
             \begin{figure}[h!]
