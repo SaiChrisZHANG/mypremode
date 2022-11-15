@@ -47,8 +47,26 @@
     \uncover<2->{
         \small
         \begin{align*}
-            F_{G}\left(t\right) &= \int\mathbf{1}\left(\left\{ z\leq t\right\} \right)\int p\left(z\mid u\right)\mathrm{d}G\left(u\right)\mathrm{d}\lambda\left(z\right) \\
-            \tau_{w}&= \int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\tau\left(u\right)\mathrm{d}G\left(u\right)
+            &\bar{F}(\cdot): &F_{G}\left(t\right) &= \int\mathbf{1}\left(\left\{ z\leq t\right\} \right)\int p\left(z\mid u\right)\mathrm{d}G\left(u\right)\mathrm{d}\lambda\left(z\right) \\
+            &\bar{w}(\cdot): &\tau_{w}&= \int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\tau\left(u\right)\mathrm{d}G\left(u\right)
         \end{align*}
     }
+\end{frame}
+
+\begin{frame}{Design Estimators: Quadratic Programming}
+
+    {
+        \small
+        \begin{align*}
+            &\bar{F}(\cdot): &F_{G}\left(t\right) &= \int\mathbf{1}\left(\left\{ z\leq t\right\} \right)\int p\left(z\mid u\right)\mathrm{d}G\left(u\right)\mathrm{d}\lambda\left(z\right) \\
+            &\bar{w}(\cdot): &\tau_{w}&= \int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\tau\left(u\right)\mathrm{d}G\left(u\right)
+        \end{align*}
+    }
+
+    \begin{itemize}
+        \item $\bar{F}\left(\cdot\right)$ assigns non-trivial mass to $\left[c,\infty\right)$ and $\bar{w}(\cdot)$ is bounded: $\exists k>1$ s.t.
+        $$\mathbb{P}\left[\frac{1}{k}<\bar{F}\left(\left[c,\infty\right)\right)<1-\frac{1}{k},\sup_{u}\left|\bar{w}\left(u\right)\right|<k\right]\xrightarrow{n\rightarrow\infty}1$$
+        \item $\int\gamma_{\diamond}^{\left(n\right)}\left(z\right)\mathrm{d}F\left(z\right)$ is asymptotically lower bounded by a strictly positive number: $$\exists\delta>0\text{ s.t. } \mathbb{P}\left[\int\gamma_{\diamond}^{\left(n\right)}\left(z\right)\mathrm{d}F\left(z\right)>\delta\right]\xrightarrow{n\rightarrow\infty}1$$
+    \end{itemize}
+    
 \end{frame}
