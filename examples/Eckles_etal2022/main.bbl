@@ -63,37 +63,6 @@
       \field{title}{Noise-induced randomization in regression discontinuity designs}
       \field{year}{2020}
     \endentry
-    \entry{massart1990tight}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=3fdc73538980b7e7479a1d199d366e08}{%
-           family={Massart},
-           familyi={M\bibinitperiod},
-           given={Pascal},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {JSTOR}%
-      }
-      \strng{namehash}{3fdc73538980b7e7479a1d199d366e08}
-      \strng{fullhash}{3fdc73538980b7e7479a1d199d366e08}
-      \strng{bibnamehash}{3fdc73538980b7e7479a1d199d366e08}
-      \strng{authorbibnamehash}{3fdc73538980b7e7479a1d199d366e08}
-      \strng{authornamehash}{3fdc73538980b7e7479a1d199d366e08}
-      \strng{authorfullhash}{3fdc73538980b7e7479a1d199d366e08}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The annals of Probability}
-      \field{title}{The tight constant in the Dvoretzky-Kiefer-Wolfowitz inequality}
-      \field{year}{1990}
-      \field{pages}{1269\bibrangedash 1283}
-      \range{pages}{15}
-    \endentry
   \enddatalist
 \endrefsection
 \endinput

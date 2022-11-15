@@ -243,6 +243,35 @@
         
  \end{frame}
 
-\begin{frame}{Robustness to CATE Heterogeneity}
-    
+\begin{frame}{Robustness to CATE Heterogeneity Misspecification}
+     
+    $$
+    \mathcal{T}_{M} =\left\{ \tau\left(\cdot\right)\mid\tau\left(u\right)=\bar{\tau}+\Delta\left(u\right), \bar{\tau}\in\mathbb{R},\left|\Delta\left(u\right)\right|\leq M\right\},\ \textcolor{mygreen}{M\in[0,1]}
+    $$
+
+    Consider an extreme misspecification of CATE heterogeneity: $M=0$, are the CIs robust?
+
+    \uncover<2->{
+        \begin{block}{\textbf{Corollary: Robustness to CATE Heterogeneity Misspecification}}
+            The CIs under the misspecification of $M=0$ is still valid, but only for the convenience-weighted treatment effect:
+            $$
+            \tau_{h,+}\coloneqq\int\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}\tau\left(u\right)\mathrm{d}G\left(u\right)
+            $$
+        \end{block}
+    }
+\end{frame}
+
+\begin{frame}{Robustness to CATE Heterogeneity Misspecification}
+    \begin{block}{\textbf{Corollary: Robustness to CATE Heterogeneity Misspecification}}
+        The CIs under the misspecification of $M=0$ is still valid, but only for:
+        $$
+        \tau_{h,+}\coloneqq\int\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}\tau\left(u\right)\mathrm{d}G\left(u\right)
+        $$
+    \end{block}
+
+    {\small
+    \begin{align*}
+        a\mathrm{Bias}=\theta_{\gamma}-\tau_{w}=&\int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{h\left(u,\gamma_{-}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{-}\right)\right]}\right)\alpha_{\left(0\right)}\left(u\right)\mathrm{d}G\left(u\right)\\
+        &+\underbrace{\int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\right)\tau\left(u\right)\mathrm{d}G\left(u\right)}_{\text{CATE heterogeneity bias}}
+    \end{align*}}
 \end{frame}
