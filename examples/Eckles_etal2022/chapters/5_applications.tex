@@ -70,3 +70,25 @@
     \end{itemize}
     
 \end{frame}
+
+\begin{frame}{Design Estimators: Procedure}
+
+    \begin{itemize}
+        \item<1-> \textcolor{mygreen}{\textbf{Input:}}
+        \begin{itemize}
+            \item[-] samples $ \left\{ Z_{i},Y_{i},W_{i}\right\} $ and cutoff $c$
+            \item[-] sensitivity model $\mathcal{T}_{M}$, estimand of interest $\tau_{w}$
+            \item[-] nominal significance level $\alpha$ 
+        \end{itemize}
+
+        \item<2-> \textcolor{mygreen}{\textbf{Procedure:}}
+        \begin{itemize}
+            \item[S1] guess/estimate $\bar{F}\left(\cdot\right)$ and $\bar{w}\left(\cdot\right)$ via nonparametric maximum likelihood
+            \item[S2] solve the minimax program, get $\gamma_{+},\gamma_{-}$ 
+            \item[S3] form the point estimate $\hat{\tau}_{\gamma}$ and its variance $\hat{V}_{\gamma}$
+            \item[S4] estimate the worst-case bias $\hat{B}_{\gamma}=\sup\left\{ \left|\mathrm{Bias}\left[\gamma_{\pm},\tau_{w};\alpha_{0}\left(\cdot\right),\tau\left(\cdot\right),G\right]\right|:G\in\mathcal{G}_{n},\alpha_{\left(0\right)}\left(\cdot\right)\in\left[0,1\right],\tau\left(\cdot\right)\in\mathcal{T}_{M}\right\} $
+            \item[S5] form the bias-aware CIs at level $\alpha$ as $\hat{\tau}_{\gamma}\pm l_{\alpha},l_{\alpha}=\min\left\{ l:\mathbf{P}\left[\left|b+n^{-\frac{1}{2}}\hat{V}_{\gamma}^{\frac{1}{2}}\tilde{Z}\right|\leq l\right]\geq1-\alpha,\forall\left|b\right|\leq\hat{B}_{\gamma,M}\right\} $
+        \end{itemize}
+    \end{itemize}
+    
+\end{frame}

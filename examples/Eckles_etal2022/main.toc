@@ -1,4 +1,4 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{Applications}{3}{0}{1}
+\beamer@sectionintoc {1}{Discussion}{3}{0}{1}
