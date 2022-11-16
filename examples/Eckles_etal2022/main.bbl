@@ -573,6 +573,39 @@
       \field{pages}{423\bibrangedash 437}
       \range{pages}{15}
     \endentry
+    \entry{lee2008randomized}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9675aeb2a7e235d2a3a2925621ce0eab}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9675aeb2a7e235d2a3a2925621ce0eab}
+      \strng{fullhash}{9675aeb2a7e235d2a3a2925621ce0eab}
+      \strng{bibnamehash}{9675aeb2a7e235d2a3a2925621ce0eab}
+      \strng{authorbibnamehash}{9675aeb2a7e235d2a3a2925621ce0eab}
+      \strng{authornamehash}{9675aeb2a7e235d2a3a2925621ce0eab}
+      \strng{authorfullhash}{9675aeb2a7e235d2a3a2925621ce0eab}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Econometrics}
+      \field{number}{2}
+      \field{title}{Randomized experiments from non-random selection in US House elections}
+      \field{volume}{142}
+      \field{year}{2008}
+      \field{pages}{675\bibrangedash 697}
+      \range{pages}{23}
+    \endentry
     \entry{li2021regression}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=99b3b2e56c8f5ffeb95b882b3da68136}{%
@@ -623,6 +656,37 @@
       \field{year}{2021}
       \field{pages}{304\bibrangedash 322}
       \range{pages}{19}
+    \endentry
+    \entry{massart1990tight}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3fdc73538980b7e7479a1d199d366e08}{%
+           family={Massart},
+           familyi={M\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{3fdc73538980b7e7479a1d199d366e08}
+      \strng{fullhash}{3fdc73538980b7e7479a1d199d366e08}
+      \strng{bibnamehash}{3fdc73538980b7e7479a1d199d366e08}
+      \strng{authorbibnamehash}{3fdc73538980b7e7479a1d199d366e08}
+      \strng{authornamehash}{3fdc73538980b7e7479a1d199d366e08}
+      \strng{authorfullhash}{3fdc73538980b7e7479a1d199d366e08}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The annals of Probability}
+      \field{title}{The tight constant in the Dvoretzky-Kiefer-Wolfowitz inequality}
+      \field{year}{1990}
+      \field{pages}{1269\bibrangedash 1283}
+      \range{pages}{15}
     \endentry
     \entry{pearl2012measurement}{article}{}
       \name{author}{1}{}{%
