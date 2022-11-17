@@ -12,22 +12,12 @@
             where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$, $\alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$
         \end{block}
 
-        \vspace*{15pt}
+        \vspace*{10pt}
         ratio-form estimators:
         \begin{align*}
-            \hat{\mu}_{\gamma,+} &= \frac{\sum_i \gamma_+\left(Z_i\right)Y_i}{\sum_i {\textcolor<2->{mygreen}{\underbrace{\gamma_+\left(Z_i\right)}_{\uncover<2->{\gamma_+(z)=0,z<c}}}} } & \hat{\mu}_{\gamma,-} &= \frac{\sum_i \gamma_-\left(Z_i\right)Y_i}{\sum_i \textcolor<2->{mygreen}{\underbrace{\gamma_-\left(Z_i\right)}_{\uncover<2->{\gamma_-(z)=0,z<\geq c}} } }
+            \hat{\tau}_{\gamma}&=\hat{\mu}_{\gamma,+}&-&\hat{\mu}_{\gamma,-} \\
+            &= \frac{\sum_i \gamma_+\left(Z_i\right)Y_i}{\sum_i {\textcolor<2->{mygreen}{\underbrace{\gamma_+\left(Z_i\right)}_{\uncover<2->{\gamma_+(z)=0,z<c}}}} } &- & \frac{\sum_i \gamma_-\left(Z_i\right)Y_i}{\sum_i \textcolor<2->{mygreen}{\underbrace{\gamma_-\left(Z_i\right)}_{\uncover<2->{\gamma_-(z)=0,z<\geq c}} } }
         \end{align*}
-
-    \end{frame}
-
-    \begin{frame}{Estimation of Weighted Treatment Effects}
-        Ratio-form estimators:
-        $$
-        \begin{aligned}
-            \frac{\mathbb{E}\left[\gamma_{+}\left(Z\right)Y\right]}{\mathbb{E}\left[\gamma_{+}\left(Z\right)\right]}& \Rightarrow & \hat{\mu}_{\gamma,+} &= \frac{\sum_i \gamma_+\left(Z_i\right)Y_i}{\sum_i \gamma_+\left(Z_i\right) } \\
-            \frac{\mathbb{E}\left[\gamma_{-}\left(Z\right)Y\right]}{\mathbb{E}\left[\gamma_{-}\left(Z\right)\right]}& \Rightarrow & \hat{\mu}_{\gamma,-} &= \frac{\sum_i \gamma_-\left(Z_i\right)Y_i}{\sum_i \gamma_-\left(Z_i\right) } 
-        \end{aligned} \uncover<2->{\ \ \Longrightarrow \hat{\tau}_{\gamma}=\hat{\mu}_{\gamma,+}-\hat{\mu}_{\gamma,-}}
-        $$
 
     \end{frame}
 
@@ -38,7 +28,7 @@
         $$
 
         \uncover<1->{
-            What's the weighted treatment effects to be estimated?
+            What's the weighted treatment effects to conduct inference for?
             \uncover<2->{
                 $$
                 \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} \textcolor<3>{mygreen}{\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
@@ -51,51 +41,65 @@
         }
     \end{frame}
 
-    \begin{frame}{Weighted Treatment Effects: Example 1}
+    \begin{frame}{Weighted Treatment Effects: Example}
         $$
         \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
         $$
         where $\tau(u)$ \textcolor{mygreen}{\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
         \vspace*{15pt}
-        \uncover<2->{
+        \uncover<1->{
             \begin{itemize}
-                \item<2> RD paramater:
-                $$
-                \tau_{c}=\mathbb{E}\left[ Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid Z_{i}=c\right] = \int\frac{p\left(c\mid u\right)}{\int p\left(c\mid u\right)\mathrm{d}G\left(u\right)} \tau\left(u\right) \mathrm{d}G\left(u\right)
-                $$
+                \item<1> RD paramater:
+                \begin{align*}
+                    \tau_{c}=\mathbb{E}\left[ Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid Z_{i}=c\right] &= \mathbb{E}\left[\tau(U_i)\mid Z_i=c\right]\\
+                    &= \int\frac{p\left(c\mid u\right)}{ \only<1>{\int p\left(c\mid u\right)\mathrm{d}G\left(u\right)} \only<2>{\textcolor{mygreen}{\underbrace{\int p\left(c\mid u\right)\mathrm{d}G\left(u\right)}_{=f_G(c)} }} } \tau\left(u\right) \mathrm{d}G\left(u\right)
+                \end{align*}
             \end{itemize}
         }
         
     \end{frame}
 
-    \begin{frame}{Weighted Treatment Effects: Example 2}
-        $$
-        \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
-        $$
-        where $\tau(u)$ {\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
-        \vspace*{15pt}
-            \begin{itemize}
-                \item Changing the cutoff from $c$ to $c'<c$: 
-                $$
-                \tau_{\pi}=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid c'\leq Z_{i}<c\right]= \int\tau\left(u\right)\frac{\int_{\left[c',c\right)}p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)}{\int_{\left[c',c\right)}\mathrm{d}F\left(z\right)}\mathrm{d}G\left(u\right)
-                $$
-            \end{itemize}
-        
-    \end{frame}
+    %\begin{frame}{Weighted Treatment Effects: Example 2}
+    %    $$
+    %    \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
+    %    $$
+    %    where $\tau(u)$ {\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
+    %    \vspace*{15pt}
+    %        \begin{itemize}
+    %            \item Changing the cutoff from $c$ to $c'<c$: 
+    %            $$
+    %            \tau_{\pi}=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid c'\leq Z_{i}<c\right]= \int\tau\left(u\right)\frac{\int_{\left[c',c\right)}p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)}{\int_{\left[c',c\right)}\mathrm{d}F\left(z\right)}\mathrm{d}G\left(u\right)
+    %            $$
+    %        \end{itemize}
+    %   
+    %\end{frame}
 
-    \begin{frame}{Weighted Treatment Effects: Example 3}
-        $$
-        \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
-        $$
-        where $\tau(u)$ \textcolor{mygreen}{\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
-        \vspace*{15pt}
-            \begin{itemize}
-                \item Measurement error reduced from $Z_i\mid U_i\sim \mathcal{N}(U_i,\nu^2)$ to $Z_i'\mid U_i \sim \mathcal{N}(U_i,{\nu'}^2)$: 
-                \begin{align*}
-                    \tau_{\pi}&=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid W'_{i}>W_{i}\right] \\
-                    &= \int\tau\left(u\right)\frac{\left(1-\Phi_{\nu'}\left(c-u\right)\right)\Phi_{\nu}\left(c-u\right)}{\int\left(1-\Phi_{\nu'}\left(c-u\right)\right)\Phi_{\nu}\left(c-u\right)\mathrm{d}G\left(u\right)}\mathrm{d}G\left(u\right)
-                \end{align*}
-            \end{itemize}
+    %\begin{frame}{Weighted Treatment Effects: Example 3}
+    %    $$
+    %    \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
+    %    $$
+    %    where $\tau(u)$ \textcolor{mygreen}{\textbf{(CATE)}} is $\tau\left(u\right)=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid U_{i}=u\right]=\alpha_{\left(1\right)}\left(u\right)-\alpha_{\left(0\right)}\left(u\right)$
+    %    \vspace*{15pt}
+    %        \begin{itemize}
+    %            \item Measurement error reduced from $Z_i\mid U_i\sim \mathcal{N}(U_i,\nu^2)$ to $Z_i'\mid U_i \sim \mathcal{N}(U_i,{\nu'}^2)$: 
+    %            \begin{align*}
+    %                \tau_{\pi}&=\mathbb{E}\left[Y_{i}\left(1\right)-Y_{i}\left(0\right)\mid W'_{i}>W_{i}\right] \\
+    %                &= \int\tau\left(u\right)\frac{\left(1-\Phi_{\nu'}\left(c-u\right)\right)\Phi_{\nu}\left(c-u\right)}{\int\left(1-\Phi_{\nu'}\left(c-u\right)\right)\Phi_{\nu}\left(c-u\right)\mathrm{d}G\left(u\right)}\mathrm{d}G\left(u\right)
+    %            \end{align*}
+    %        \end{itemize}
+    %    
+    %\end{frame}
+
+    \begin{frame}{Asymptotic Bias}
+        \begin{block}{\textbf{Theorem: Asymptotic Limit of $\hat{\tau}_\gamma$}}
+            \small
+            \begin{align*}
+                \hat{\tau}_{\gamma}=\hat{\mu}_{\gamma,+}-\hat{\mu}_{\gamma,-} &= &\frac{\sum_i \gamma_+\left(Z_i\right)Y_i}{\sum_i \gamma_+\left(Z_i\right) }&&-&&\frac{\sum_i \gamma_-\left(Z_i\right)Y_i}{\sum_i \gamma_-\left(Z_i\right)}& \\
+                \uncover<2->{&\xrightarrow{p}& \frac{\mathbb{E}\left[ \gamma_+(Z)Y \right]}{\mathbb{E}\left[\gamma_+(Z)\right]}&&-&&\frac{\mathbb{E}\left[\gamma_-(Z)Y\right]}{\mathbb{E}\left[\gamma_-(Z)\right]} &\\}
+                \uncover<3->{\textcolor{mygreen}{\text{\textbf{(Prop.1)}}}&=& \frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{+}\right)\right]}&&-&&\frac{\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{-}\right)\right]} &= \mu_{\gamma,+}-\mu_{\gamma,-} \equiv \theta_{\gamma}}
+            \end{align*}
+        \end{block}
+        \uncover<3->{where $$h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right),\ \alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$$}
         
     \end{frame}
 
@@ -104,11 +108,11 @@
             \small
             \begin{align*}
                 \hat{\tau}_{\gamma}=\hat{\mu}_{\gamma,+}-\hat{\mu}_{\gamma,-} &= &\frac{\sum_i \gamma_+\left(Z_i\right)Y_i}{\sum_i \gamma_+\left(Z_i\right) }&&-&&\frac{\sum_i \gamma_-\left(Z_i\right)Y_i}{\sum_i \gamma_-\left(Z_i\right)}& \\
-                \uncover<2->{&\xrightarrow{p}& \frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{+}\right)\right]}&&-&&\frac{\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{-}\right)\right]} &= \mu_{\gamma,+}-\mu_{\gamma,-} \equiv \theta_{\gamma}}
+                &\xrightarrow{p}& \frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{+}\right)\right]}&&-&&\frac{\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{-}\right)\right]} &= \mu_{\gamma,+}-\mu_{\gamma,-} \equiv \theta_{\gamma}
             \end{align*}
         \end{block}
 
-        \uncover<3->{
+        {
             How biased is this asymptotic limit? Comparing to
             $$
             \tau_{w}=\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]} {\tau\left(u\right)} \mathrm{d}G\left(u\right),w\left(\cdot\right)\geq 0
@@ -139,8 +143,9 @@
              & a\mathrm{Bias}\left[\gamma_{\pm},\tau_{w};\alpha_{\left(0\right)}\left(\cdot\right),\tau\left(\cdot\right),G\right] = \theta_{\gamma}-\tau_{w} \\
             =& \int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}\right) \underbrace{\alpha_{\left(1\right)}\left(u\right)}_{=\tau\left(u\right)+\alpha_{\left(0\right)}\left(u\right)} \mathrm{d}G\left(u\right) \\
             & -\int\left(\frac{h\left(u,\gamma_{-}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{-}\right)\right]}\right)\alpha_{\left(0\right)}\left(u\right)\mathrm{d}G\left(u\right) -\int\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\tau\left(u\right)\mathrm{d}G\left(u\right)\\
-            \uncover<2->{=& \int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{h\left(u,\gamma_{-}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{-}\right)\right]}\right)\alpha_{\left(0\right)}\left(u\right)\mathrm{d}G\left(u\right) & \uncover<4->{{ \textcolor{mygreen}{\text{\textbf{Confounding bias}}} }} \\}
-            \uncover<3->{&+ \int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\right)\tau\left(u\right)\mathrm{d}G\left(u\right) & \uncover<4->{{ \textcolor{mygreen}{ \text{\textbf{CATE heterogeneity bias}}} }} }
+            \uncover<2->{&\\ =& \int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{h\left(u,\gamma_{-}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{-}\right)\right]}\right)\alpha_{\left(0\right)}\left(u\right)\mathrm{d}G\left(u\right) & \uncover<3->{{ \textcolor{mygreen}{\text{\textbf{Confounding bias}}} }} \\}
+            \uncover<2->{&+ \int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\right)\tau\left(u\right)\mathrm{d}G\left(u\right) & \uncover<4->{{ \textcolor{mygreen}{ \text{\textbf{CATE heterogeneity bias}}} }} }
+            \vspace*{10pt}
         \end{align*}
         
     \end{frame}
@@ -162,7 +167,7 @@
             \uncover<5->{
                 \begin{itemize}
                     \uncover<6->{\item[-] $\tau(u)$ being constant w.r.t. $u$, a constant conditional treatment effect}
-                    \uncover<7->{\item[-] $h(u,\gamma_+)=w(u),\forall u$, an absolutely correct weighting function}
+                    \uncover<7->{\item[-] $h(u,\gamma_+)=w(u),\forall u$, an absolutely ``correct" weighting function}
                 \end{itemize}
             }
         \end{itemize}}

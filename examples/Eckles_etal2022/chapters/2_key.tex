@@ -170,11 +170,11 @@
         \end{itemize}
     }
 
-    \uncover<6->{
-        \vspace*{5pt}
-        To achieve balance in the \textcolor{mygreen}{\textbf{\underline{latent variable}}}: $h(\cdot,\gamma_+)\approx h(\cdot,\gamma_-)$
-        \vspace*{10pt}
-    }
+    %\uncover<6->{
+    %    \vspace*{5pt}
+    %    To achieve balance in the \textcolor{mygreen}{\textbf{\underline{latent variable}}}: $h(\cdot,\gamma_+)\approx h(\cdot,\gamma_-)$
+    %    \vspace*{10pt}
+    %}
    
 \end{frame}
 
@@ -187,6 +187,7 @@
         \end{align*}
         where $h\left(u,\gamma\right)\coloneqq\int\gamma\left(z\right)p\left(z\mid u\right)\mathrm{d}\lambda\left(z\right)$, $\alpha_{\left(w\right)}\left(u\right)=\mathbb{E}\left[Y_{i}\left(w\right)\mid U_{i}=u\right]$
     \end{block}
+    Proof:
     \begin{align*}
         \mathbb{E}\left[\gamma_{+}\left(Z\right)Y\mid U\right] & \uncover<2->{= \mathbb{E}\left[ \textcolor<2>{mygreen}{\gamma_{+}\left(Z\right)} Y\cdot \textcolor<2>{mygreen}{\mathbf{1}\left(\left\{ Z\geq c\right\} \right)} \mid U\right]}\\
         & \uncover<3->{= \mathbb{E}\left[\gamma_{+}\left(Z\right) \textcolor<3>{mygreen}{Y\left(1\right)} \cdot\mathbf{1}\left(\left\{ Z\geq c\right\} \right)\mid U\right]}\\

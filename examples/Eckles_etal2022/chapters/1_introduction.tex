@@ -40,12 +40,12 @@
     \begin{align*}
         \tau_c &= \lim_{z\downarrow c}\mathbb{E}\left[Y\mid Z=z\right] - \lim_{z\uparrow c} \mathbb{E}\left[ Y\mid Z=z \right]
     \end{align*}
-    \uncover<2->{
+    \uncover<1->{
         Where does this continuity come from?
     }
 
     \vspace*{15pt}
-    \uncover<3->{
+    \uncover<2->{
         \citet{lee2008randomized}: \textcolor{mygreen}{\textbf{\underline{continuous measurement error}}} in the running variable by units
     }
 
@@ -56,7 +56,7 @@
     \begin{center}
         \begin{tabular}{ccccccc}
         
-       \uncover<1->{$\textcolor<2->{mygreen}{\underbrace{U_i}_{\text{{latent variable}}}}$} & \uncover<3->{$\xRightarrow{Z_i=U_i+\textcolor<4->{mygreen}{e_i}}$} & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$\\
+       \uncover<1->{$\textcolor<2->{mygreen}{\underbrace{U_i}_{\text{{latent variable}}}}$} & \uncover<2->{$\xRightarrow{Z_i=U_i+\textcolor<3->{mygreen}{e_i}}$} & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$\\
         &\\
            \hline
            & \\
@@ -66,7 +66,7 @@
     \end{center}
     \end{table}
 
-    \uncover<4->{
+    \uncover<3->{
         \vspace*{15pt}
         Why don't we take advantage of the {\textcolor{mygreen}{\textbf{\underline{measurement error}}}} itself for inference?
     }
