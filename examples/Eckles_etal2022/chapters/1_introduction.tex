@@ -56,7 +56,7 @@
     \begin{center}
         \begin{tabular}{ccccccc}
         
-       \uncover<1->{$\textcolor<2->{mygreen}{\underbrace{U_i}_{\text{{latent variable}}}}$} & \uncover<2->{$\xRightarrow{Z_i=U_i+\textcolor<3->{mygreen}{e_i}}$} & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$\\
+       \uncover<1->{$\textcolor<2->{mygreen}{\underbrace{U_i}_{\text{{latent variable}}}}$} & \uncover<2->{$\xRightarrow{Z_i\mid U_i\sim p(\cdot\mid U_i)}$} & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$\\
         &\\
            \hline
            & \\
@@ -77,7 +77,7 @@
     \begin{table}[h!]
         \begin{center}
             \begin{tabular}{ccccccc}
-          $\underbrace{U_i}_{\text{{latent variable}}}$ & $\xRightarrow{Z_i=U_i+\textcolor{mygreen}{e_i}}$ & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$
+          $\underbrace{U_i}_{\text{{latent variable}}}$ & $\xRightarrow{ Z_i\mid U_i\sim \textcolor{mygreen}{p(\cdot\mid U_i)}}$ & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$
             \end{tabular}
         \end{center}
         \end{table}
