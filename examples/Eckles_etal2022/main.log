@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  17 NOV 2022 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  17 NOV 2022 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2575,17 +2575,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [119
 
+] [120
+
 ]
-<images/fig1.png, id=9464, 2262.4525pt x 831.105pt>
+<images/fig1.png, id=9542, 2262.4525pt x 831.105pt>
 File: images/fig1.png Graphic file (type png)
 <use images/fig1.png>
-Package pdftex.def Info: images/fig1.png  used on input line 123.
+Package pdftex.def Info: images/fig1.png  used on input line 129.
 (pdftex.def)             Requested size: 390.44609pt x 143.43736pt.
- [120
+ [121
 
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/images/fig1.png>]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/chapters/6_discuss.tex [121
-
-] [122
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/images/fig1.png>]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/chapters/6_discuss.tex [122
 
 ] [123
 
@@ -2635,18 +2635,20 @@ Package pdftex.def Info: images/fig1.png  used on input line 123.
 
 ] [146
 
-]) [147
+] [147
 
- </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [148
+]) [148
 
-
-] [149
+ </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [149
 
 
 ] [150
 
 
 ] [151
+
+
+] [152
 
 ]
 \tf@nav=\write10
@@ -2675,18 +2677,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41642 strings out of 492649
- 815766 string characters out of 6129623
- 1335448 words of memory out of 5000000
- 44484 multiletter control sequences out of 15000+600000
+ 41645 strings out of 492649
+ 815799 string characters out of 6129623
+ 1335475 words of memory out of 5000000
+ 44485 multiletter control sequences out of 15000+600000
  547931 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,21n,105p,10503b,3971s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.pdf" (151 pages, 1103979 bytes).
+Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/Eckles_etal2022/main.pdf" (152 pages, 1106541 bytes).
 PDF statistics:
- 12145 PDF objects out of 12825 (max. 8388607)
- 11754 compressed objects within 118 object streams
- 334 named destinations out of 1000 (max. 500000)
+ 12223 PDF objects out of 12825 (max. 8388607)
+ 11830 compressed objects within 119 object streams
+ 336 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

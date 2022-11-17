@@ -19,16 +19,22 @@
     $$
     \min_{\gamma_{\pm}\left(\cdot\right)}\frac{1}{n}\left( \textcolor<2>{mygreen}{\int\gamma_{-}^{2}\left(z\right)\mathrm{d}\bar{F}\left(z\right)+\int\gamma_{+}^{2}\left(z\right)\mathrm{d}\bar{F}\left(z\right)} \right)+\left(t_{1}+t_{2}\right)^{2}
     $$
-    s.t.
+    \only<2>{
+        Using the fact
+        $$
+        \mathrm{Var}\left[\gamma_{\diamond}(Z_i)Y_i\right] \leq \int \gamma_{\diamond}^2(z)\mathrm{d}F(z),\ \diamond\in\{+,-\}
+        $$
+    }
+    \only<3->{s.t.
     {\small
         \begin{align*}
-        \left|h\left(u,\gamma_{+}\right)-h\left(u,\gamma_{-}\right)\right| & \leq t_{1}, & \forall u &  & \uncover<3->{\text{confounding bias}}\\
-        M\left|h\left(u,\gamma_{\diamond}\right)-\bar{w}\left(u\right)\right| & \leq t_{2}, & \forall u,\diamond\in\left\{ \pm\right\}  &  & \uncover<3->{\text{CATE-hetrogeneity bias}}\\
-        \int\gamma_{+}\left(z\right)\mathrm{d}\bar{F}\left(z\right)=\int\gamma_{-}\left(z\right)\mathrm{d}\bar{F}\left(z\right) & =1 &  &  & \uncover<4->{\text{normalization constraint}} \\
-        \gamma_{-}\left(z\right) & =0, & z\geq c &  & \uncover<4->{\text{Sharp RD}} \\
+        \left|h\left(u,\gamma_{+}\right)-h\left(u,\gamma_{-}\right)\right| & \leq t_{1}, & \forall u &  & \uncover<4->{\text{confounding bias}}\\
+        M\left|h\left(u,\gamma_{\diamond}\right)-\bar{w}\left(u\right)\right| & \leq t_{2}, & \forall u,\diamond\in\left\{ \pm\right\}  &  & \uncover<4->{\text{CATE-hetrogeneity bias}}\\
+        \int\gamma_{+}\left(z\right)\mathrm{d}\bar{F}\left(z\right)=\int\gamma_{-}\left(z\right)\mathrm{d}\bar{F}\left(z\right) & =1 &  &  & \uncover<5->{\text{normalization constraint}} \\
+        \gamma_{-}\left(z\right) & =0, & z\geq c &  & \uncover<5->{\text{Sharp RD}} \\
         \gamma_{+}\left(z\right) & =0, & z<c\\
-        \left|\gamma_{\diamond}\left(z\right)\right| & \leq Cn^{\beta}, & \forall z,\diamond\in\left\{ \pm\right\}  &  & \uncover<5->{\text{no observation is given excessive influence}}
-    \end{align*}}
+        \left|\gamma_{\diamond}\left(z\right)\right| & \leq Cn^{\beta}, & \forall z,\diamond\in\left\{ \pm\right\}  &  & \uncover<6->{\text{no observation is given excessive influence}}
+    \end{align*}}}
         
 \end{frame}
 
