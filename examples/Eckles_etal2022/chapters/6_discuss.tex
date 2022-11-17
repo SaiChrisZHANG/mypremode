@@ -16,7 +16,7 @@
             \end{itemize}
         }
 
-        \uncover<4->{Robust CIs {\footnotesize\citep{armstrong2020simple,calonico2014robust,kolesar2018inference}}}; \uncover<5->{Data-adaptive bandwidths {\footnotesize \citep{imbens2012optimal}}}
+        \uncover<4->{Robust CIs {\footnotesize\citep{armstrong2020simple,calonico2014robust,kolesar2018inference}};} \uncover<5->{Data-adaptive bandwidths {\footnotesize \citep{imbens2012optimal}}}
         
     \end{frame}
 
@@ -98,16 +98,16 @@
 \end{frame}
 
 \begin{frame}{RD with Ordinal Running Variables}
-     Similarly, ordinal $Z_i$ {\footnotesize(bond rating, custody security score, etc.)} can be seen as a noisy measurement of a latent variable $U_i$.
+     Similarly, ordinal $Z_i$ {\footnotesize(bond rating, custody security score, etc.)} can be seen as a noisy measurement of a latent variable $U_i$ \citep{li2021regression}
 
      \citet{li2021regression} assume 
      $$
-        U_i = \mathbf{X}_i \mathbf{\beta}
+        U_i = \mathbf{X}_i \mathbf{\beta} +\epsilon_i
      $$
      then use \textcolor{mygreen}{\textbf{inverse-propensity weighting}} with estimated propensities $e(u)=\mathbb{P}\left[ Z_i\geq c\mid U_i=u \right]$ for inference.
 
 
-     \uncover<2->{\vspace*{20pt}\textcolor{mygreen}{\textbf{Assuming}}: $U_i$ can be observed, and well predicted by $\mathbf{X}_i$}
+     \uncover<2->{\vspace*{20pt}\textcolor{mygreen}{\textbf{Assuming}}: $U_i$ can be well predicted by observable $\mathbf{X}_i$}
 \end{frame}
 
 \begin{frame}{Measurement Errors}
