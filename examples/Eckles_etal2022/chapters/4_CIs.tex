@@ -112,13 +112,13 @@
  \begin{frame}{Asymptotic Normality: A Sketch of the Proof}
     \uncover<1->{
         $$
-        \frac{\sqrt{n}\left( \frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)Y_{i}}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}-\mu_{\gamma,+} \right)}{\sqrt{\frac{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        \frac{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}}{\frac{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}} =
+         \underbrace{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}}_{\textcolor{mygreen}{\xrightarrow{d}\mathcal{N}(0,1)}} \cdot \frac{1}{\underbrace{\boxed{\frac{\frac{1}{n}\sum_{i}\gamma_{+}\left(Z_{i}\right)}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}}}_{\textcolor{mygreen}{=1+o_p(1)}}} \xrightarrow{d} \mathcal{N}(0,1)
         $$
     }
     \uncover<1->{
         $$
-        \frac{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}}{\frac{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}} =
-         \underbrace{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}}_{\xrightarrow{d}\mathcal{N}(0,1)} \cdot \frac{1}{\underbrace{\boxed{\frac{\frac{1}{n}\sum_{i}\gamma_{+}\left(Z_{i}\right)}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}}}_{=1+o_p(1)}} \xrightarrow{d} \mathcal{N}(0,1)
+        \Rightarrow \frac{\sqrt{n}\left( \frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)Y_{i}}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}-\mu_{\gamma,+} \right)}{\sqrt{\frac{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right) \Rightarrow \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\sqrt{\textcolor{mygreen}{V_{\gamma}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
         $$
     }
     
@@ -192,7 +192,7 @@
 
             $$\left\{ G\in\mathcal{G}_{n}\right\} \subset\left\{ \left|b_{\gamma}\right|\leq\hat{B}_{\gamma,M}\right\} \Rightarrow \mathbf{P}\left(\left|b_{\gamma}\right|\leq\hat{B}_{\gamma,M}\right) \geq \mathbf{P}\left(G\in\mathcal{G}_{n}\right)$$
             \uncover<3->{
-            and for $G\in \mathcal{G}_n$, DKW inequality gives:
+            and for $G\in \mathcal{G}_n$, Dvoretzky-Kiefer-Wolfowitz (DKW) inequality gives:
             $$
             \mathbf{P}\left(G\in\mathcal{G}_{n}\right)\geq\mathbf{P}\left[\sup_{t\in\mathbb{R}}\left|F_{G}\left(t\right)-\hat{F}_{n}\left(t\right)\right|\leq\sqrt{\frac{\log\left(2/\alpha_{n}\right)}{2n}}\right]\geq 1-\alpha_{n} \xrightarrow[n\rightarrow \infty]{\alpha_n=\min\left\{0.05,n^{-1/4} \right\} }1
             $$}
@@ -208,7 +208,7 @@
         $$
         \item<3-> Asymptotic normality:
         $$
-        \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\sqrt{V_{\gamma}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\sqrt{\hat{V_{\gamma}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
         $$
         \item<4-> Upper bound of the asymptotic bias:  
         $$
@@ -243,7 +243,7 @@
 
  \begin{frame}{Bias-aware Confidence Intervals}
     CLT (with bias considered) is 
-    $$\frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\tau_{w}-b_{\gamma}\right)}{\hat{V}_{\gamma}^{1/2}}\xrightarrow{d}\mathcal{N}\left(0,1\right)$$ 
+    $$\frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\hat{V}_{\gamma}^{1/2}} = \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\tau_{w}-b_{\gamma}\right)}{\hat{V}_{\gamma}^{1/2}}\xrightarrow{d}\mathcal{N}\left(0,1\right)$$ 
     where $b_{\gamma}=\theta_{\gamma}-\tau_{w}$, then let $\tilde{Z}\sim\mathcal{N}\left(0,1\right) $ we have 
     {\small
     \begin{align*}
@@ -257,7 +257,10 @@
  \end{frame}
 
 \begin{frame}{Robustness to CATE Heterogeneity Misspecification}
-     
+    $$
+    \hat{\tau}_{\gamma}\pm l_{\alpha}, &l_{\alpha}&=\min\left\{ l:\mathbf{P}\left[\left|b+n^{-\frac{1}{2}}\hat{V}_{\gamma}^{\frac{1}{2}}\tilde{Z}\right|\leq l\right]\geq1-\alpha,\forall\left|b\right|\leq\hat{B}_{\gamma,M}\right\} 
+    $$
+    where
     $$
     \mathcal{T}_{M} =\left\{ \tau\left(\cdot\right)\mid\tau\left(u\right)=\bar{\tau}+\Delta\left(u\right), \bar{\tau}\in\mathbb{R},\left|\Delta\left(u\right)\right|\leq M\right\},\ \textcolor{mygreen}{M\in[0,1]}
     $$
