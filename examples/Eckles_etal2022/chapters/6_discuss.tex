@@ -36,17 +36,26 @@
 
 \begin{frame}{Link Noise-Induced RD and Continuity-Based RD}
     \begin{align*}
-        \mu_{\left(w\right)}\left(z\right)&=\mathbb{E}\left[Y\left(w\right)\mid Z=z\right]\\
-        & =\frac{\int\mathbb{E}\left[Y\left(w\right)\mid U=u\right]p\left(z\mid u\right)\mathrm{d}G\left(u\right)}{f_{G}\left(z\right)} = \frac{\int \only<1>{\alpha_{\left(w\right)}\left(u\right)} \only<2->{\boxed{\alpha_{\left(w\right)}\left(u\right)}} \textcolor<2->{mygreen}{p\left(z\mid u\right)} \mathrm{d}G\left(u\right)}{\int \textcolor<2->{mygreen}{p\left(z\mid u\right)}\mathrm{d}G\left(u\right)}
+        \mu_{\left(w\right)}\left(z\right)&=\mathbb{E}\left[Y_i\left(w\right)\mid Z_i=z\right]\\
+        & =\frac{\int\mathbb{E}\left[Y_i\left(w\right)\mid U_i=u,Z_i=z\right]p\left(z\mid u\right)\mathrm{d}G\left(u\right)}{f_{G}\left(z\right)} = \frac{\int \only<1>{\alpha_{\left(w\right)}\left(u\right)} \only<2->{\boxed{\alpha_{\left(w\right)}\left(u\right)}} \textcolor<2->{mygreen}{p\left(z\mid u\right)} \mathrm{d}G\left(u\right)}{\int \textcolor<2->{mygreen}{p\left(z\mid u\right)}\mathrm{d}G\left(u\right)}
     \end{align*}
 
-    \uncover<3->{
+    \only<3-4>{
+        \small
+        \textcolor{mygreen}{\textbf{Convexity}} assumption on $\mu_{(w)}(z)$:
+    $$
+        \left\vert \mu_{(w)}''(z) \right\vert \leq B, \forall z\in\mathbb{R}
+    $$
+    }
+
+    \uncover<4->{
+        \normalsize
     Then the worst-case possible curvature is:
     $$
     \mathrm{Curv}\left(z,\rho,p\right)=\sup\left\{ \left|\frac{\mathrm{d}^{2}\mu_{\left(w\right)}\left(z\right)}{\mathrm{d}z^{2}}\right|:f_{G}\left(z\right)=\int p\left(z\mid u\right)\mathrm{d}G\left(u\right)\textcolor{mygreen}{\ge\rho>0},\alpha_{\left(w\right)}\left(\cdot\right)\in\left[0,1\right]\right\} 
     $$}
 
-    \uncover<4->{
+    \only<5->{
         \citet{armstrong2020simple}: fit 4th-degree polynomials to $\mu_{(0)}(z)$ and $\mu_{(1)}(z)$, and take the largest estimated curvature obtained anywhere
         \vspace*{10pt}
     }

@@ -71,6 +71,28 @@
     
 \end{frame}
 
+\begin{frame}{Design Estimators: Quadratic Programming}
+    $$
+    \begin{aligned}
+        \frac{1}{k}<\bar{F}\left(\left[c,\infty\right)\right)<1-\frac{1}{k},\sup_{u}\left|\bar{w}\left(u\right)\right| &<k\\
+        \int\gamma_{\diamond}^{\left(n\right)}\left(z\right)\mathrm{d}F\left(z\right) &>\delta
+    \end{aligned}\Rightarrow 
+    \begin{aligned}
+        &\sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right| <Cn^{\beta}  \mathbb{E} \left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]\\
+        &\sup_{u}\left|h\left(u,\gamma_{\diamond}^{\left(n\right)}\right)\right| <C'\mathbb{E}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]
+    \end{aligned}\uncover<2>{\Rightarrow}
+    $$
+
+    \only<2>{\begin{block}{\textbf{Theorem: Asymptotic Normality of $\hat{\tau}$}}
+        \small
+        Suppose the sequence of weighting kernels $\gamma_{+}^{\left(n\right)}$ and $\gamma_{-}^{\left(n\right)}$ is deterministic, and  $\exists\beta\in\left(0,\frac{1}{2}\right), C,C'>0$ s.t. $\forall n$ large enough: $\sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right| <Cn^{\beta}  \mathbb{E} \left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]$, $\sup_{u}\left|h\left(u,\gamma_{\diamond}^{\left(n\right)}\right)\right| <C'\mathbb{E}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]$ where $\diamond=\left\{ +,-\right\}$
+        Then 
+        $$
+        \frac{\sqrt{n}\left(\hat{\tau}_{\gamma}-\theta_{\gamma}\right)}{\sqrt{V_{\gamma}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+    \end{block}}
+\end{frame}
+
 \begin{frame}{Design Estimators: Procedure}
 
     \begin{itemize}
