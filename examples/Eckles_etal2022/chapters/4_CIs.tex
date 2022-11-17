@@ -5,9 +5,7 @@
  \begin{frame}{Asymptotic Normality}
     \begin{align*}
         \hat{\tau} =& \frac{\sum_i \gamma_+\left(Z_i\right)Y_i}{\sum_i {\gamma_+\left(Z_i\right)} } - \frac{\sum_i \gamma_-\left(Z_i\right)Y_i}{\sum_i {\gamma_-\left(Z_i\right)} }\\
-        \hat{\tau}_{\gamma}\xrightarrow{p}\theta_{\gamma}= & \frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{-}\right)\right]} \\
-        a\mathrm{Bias}=\theta_{\gamma}-\tau_{w}= & \underbrace{\int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{h\left(u,\gamma_{-}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{-}\right)\right]}\right)\alpha_{\left(0\right)}\left(u\right)\mathrm{d}G\left(u\right)}_{\text{Confounding bias}} \\
-         & +\underbrace{\int\left(\frac{h\left(u,\gamma_{+}\right)}{\mathbb{E}_{G}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{w\left(u\right)}{\mathbb{E}_{G}\left[w\left(U\right)\right]}\right)\tau\left(u\right)\mathrm{d}G\left(u\right)}_{\text{CATE heterogeneity bias}}
+        \hat{\tau}_{\gamma}\xrightarrow{p}\theta_{\gamma}= & \frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{+}\right)\right]}-\frac{\mathbb{E}\left[\alpha_{\left(0\right)}\left(U\right)h\left(U,\gamma_{-}\right)\right]}{\mathbb{E}\left[h\left(U,\gamma_{-}\right)\right]} 
     \end{align*}        
  \end{frame}
 
@@ -91,7 +89,7 @@
 
     \begin{itemize}
         \footnotesize
-        \item \textcolor{mygreen}{$\boxed{\inf_{z}\mathrm{Var}\left[Y_{i}\mid Z_{i}=z\right]>0}$}: $\mathrm{Var}\left[\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)\right] \geq \underline{\sigma}^{2} \mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\right]$
+        \item \textcolor{mygreen}{$\boxed{\underline{\sigma}^{2} = \inf_{z}\mathrm{Var}\left[Y_{i}\mid Z_{i}=z\right]>0}$}: $\mathrm{Var}\left[\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)\right] \geq \underline{\sigma}^{2} \mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\right]$
         \item \textcolor{mygreen}{${\boxed{\sup_{u}\left|h\left(u,\gamma_{\diamond}^{\left(n\right)}\right)\right|<C'\mathbb{E}\left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]}}$} and \textcolor{mygreen}{$\boxed{Y_{i}\in\left[0,1\right]}$}: $\left|\mu_{\gamma,+}\right|=\left|\frac{\mathbb{E}\left[\alpha_{\left(1\right)}\left(U\right)h\left(U,\gamma_{+}\right)\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}\right| \leq C'$
         \item \textcolor{mygreen}{$\boxed{\sup_{z}\left|\gamma_{\diamond}^{\left(n\right)}\left(z\right)\right|<Cn^{\beta}  \mathbb{E} \left[\gamma_{\diamond}^{\left(n\right)}\left(Z_{i}\right)\right]}$} and \textcolor{mygreen}{Lyapunov CLT condition}: {\scriptsize $$\frac{n\mathbb{E}\left[\left|\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)\right|^{2+q}\right]}{\left(n\mathrm{Var}\left[\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)\right]\right)^{\frac{2+q}{2}}} \leq\left(\frac{C'+1}{\underline{\sigma}}\right)^{2+q}\left(Cn^{\beta-\frac{1}{2}}\right)^{q}\xrightarrow{0\rightarrow\infty} 0$$}
     \end{itemize}
@@ -109,6 +107,21 @@
             & \leq \left(\frac{C}{\epsilon}\cdot n^{\beta-\frac{1}{2}}\right)^{2}\xrightarrow{n\rightarrow\infty}0
         \end{align*}
     \end{itemize}
+ \end{frame}
+ 
+ \begin{frame}{Asymptotic Normality: A Sketch of the Proof}
+    \uncover<1->{
+        $$
+        \frac{\sqrt{n}\left( \frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)Y_{i}}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}-\mu_{\gamma,+} \right)}{\sqrt{\frac{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]^{2}}}}\xrightarrow{d}\mathcal{N}\left(0,1\right)
+        $$
+    }
+    \uncover<1->{
+        $$
+        \frac{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sum_{i}\gamma_{+}\left(Z_{i}\right)}}{\frac{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}} =
+         \underbrace{\frac{\sum_{i}\gamma_{+}\left(Z_{i}\right)\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)}{\sqrt{n\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)^{2}\left(Y_{i}\left(1\right)-\mu_{\gamma,+}\right)^{2}\right]}}}_{\xrightarrow{d}\mathcal{N}(0,1)} \cdot \frac{1}{\underbrace{\boxed{\frac{\frac{1}{n}\sum_{i}\gamma_{+}\left(Z_{i}\right)}{\mathbb{E}\left[\gamma_{+}\left(Z_{i}\right)\right]}}}_{=1+o_p(1)}} \xrightarrow{d} \mathcal{N}(0,1)
+        $$
+    }
+    
  \end{frame}
 
  \begin{frame}{Plug-in Estimator for $V_{\gamma}$}
