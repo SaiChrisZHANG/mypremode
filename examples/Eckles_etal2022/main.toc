@@ -7,8 +7,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{Estimation}{46}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Confidence Intervals}{73}{0}{4}
+\beamer@sectionintoc {4}{Confidence Intervals}{72}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Applications}{106}{0}{5}
+\beamer@sectionintoc {5}{Applications}{105}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Discussion}{122}{0}{6}
+\beamer@sectionintoc {6}{Discussion}{121}{0}{6}
