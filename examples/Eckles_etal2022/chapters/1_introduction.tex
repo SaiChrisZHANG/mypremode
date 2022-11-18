@@ -35,7 +35,7 @@
 
 \end{frame}
 
-\begin{frame}{RD Identification: Problems of Continuity Argument}
+\begin{frame}{RD Identification: Assumptions of Continuity Argument}
     Assumption: \textcolor{mygreen}{\textbf{\underline{continuous}}} $\mu_{w}(z)=\mathbb{E}\left[Y(w)\mid Z=z\right]$
     \begin{align*}
         \tau_c &= \lim_{z\downarrow c}\mathbb{E}\left[Y\mid Z=z\right] - \lim_{z\uparrow c} \mathbb{E}\left[ Y\mid Z=z \right]
@@ -56,7 +56,7 @@
     \begin{center}
         \begin{tabular}{ccccccc}
         
-       \uncover<1->{$\textcolor<2->{mygreen}{\underbrace{U_i}_{\text{{latent variable}}}}$} & \uncover<2->{$\xRightarrow{Z_i\mid U_i\sim p(\cdot\mid U_i)}$} & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$\\
+       \uncover<1->{$\textcolor<2->{mygreen}{\underbrace{U_i}_{\text{{latent variable}}}}$} & \uncover<2->{$\xRightarrow{Z_i = U_i+ \textcolor<3>{mygreen}{e_i} }$} & $\underbrace{Z_i}_\text{running variable}$ & $\xRightarrow{W_i=\mathbf{1}\left(\{Z_i\geq {\textcolor{mygreen}{c}}\}\right)}$ & $\underbrace{W_i}_\text{treatment}$ & $\Rightarrow$ & $\underbrace{Y_i}_{\text{outcome}}$\\
         &\\
            \hline
            & \\
