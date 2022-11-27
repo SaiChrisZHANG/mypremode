@@ -92,20 +92,20 @@
 \definecolor{glaucous}{rgb}{0.38, 0.51, 0.71}
 \definecolor{goldenrod}{rgb}{0.85, 0.65, 0.13}
 
-\renewcommand{\CancelColor}{\color{darklavender}}
+\renewcommand{\CancelColor}{\color{goldenrod}}
 
 \makeatletter
 \newcommand{\mybox}[1]{%
   \setbox0=\hbox{#1}%
   \setlength{\@tempdima}{\dimexpr\wd0+13pt}%
-  \begin{tcolorbox}[colback=darklavender,colframe=darklavender,boxrule=0.5pt,arc=4pt,
+  \begin{tcolorbox}[colback=goldenrod,colframe=goldenrod,boxrule=0.5pt,arc=4pt,
       left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,width=\@tempdima]
     \textcolor{white}{#1}
   \end{tcolorbox}
 }
 \makeatother
 
-\usecolortheme[named=darklavender]{structure}
+\usecolortheme[named=goldenrod]{structure}
 \usecolortheme{sidebartab}
 \usecolortheme{orchid}
 \usecolortheme{whale}
@@ -180,9 +180,9 @@
 \end{center}
 }
 
-\newcommand{\boxlavender}[1]{
+\newcommand{\boxgolden}[1]{
 \begin{center}
-\fcolorbox{darklavender}{gray!80!black}{
+\fcolorbox{goldenrod}{gray!80!black}{
 \begin{minipage}{0.95\textwidth}
 #1
 \end{minipage}
@@ -207,8 +207,8 @@
 \colorlet{orangeBlockColor}{orange!25!gray}
 \colorlet{greenTitleBlockColor}{mygreen}
 \colorlet{greenBlockColor}{mygreen!25!gray}
-\colorlet{purpleTitleBlockColor}{lightlavender}
-\colorlet{purpleBlockColor}{darklavender!25!gray}
+\colorlet{goldenTitleBlockColor}{goldenrod}
+\colorlet{goldenBlockColor}{goldenrod!25!gray}
 \colorlet{blockTitleTextColor}{gray!80!black}
 \colorlet{blockBodyTextColor}{white}
 
