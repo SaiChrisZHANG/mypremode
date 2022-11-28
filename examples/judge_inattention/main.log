@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  28 NOV 2022 09:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  28 NOV 2022 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2512,14 +2512,14 @@ Package pdftex.def Info: images/attent_bygender.png  used on input line 226.
  [32
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/attent_bygender.png>]
-<images/weather.png, id=1151, 1178.4025pt x 471.7625pt>
-File: images/weather.png Graphic file (type png)
-<use images/weather.png>
-Package pdftex.def Info: images/weather.png  used on input line 234.
-(pdftex.def)             Requested size: 385.85323pt x 154.47179pt.
+<images/weather_all.png, id=1151, 1346.02875pt x 539.01375pt>
+File: images/weather_all.png Graphic file (type png)
+<use images/weather_all.png>
+Package pdftex.def Info: images/weather_all.png  used on input line 234.
+(pdftex.def)             Requested size: 385.73767pt x 154.47179pt.
  [33
 
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather.png>]
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather_all.png>]
 <images/weather_bin.png, id=1184, 1346.02875pt x 539.01375pt>
 File: images/weather_bin.png Graphic file (type png)
 <use images/weather_bin.png>
@@ -2528,14 +2528,14 @@ Package pdftex.def Info: images/weather_bin.png  used on input line 242.
  [34
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather_bin.png>]
-<images/weather_all.png, id=1217, 1346.02875pt x 539.01375pt>
-File: images/weather_all.png Graphic file (type png)
-<use images/weather_all.png>
-Package pdftex.def Info: images/weather_all.png  used on input line 250.
-(pdftex.def)             Requested size: 385.73767pt x 154.47179pt.
+<images/weather.png, id=1217, 1178.4025pt x 471.7625pt>
+File: images/weather.png Graphic file (type png)
+<use images/weather.png>
+Package pdftex.def Info: images/weather.png  used on input line 250.
+(pdftex.def)             Requested size: 385.85323pt x 154.47179pt.
  [35
 
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather_all.png>]) [36
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather.png>]) [36
 
  </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [37
 
@@ -2574,7 +2574,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,20n,105p,10505b,3971s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.pdf" (37 pages, 1348073 bytes).
+Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.pdf" (37 pages, 1348082 bytes).
 PDF statistics:
  1365 PDF objects out of 1440 (max. 8388607)
  1220 compressed objects within 13 object streams

@@ -1,19 +1,57 @@
 \section{Next Step}
 \frame{\sectionpage}
 
-\begin{frame}{Inspiration}
-    \uncover<+->{Immigration court ruling}
+\begin{frame}{Estimating Bias of Judges}
+    Following \citet{arnold2018racial}, consider for asylum applicants of country $c$, and for judge $j$
     \uncover<+->{
         \begin{itemize}
-            \item<+-> High stake: granted asylum or deported
-            \item<+-> Simple structure: lower court and appeal court
-            \item<+-> Idiosyncratic decisions: one single judge makes the decision
+            \item $\alpha_c^j$: pretrial grant rates at the margin
+            \item $w^j$: weight across all judges $j=1,\cdots, J$
+            \item<+-> $t_c^j$: judge $j$'s threshold for granding asylum
         \end{itemize}
     }
     
     \uncover<+->{
-        \vspace*{15pt}
-        Are judges doing their job \textbf{\color{goldenrod}careful} enough?
+        \vspace*{10pt}
+        \textcolor{goldenrod}{\textbf{Weighted average of the treatment effects}} for asylum applicants of country $c$ at the margin of granting asylum across all judges is 
+        $$
+        \alpha^{w,*}_c = \sum^J_{j=1}w^j\alpha_c^j = \sum^J_{j=1}w^jt^j_c
+        $$
+    }
+
+    \uncover<+->{
+        \vspace*{10pt}
+        then the \textcolor{goldenrod}{\textbf{ average bias among judges }} is 
+        $$
+        D^{w,*}_{c_1,c_2}  = \sum^J_{j=1}w^j\left(t_{c_1}^j-t_{c_2}^j\right) = \sum^J_{j=1}w^jt^j_{c,1}-\sum^J_{j=1}w^jt^j_{c,2}= \alpha^{w,*}_{c,1}- \alpha^{w,*}_{c,2}
+        $$
     }
     
+\end{frame}
+
+\begin{frame}{Estimating Bias of Judges}
+    To estimate
+    $$
+    D^{w,*}_{c_1,c_2}  = \sum^J_{j=1}w^j\left(t_{c_1}^j-t_{c_2}^j\right) = \sum^J_{j=1}w^jt^j_{c,1}-\sum^J_{j=1}w^jt^j_{c,2}= \alpha^{w,*}_{c,1}- \alpha^{w,*}_{c,2}
+    $$
+    2 strategies could be considered:
+    \begin{itemize}
+        \item<+-> IV: use judge leave-out leniency as the instrument
+        \item<+-> MTE: following the framework developed by \citet{heckman2005structural}
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Potential RCTs}
+    \begin{itemize}
+        \item<+-> \textcolor{goldenrod}{\textbf{\underline{Judges' side}}}:
+        \begin{itemize}
+            \item[-] individual nudging scheme: inspection, record keeping
+            \item[-] ruling scheme improvement: group ruling by multiple judges
+        \end{itemize}
+        \item<+-> \textcolor{goldenrod}{\textbf{\underline{Applicants' side}}}:
+        \begin{itemize}
+            \item[-] information provision: design a prediction app to prepare applicants for their potential grant rates
+        \end{itemize}
+    \end{itemize}
 \end{frame}
