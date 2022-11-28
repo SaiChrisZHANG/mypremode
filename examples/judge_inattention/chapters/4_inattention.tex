@@ -5,7 +5,6 @@
 \begin{frame}{Shock of Surprising Reverses}
 
     \begin{table}[h!]
-        \small
         \begin{center}
           \begin{tabular}{lcc}
             
@@ -30,7 +29,7 @@
 
     An event study design around the surprising reverse shock:
     $$
-    \bar{y}_{i,s,t}=\alpha D_{s,k} + \beta\mathbf{1}\left(\text{Surprising Reverse}\right)_{s} + \gamma D_{s,k} \times \mathbf{1}\left(\text{Surprising Reverse}\right)_s +\mu_t+ \nu_c+\varepsilon_{i,s,t}
+    \bar{y}_{i,s,t}=\alpha D_{s,k} + \beta\mathbf{1}\left(\text{Surprising Reverse}\right)_{s} + {\textcolor{goldenrod}{\boxed{\gamma}}} D_{s,k} \times \mathbf{1}\left(\text{Surprising Reverse}\right)_s +\mu_t+ \nu_c+\varepsilon_{i,s,t}
     $$
     where:
     \begin{itemize}
@@ -96,6 +95,15 @@
     
 \end{frame}
 
+\begin{frame}{Variation in Attentiveness of Judges}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/surp_reverse.png}
+        %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+
 \begin{frame}{Validity of the Attentiveness Measure: Judges' Effort}
     \begin{figure}
         \centering
@@ -132,16 +140,8 @@
     
 \end{frame}
 
-\begin{frame}{Variation in Attentiveness of Judges}
-    \begin{figure}
-        \centering
-        \includegraphics[height = 0.6 \textheight]{images/surp_reverse.png}
-        %\caption{Data Structure}
-    \end{figure}
-\end{frame}
-
 \begin{frame}{The Impact of Judicial Inattention: Implicit Risk Ranking}
-    Generate a residualized, leave-out judge leniency measure following \citet{arnold2018racial}:
+    Generate a residualized, leave-out judge leniency measure following \citet{dobbie2018effects}:
     \begin{itemize}
         \item<2-> \textbf{\color{goldenrod}\underline{Step 1}}: Regression lower court decisions on court-by-year-by-month FEs
         \item<3-> \textbf{\color{goldenrod}\underline{Step 2}}: Extract the residuals
@@ -212,7 +212,7 @@
 \begin{frame}{Judges' Inattention: Experience Heterogeneity}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/attent_bylschyr_mean.png}
+        \includegraphics[height = 0.7 \textheight]{images/attent_bylschyr_mean.png}
             %\caption{Data Structure}
     \end{figure}
 \end{frame}
@@ -220,7 +220,7 @@
 \begin{frame}{Judges' Inattention: Gender Heterogeneity}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/attent_bygender.png}
+        \includegraphics[height = 0.7 \textheight]{images/attent_bygender.png}
             %\caption{Data Structure}
     \end{figure}
 \end{frame}

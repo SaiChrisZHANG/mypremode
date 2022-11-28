@@ -2124,16 +2124,30 @@
     <bcf:datasource type="file" datatype="bibtex">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="2">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="3">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="4">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="5">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="6">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="7">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="8">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="9">arnold2018racial</bcf:citekey>
-    <bcf:citekey order="10">arnold2018racial</bcf:citekey>
+    <bcf:citekey order="1">chen2016decision</bcf:citekey>
+    <bcf:citekey order="2">chen2016decision</bcf:citekey>
+    <bcf:citekey order="3">dunn2017early</bcf:citekey>
+    <bcf:citekey order="4">dunn2017early</bcf:citekey>
+    <bcf:citekey order="5">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="6">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="7">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="8">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="9">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="10">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="11">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="12">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="13">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="14">dobbie2018effects</bcf:citekey>
+    <bcf:citekey order="15">arnold2018racial</bcf:citekey>
+    <bcf:citekey order="16">arnold2018racial</bcf:citekey>
+    <bcf:citekey order="17">arnold2018racial</bcf:citekey>
+    <bcf:citekey order="18">arnold2018racial</bcf:citekey>
+    <bcf:citekey order="19">arnold2018racial</bcf:citekey>
+    <bcf:citekey order="20">arnold2018racial</bcf:citekey>
+    <bcf:citekey order="21">heckman2005structural</bcf:citekey>
+    <bcf:citekey order="22">heckman2005structural</bcf:citekey>
+    <bcf:citekey order="23">heckman2005structural</bcf:citekey>
+    <bcf:citekey order="24">heckman2005structural</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

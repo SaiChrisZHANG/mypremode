@@ -452,22 +452,14 @@ INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattentio
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/4_inattention.tex
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/4_inattention.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/1_introduction.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/1_introduction.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/fig_data.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/fig_data.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/fig_data.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -479,12 +471,60 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/2_lowercourt.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/2_lowercourt.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Case_Information.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Case_Information.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Case_Information.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Court_Judge.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Court_Judge.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Court_Judge.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Weather_News_Trend.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Weather_News_Trend.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Weather_News_Trend.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/RF_ERT_DT_Comp.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/RF_ERT_DT_Comp.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/RF_ERT_DT_Comp.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate1.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate2.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate2.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate2.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/3_appealcourt.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/3_appealcourt.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_appeal_year.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_appeal_year.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_appeal_year.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_judge.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_judge.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_judge.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_nationality.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_nationality.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_nationality.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/model_selection3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/model_selection3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/model_selection3.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/4_inattention.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/4_inattention.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
@@ -508,6 +548,9 @@ INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattentio
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/int_mth1_2.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/int_mth1_2.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/int_mth1_2.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/hearing_num.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/hearing_num.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/hearing_num.png
@@ -520,9 +563,6 @@ INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattentio
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep1_bin.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep1_bin.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep1_bin.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png
-INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/complete_full.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/complete_full.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/complete_full.png
@@ -559,6 +599,9 @@ INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattentio
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather.png
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather.png
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/5_endmark.tex
+INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/5_endmark.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
@@ -572,16 +615,21 @@ INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattentio
 INPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.run.xml
 OUTPUT /Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.run.xml
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb

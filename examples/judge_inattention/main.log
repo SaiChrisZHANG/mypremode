@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  28 NOV 2022 09:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  28 NOV 2022 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2328,17 +2328,9 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 ] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.toc) [2
 
-] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/4_inattention.tex [3
+] (/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/1_introduction.tex [3
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+] [4
 
 ] [5
 
@@ -2350,194 +2342,346 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [9
 
+] [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
+
 ]
-<images/int_mth1_2.png, id=377, 988.69376pt x 718.685pt>
+<images/fig_data.png, id=1224, 1571.8725pt x 901.3675pt>
+File: images/fig_data.png Graphic file (type png)
+<use images/fig_data.png>
+Package pdftex.def Info: images/fig_data.png  used on input line 91.
+(pdftex.def)             Requested size: 250.1376pt x 143.43736pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 91.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 91.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [19
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/fig_data.png>]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/2_lowercourt.tex [20
+
+]
+<images/Static_Case_Information.png, id=1351, 777.90625pt x 610.28pt>
+File: images/Static_Case_Information.png Graphic file (type png)
+<use images/Static_Case_Information.png>
+Package pdftex.def Info: images/Static_Case_Information.png  used on input line 13.
+(pdftex.def)             Requested size: 196.89754pt x 154.47179pt.
+ [21
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Case_Information.png>]
+<images/Static_Court_Judge.png, id=1413, 777.90625pt x 610.28pt>
+File: images/Static_Court_Judge.png Graphic file (type png)
+<use images/Static_Court_Judge.png>
+Package pdftex.def Info: images/Static_Court_Judge.png  used on input line 23.
+(pdftex.def)             Requested size: 196.89754pt x 154.47179pt.
+ [22
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Court_Judge.png>]
+<images/Static_Weather_News_Trend.png, id=1475, 777.90625pt x 610.28pt>
+File: images/Static_Weather_News_Trend.png Graphic file (type png)
+<use images/Static_Weather_News_Trend.png>
+Package pdftex.def Info: images/Static_Weather_News_Trend.png  used on input line 33.
+(pdftex.def)             Requested size: 196.89754pt x 154.47179pt.
+ [23
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/Static_Weather_News_Trend.png>] [24
+
+]
+<images/RF_ERT_DT_Comp.png, id=1595, 703.62875pt x 525.965pt>
+File: images/RF_ERT_DT_Comp.png Graphic file (type png)
+<use images/RF_ERT_DT_Comp.png>
+Package pdftex.def Info: images/RF_ERT_DT_Comp.png  used on input line 91.
+(pdftex.def)             Requested size: 206.64534pt x 154.47179pt.
+ [25
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/RF_ERT_DT_Comp.png>] [26
+
+]
+<images/ep_byrate1.png, id=1716, 1136.245pt x 1132.23pt>
+File: images/ep_byrate1.png Graphic file (type png)
+<use images/ep_byrate1.png>
+Package pdftex.def Info: images/ep_byrate1.png  used on input line 134.
+(pdftex.def)             Requested size: 155.01619pt x 154.47179pt.
+<images/ep_byrate2.png, id=1717, 1112.155pt x 841.1425pt>
+File: images/ep_byrate2.png Graphic file (type png)
+<use images/ep_byrate2.png>
+Package pdftex.def Info: images/ep_byrate2.png  used on input line 134.
+(pdftex.def)             Requested size: 204.2351pt x 154.47179pt.
+ [27
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate1.png> </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep_byrate2.png>]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/3_appealcourt.tex [28
+
+]
+<images/grant_rate_by_appeal_year.png, id=1838, 999.735pt x 320.19624pt>
+File: images/grant_rate_by_appeal_year.png Graphic file (type png)
+<use images/grant_rate_by_appeal_year.png>
+Package pdftex.def Info: images/grant_rate_by_appeal_year.png  used on input line 12.
+(pdftex.def)             Requested size: 433.34402pt x 138.79077pt.
+ [29
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_appeal_year.png>]
+<images/grant_rate_by_judge.png, id=1899, 999.735pt x 320.19624pt>
+File: images/grant_rate_by_judge.png Graphic file (type png)
+<use images/grant_rate_by_judge.png>
+Package pdftex.def Info: images/grant_rate_by_judge.png  used on input line 21.
+(pdftex.def)             Requested size: 433.34402pt x 138.79077pt.
+ [30
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_judge.png>]
+<images/grant_rate_by_nationality.png, id=1959, 1005.7575pt x 320.19624pt>
+File: images/grant_rate_by_nationality.png Graphic file (type png)
+<use images/grant_rate_by_nationality.png>
+Package pdftex.def Info: images/grant_rate_by_nationality.png  used on input line 30.
+(pdftex.def)             Requested size: 433.34402pt x 137.96017pt.
+ [31
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/grant_rate_by_nationality.png>]
+<images/model_selection3.png, id=2021, 395.4775pt x 283.0575pt>
+File: images/model_selection3.png Graphic file (type png)
+<use images/model_selection3.png>
+Package pdftex.def Info: images/model_selection3.png  used on input line 64.
+(pdftex.def)             Requested size: 200.41154pt x 143.43736pt.
+ [32
+
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/model_selection3.png>] [33
+
+]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/4_inattention.tex [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+]
+<images/int_mth1_2.png, id=2561, 988.69376pt x 718.685pt>
 File: images/int_mth1_2.png Graphic file (type png)
 <use images/int_mth1_2.png>
-Package pdftex.def Info: images/int_mth1_2.png  used on input line 51.
+Package pdftex.def Info: images/int_mth1_2.png  used on input line 50.
 (pdftex.def)             Requested size: 212.50467pt x 154.47179pt.
- [10
+ [41
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/int_mth1_2.png>]
-<images/int_mth3_2.png, id=412, 988.69376pt x 718.685pt>
+<images/int_mth3_2.png, id=2622, 988.69376pt x 718.685pt>
 File: images/int_mth3_2.png Graphic file (type png)
 <use images/int_mth3_2.png>
-Package pdftex.def Info: images/int_mth3_2.png  used on input line 71.
+Package pdftex.def Info: images/int_mth3_2.png  used on input line 70.
 (pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
-<images/int_mth4_2.png, id=413, 988.69376pt x 718.685pt>
+<images/int_mth4_2.png, id=2623, 988.69376pt x 718.685pt>
 File: images/int_mth4_2.png Graphic file (type png)
 <use images/int_mth4_2.png>
-Package pdftex.def Info: images/int_mth4_2.png  used on input line 71.
+Package pdftex.def Info: images/int_mth4_2.png  used on input line 70.
 (pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
- [11
+ [42
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/int_mth3_2.png> </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/int_mth4_2.png>]
 File: images/int_mth1_2.png Graphic file (type png)
 <use images/int_mth1_2.png>
-Package pdftex.def Info: images/int_mth1_2.png  used on input line 97.
+Package pdftex.def Info: images/int_mth1_2.png  used on input line 96.
 (pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
- [12
+ [43
 
 ]
 File: images/int_mth1_2.png Graphic file (type png)
 <use images/int_mth1_2.png>
-Package pdftex.def Info: images/int_mth1_2.png  used on input line 97.
+Package pdftex.def Info: images/int_mth1_2.png  used on input line 96.
 (pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
- [13
+ [44
 
 ]
 File: images/int_mth1_2.png Graphic file (type png)
 <use images/int_mth1_2.png>
-Package pdftex.def Info: images/int_mth1_2.png  used on input line 97.
+Package pdftex.def Info: images/int_mth1_2.png  used on input line 96.
 (pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
- [14
+ [45
 
 ]
-<images/hearing_num.png, id=546, 710.655pt x 516.93124pt>
-File: images/hearing_num.png Graphic file (type png)
-<use images/hearing_num.png>
-Package pdftex.def Info: images/hearing_num.png  used on input line 105.
-(pdftex.def)             Requested size: 212.36317pt x 154.47179pt.
- [15
-
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/hearing_num.png>]
-<images/dist.png, id=579, 988.69376pt x 718.685pt>
-File: images/dist.png Graphic file (type png)
-<use images/dist.png>
-Package pdftex.def Info: images/dist.png  used on input line 113.
-(pdftex.def)             Requested size: 212.50467pt x 154.47179pt.
- [16
-
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/dist.png>]
-<images/ep1.png, id=613, 988.69376pt x 718.685pt>
-File: images/ep1.png Graphic file (type png)
-<use images/ep1.png>
-Package pdftex.def Info: images/ep1.png  used on input line 133.
-(pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
-<images/ep1_bin.png, id=614, 988.69376pt x 718.685pt>
-File: images/ep1_bin.png Graphic file (type png)
-<use images/ep1_bin.png>
-Package pdftex.def Info: images/ep1_bin.png  used on input line 133.
-(pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
- [17
-
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep1.png> </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep1_bin.png>]
-<images/surp_reverse.png, id=648, 1346.02875pt x 448.67625pt>
+<images/surp_reverse.png, id=2865, 1346.02875pt x 448.67625pt>
 File: images/surp_reverse.png Graphic file (type png)
 <use images/surp_reverse.png>
-Package pdftex.def Info: images/surp_reverse.png  used on input line 141.
+Package pdftex.def Info: images/surp_reverse.png  used on input line 104.
 (pdftex.def)             Requested size: 397.21881pt x 132.40631pt.
- [18
+ [46
 
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png>] [19
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/surp_reverse.png>]
+<images/hearing_num.png, id=2926, 710.655pt x 516.93124pt>
+File: images/hearing_num.png Graphic file (type png)
+<use images/hearing_num.png>
+Package pdftex.def Info: images/hearing_num.png  used on input line 113.
+(pdftex.def)             Requested size: 212.36317pt x 154.47179pt.
+ [47
 
-] [20
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/hearing_num.png>]
+<images/dist.png, id=2986, 988.69376pt x 718.685pt>
+File: images/dist.png Graphic file (type png)
+<use images/dist.png>
+Package pdftex.def Info: images/dist.png  used on input line 121.
+(pdftex.def)             Requested size: 212.50467pt x 154.47179pt.
+ [48
 
-] [21
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/dist.png>]
+<images/ep1.png, id=3047, 988.69376pt x 718.685pt>
+File: images/ep1.png Graphic file (type png)
+<use images/ep1.png>
+Package pdftex.def Info: images/ep1.png  used on input line 141.
+(pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
+<images/ep1_bin.png, id=3048, 988.69376pt x 718.685pt>
+File: images/ep1_bin.png Graphic file (type png)
+<use images/ep1_bin.png>
+Package pdftex.def Info: images/ep1_bin.png  used on input line 141.
+(pdftex.def)             Requested size: 182.15117pt x 132.40631pt.
+ [49
 
-] [22
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep1.png> </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/ep1_bin.png>] [50
 
-] [23
+] [51
+
+] [52
+
+] [53
+
+] [54
 
 ]
-<images/complete_full.png, id=849, 887.315pt x 355.3275pt>
+<images/complete_full.png, id=3413, 887.315pt x 355.3275pt>
 File: images/complete_full.png Graphic file (type png)
 <use images/complete_full.png>
 Package pdftex.def Info: images/complete_full.png  used on input line 161.
 (pdftex.def)             Requested size: 385.74875pt x 154.47179pt.
- [24
+ [55
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/complete_full.png>]
-<images/stage2comp_full.png, id=882, 1122.1925pt x 449.68pt>
+<images/stage2comp_full.png, id=3475, 1122.1925pt x 449.68pt>
 File: images/stage2comp_full.png Graphic file (type png)
 <use images/stage2comp_full.png>
 Package pdftex.def Info: images/stage2comp_full.png  used on input line 169.
 (pdftex.def)             Requested size: 385.49588pt x 154.47179pt.
- [25
+ [56
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/stage2comp_full.png>]
-<images/complete_surp_inattent.png, id=916, 1178.4025pt x 471.7625pt>
+<images/complete_surp_inattent.png, id=3535, 1178.4025pt x 471.7625pt>
 File: images/complete_surp_inattent.png Graphic file (type png)
 <use images/complete_surp_inattent.png>
 Package pdftex.def Info: images/complete_surp_inattent.png  used on input line 178.
 (pdftex.def)             Requested size: 385.85323pt x 154.47179pt.
- [26
+ [57
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/complete_surp_inattent.png>]
-<images/comp_asia.png, id=950, 1102.1175pt x 440.64626pt>
+<images/comp_asia.png, id=3596, 1102.1175pt x 440.64626pt>
 File: images/comp_asia.png Graphic file (type png)
 <use images/comp_asia.png>
 Package pdftex.def Info: images/comp_asia.png  used on input line 186.
 (pdftex.def)             Requested size: 386.35231pt x 154.47179pt.
- [27
+ [58
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/comp_asia.png>]
-<images/comp_govt_dum.png, id=983, 1102.1175pt x 440.64626pt>
+<images/comp_govt_dum.png, id=3657, 1102.1175pt x 440.64626pt>
 File: images/comp_govt_dum.png Graphic file (type png)
 <use images/comp_govt_dum.png>
 Package pdftex.def Info: images/comp_govt_dum.png  used on input line 194.
 (pdftex.def)             Requested size: 386.35231pt x 154.47179pt.
- [28
+ [59
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/comp_govt_dum.png>]
-<images/comp_judge_morecase_perday.png, id=1016, 1102.1175pt x 440.64626pt>
+<images/comp_judge_morecase_perday.png, id=3717, 1102.1175pt x 440.64626pt>
 File: images/comp_judge_morecase_perday.png Graphic file (type png)
 <use images/comp_judge_morecase_perday.png>
 Package pdftex.def Info: images/comp_judge_morecase_perday.png  used on input line 202.
 (pdftex.def)             Requested size: 386.35231pt x 154.47179pt.
- [29
+ [60
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/comp_judge_morecase_perday.png>]
-<images/judge_expdum_full.png, id=1050, 988.69376pt x 718.685pt>
+<images/judge_expdum_full.png, id=3778, 988.69376pt x 718.685pt>
 File: images/judge_expdum_full.png Graphic file (type png)
 <use images/judge_expdum_full.png>
 Package pdftex.def Info: images/judge_expdum_full.png  used on input line 210.
 (pdftex.def)             Requested size: 242.85817pt x 176.54063pt.
- [30
+ [61
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/judge_expdum_full.png>]
-<images/attent_bylschyr_mean.png, id=1083, 848.16875pt x 616.3025pt>
+<images/attent_bylschyr_mean.png, id=3839, 848.16875pt x 616.3025pt>
 File: images/attent_bylschyr_mean.png Graphic file (type png)
 <use images/attent_bylschyr_mean.png>
 Package pdftex.def Info: images/attent_bylschyr_mean.png  used on input line 218.
-(pdftex.def)             Requested size: 182.21036pt x 132.40631pt.
- [31
+(pdftex.def)             Requested size: 212.58522pt x 154.47179pt.
+ [62
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/attent_bylschyr_mean.png>]
-<images/attent_bygender.png, id=1117, 848.16875pt x 616.3025pt>
+<images/attent_bygender.png, id=3900, 848.16875pt x 616.3025pt>
 File: images/attent_bygender.png Graphic file (type png)
 <use images/attent_bygender.png>
 Package pdftex.def Info: images/attent_bygender.png  used on input line 226.
-(pdftex.def)             Requested size: 182.21036pt x 132.40631pt.
- [32
+(pdftex.def)             Requested size: 212.58522pt x 154.47179pt.
+ [63
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/attent_bygender.png>]
-<images/weather_all.png, id=1151, 1346.02875pt x 539.01375pt>
+<images/weather_all.png, id=3960, 1346.02875pt x 539.01375pt>
 File: images/weather_all.png Graphic file (type png)
 <use images/weather_all.png>
 Package pdftex.def Info: images/weather_all.png  used on input line 234.
 (pdftex.def)             Requested size: 385.73767pt x 154.47179pt.
- [33
+ [64
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather_all.png>]
-<images/weather_bin.png, id=1184, 1346.02875pt x 539.01375pt>
+<images/weather_bin.png, id=4021, 1346.02875pt x 539.01375pt>
 File: images/weather_bin.png Graphic file (type png)
 <use images/weather_bin.png>
 Package pdftex.def Info: images/weather_bin.png  used on input line 242.
 (pdftex.def)             Requested size: 385.73767pt x 154.47179pt.
- [34
+ [65
 
  </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather_bin.png>]
-<images/weather.png, id=1217, 1178.4025pt x 471.7625pt>
+<images/weather.png, id=4082, 1178.4025pt x 471.7625pt>
 File: images/weather.png Graphic file (type png)
 <use images/weather.png>
 Package pdftex.def Info: images/weather.png  used on input line 250.
 (pdftex.def)             Requested size: 385.85323pt x 154.47179pt.
- [35
+ [66
 
- </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather.png>]) [36
+ </Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/images/weather.png>]) (/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/chapters/5_endmark.tex [67
 
- </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [37
+] [68
+
+] [69
+
+] [70
+
+] [71
+
+] [72
+
+] [73
+
+] [74
+
+] [75
+
+]) [76
+
+ </usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [77
 
 ]
 \tf@nav=\write10
@@ -2555,7 +2699,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 51621A71E46CBD1E8B396101245E0FFC;130.
+(rerunfilecheck)             Checksum: 26D13408BDD8CBE56E0CDF7C8ACD5682;338.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2566,18 +2710,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 40955 strings out of 492649
- 805821 string characters out of 6129623
- 1305031 words of memory out of 5000000
- 44056 multiletter control sequences out of 15000+600000
- 542462 words of font info for 67 fonts, out of 8000000 for 9000
+ 41271 strings out of 492649
+ 812303 string characters out of 6129623
+ 1315804 words of memory out of 5000000
+ 44255 multiletter control sequences out of 15000+600000
+ 543112 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,20n,105p,10505b,3971s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.pdf" (37 pages, 1348082 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "/Users/admin/Dropbox/SAI presentations/mypremode/examples/judge_inattention/main.pdf" (77 pages, 2385325 bytes).
 PDF statistics:
- 1365 PDF objects out of 1440 (max. 8388607)
- 1220 compressed objects within 13 object streams
- 79 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4863 PDF objects out of 5155 (max. 8388607)
+ 4591 compressed objects within 46 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

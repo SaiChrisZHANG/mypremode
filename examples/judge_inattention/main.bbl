@@ -64,6 +64,178 @@
       \field{pages}{1885\bibrangedash 1932}
       \range{pages}{48}
     \endentry
+    \entry{chen2016decision}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=5612bf9bb2e939a3946a673b8f91b673}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima L},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b2be3596f0d43c50d16c45b389ea5eb}{%
+           family={Moskowitz},
+           familyi={M\bibinitperiod},
+           given={Tobias\bibnamedelima J},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ce4e1bae49acfcc220b06a367e39793}{%
+           family={Shue},
+           familyi={S\bibinitperiod},
+           given={Kelly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{14b67ca5e5566a58015aaa07dc6537a0}
+      \strng{fullhash}{37baac048bc8d7ee0e79991ba49067b7}
+      \strng{bibnamehash}{37baac048bc8d7ee0e79991ba49067b7}
+      \strng{authorbibnamehash}{37baac048bc8d7ee0e79991ba49067b7}
+      \strng{authornamehash}{14b67ca5e5566a58015aaa07dc6537a0}
+      \strng{authorfullhash}{37baac048bc8d7ee0e79991ba49067b7}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{3}
+      \field{title}{Decision making under the gambler’s fallacy: Evidence from asylum judges, loan officers, and baseball umpires}
+      \field{volume}{131}
+      \field{year}{2016}
+      \field{pages}{1181\bibrangedash 1242}
+      \range{pages}{62}
+    \endentry
+    \entry{dobbie2018effects}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=a313125a5063b823252b86b2fcbb6462}{%
+           family={Dobbie},
+           familyi={D\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=78894e2f837d992af36804bfb1b092df}{%
+           family={Goldin},
+           familyi={G\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2fa1432330beb54d6d54c84b4ce9720f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Crystal\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3d69d5d1f557c7176959d7a1c03b04a}
+      \strng{fullhash}{e5b919b3b6f6ef595cf3a397f3455208}
+      \strng{bibnamehash}{e5b919b3b6f6ef595cf3a397f3455208}
+      \strng{authorbibnamehash}{e5b919b3b6f6ef595cf3a397f3455208}
+      \strng{authornamehash}{d3d69d5d1f557c7176959d7a1c03b04a}
+      \strng{authorfullhash}{e5b919b3b6f6ef595cf3a397f3455208}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{2}
+      \field{title}{The effects of pretrial detention on conviction, future crime, and employment: Evidence from randomly assigned judges}
+      \field{volume}{108}
+      \field{year}{2018}
+      \field{pages}{201\bibrangedash 40}
+      \range{pages}{41}
+    \endentry
+    \entry{dunn2017early}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=53f1d5a932ea62f4118333cc58077805}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3d1f2501fb64c44a686e26c50bc87110}{%
+           family={Sagun},
+           familyi={S\bibinitperiod},
+           given={Levent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dfc369399f25ca74b80854fb9b45849c}{%
+           family={{Ş}irin},
+           familyi={Ş\bibinitperiod},
+           given={Hale},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=34ab39275e71f8a13687a9ff15151e29}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4110bea96143c202a0e6f54ae1e6588d}
+      \strng{fullhash}{a523145605a3791abe6b48cc52d5abf6}
+      \strng{bibnamehash}{a523145605a3791abe6b48cc52d5abf6}
+      \strng{authorbibnamehash}{a523145605a3791abe6b48cc52d5abf6}
+      \strng{authornamehash}{4110bea96143c202a0e6f54ae1e6588d}
+      \strng{authorfullhash}{a523145605a3791abe6b48cc52d5abf6}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 16th edition of the International Conference on Articial Intelligence and Law}
+      \field{title}{Early predictability of asylum court decisions}
+      \field{year}{2017}
+      \field{pages}{233\bibrangedash 236}
+      \range{pages}{4}
+    \endentry
+    \entry{heckman2005structural}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6f7227f39c4c735be25d1d80a5de5678}{%
+           family={Heckman},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=02857392547466f1e886fcc2d3bfd566}{%
+           family={Vytlacil},
+           familyi={V\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{942daac2ac96b6cce6e3068262bd2daf}
+      \strng{fullhash}{942daac2ac96b6cce6e3068262bd2daf}
+      \strng{bibnamehash}{942daac2ac96b6cce6e3068262bd2daf}
+      \strng{authorbibnamehash}{942daac2ac96b6cce6e3068262bd2daf}
+      \strng{authornamehash}{942daac2ac96b6cce6e3068262bd2daf}
+      \strng{authorfullhash}{942daac2ac96b6cce6e3068262bd2daf}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{3}
+      \field{title}{Structural equations, treatment effects, and econometric policy evaluation 1}
+      \field{volume}{73}
+      \field{year}{2005}
+      \field{pages}{669\bibrangedash 738}
+      \range{pages}{70}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
