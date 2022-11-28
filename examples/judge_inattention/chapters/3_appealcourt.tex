@@ -1,0 +1,99 @@
+\section{Prediction: Appeal Court}
+
+ \frame{\sectionpage}
+
+\begin{frame}{Appeal Grant Rate: By Appeal Year}
+    \begin{figure}
+        \centering
+        \includegraphics[width = \textwidth]{images/grant_rate_by_appeal_year.png}
+        %\caption{Data Structure}
+        \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Appeal Grant Rate: By Appeal Judge}
+    \begin{figure}
+        \centering
+        \includegraphics[width = \textwidth]{images/grant_rate_by_judge.png}
+        %\caption{Data Structure}
+        \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Appeal Grant Rate: By Nationality}
+    \begin{figure}
+        \centering
+        \includegraphics[width = \textwidth]{images/grant_rate_by_nationality.png}
+        %\caption{Data Structure}
+        \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Prediction: A Random Forest Model}
+    \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.65 \textheight]{images/model_selection3.png}
+            %\caption{Data Structure}
+            \end{figure}
+    \end{column}
+        
+    \begin{column}{0.35\textwidth}
+        \begin{table}[h!]
+            \small
+            \begin{center}
+              \begin{tabular}{lc}
+                
+                \textcolor{goldenrod}{\textbf{Category}} & \textcolor{goldenrod}{\textbf{Weight}}  \\
+                \hline
+                Time Information & 37.78\%\\
+                \textcolor{goldenrod}{Judge Information} & 27.71\%\\
+                Respondent & 17.79\%\\
+                Trend Features & 7.45\%\\
+                Proceeding Features & 6.05\%\\
+                Location Features & 4.26\%
+              \end{tabular}
+            \end{center}
+          \end{table}
+    \end{column}
+        
+    \end{columns}
+    
+\end{frame}
+
+\begin{frame}{Prediction Accuracy Driven by Lower Court Judges}
+
+        \begin{table}[h!]
+            \small
+            \begin{center}
+              \begin{tabular}{lcc}
+                
+                \textcolor{goldenrod}{\textbf{Model}} & \textcolor{goldenrod}{\textbf{Accuracy}}  & \textcolor{goldenrod}{\textbf{ROC AUC}} \\
+                \hline
+                Judge ID & 67.5\% & 0.625 \\
+                Judge ID \& Nationality & 70.4\% & 0.701 \\
+                \textcolor{goldenrod}{Judge ID} \& \textcolor{goldenrod}{Nationality} \& \textcolor{goldenrod}{Year} & 74.1\% & 0.765 \\
+                \hline
+                Full model & 79.2\% & 0.840
+              \end{tabular}
+            \end{center}
+          \end{table}
+
+        \begin{table}[h!]
+            \small
+            \begin{center}
+              \begin{tabular}{lcc}
+                
+                 & Predicted denial & Predicted success  \\
+                \hline
+                Actual denial & \textcolor{goldenrod}{195223} & 65798\\
+                Actual success & 73269 & \textcolor{goldenrod}{104406} \\
+                \hline
+                \multicolumn{3}{c}{Accuracy = 68.3\%}\\
+                \multicolumn{3}{c}{F1 = 0.6}
+              \end{tabular}
+            \end{center}
+          \end{table}
+\end{frame}
