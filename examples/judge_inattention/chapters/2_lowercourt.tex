@@ -2,23 +2,133 @@
     
     \frame{\sectionpage}
 
-\begin{frame}{Prediction: Lower Court Decision}
+\begin{frame}{Descriptive Evidence: Case Informaion Matters}
 
-    \begin{figure}\label{fig:trial_structure}
+    \begin{figure}\label{fig:static_case}
     \centering
-    \includegraphics[height = 0.65 \textheight]{images/fig_data.png}
-    \caption{Data Structure}
+    \includegraphics[height = 0.7 \textheight]{images/Static_Case_Information.png}
+    %\caption{Data Structure}
     \end{figure}
     
 \end{frame}
 
-\begin{frame}{Prediction: Lower Court Decision}
+\begin{frame}{Descriptive Evidence: Court Informaion Matters}
 
-    \begin{figure}\label{fig:trial_structure}
+    \begin{figure}\label{fig:static_court}
     \centering
-    \includegraphics[height = 0.65 \textheight]{images/fig_data.png}
-    \caption{Data Structure}
+    \includegraphics[height = 0.7 \textheight]{images/Static_Court_Judge.png}
+    %\caption{Data Structure}
     \end{figure}
     
 \end{frame}
 
+\begin{frame}{Descriptive Evidence: Other Predictors}
+
+    \begin{figure}\label{fig:static_outside}
+    \centering
+    \includegraphics[height = 0.7 \textheight]{images/Static_Weather_News_Trend.png}
+    %\caption{Data Structure}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Top 7 Countries by Applicants}
+    \begin{table}[h!]
+        \small
+        \begin{center}
+          \begin{tabular}{lccc}
+            
+            \textcolor{goldenrod}{\textbf{Country}} & \textcolor{goldenrod}{\textbf{Count}} & \textcolor{goldenrod}{\textbf{Percentage}} & \textcolor{goldenrod}{\textbf{Grant Rate}}  \\
+            \hline
+            China & 107964 & 19\% & 53\% \\
+            Haiti & 42013 & 7.4\% & 16\% \\
+            El Salvador & 41626 & 7.4\% & 8.7\%\\
+            Guatemala & 34705 & 6.1\% & 11\% \\
+            Colombia & 27713 & 4.9\% & 35\% \\
+            India & 19161 & 3.4\% & 37\% \\
+            Mexico & 19031& 3.4\% & 7.3\% \\
+            Nicaragua & 15987 & 2.8\% & 20\%\\
+            Albania & 12036 & 2.1\% & 52\% \\
+            Indonesia & 11399 & 2\% & 32\%
+          \end{tabular}
+        \end{center}
+      \end{table}
+\end{frame}
+
+
+\begin{frame}{Prediction: A Random Forest Model}
+    \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+
+        \begin{figure}\label{fig:RF}
+            \centering
+            \includegraphics[height = 0.7 \textheight]{images/RF_ERT_DT_Comp.png}
+            %\caption{Data Structure}
+            \end{figure}
+    \end{column}
+        
+    \begin{column}{0.35\textwidth}
+        \begin{table}[h!]
+            \small
+            \begin{center}
+              \begin{tabular}{lc}
+                
+                \textcolor{goldenrod}{\textbf{Category}} & \textcolor{goldenrod}{\textbf{Weight}}  \\
+                \hline
+                Case Information & 20\%\\
+                Court Information & 7\%\\
+                Judge Information & 10\%\\
+                News Trend & 7\%\\
+                Ruling Trend & 49\%\\
+                Weather & 2\%
+              \end{tabular}
+            \end{center}
+          \end{table}
+    \end{column}
+        
+    \end{columns}
+    
+\end{frame}
+
+\begin{frame}{Early Predictability of Judges}
+    \begin{table}[h!]
+        \small
+        \begin{center}
+          \begin{tabular}{lcc}
+            
+            \textcolor{goldenrod}{\textbf{Model}} & \textcolor{goldenrod}{\textbf{Accuracy}}  & \textcolor{goldenrod}{\textbf{ROC AUC}} \\
+            \hline
+            Judge ID & 71\% & 0.74 \\
+            Judge ID \& Nationality & 76\% & 0.82 \\
+            Judge ID \& Opening Date & 73\% & 0.77 \\
+            \textcolor{goldenrod}{Judge ID} \& \textcolor{goldenrod}{Nationality} \& \textcolor{goldenrod}{Opening Date} & 78\% & 0.84 \\
+            \hline
+            Full model at case \textcolor{goldenrod}{completion} & 82\% & 0.88
+          \end{tabular}
+        \end{center}
+      \end{table}
+\end{frame}
+
+\begin{frame}{Early Prediction and Inattention}
+    \begin{columns}[T]
+    \begin{column}{0.4\textwidth}
+
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.7 \textheight]{images/ep_byrate1.png}
+            %\caption{Data Structure}
+            \end{figure}
+    \end{column}
+        
+    \begin{column}{0.55\textwidth}
+
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.7 \textheight]{images/ep_byrate2.png}
+            %\caption{Data Structure}
+            \end{figure}
+    \end{column}
+        
+    \end{columns}
+    
+\end{frame}
