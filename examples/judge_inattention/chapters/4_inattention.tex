@@ -72,7 +72,7 @@
 
 \begin{frame}{Event Study: Construct A Measure of Attentiveness}
     \begin{columns}[T]
-    \begin{column}{0.6\textwidth}
+    \begin{column}{0.5\textwidth}
 
         \begin{figure}
             \centering
@@ -81,7 +81,7 @@
             \end{figure}
     \end{column}
         
-    \begin{column}{0.35\textwidth}
+    \begin{column}{0.45\textwidth}
         \small
         \begin{align*}
             \bar{y}_{i,s,t}= &\alpha D_{s,k}\\
@@ -99,7 +99,15 @@
 \begin{frame}{Validity of the Attentiveness Measure: Judges' Effort}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/hearing_num.png}
+        \includegraphics[height = 0.7 \textheight]{images/hearing_num.png}
+            %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Validity of the Attentiveness Measure: Judges' Errors}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.7 \textheight]{images/dist.png}
             %\caption{Data Structure}
     \end{figure}
 \end{frame}
@@ -147,7 +155,7 @@
 \begin{frame}{Risk Ranking of Judges}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/complete_full.png}
+        \includegraphics[height = 0.7 \textheight]{images/complete_full.png}
         %\caption{Data Structure}
     \end{figure}
 \end{frame}
@@ -155,15 +163,24 @@
 \begin{frame}{Risk Ranking of Judges: Appeal Courts}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/stage2comp_full.png}
+        \includegraphics[height = 0.7 \textheight]{images/stage2comp_full.png}
         %\caption{Data Structure}
     \end{figure}
+\end{frame}
+
+\begin{frame}{Implicit Risk Ranking and Inattention}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.7 \textheight]{images/complete_surp_inattent.png}
+        %\caption{Data Structure}
+    \end{figure}
+    
 \end{frame}
 
 \begin{frame}{Risk Ranking of Judges: Asian Applicants}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/comp_asia.png}
+        \includegraphics[height = 0.7 \textheight]{images/comp_asia.png}
         %\caption{Data Structure}
     \end{figure}
 \end{frame}
@@ -171,7 +188,7 @@
 \begin{frame}{Risk Ranking of Judges: Government Experience}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/comp_govt_dum.png}
+        \includegraphics[height = 0.7 \textheight]{images/comp_govt_dum.png}
         %\caption{Data Structure}
     \end{figure}
 \end{frame}
@@ -179,7 +196,7 @@
 \begin{frame}{Risk Ranking of Judges: Workload}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/comp_judge_morecase_perday.png}
+        \includegraphics[height = 0.7 \textheight]{images/comp_judge_morecase_perday.png}
         %\caption{Data Structure}
     \end{figure}
 \end{frame}
@@ -187,7 +204,7 @@
 \begin{frame}{Judges' Inattention: Experience Heterogeneity}
     \begin{figure}
         \centering
-        \includegraphics[height = 0.6 \textheight]{images/judge_expdum_full.png}
+        \includegraphics[height = 0.8 \textheight]{images/judge_expdum_full.png}
             %\caption{Data Structure}
     \end{figure}
 \end{frame}
@@ -200,25 +217,11 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Crosscheck Machine Learning Predictions and Leniency Measure}
-    \begin{columns}[T]
-    \begin{column}{0.6\textwidth}
-
-        \begin{figure}
-            \centering
-            \includegraphics[height = 0.6 \textheight]{images/dist.png}
+\begin{frame}{Judges' Inattention: Gender Heterogeneity}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/attent_bygender.png}
             %\caption{Data Structure}
-            \end{figure}
-    \end{column}
-        
-    \begin{column}{0.35\textwidth}
-        Likelihood ratio:
-        $$
-        \frac{\mathbb{E}(x\mid \text{More Attentive})}{x\mid \text{Less Attentive}}
-        $$
-        
-        \uncover<2->{Now, limit to a smaller window and re-pool data: $k\in \{T'-1,T',T'+1\}$, and extract $\gamma$ as attentiveness of judges}
-    \end{column}
-    \end{columns}
-    
+    \end{figure}
 \end{frame}
+

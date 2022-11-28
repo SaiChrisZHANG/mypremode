@@ -16,5 +16,55 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{arnold2018racial}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=14486f0f1086219278b3dc561fc8f8c7}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a313125a5063b823252b86b2fcbb6462}{%
+           family={Dobbie},
+           familyi={D\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2fa1432330beb54d6d54c84b4ce9720f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Crystal\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ad107294ad200a8ebac91e602f04aabf}
+      \strng{fullhash}{5a85f485249e223709d022f8e83cf637}
+      \strng{bibnamehash}{5a85f485249e223709d022f8e83cf637}
+      \strng{authorbibnamehash}{5a85f485249e223709d022f8e83cf637}
+      \strng{authornamehash}{ad107294ad200a8ebac91e602f04aabf}
+      \strng{authorfullhash}{5a85f485249e223709d022f8e83cf637}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{Racial bias in bail decisions}
+      \field{volume}{133}
+      \field{year}{2018}
+      \field{pages}{1885\bibrangedash 1932}
+      \range{pages}{48}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
