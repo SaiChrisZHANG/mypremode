@@ -1,0 +1,106 @@
+\section{Evaluation}
+
+ \frame{\sectionpage}
+
+\begin{frame}{Shock of Surprising Reverses}
+
+    \begin{table}[h!]
+        \small
+        \begin{center}
+          \begin{tabular}{lcc}
+            
+             & Predicted denial & Predicted success  \\
+            \hline
+            Actual denial & \uncover<2->{affirm and predicted affirm} & \uncover<2->{affirm but predicted reverse}\\
+            Actual success & \uncover<3->{\color{goldenrod}reverse but predicted affirm} & \uncover<2->{reverse and predicted reverse}
+          \end{tabular}
+        \end{center}
+      \end{table}
+
+    \uncover<4->{
+        \begin{itemize}
+            \item<4-> reverse: denial asylum in the lower court, but grant asylum in the appeal court
+            \item<5-> \textbf{\color{goldenrod}surprising reverse}: predicted affirm, but actually reversed
+        \end{itemize}
+    }
+    
+\end{frame}
+
+\begin{frame}{Event Study: around Surprising Reverses}
+
+    An event study design around the surprising reverse shock:
+    $$
+    \bar{y}_{i,s,t}=\alpha D_{s,k} + \beta\mathbf{1}\left(\text{Surprising Reverse}\right)_{s} + \gamma D_{s,k} \times \mathbf{1}\left(\text{Surprising Reverse}\right)_s +\mu_t+ \nu_c+\varepsilon_{i,s,t}
+    $$
+    where:
+    \begin{itemize}
+        \item $\bar{y}_{i,s,t}$: the leave-out average grant rate of judge $i$, for case $s$
+        \item $\mu_t$: appeal decision year and month fixed effects
+        \item $\nu_c$: court fixed effects
+        \item $k\in \{T-6,T-5,T-4,T-3,T-2,T-1,T,T+1,T+2,T+3,T+4,T+5,T+6\}$, where $T$ is the time when the appeal decision is made.
+    \end{itemize}
+     
+\end{frame}
+
+\begin{frame}{Event Study: Results}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.7 \textheight]{images/int_mth1_2.png}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Event Study: Robustness to Granular Dependent Variable Construction}
+    \begin{columns}
+
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+            \centering
+            \includegraphics[height = 0.6 \textheight]{images/int_mth3_2.png}
+            \end{figure}
+        \end{column}
+        
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[height = 0.6 \textheight]{images/int_mth4_2.png}
+            \end{figure}
+        \end{column}
+        \end{columns}
+    
+\end{frame}
+
+\begin{frame}{Event Study: Construct A Measure of Attentiveness}
+    \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.6 \textheight]{images/int_mth1_2.png}
+            %\caption{Data Structure}
+            \end{figure}
+    \end{column}
+        
+    \begin{column}{0.35\textwidth}
+        \small
+        \begin{align*}
+            \bar{y}_{i,s,t}= &\alpha D_{s,k}\\
+            & + \beta\mathbf{1}\left(\text{Surprising Reverse}\right)_{s} \\
+            & + \textcolor<3>{goldenrod}{\gamma} D_{s,k} \times \mathbf{1}\left(\text{Surprising Reverse}\right)_s \\
+            & +\mu_t+ \nu_c+\varepsilon_{i,s,t}
+        \end{align*}
+        
+        \uncover<2->{Now, limit to a smaller window and re-pool data: $k\in \{T'-1,T',T'+1\}$, and extract $\gamma$ as attentiveness of judges}
+    \end{column}
+    \end{columns}
+    
+\end{frame}
+
+\begin{figure}{Variation in Attentiveness of Judges}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/surp_reverse.png}
+        %\caption{Data Structure}
+    \end{figure}
+\end{figure}
+
