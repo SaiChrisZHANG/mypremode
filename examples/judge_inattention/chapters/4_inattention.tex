@@ -96,11 +96,129 @@
     
 \end{frame}
 
-\begin{figure}{Variation in Attentiveness of Judges}
+\begin{frame}{Validity of the Attentiveness Measure: Judges' Effort}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/hearing_num.png}
+            %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Validity of the Attentiveness Measure: Early Predictability}
+    \begin{columns}
+
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+            \centering
+            \includegraphics[height = 0.6 \textheight]{images/ep1.png}
+            \end{figure}
+        \end{column}
+        
+        \begin{column}{0.45\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[height = 0.6 \textheight]{images/ep1_bin.png}
+            \end{figure}
+        \end{column}
+        \end{columns}
+    
+\end{frame}
+
+\begin{frame}{Variation in Attentiveness of Judges}
     \begin{figure}
         \centering
         \includegraphics[height = 0.6 \textheight]{images/surp_reverse.png}
         %\caption{Data Structure}
     \end{figure}
-\end{figure}
+\end{frame}
 
+\begin{frame}{The Impact of Judicial Inattention: Implicit Risk Ranking}
+    Generate a residualized, leave-out judge leniency measure following \citet{arnold2018racial}:
+    \begin{itemize}
+        \item<2-> \textbf{\color{goldenrod}\underline{Step 1}}: Regression lower court decisions on court-by-year-by-month FEs
+        \item<3-> \textbf{\color{goldenrod}\underline{Step 2}}: Extract the residuals
+        \item<4-> \textbf{\color{goldenrod}\underline{Step 3}}: Calculate the leave-out average grant rate in the lower court
+    \end{itemize}
+    \uncover<5>{
+        This will give us a leniency measure
+    }
+\end{frame}
+
+\begin{frame}{Risk Ranking of Judges}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/complete_full.png}
+        %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Risk Ranking of Judges: Appeal Courts}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/stage2comp_full.png}
+        %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Risk Ranking of Judges: Asian Applicants}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/comp_asia.png}
+        %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Risk Ranking of Judges: Government Experience}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/comp_govt_dum.png}
+        %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Risk Ranking of Judges: Workload}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/comp_judge_morecase_perday.png}
+        %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Judges' Inattention: Experience Heterogeneity}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/judge_expdum_full.png}
+            %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Judges' Inattention: Experience Heterogeneity}
+    \begin{figure}
+        \centering
+        \includegraphics[height = 0.6 \textheight]{images/attent_bylschyr_mean.png}
+            %\caption{Data Structure}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Crosscheck Machine Learning Predictions and Leniency Measure}
+    \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.6 \textheight]{images/dist.png}
+            %\caption{Data Structure}
+            \end{figure}
+    \end{column}
+        
+    \begin{column}{0.35\textwidth}
+        Likelihood ratio:
+        $$
+        \frac{\mathbb{E}(x\mid \text{More Attentive})}{x\mid \text{Less Attentive}}
+        $$
+        
+        \uncover<2->{Now, limit to a smaller window and re-pool data: $k\in \{T'-1,T',T'+1\}$, and extract $\gamma$ as attentiveness of judges}
+    \end{column}
+    \end{columns}
+    
+\end{frame}
