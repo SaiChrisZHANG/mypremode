@@ -1,0 +1,189 @@
+\section{Context}
+    
+    \frame{\sectionpage}
+
+\begin{frame}{Conceptual Framework}
+    \begin{table}[h!]
+        %\small \textcolor<6>{fuzzywuzzy!65!white}
+        \begin{center}
+            \label{tab:model}
+            \begin{tabular}{lccc}
+            
+            & &\multicolumn{2}{c}{workseekers} \\
+           & & $W_1$ & $W_2$ \\
+            \hline
+            \multirow{2}{*}{jobs} & $J_1$ & \uncover<2->{\textcolor<6>{fuzzywuzzy!65!white}{$P_{1,1}$}}\uncover<3->{$\cdot U(\underbrace{W_{1,1}}_{\leq \textcolor<6>{fuzzywuzzy!65!white}{V_{1,1}}})$}\uncover<4->{\textcolor<4>{fuzzywuzzy!65!white}{$-C$}} & \uncover<2->{$\textcolor<6>{fuzzywuzzy!65!white}{P_{2,1}}$}\uncover<3->{$\cdot U(\underbrace{W_{2,1}}_{\leq \textcolor<6>{fuzzywuzzy!65!white}{V_{2,1}}})$}\uncover<4->{\textcolor<4>{fuzzywuzzy!65!white}{$-C$}} \\
+            & $J_2$ & \uncover<2->{$\textcolor<6>{fuzzywuzzy!65!white}{P_{1,2}}$}\uncover<3->{$\cdot U(\underbrace{W_{1,2}}_{\leq \textcolor<6>{fuzzywuzzy!65!white}{V_{1,2}}})$}\uncover<4->{\textcolor<4>{fuzzywuzzy!65!white}{$-C$}} & \uncover<2->{$\textcolor<6>{fuzzywuzzy!65!white}{P_{2,2}}$}\uncover<3->{$\cdot U(\underbrace{W_{2,2}}_{\leq \textcolor<6>{fuzzywuzzy!65!white}{V_{2,2}}})$}\uncover<4->{\textcolor<4>{fuzzywuzzy!65!white}{$-C$}}
+            \end{tabular}
+        \end{center}
+    \end{table}
+
+\begin{itemize}
+    \small
+    \item<5->[A1] $p$ type-1 workseekers, $1-p$ type-2s
+    \item<6->[A2] differential matching: 1-1 and 2-2 easy and optimal
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conceptual Framework: Reservation Wage}
+
+    \begin{columns}[T]
+        \begin{column}{0.6\textwidth}
+            \begin{table}[h!]
+                \small
+                \begin{center}
+                    \begin{tabular}{lccc}
+                    
+                    & &\multicolumn{2}{c}{workseekers} \\
+                   & & $W_1$ & $W_2$ \\
+                    \hline
+                    \multirow{2}{*}{jobs} & $J_1$ & $\textcolor{fuzzywuzzy!65!white}{\boxed{P_{1,1}\cdot U(\underbrace{W_{1,1}}_{\leq V_{1,1}})-C}}$ & $P_{2,1}\cdot U(\underbrace{W_{2,1}}_{\leq V_{2,1}})-C$ \\
+                    & $J_2$ & $P_{1,2}\cdot U(\underbrace{W_{1,2}}_{\leq V_{1,2}})-C$ & $\textcolor{fuzzywuzzy!65!white}{\boxed{P_{2,2}\cdot U(\underbrace{W_{2,2}}_{\leq V_{2,2}})-C}}$
+                    \end{tabular}
+                \end{center}
+            \end{table}
+
+        \end{column}
+    
+        \begin{column}{0.35\textwidth}
+
+            \begin{itemize}
+                \item reservation wage exists: $$ \underbar{W}_i(C,P) $$ 
+                \item<2>[-] \textcolor{fuzzywuzzy!65!white}{\underline{higher $C$}}: labor force nonparticipation
+                \item<2>[-] \textcolor{fuzzywuzzy!65!white}{\underline{\textit{unbalanced} $P_{i,j}$}}: unemployment
+            \end{itemize}
+            
+        \end{column}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}{Conceptual Framework: Information Frictions - Firms}
+    \begin{columns}[T]
+        \begin{column}{0.6\textwidth}
+            \begin{table}[h!]
+                \small
+                \begin{center}
+                    \begin{tabular}{lccc}
+                    
+                    & &\multicolumn{2}{c}{workseekers} \\
+                   & & $W_1$ & $W_2$ \\
+                    \hline
+                    \multirow{2}{*}{jobs} & $J_1$ & $\textcolor{fuzzywuzzy!65!white}{\boxed{P_{1,1}\cdot U(\underbrace{W_{1,1}}_{\leq V_{1,1}})-C}}$ & $P_{2,1}\cdot U(\underbrace{W_{2,1}}_{\leq V_{2,1}})-C$ \\
+                    & $J_2$ & $P_{1,2}\cdot U(\underbrace{W_{1,2}}_{\leq V_{1,2}})-C$ & $\textcolor{fuzzywuzzy!65!white}{\boxed{P_{2,2}\cdot U(\underbrace{W_{2,2}}_{\leq V_{2,2}})-C}}$
+                    \end{tabular}
+                \end{center}
+            \end{table}
+
+        \end{column}
+    
+        \begin{column}{0.35\textwidth}
+            \begin{itemize}
+                \small 
+                \item under-informed \textcolor{fuzzywuzzy!65!white}{\textbf{firms}}
+                
+                \uncover<2->{output:
+                $$ q\underbrace{\cdot V_{j,j}}_{\text{optimal}} + (1-q)\cdot \underbrace{V_{i,j}}_{\text{suboptimal}} $$}
+                \uncover<3->{wage under \textcolor{fuzzywuzzy!65!white}{\textbf{concavity}}:
+                $$ W_j \leq qW_{j,j} + (1-q)\cdot W_{i,j} $$}
+            \end{itemize}
+            
+        \end{column}
+    \end{columns}
+    \uncover<4>{
+        \texthlit{prediction}
+        \begin{itemize}
+        \small
+        \item[-] lower wages conditional on employment, lower employment
+        \item[-] costly screening technology cannot fully mitigate this inefficiency
+    \end{itemize}}
+\end{frame}
+
+\begin{frame}{Conceptual Framework: Information Frictions - Workseekers}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{table}[h!]
+                \small
+                \begin{center}
+                    \begin{tabular}{lccc}
+                    
+                    & &\multicolumn{2}{c}{workseekers} \\
+                   & & $W_1$ & $W_2$ \\
+                    \hline
+                    \multirow{2}{*}{jobs} & $J_1$ & $\textcolor{fuzzywuzzy!65!white}{\boxed{P_{1,1}\cdot U(\underbrace{W_{1,1}}_{\leq V_{1,1}})-C}}$ & $P_{2,1}\cdot U(\underbrace{W_{2,1}}_{\leq V_{2,1}})-C$ \\
+                    & $J_2$ & $P_{1,2}\cdot U(\underbrace{W_{1,2}}_{\leq V_{1,2}})-C$ & $\textcolor{fuzzywuzzy!65!white}{\boxed{P_{2,2}\cdot U(\underbrace{W_{2,2}}_{\leq V_{2,2}})-C}}$
+                    \end{tabular}
+                \end{center}
+            \end{table}
+
+        \end{column}
+    
+        \begin{column}{0.35\textwidth}
+            \begin{itemize}
+                \small 
+                \item under-informed \textcolor{fuzzywuzzy!65!white}{\textbf{workseekers}}:
+                $$W_i \text{ search for } J_j$$
+                \item<2->[-] harder to match: $P_{i,j}<P_{i,i}$ %differentiated hiring channels: discuss this
+                \item<3->[-] less productive: $V_{i,j}<V_{i,i}$ %high reservation wages: discuss this
+            \end{itemize}
+            
+        \end{column}
+    \end{columns}
+    \uncover<4>{
+        \texthlit{prediction}
+        \begin{itemize}
+        \small
+        \item[-] lower wages conditional on employment, lower employment
+        \item[-] legal wage floor and differentiated hiring channels worsen the inefficiency
+    \end{itemize}}
+\end{frame}
+
+\begin{frame}{Conceptual Framework: Workseeker Differentiation}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{table}[h!]
+                \small
+                \begin{center}
+                    \begin{tabular}{lccc}
+                    
+                    & &\multicolumn{2}{c}{workseekers} \\
+                   & & $W_1$ & $W_2$ \\
+                    \hline
+                    \multirow{2}{*}{jobs} & $J_1$ & ${\boxed{P_{1,1}\cdot U(\underbrace{W_{1,1}}_{\textcolor<2->{fuzzywuzzy!65!white}{\leq V_{1,1}}})-C}}$ & $P_{2,1}\cdot U(\underbrace{W_{2,1}}_{\leq V_{2,1}})-C$ \\
+                    & $J_2$ & $P_{1,2}\cdot U(\underbrace{W_{1,2}}_{\textcolor<3>{fuzzywuzzy!65!white}{\leq V_{1,2}}})-C$ & ${\boxed{P_{2,2}\cdot U(\underbrace{W_{2,2}}_{\textcolor<2>{fuzzywuzzy!65!white}{\leq V_{2,2}}})-C}}$
+                    \end{tabular}
+                \end{center}
+            \end{table}
+
+        \end{column}
+    
+        \begin{column}{0.35\textwidth}
+            \begin{itemize}
+                \small 
+                \item<2-> \textcolor{fuzzywuzzy!65!white}{\textbf{horizontal}} differentiation: $$V_{i,i}>V_{i,j},V_{j,j}>V_{j,i}$$
+                \item<3-> \textcolor{fuzzywuzzy!65!white}{\textbf{vertical}} differentiation: $$V_{i,\cdot}>V_{j,\cdot}$$
+            \end{itemize}
+            
+        \end{column}
+    \end{columns}
+    \uncover<4>{
+        \texthlit{prediction}
+        \begin{itemize}
+        \small
+        \item[-] \textcolor{fuzzywuzzy!65!white}{\textbf{horizontal}} differentiation: lower wages and employment for all types
+        \item[-] \textcolor{fuzzywuzzy!65!white}{\textbf{vertical}} differentiation: \textit{\underline{underprice}} efficient types, \textit{\underline{overprice}} inefficient types
+    \end{itemize}}
+\end{frame}
+
+\begin{frame}{The Real World: Urban South Africa}
+    \begin{itemize}
+        \item substantial information frictions
+        \item costly mismatches for firms
+        \item reservation and minumum wages exist
+        \item high unemployment rate {\scriptsize(28\% for the working-age population, even higher for young workseekers)}
+    \end{itemize}
+    
+\end{frame}
+
+
+    

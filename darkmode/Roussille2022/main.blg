@@ -1,0 +1,17 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'main.blg'
+[36] biber-darwin:313> INFO - === Sat Mar 11, 2023, 21:57:34
+[57] Biber.pm:371> INFO - Reading 'main.bcf'
+[150] Biber.pm:857> INFO - Found 29 citekeys in bib section 0
+[163] Biber.pm:3976> INFO - Processing section 0
+[173] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[178] bibtex.pm:1500> INFO - LaTeX decoding ...
+[226] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
+[364] Utils.pm:193> WARN - month field 'February' in entry 'krueger2016contribut' is not an integer - this will probably not sort properly.
+[412] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[412] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[412] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[412] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[445] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[467] bbl.pm:720> INFO - Output to main.bbl
+[469] Biber.pm:110> INFO - WARNINGS: 1

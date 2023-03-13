@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Model}{23}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Data}{46}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Empirical Strategy and Results}{54}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Discussion}{87}{0}{5}

@@ -1,0 +1,348 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{berg2012can}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=aafd7ce050dfe08d94ffd0f34d0d371f}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Erlend},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5be8024191270f926ca230a17ae0b061}{%
+           family={Bhattacharyya},
+           familyi={B\bibinitperiod},
+           given={Sambit},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=248de1b45842ffff2a658255112cf635}{%
+           family={Durgam},
+           familyi={D\bibinitperiod},
+           given={Rajasekhar},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=74b2cbae9918e381acececd9d37d187b}{%
+           family={Ramachandra},
+           familyi={R\bibinitperiod},
+           given={Manjula},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Oxford}%
+      }
+      \strng{namehash}{dee5a9620169660e139c962318a2d32d}
+      \strng{fullhash}{b40b06b176e2c9fe85daa5ffd4b16cbe}
+      \strng{bibnamehash}{b40b06b176e2c9fe85daa5ffd4b16cbe}
+      \strng{authorbibnamehash}{b40b06b176e2c9fe85daa5ffd4b16cbe}
+      \strng{authornamehash}{dee5a9620169660e139c962318a2d32d}
+      \strng{authorfullhash}{b40b06b176e2c9fe85daa5ffd4b16cbe}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Can rural public works affect agricultural wages? Evidence from India}
+      \field{year}{2012}
+    \endentry
+    \entry{bustos2016agricultural}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=9b314b8d9d5ebd28b2520cc7f2e6ca90}{%
+           family={Bustos},
+           familyi={B\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0003c1db1400fd06a0bdfcacda4a6598}{%
+           family={Caprettini},
+           familyi={C\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=435c5343b7d38697f5f15051fb2560bc}{%
+           family={Ponticelli},
+           familyi={P\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21a7d868501c4c75c3303694e36e19ff}
+      \strng{fullhash}{0d18c51a6b64eaffaaf2c09ff0a6c2f1}
+      \strng{bibnamehash}{0d18c51a6b64eaffaaf2c09ff0a6c2f1}
+      \strng{authorbibnamehash}{0d18c51a6b64eaffaaf2c09ff0a6c2f1}
+      \strng{authornamehash}{21a7d868501c4c75c3303694e36e19ff}
+      \strng{authorfullhash}{0d18c51a6b64eaffaaf2c09ff0a6c2f1}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{6}
+      \field{title}{Agricultural productivity and structural transformation: Evidence from Brazil}
+      \field{volume}{106}
+      \field{year}{2016}
+      \field{pages}{1320\bibrangedash 65}
+      \range{pages}{46}
+    \endentry
+    \entry{holmes2014alternative}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0c37879298e5d66ccf08a09a3475e9ea}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={Thomas\bibnamedelima J},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a63b066cd92ad84242c7dfc724ee4563}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{5177b98969749271bcee6ce354faf0aa}
+      \strng{fullhash}{5177b98969749271bcee6ce354faf0aa}
+      \strng{bibnamehash}{5177b98969749271bcee6ce354faf0aa}
+      \strng{authorbibnamehash}{5177b98969749271bcee6ce354faf0aa}
+      \strng{authornamehash}{5177b98969749271bcee6ce354faf0aa}
+      \strng{authorfullhash}{5177b98969749271bcee6ce354faf0aa}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{2}
+      \field{title}{An alternative theory of the plant size distribution, with geography and intra-and international trade}
+      \field{volume}{122}
+      \field{year}{2014}
+      \field{pages}{369\bibrangedash 421}
+      \range{pages}{53}
+    \endentry
+    \entry{hornbeck2015does}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=212e6488c4836cfd9fff16b1a69c2acf}{%
+           family={Hornbeck},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=43c664288665ba2665d9bd780345e2e0}{%
+           family={Keskin},
+           familyi={K\bibinitperiod},
+           given={Pinar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa9b08530f7deff0ec8c18a483583060}
+      \strng{fullhash}{fa9b08530f7deff0ec8c18a483583060}
+      \strng{bibnamehash}{fa9b08530f7deff0ec8c18a483583060}
+      \strng{authorbibnamehash}{fa9b08530f7deff0ec8c18a483583060}
+      \strng{authornamehash}{fa9b08530f7deff0ec8c18a483583060}
+      \strng{authorfullhash}{fa9b08530f7deff0ec8c18a483583060}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Economic Policy}
+      \field{number}{2}
+      \field{title}{Does agriculture generate local economic spillovers? Short-run and long-run evidence from the Ogallala Aquifer}
+      \field{volume}{7}
+      \field{year}{2015}
+      \field{pages}{192\bibrangedash 213}
+      \range{pages}{22}
+    \endentry
+    \entry{imbert2015labor}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=04cedfe68832f809bce288ce77276292}{%
+           family={Imbert},
+           familyi={I\bibinitperiod},
+           given={Clement},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d2fc1024197906537c5185cfd362c759}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a2854d95b3ef243be7d1e5e5d1747731}
+      \strng{fullhash}{a2854d95b3ef243be7d1e5e5d1747731}
+      \strng{bibnamehash}{a2854d95b3ef243be7d1e5e5d1747731}
+      \strng{authorbibnamehash}{a2854d95b3ef243be7d1e5e5d1747731}
+      \strng{authornamehash}{a2854d95b3ef243be7d1e5e5d1747731}
+      \strng{authorfullhash}{a2854d95b3ef243be7d1e5e5d1747731}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{number}{2}
+      \field{title}{Labor market effects of social programs: Evidence from india's employment guarantee}
+      \field{volume}{7}
+      \field{year}{2015}
+      \field{pages}{233\bibrangedash 63}
+      \range{pages}{31}
+    \endentry
+    \entry{marden2016agricultural}{report}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c6777393df7095698a2f009cc58629a}{%
+           family={Marden},
+           familyi={M\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fe9cb83ee14fd0f6da680a8d3d52c1ce}
+      \strng{fullhash}{fe9cb83ee14fd0f6da680a8d3d52c1ce}
+      \strng{bibnamehash}{fe9cb83ee14fd0f6da680a8d3d52c1ce}
+      \strng{authorbibnamehash}{fe9cb83ee14fd0f6da680a8d3d52c1ce}
+      \strng{authornamehash}{fe9cb83ee14fd0f6da680a8d3d52c1ce}
+      \strng{authorfullhash}{fe9cb83ee14fd0f6da680a8d3d52c1ce}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The agricultural roots of industrial development: 'forward linkages' in reform era China}
+      \field{type}{techreport}
+      \field{year}{2016}
+    \endentry
+    \entry{mian2014explains}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=56836bc58f70488000e8ecb3a6725213}{%
+           family={Mian},
+           familyi={M\bibinitperiod},
+           given={Atif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=115809cbb4152ece23ddb8bd5a0c6fb2}{%
+           family={Sufi},
+           familyi={S\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{fullhash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{bibnamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authorbibnamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authornamehash}{9ea14e828d531d51eb2c223bb856d369}
+      \strng{authorfullhash}{9ea14e828d531d51eb2c223bb856d369}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{6}
+      \field{title}{What explains the 2007--2009 drop in employment?}
+      \field{volume}{82}
+      \field{year}{2014}
+      \field{pages}{2197\bibrangedash 2223}
+      \range{pages}{27}
+    \endentry
+    \entry{santangelo2019firms}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fc76250d7fd879ba3cd75ec985f4ac10}{%
+           family={Santangelo},
+           familyi={S\bibinitperiod},
+           given={Gabriella},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Faculty of Economics}%
+      }
+      \strng{namehash}{fc76250d7fd879ba3cd75ec985f4ac10}
+      \strng{fullhash}{fc76250d7fd879ba3cd75ec985f4ac10}
+      \strng{bibnamehash}{fc76250d7fd879ba3cd75ec985f4ac10}
+      \strng{authorbibnamehash}{fc76250d7fd879ba3cd75ec985f4ac10}
+      \strng{authornamehash}{fc76250d7fd879ba3cd75ec985f4ac10}
+      \strng{authorfullhash}{fc76250d7fd879ba3cd75ec985f4ac10}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Firms and Farms: The Local Effects of Farm Income on Firms’ Demand}
+      \field{year}{2019}
+    \endentry
+    \entry{zimmermann2020guarantee}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1fb0ef8251c8360bf4c65c71e34440ed}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {GLO Discussion Paper}%
+      }
+      \strng{namehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{fullhash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{bibnamehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{authorbibnamehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{authornamehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{authorfullhash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why guarantee employment? Evidence from a large Indian public-works program}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

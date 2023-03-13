@@ -1,0 +1,1055 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{abebe2021anonymity}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=5d94425b7c0f5d00e546654977204306}{%
+           family={Abebe},
+           familyi={A\bibinitperiod},
+           given={Girum},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=418fe2d1485496dc04b2a6838e257d71}{%
+           family={Caria},
+           familyi={C\bibinitperiod},
+           given={A\bibnamedelima Stefano},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b8dcd68a5508614f4722cf2710074e4}{%
+           family={Fafchamps},
+           familyi={F\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=012738d6769b39847c903f3c48d16f21}{%
+           family={Falco},
+           familyi={F\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=436c2eda6c530db40cd6b6b1a838b058}{%
+           family={Franklin},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=56e34a718e8785654d401b92c5df690a}{%
+           family={Quinn},
+           familyi={Q\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ba56fe15176f98d4dfcd3beef3f5df32}
+      \strng{fullhash}{a85478d98c76d1a708d9261a8ca5dcc6}
+      \strng{bibnamehash}{a85478d98c76d1a708d9261a8ca5dcc6}
+      \strng{authorbibnamehash}{a85478d98c76d1a708d9261a8ca5dcc6}
+      \strng{authornamehash}{ba56fe15176f98d4dfcd3beef3f5df32}
+      \strng{authorfullhash}{a85478d98c76d1a708d9261a8ca5dcc6}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{number}{3}
+      \field{title}{Anonymity or distance? Job search and labour market exclusion in a growing African city}
+      \field{volume}{88}
+      \field{year}{2021}
+      \field{pages}{1279\bibrangedash 1310}
+      \range{pages}{32}
+    \endentry
+    \entry{abel2020value}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=9e1b87c962eb1bb185d127e8e3711d93}{%
+           family={Abel},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d6a477d0b60c1cca96d93665be76f468}{%
+           family={Burger},
+           familyi={B\bibinitperiod},
+           given={Rulof},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2059aa47daf278d61472c664d0e95056}{%
+           family={Piraino},
+           familyi={P\bibinitperiod},
+           given={Patrizio},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203-2425}%
+      }
+      \strng{namehash}{8968a61e10e3fb1d6af879bdcba99f5a}
+      \strng{fullhash}{599eeeadcb10a506ff485ef4d505b1ba}
+      \strng{bibnamehash}{599eeeadcb10a506ff485ef4d505b1ba}
+      \strng{authorbibnamehash}{599eeeadcb10a506ff485ef4d505b1ba}
+      \strng{authornamehash}{8968a61e10e3fb1d6af879bdcba99f5a}
+      \strng{authorfullhash}{599eeeadcb10a506ff485ef4d505b1ba}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{number}{3}
+      \field{title}{The value of reference letters: Experimental evidence from South Africa}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{40\bibrangedash 71}
+      \range{pages}{32}
+    \endentry
+    \entry{ahn2019improving}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f05c82505462b496d91b5ebebd8449d3}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7b932ab920c2607133b5c8248bcdbb38}{%
+           family={Dizon-Ross},
+           familyi={D\bibinithyphendelim R\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c3e7376784ba5746ff4791f8ebba027b}{%
+           family={Feigenberg},
+           familyi={F\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a901a5621fc3f058038ab7b6d43d41c5}
+      \strng{fullhash}{d3ccfee2212ec46d1403b3eb3b854ec9}
+      \strng{bibnamehash}{d3ccfee2212ec46d1403b3eb3b854ec9}
+      \strng{authorbibnamehash}{d3ccfee2212ec46d1403b3eb3b854ec9}
+      \strng{authornamehash}{a901a5621fc3f058038ab7b6d43d41c5}
+      \strng{authorfullhash}{d3ccfee2212ec46d1403b3eb3b854ec9}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Working Paper}
+      \field{title}{Improving job matching among youth}
+      \field{year}{2019}
+    \endentry
+    \entry{alfonsi2020tackling}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,uniquepart=base,hash=4687d6ade5db2bef16d58019f643c239}{%
+           family={Alfonsi},
+           familyi={A\bibinitperiod},
+           given={Livia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c0b3369a69cfdd849f836d77957c1f9a}{%
+           family={Bandiera},
+           familyi={B\bibinitperiod},
+           given={Oriana},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=96fa809d0a0bbf5f9019136f3b84ac2a}{%
+           family={Bassi},
+           familyi={B\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=db80c60d2e8ac9e800afb943771980ba}{%
+           family={Burgess},
+           familyi={B\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f5b6b3ff741152e984a5e38264a941d}{%
+           family={Rasul},
+           familyi={R\bibinitperiod},
+           given={Imran},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=816621da60c69f8e83912acdfb391af9}{%
+           family={Sulaiman},
+           familyi={S\bibinitperiod},
+           given={Munshi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f84a681ca9c05bf47a2d2eb6cd00cc39}{%
+           family={Vitali},
+           familyi={V\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{fe83a29ccf1c668cb5d131fb367fb440}
+      \strng{fullhash}{d56d9f5cf22843e3b94df9b265830c6a}
+      \strng{bibnamehash}{d56d9f5cf22843e3b94df9b265830c6a}
+      \strng{authorbibnamehash}{d56d9f5cf22843e3b94df9b265830c6a}
+      \strng{authornamehash}{fe83a29ccf1c668cb5d131fb367fb440}
+      \strng{authorfullhash}{d56d9f5cf22843e3b94df9b265830c6a}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{6}
+      \field{title}{Tackling youth unemployment: Evidence from a labor market experiment in Uganda}
+      \field{volume}{88}
+      \field{year}{2020}
+      \field{pages}{2369\bibrangedash 2414}
+      \range{pages}{46}
+    \endentry
+    \entry{alonso2018recruiting}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1aa6404ab94a8721c85a24e7efa6f8e5}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1aa6404ab94a8721c85a24e7efa6f8e5}
+      \strng{fullhash}{1aa6404ab94a8721c85a24e7efa6f8e5}
+      \strng{bibnamehash}{1aa6404ab94a8721c85a24e7efa6f8e5}
+      \strng{authorbibnamehash}{1aa6404ab94a8721c85a24e7efa6f8e5}
+      \strng{authornamehash}{1aa6404ab94a8721c85a24e7efa6f8e5}
+      \strng{authorfullhash}{1aa6404ab94a8721c85a24e7efa6f8e5}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available at SSRN 3124315}
+      \field{title}{Recruiting and selecting for fit}
+      \field{year}{2018}
+    \endentry
+    \entry{altmann2018learning}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=8875d70d3e6e10c9c87f7056eb26b4de}{%
+           family={Altmann},
+           familyi={A\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f90a9e145596548c0e27f8430eb3b62}{%
+           family={Falk},
+           familyi={F\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=57656c0a7d261e5f886bba6fb6d09901}{%
+           family={J{ä}ger},
+           familyi={J\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2fba9f3c3a21ee408adbf212612c028a}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{13fbad48b5d9de9c2708d30036d69bc5}
+      \strng{fullhash}{0deaebd6e6e111ad10a553ead087f5cb}
+      \strng{bibnamehash}{0deaebd6e6e111ad10a553ead087f5cb}
+      \strng{authorbibnamehash}{0deaebd6e6e111ad10a553ead087f5cb}
+      \strng{authornamehash}{13fbad48b5d9de9c2708d30036d69bc5}
+      \strng{authorfullhash}{0deaebd6e6e111ad10a553ead087f5cb}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{Learning about job search: A field experiment with job seekers in Germany}
+      \field{volume}{164}
+      \field{year}{2018}
+      \field{pages}{33\bibrangedash 49}
+      \range{pages}{17}
+    \endentry
+    \entry{arcidiacono2010beyond}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c81edbece3116f2b298acb4b8e30e7d}{%
+           family={Arcidiacono},
+           familyi={A\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=053a35659f0c41752a2bd8a0f1e7416d}{%
+           family={Bayer},
+           familyi={B\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=baafda717c1906b89c1256ef937ef96d}{%
+           family={Hizmo},
+           familyi={H\bibinitperiod},
+           given={Aurel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{d6fb64182ed89539c39c8e205446f115}
+      \strng{fullhash}{f55f06d1edfa877a24a5790c13e0cefc}
+      \strng{bibnamehash}{f55f06d1edfa877a24a5790c13e0cefc}
+      \strng{authorbibnamehash}{f55f06d1edfa877a24a5790c13e0cefc}
+      \strng{authornamehash}{d6fb64182ed89539c39c8e205446f115}
+      \strng{authorfullhash}{f55f06d1edfa877a24a5790c13e0cefc}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{number}{4}
+      \field{title}{Beyond signaling and human capital: Education and the revelation of ability}
+      \field{volume}{2}
+      \field{year}{2010}
+      \field{pages}{76\bibrangedash 104}
+      \range{pages}{29}
+    \endentry
+    \entry{banerjee2020spatial}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ec381b49312fccfd94821d44398091e4}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Abhijit\bibnamedelima V},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2dd38862551afc44ea00efc0943a5847}{%
+           family={Sequeira},
+           familyi={S\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CEPR Discussion Paper No. DP14414}%
+      }
+      \strng{namehash}{6108de01adf6fdc88ca7c54a96a45b56}
+      \strng{fullhash}{6108de01adf6fdc88ca7c54a96a45b56}
+      \strng{bibnamehash}{6108de01adf6fdc88ca7c54a96a45b56}
+      \strng{authorbibnamehash}{6108de01adf6fdc88ca7c54a96a45b56}
+      \strng{authornamehash}{6108de01adf6fdc88ca7c54a96a45b56}
+      \strng{authorfullhash}{6108de01adf6fdc88ca7c54a96a45b56}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spatial mismatches and imperfect information in the job search}
+      \field{year}{2020}
+    \endentry
+    \entry{bassi2022screening}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=96fa809d0a0bbf5f9019136f3b84ac2a}{%
+           family={Bassi},
+           familyi={B\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9b1ae37105e83927b20426f8a3bbe317}{%
+           family={Nansamba},
+           familyi={N\bibinitperiod},
+           given={Aisha},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{964087ec263c9f6cd704c695c088adfc}
+      \strng{fullhash}{964087ec263c9f6cd704c695c088adfc}
+      \strng{bibnamehash}{964087ec263c9f6cd704c695c088adfc}
+      \strng{authorbibnamehash}{964087ec263c9f6cd704c695c088adfc}
+      \strng{authornamehash}{964087ec263c9f6cd704c695c088adfc}
+      \strng{authorfullhash}{964087ec263c9f6cd704c695c088adfc}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Economic Journal}
+      \field{number}{642}
+      \field{title}{Screening and signalling non-cognitive skills: experimental evidence from Uganda}
+      \field{volume}{132}
+      \field{year}{2022}
+      \field{pages}{471\bibrangedash 511}
+      \range{pages}{41}
+    \endentry
+    \entry{beaman2018job}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=f69fd620b2cdfb4e28c6527a0e7eaf91}{%
+           family={Beaman},
+           familyi={B\bibinitperiod},
+           given={Lori},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9bba4f99e2d8b345f936867263957291}{%
+           family={Keleher},
+           familyi={K\bibinitperiod},
+           given={Niall},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dad74e4ad64167bde1d7095552e88939}{%
+           family={Magruder},
+           familyi={M\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{b995684f39ce133c1ea3d51cbd585081}
+      \strng{fullhash}{89f76c03d7ef58cb35df9a3bb6049d40}
+      \strng{bibnamehash}{89f76c03d7ef58cb35df9a3bb6049d40}
+      \strng{authorbibnamehash}{89f76c03d7ef58cb35df9a3bb6049d40}
+      \strng{authornamehash}{b995684f39ce133c1ea3d51cbd585081}
+      \strng{authorfullhash}{89f76c03d7ef58cb35df9a3bb6049d40}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Labor Economics}
+      \field{number}{1}
+      \field{title}{Do job networks disadvantage women? Evidence from a recruitment experiment in Malawi}
+      \field{volume}{36}
+      \field{year}{2018}
+      \field{pages}{121\bibrangedash 157}
+      \range{pages}{37}
+    \endentry
+    \entry{beaman2012gets}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f69fd620b2cdfb4e28c6527a0e7eaf91}{%
+           family={Beaman},
+           familyi={B\bibinitperiod},
+           given={Lori},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dad74e4ad64167bde1d7095552e88939}{%
+           family={Magruder},
+           familyi={M\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{6f5f7c4077e9f33c715705b0f3785a5f}
+      \strng{fullhash}{6f5f7c4077e9f33c715705b0f3785a5f}
+      \strng{bibnamehash}{6f5f7c4077e9f33c715705b0f3785a5f}
+      \strng{authorbibnamehash}{6f5f7c4077e9f33c715705b0f3785a5f}
+      \strng{authornamehash}{6f5f7c4077e9f33c715705b0f3785a5f}
+      \strng{authorfullhash}{6f5f7c4077e9f33c715705b0f3785a5f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{7}
+      \field{title}{Who gets the job referral? Evidence from a social networks experiment}
+      \field{volume}{102}
+      \field{year}{2012}
+      \field{pages}{3574\bibrangedash 3593}
+      \range{pages}{20}
+    \endentry
+    \entry{belot2019providing}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c56814da7a1b3405576acd385e245e1c}{%
+           family={Belot},
+           familyi={B\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5d478823c362499b97243f4b0f0743dd}{%
+           family={Kircher},
+           familyi={K\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7aa7fe77b36a72af5cc6a067fcb1da09}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{362befa0b45109731d425ea233994900}
+      \strng{fullhash}{62a08d7aeab874ca5e2e5f54fbf0efea}
+      \strng{bibnamehash}{62a08d7aeab874ca5e2e5f54fbf0efea}
+      \strng{authorbibnamehash}{62a08d7aeab874ca5e2e5f54fbf0efea}
+      \strng{authornamehash}{362befa0b45109731d425ea233994900}
+      \strng{authorfullhash}{62a08d7aeab874ca5e2e5f54fbf0efea}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The review of economic studies}
+      \field{number}{4}
+      \field{title}{Providing advice to jobseekers at low cost: An experimental study on online advice}
+      \field{volume}{86}
+      \field{year}{2019}
+      \field{pages}{1411\bibrangedash 1447}
+      \range{pages}{37}
+    \endentry
+    \entry{carranza2022job}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=fed3ad72b522d3f669f84579e3229b7c}{%
+           family={Carranza},
+           familyi={C\bibinitperiod},
+           given={Eliana},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b1c9d38d66a4fc4bb6c21f203bc43c44}{%
+           family={Garlick},
+           familyi={G\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=98ae84839cefc753347a300bfb74df0f}{%
+           family={Orkin},
+           familyi={O\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=794f7b04c3c7be6e3ac34aeab5b87d89}{%
+           family={Rankin},
+           familyi={R\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff5f8893a91260b1f6b51e822b369de4}
+      \strng{fullhash}{b1dad63ab2b364b941da43e28661ae46}
+      \strng{bibnamehash}{b1dad63ab2b364b941da43e28661ae46}
+      \strng{authorbibnamehash}{b1dad63ab2b364b941da43e28661ae46}
+      \strng{authornamehash}{ff5f8893a91260b1f6b51e822b369de4}
+      \strng{authorfullhash}{b1dad63ab2b364b941da43e28661ae46}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{11}
+      \field{title}{Job Search and Hiring with Limited Information about Workseekers' Skills}
+      \field{volume}{112}
+      \field{year}{2022}
+      \field{pages}{3547\bibrangedash 83}
+      \range{pages}{37}
+    \endentry
+    \entry{chandrasekhar2020network}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=589b744f0413d3453c8cfd7d53d2464f}{%
+           family={Chandrasekhar},
+           familyi={C\bibinitperiod},
+           given={Arun\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c81f97fdcb2c39f379f6cd1bf061fda3}{%
+           family={Morten},
+           familyi={M\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0fef8ddfdb1eaead4eb02786697fddbf}{%
+           family={Peter},
+           familyi={P\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{e30770a823fef3c64f09b1710e572520}
+      \strng{fullhash}{b2afbb3b9aad8d3c6f81668d80b55491}
+      \strng{bibnamehash}{b2afbb3b9aad8d3c6f81668d80b55491}
+      \strng{authorbibnamehash}{b2afbb3b9aad8d3c6f81668d80b55491}
+      \strng{authornamehash}{e30770a823fef3c64f09b1710e572520}
+      \strng{authorfullhash}{b2afbb3b9aad8d3c6f81668d80b55491}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Network-Based Hiring: Local Benefits; Global Costs}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{conlon2018labor}{report}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=4256d0fba78e2d5907fed1382797fc0e}{%
+           family={Conlon},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f3a4af5520b32aff13bc7711d55c0fd0}{%
+           family={Pilossoph},
+           familyi={P\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=643f0b7d6ee188f3036b0724b2e61aa6}{%
+           family={Wiswall},
+           familyi={W\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6e51d8bc59d04d4e2e81b444001c7103}{%
+           family={Zafar},
+           familyi={Z\bibinitperiod},
+           given={Basit},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{39b7751c856a66ffbe009c310711b9a2}
+      \strng{fullhash}{71f7c28315f95d93b5b67f24811b0b72}
+      \strng{bibnamehash}{71f7c28315f95d93b5b67f24811b0b72}
+      \strng{authorbibnamehash}{71f7c28315f95d93b5b67f24811b0b72}
+      \strng{authornamehash}{39b7751c856a66ffbe009c310711b9a2}
+      \strng{authorfullhash}{71f7c28315f95d93b5b67f24811b0b72}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Labor market search with imperfect information and learning}
+      \field{type}{techreport}
+      \field{year}{2018}
+    \endentry
+    \entry{donovan2018labor}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b3622765fc396273e12b8021793acdf}{%
+           family={Donovan},
+           familyi={D\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0b6f535fabe925833754bc0ce8124c2d}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Jianyu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=45fbfbb5b243ad8f11c4eff096539bd4}{%
+           family={Schoellman},
+           familyi={S\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efef415df3c0c4f7d652961e7502d162}
+      \strng{fullhash}{8fdb0fc5b1f41be15314118a1f0dc7c8}
+      \strng{bibnamehash}{8fdb0fc5b1f41be15314118a1f0dc7c8}
+      \strng{authorbibnamehash}{8fdb0fc5b1f41be15314118a1f0dc7c8}
+      \strng{authornamehash}{efef415df3c0c4f7d652961e7502d162}
+      \strng{authorfullhash}{8fdb0fc5b1f41be15314118a1f0dc7c8}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 Meeting Papers, Society for Economic Dynamics}
+      \field{title}{Labor market flows and development}
+      \field{volume}{976}
+      \field{year}{2018}
+    \endentry
+    \entry{gonzalez2010equilibrium}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=23d911d620dff43a929f4b58f75cecf7}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Francisco\bibnamedelima M},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3483ae500e0b18ea274def4206072a7c}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Shouyong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{e342020d47faad318f0d33551ac2deb3}
+      \strng{fullhash}{e342020d47faad318f0d33551ac2deb3}
+      \strng{bibnamehash}{e342020d47faad318f0d33551ac2deb3}
+      \strng{authorbibnamehash}{e342020d47faad318f0d33551ac2deb3}
+      \strng{authornamehash}{e342020d47faad318f0d33551ac2deb3}
+      \strng{authorfullhash}{e342020d47faad318f0d33551ac2deb3}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{title}{An equilibrium theory of learning, search, and wages}
+      \field{volume}{78}
+      \field{year}{2010}
+      \field{pages}{509\bibrangedash 537}
+      \range{pages}{29}
+    \endentry
+    \entry{heath2018firms}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d7506dacf36716218a5cd587b17601bf}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{d7506dacf36716218a5cd587b17601bf}
+      \strng{fullhash}{d7506dacf36716218a5cd587b17601bf}
+      \strng{bibnamehash}{d7506dacf36716218a5cd587b17601bf}
+      \strng{authorbibnamehash}{d7506dacf36716218a5cd587b17601bf}
+      \strng{authornamehash}{d7506dacf36716218a5cd587b17601bf}
+      \strng{authorfullhash}{d7506dacf36716218a5cd587b17601bf}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{4}
+      \field{title}{Why do firms hire using referrals? Evidence from Bangladeshi garment factories}
+      \field{volume}{126}
+      \field{year}{2018}
+      \field{pages}{1691\bibrangedash 1746}
+      \range{pages}{56}
+    \endentry
+    \entry{hoffman2018discretion}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f08a9ebac3fcd16dfaaaf06db05a0c03}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Mitchell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fed49a1e4b71621228e92938553d3d3b}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={Lisa\bibnamedelima B},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9549ba5d9e9696208664346821d3ac14}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{fc9bc602572de6982d4e40dc82b2208e}
+      \strng{fullhash}{65c073664c07fcc6927438cf99b15279}
+      \strng{bibnamehash}{65c073664c07fcc6927438cf99b15279}
+      \strng{authorbibnamehash}{65c073664c07fcc6927438cf99b15279}
+      \strng{authornamehash}{fc9bc602572de6982d4e40dc82b2208e}
+      \strng{authorfullhash}{65c073664c07fcc6927438cf99b15279}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{2}
+      \field{title}{Discretion in hiring}
+      \field{volume}{133}
+      \field{year}{2018}
+      \field{pages}{765\bibrangedash 800}
+      \range{pages}{36}
+    \endentry
+    \entry{kahn2014employer}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fed49a1e4b71621228e92938553d3d3b}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={Lisa\bibnamedelima B},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=012f0c4cd0693ead59046f6c1baf20ee}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{80180d6294eda4d6a720b3e22fed05c2}
+      \strng{fullhash}{80180d6294eda4d6a720b3e22fed05c2}
+      \strng{bibnamehash}{80180d6294eda4d6a720b3e22fed05c2}
+      \strng{authorbibnamehash}{80180d6294eda4d6a720b3e22fed05c2}
+      \strng{authornamehash}{80180d6294eda4d6a720b3e22fed05c2}
+      \strng{authorfullhash}{80180d6294eda4d6a720b3e22fed05c2}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{number}{4}
+      \field{title}{Employer learning, productivity, and the earnings distribution: Evidence from performance measures}
+      \field{volume}{81}
+      \field{year}{2014}
+      \field{pages}{1575\bibrangedash 1613}
+      \range{pages}{39}
+    \endentry
+    \entry{macleod2017big}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=24b5c863a969ed420db91ddef48ef6d0}{%
+           family={MacLeod},
+           familyi={M\bibinitperiod},
+           given={W\bibnamedelima Bentley},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a67cdbc2c9a0946a15673bfafbb1f084}{%
+           family={Riehl},
+           familyi={R\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=51a354d18b51fb6c3f36e274d4c3d53f}{%
+           family={Saavedra},
+           familyi={S\bibinitperiod},
+           given={Juan\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=70819984f55ad44095ce332e2c9039fb}{%
+           family={Urquiola},
+           familyi={U\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203-2425}%
+      }
+      \strng{namehash}{da865bc3329a284e4cdcbc7ca93f2dff}
+      \strng{fullhash}{501b2ba7cb14ad480a3949f293f42202}
+      \strng{bibnamehash}{501b2ba7cb14ad480a3949f293f42202}
+      \strng{authorbibnamehash}{501b2ba7cb14ad480a3949f293f42202}
+      \strng{authornamehash}{da865bc3329a284e4cdcbc7ca93f2dff}
+      \strng{authorfullhash}{501b2ba7cb14ad480a3949f293f42202}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{number}{3}
+      \field{title}{The big sort: College reputation and labor market outcomes}
+      \field{volume}{9}
+      \field{year}{2017}
+      \field{pages}{223\bibrangedash 261}
+      \range{pages}{39}
+    \endentry
+    \entry{mccall2016government}{incollection}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=96e60403526634ee8595b885ac3eef90}{%
+           family={McCall},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4c0827acd545caae157d229cbbb9ee0a}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7777a05766f1dbf21d4c4e22dbee0495}{%
+           family={Wunsch},
+           familyi={W\bibinitperiod},
+           given={Conny},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9ad804d49d96371b9bcfd26c57f3fa99}
+      \strng{fullhash}{faf513a031421928c8fff13e9289b415}
+      \strng{bibnamehash}{faf513a031421928c8fff13e9289b415}
+      \strng{authorbibnamehash}{faf513a031421928c8fff13e9289b415}
+      \strng{authornamehash}{9ad804d49d96371b9bcfd26c57f3fa99}
+      \strng{authorfullhash}{faf513a031421928c8fff13e9289b415}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of the Economics of Education}
+      \field{title}{Government-sponsored vocational education for adults}
+      \field{volume}{5}
+      \field{year}{2016}
+      \field{pages}{479\bibrangedash 652}
+      \range{pages}{174}
+    \endentry
+    \entry{pallais2014inefficient}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a5827578f46c09747f511997b3d4a333}{%
+           family={Pallais},
+           familyi={P\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203}%
+      }
+      \strng{namehash}{a5827578f46c09747f511997b3d4a333}
+      \strng{fullhash}{a5827578f46c09747f511997b3d4a333}
+      \strng{bibnamehash}{a5827578f46c09747f511997b3d4a333}
+      \strng{authorbibnamehash}{a5827578f46c09747f511997b3d4a333}
+      \strng{authornamehash}{a5827578f46c09747f511997b3d4a333}
+      \strng{authorfullhash}{a5827578f46c09747f511997b3d4a333}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{11}
+      \field{title}{Inefficient hiring in entry-level labor markets}
+      \field{volume}{104}
+      \field{year}{2014}
+      \field{pages}{3565\bibrangedash 3599}
+      \range{pages}{35}
+    \endentry
+    \entry{spinnewijn2015unemployed}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=25ed66879d37041919564446f2d6eaa1}{%
+           family={Spinnewijn},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{25ed66879d37041919564446f2d6eaa1}
+      \strng{fullhash}{25ed66879d37041919564446f2d6eaa1}
+      \strng{bibnamehash}{25ed66879d37041919564446f2d6eaa1}
+      \strng{authorbibnamehash}{25ed66879d37041919564446f2d6eaa1}
+      \strng{authornamehash}{25ed66879d37041919564446f2d6eaa1}
+      \strng{authorfullhash}{25ed66879d37041919564446f2d6eaa1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the European Economic Association}
+      \field{number}{1}
+      \field{title}{Unemployed but optimistic: Optimal insurance design with biased beliefs}
+      \field{volume}{13}
+      \field{year}{2015}
+      \field{pages}{130\bibrangedash 167}
+      \range{pages}{38}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

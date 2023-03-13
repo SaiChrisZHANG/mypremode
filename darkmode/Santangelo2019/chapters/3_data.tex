@@ -1,0 +1,65 @@
+\section{Data}
+
+ \frame{\sectionpage}
+
+    \begin{frame}{Data}
+        \begin{itemize}
+            \item {\color{mygreen}\underline{\textit{Non-farm sectors}}}: Annual Survey of Industries (ASI)
+            
+            \hfill {\small 10 waves from 2000-2001 to 2009-2010 fiscal years, firm-level data} % all registered manufacturing 50 workers more, random 1/3 of registered with >10 workers
+            \item {\color{mygreen}\underline{\textit{Consumption}}}: National Sample Survey (NSS) Consumer Expenditure Survey
+            
+            \hfill {\small 7 waves from 2003-2004 to 2011-2012}
+            \item {\color{mygreen}\underline{\textit{Wages and Employment}}}: NSS Employment and Unemployment Survey
+            \item {\color{mygreen}\underline{\textit{Agricultural}}}: Ministry of Agriculture
+            
+            \hfill {\small unbalanced panel (2000-2010, crop-by-year) and other district-level measures}
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Data: Treatment}
+        \begin{itemize}
+            \item<1-> {\color{mygreen}\underline{\textit{Rainfall}}}: Topical Rainfall Measuring Mission (TRMM)
+            
+            \hfill {\small daily rainfall measures, 0.25-by-0.25 degree grid-cell size}
+            
+            \hfill {\small aggregate to district-year total monsoon rainfall (Jun. to Sep.)}
+
+            \hfill {\small nonlinearlity as Jayachandran (2006)}
+            \item<2-> {\color{mygreen}\underline{\textit{NREGA}}}: NSS Employment and Unemployment Survey
+            
+            \hfill {\small compared with state-level statutory NREGA wages from administrative sources}
+        \end{itemize}
+    
+    \end{frame}
+
+ \begin{frame}{Variables: Industry}
+    \begin{itemize}
+        \item<1-> \underline{\textit{traded vs. non-traded classifier}}:
+        \begin{itemize}
+            \item[-] \citet{holmes2014alternative} Commodity Flow Survey (CFS) industry classification by \textcolor{mygreen}{\underline{transportation cost}}
+            \item[-] \citet{mian2014explains} and Kothari (2014):
+             \begin{itemize}
+                \item[$\cdot$] \textcolor{mygreen}{\underline{geographical concentration}} of industrial production across counties
+                \item[$\cdot$] degree of \textcolor{mygreen}{\underline{international trade}} 
+             \end{itemize}
+        \end{itemize}
+        \item<2-> \underline{\textit{agricultural linkage classifier}}: upstream/downstream/non-linked industries of agriculture (MOSPI, 2004-2005) %large share of agricultural output/input
+        \item<3-> \underline{\textit{financial performance indicator}}:
+        \begin{itemize}
+            \item[-] capital intensity
+            \item[-] dependence on external finance
+        \end{itemize}
+    \end{itemize}
+
+ \end{frame}
+
+ \begin{frame}{Variables: Firm}
+    \begin{itemize}
+        \item<1-> \underline{\textit{firms' production}}: value of total output
+        \item<1-> \underline{\textit{firms' employment}}: total number of works and total number of man-days employed
+        \item<1-> \underline{\textit{daily wage}}: $\frac{\text{total compensation paid}}{\text{number of man-days}}$
+    \end{itemize}
+
+ \end{frame}
+

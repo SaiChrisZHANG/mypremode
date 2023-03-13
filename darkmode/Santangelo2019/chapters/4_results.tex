@@ -1,0 +1,581 @@
+\section{Empirical Strategy and Results}
+
+ \frame{\sectionpage}
+
+ \subsection*{Rainfall}
+ \begin{frame}{Rainfall and Agricultural Productivity}
+    
+    \begin{block}{Prediction: $\beta>0$}
+        \small
+    $$
+    \log (y_{d,p,t}) = \textcolor<2->{citrine}{\beta}\log(R_{d,p,t})+\delta_d+\tau_{p,t} +\epsilon_{d,p,t}
+    $$
+    \end{block}
+    
+    \only<1>{where 
+    \small 
+    \begin{itemize}
+        \item $y_{d,p,t}$: district crop yields
+        \item $d$ indexes district, $p$ indexes NREGA phrases, $t$ indexes time
+        \item $\epsilon_{d,p,t}$: district-clustered (robust to region-year clustering)
+    \end{itemize}}
+
+    \only<2->{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:rainfall1}
+                \begin{tabular}{lcc}
+                
+                & \multicolumn{2}{c}{$\log(\text{Crop Yield})$} \\
+                & (1) & (2) \\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor<3>{citrine}{$0.178^{***}$} & \textcolor<3>{citrine}{$0.192^{***}$} \\
+                 & $(0.020)$ & $(0.019)$\\
+                 $\log(\text{Rainfall})\times\text{Share Irrigated Land}$  & & $-0.150^{***}$\\
+                 & & $(0.017)$ \\
+                 &\\
+                 N & 6763 & 6469 \\
+                 FEs: district, year & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+ \end{frame}
+
+ \begin{frame}{Rainfall and Individual Wage}
+
+    \begin{block}{Prediction: $\beta>0$}
+        \small
+        $$
+        \log (w_{i,d,p,t}) = \textcolor<2->{citrine}{\beta}\log(R_{d,p,t}) + \rho X_{i,d,p,t}+\delta_d+\tau_{p,t} +\epsilon_{i,d,p,t}
+        $$
+    \end{block}
+    
+    \only<1>{where 
+    \small 
+    \begin{itemize}
+        \item $X_{i,d,p,t}$: individual $i$'s demographic characteristics 
+        \item robustness: state-specific time trends, time trends interacted with district conditions
+        \item wage measures: all wages; high-/low-skilled; agricultural/non-agricultural
+    \end{itemize}}
+
+    \only<2->{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:rainfall2}
+                \begin{tabular}{lccc}
+                
+                & \multicolumn{3}{c}{$\log(\text{Wage})$} \\ \cline{2-4}
+                & All & Agricultural & Non-Agricultural \\
+                & (1) & (2) & (3)\\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor<3>{citrine}{$0.080^{***}$} & \textcolor<3>{citrine}{$0.050^{***}$} & \textcolor<3>{citrine}{$0.111^{***}$} \\
+                 & $(0.020)$ & $(0.019)$& $(0.030)$\\
+                 &\\
+                 N & 89429 & 44955 & 44474 \\
+                 FEs: district, phase-time & Yes & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+ \end{frame}
+
+ \begin{frame}{Rainfall and Household Consumption}
+    \begin{block}{Prediction: $\beta>0$}
+        \small
+        $$
+        \log (c_{h,d,p,t}) = \textcolor<2>{citrine}{\beta}\log(R_{d,p,t}) + \rho X_{h,t,p,t}+\delta_d+\tau_{p,t} +\epsilon_{h,d,p,t}
+        $$
+    \end{block}
+    
+    \only<2->{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:rainfall3}
+                \begin{tabular}{lcccc}
+                
+                & \multicolumn{4}{c}{$\log(\text{per capita Consumption Expenditure})$} \\ \cline{2-5}
+                & All Goods & Food & Non-Food & Manufactured Goods \\
+                & (1) & (2) & (3) & (4)\\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor<2>{citrine}{$0.069^{***}$} & \textcolor<2>{citrine}{$\boxed{0.015}$} & \textcolor<2>{citrine}{$0.125^{***}$} & \textcolor<2>{citrine}{$0.079^{***}$} \\
+                 & $(0.021)$ & $(0.023)$& $(0.029)$& $(0.022)$\\
+                 &\\
+                 N & 83212 & 83176 & 83206 & 83205 \\
+                 FEs: district, phase-time & Yes & Yes & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+ \end{frame}
+
+ \begin{frame}{Rainfall and Firm Outcomes}
+    \begin{block}{Prediction: $\beta>0$}
+        \small
+        $$
+    \log (y_{j,d,p,t}) = \textcolor<2>{citrine}{\beta}\log(R_{d,p,t}) +\delta_d+\tau_{p,t} +v_{p,j}+\rho_{j,t} +\epsilon_{i,d,p,t}
+    $$
+    \end{block}
+    
+    \only<1>{where 
+    \small 
+    \begin{itemize}
+        \item $j$ indexes industries
+        \item $v_{p,j}$: NREGA-phase specific industry FEs
+        \item $\rho_{j,t}$: industry-time FEs
+        \item $T_j$: dummy for tradability of a given industry
+    \end{itemize}}
+
+    \only<2->{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:rainfall4}
+                \begin{tabular}{lcccc}
+                
+                & \multicolumn{4}{c}{$\log(\cdot)$} \\ \cline{2-5}
+                & Value of Output & Man-days & Workers & Wage\\
+                & (1) & (2) & (3) & (4)\\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor<2>{citrine}{$0.122^{**}$} & \textcolor<2>{citrine}{$0.066^{***}$} & \textcolor<2>{citrine}{$0.058^{***}$} & \textcolor<2>{citrine}{$0.056^{***}$} \\
+                 & $(0.049)$ & $(0.025)$& $(0.022)$& $(0.017)$\\
+                 &\\
+                 N & 17296 & 17270 & 17284 & 17270 \\
+                 FEs: district, phase-year & Yes & Yes & Yes & Yes\\
+                 FEs: phase-industry, year-industry & Yes &Yes &Yes &Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+ \end{frame}
+
+ \begin{frame}{Rainfall and Firm Outcomes: Tradable vs. Non-tradable}
+    \begin{block}{Prediction: non-tradable $\beta>0$}
+        \small
+        $$
+    \log (y_{j,d,p,t}) = \textcolor{citrine}{\beta}\log(R_{d,p,t}) +\delta_d+\tau_{p,t} +v_{p,j}+\rho_{j,t} +\epsilon_{i,d,p,t}
+    $$
+    \end{block}
+
+    \only<1>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:rainfall5}
+                \begin{tabular}{lccccc}
+                
+                & \multicolumn{5}{c}{$\log(\cdot)$} \\ \cline{2-6}
+                & \multicolumn{2}{c}{Value of Output} & & \multicolumn{2}{c}{Man-days}\\ \cline{2-3} \cline{5-6}
+                & Non-tradable & Tradable & & Non-tradable & Tradable \\
+                & (1) & (2) & & (3) & (4)\\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor<1>{citrine}{$0.164^{***}$} & \textcolor<1>{citrine}{$-0.060$} & & \textcolor<1>{citrine}{$0.118^{***}$} & \textcolor<1>{citrine}{$-0.079$} \\
+                 & $(0.059)$ & $(0.065)$& & $(0.033)$& $(0.064)$\\
+                 &\\
+                 N & 13514 & 3782 & & 13497 & 3773 \\
+                 FEs: district, phase-year & Yes & Yes & & Yes & Yes\\
+                 FEs: phase-industry, year-industry & Yes &Yes & &Yes &Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+    \only<2>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:rainfall6}
+                \begin{tabular}{lccccc}
+                
+                & \multicolumn{5}{c}{$\log(\cdot)$} \\ \cline{2-6}
+                & \multicolumn{2}{c}{Workers} & & \multicolumn{2}{c}{Wage}\\ \cline{2-3} \cline{5-6}
+                & Non-tradable & Tradable & & Non-tradable & Tradable \\
+                & (1) & (2) & & (3) & (4)\\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor{citrine}{$0.110^{***}$} & \textcolor{citrine}{$-0.090$} & & \textcolor{citrine}{$0.063^{***}$} & \textcolor{citrine}{$\boxed{0.036^*}$} \\
+                 & $(0.028)$ & $(0.066)$& & $(0.018)$& $(0.021)$\\
+                 &\\
+                 N & 13504 & 3780 & & 13497 & 3773 \\
+                 FEs: district, phase-year & Yes & Yes & & Yes & Yes\\
+                 FEs: phase-industry, year-industry & Yes &Yes & &Yes &Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+ \end{frame}
+
+ \begin{frame}{Rainfall Exogeneity Validation: Placebo Tests}
+    \begin{table}[h!]
+        \footnotesize
+        \begin{center}
+            \label{tab:rainfall_placebo}
+            \begin{tabular}{lccccc}
+            
+                & \multicolumn{5}{c}{$\log(\cdot)$} \\ \cline{2-6}
+                & Crop Yield & Value of Output & Man-days & Workers & Wage \\ \hline
+               \multicolumn{3}{l}{\textit{Panel A: Poorly Irrigated}} & \\
+               $\log(\text{Rainfall})$ & $0.352^{***}$ &$0.264^{***}$ & $0.151^{***}$ & $0.119^{***}$  & $0.052^{***}$\\
+                & $(0.048)$ & $(0.053)$& $(0.032)$& $(0.030)$& $(0.017)$ \\
+                N & 1972 & 5481 & 5471 & 5474 & 5471\\
+                &\\
+                \multicolumn{3}{l}{\textit{ Panel B: Highly Irrigated}} & \\
+               $\log(\text{Rainfall})$ & $0.027^{*}$ &$0.032$ & $0.036$ & $0.042$  & $0.038$\\
+                & $(0.015)$ & $(0.075)$& $(0.045)$& $(0.044)$& $(0.040)$ \\
+                N & 2262 & 5034 & 5028 & 5029 & 5028\\
+                &\\
+                \multicolumn{3}{l}{\textit{Panel C: Non-Monsoon Rainfall}} & \\
+               $\log(\text{N-M Rainfall})$ & $0.015^{**}$ &$-0.026$ & $-0.033$ & $-0.027$  & $-0.016$\\
+                & $(0.007)$ & $(0.023)$& $(0.023)$& $(0.020)$& $(0.010)$ \\
+                N & 6763 & 17296 & 17270 & 17284 & 17270
+            \end{tabular}
+        \end{center}
+    \end{table}
+ \end{frame}
+
+ \subsection*{NREGA Treatment}
+ \begin{frame}{NREGA: Take-Up}
+    \begin{block}{Prediction: $\beta=0$, {$\gamma<0$}}
+        \small
+        \only<1>{$$
+        \log (y_{i,d,p,t}) = {\beta}\log(R_{d,p,t}) + \textcolor{citrine}{\gamma}\log(R_{d,p,t})\times \underbrace{N_{d,p,t}}_{ =\mathbf{1}(\text{NREGA})} + \rho X_{i,d,p,t}+\delta_d+\tau_{p,t} +\epsilon_{i,d,p,t}
+        $$}
+        \only<2>{$$
+        \log (y_{i,d,p,t}) = {\beta}\log(R_{d,p,t}) + \textcolor{citrine}{\gamma}\log(R_{d,p,t})\times {N_{d,p,t}} + \rho X_{i,d,p,t}+\delta_d+\tau_{p,t} +\epsilon_{i,d,p,t}
+        $$}
+    \end{block}
+    
+    %{\small where $y_{i,d,p,t}$ is individual $i$'s time working in public works}
+
+    \only<2>{\begin{table}[h!]
+        \footnotesize
+        \begin{center}
+            \label{tab:NREGA1}
+            \begin{tabular}{lcc}
+            
+            & {$\log(\text{Days in Public Employment})$} \\
+            \hline
+            $\log(\text{Rainfall})$ & \textcolor{citrine}{$-0.008$} \\
+             & $(0.013)$ \\
+             $\log(\text{Rainfall})\times\text{NREGA}$  & \textcolor{citrine}{$-0.026^{***}$} \\
+             & $(0.009)$ \\
+             &\\
+             N & 881601 \\
+             FEs: district, phase-year & Yes
+            \end{tabular}
+        \end{center}
+    \end{table}}
+ \end{frame}
+
+ \begin{frame}{NREGA: Agricultural Yields}
+    \begin{block}{Prediction: $\beta>0$, {$\gamma=0$}}
+        \small
+        $$
+        \log (y_{d,p,t}) = {\beta}\log(R_{d,p,t}) + \textcolor{citrine}{\gamma}\log(R_{d,p,t})\times N_{d,p,t}+\delta_d+\tau_{p,t} +\epsilon_{d,p,t}
+        $$
+    \end{block}
+    
+    \only<2>{\begin{table}[h!]
+        \footnotesize
+        \begin{center}
+            \label{tab:NREGA2}
+            \begin{tabular}{lcc}
+            
+            & {$\log(\text{Crop Yield})$} \\
+            \hline
+            $\log(\text{Rainfall})$ & \textcolor{citrine}{$0.178^{***}$} \\
+             & $(0.020)$ \\
+             $\log(\text{Rainfall})\times\text{NREGA}$  & \textcolor{citrine}{0.000} \\
+             & $(0.003)$ \\
+             &\\
+             N & 6763 \\
+             FEs: district, phase-year & Yes
+            \end{tabular}
+        \end{center}
+    \end{table}}
+
+ \end{frame}
+
+ \begin{frame}{NREGA: Wage Elasticity}
+    \begin{block}{Prediction: $\beta>0$, $\gamma<0$}
+        \small
+        $$\log (w_{i,d,p,t}) = {\beta}\log(R_{d,p,t}) + \textcolor{citrine}{\gamma}\log(R_{d,p,t})\times N_{d,p,t} + \rho X_{i,d,p,t}+\delta_d+\tau_{p,t} +\epsilon_{i,d,p,t}
+        $$
+    \end{block}
+
+    \only<2->{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA3}
+                \begin{tabular}{lccc}
+                
+                & \multicolumn{3}{c}{$\log(\text{Wage})$} \\ \cline{2-4}
+                & All & Agricultural & Non-Agricultural \\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor{citrine}{$0.062^{***}$} & \textcolor{citrine}{$0.057^{***}$} & \textcolor{citrine}{$0.075^{***}$} \\
+                 & $(0.018)$ & $(0.018)$& $(0.021)$\\
+                 $\log(\text{Rainfall})\times\text{NREGA}$ & \textcolor{citrine}{$-0.053^{***}$} & \textcolor{citrine}{$-0.047^{***}$} & \textcolor{citrine}{$-0.049^{***}$} \\
+                 & $(0.013)$ & $(0.018)$& $(0.018)$\\
+                 &\\
+                 N & 193602 & 92106 & 101496 \\
+                 FEs: district, phase-year & Yes & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+ \end{frame}
+
+ \begin{frame}{NREGA: Consumption Volatility}
+    \begin{block}{Prediction: $\beta>0$, $\gamma<0$}
+        \small
+        $$\log (w_{h,d,p,t}) = {\beta}\log(R_{d,p,t}) + \textcolor{citrine}{\gamma}\log(R_{d,p,t})\times N_{d,p,t} + \rho X_{h,d,p,t}+\delta_d+\tau_{p,t} +\epsilon_{h,d,p,t}
+        $$
+    \end{block}
+
+    \only<1>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA4}
+                \begin{tabular}{lcccc}
+                
+                & \multicolumn{4}{c}{$\log(\text{per capita Consumption Expenditure})$} \\ \cline{2-5}
+                & All Goods & Food & Non-Food & Manufactured Goods \\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor{citrine}{$0.056^{***}$} & \textcolor{citrine}{$\boxed{0.028^{**}}$} & \textcolor{citrine}{$0.083^{***}$} & \textcolor{citrine}{$0.063^{***}$} \\
+                 & $(0.013)$ & $(0.012)$& $(0.017)$ & $(0.014)$\\
+                 $\log(\text{Rainfall})\times\text{NREGA}$ & \textcolor{citrine}{$-0.052^{***}$} & \textcolor{citrine}{$-0.043^{***}$} & \textcolor{citrine}{$-0.060^{***}$} & \textcolor{citrine}{$-0.034^{***}$}\\
+                 & $(0.011)$ & $(0.010)$& $(0.015)$ & $(0.012)$\\
+                 &\\
+                 N & 223323 & 223254 & 223315 & 223313 \\
+                 FEs: district, phase-year & Yes & Yes & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+    
+
+ \end{frame}
+
+ \begin{frame}{NREGA: Local Industrial Production and Employment}
+    \begin{block}{Prediction: non-tradable $\beta>0$, $\gamma<0$}
+        \only<1>{
+            \small 
+        $$
+        \log (y_{j,d,p,t}) = {\beta}\log(R_{d,p,t}) + \textcolor{citrine}{\gamma}\log(R_{d,p,t})\times N_{d,p,t}+\delta_d+\tau_{p,t} +v_{p,j}+\rho_{j,t}+\epsilon_{j,d,p,t}
+        $$}
+        \only<2->{
+            \footnotesize 
+        $$
+        \log (y_{j,d,p,t}) = {\beta}\log(R_{d,p,t}) + \textcolor{citrine}{\gamma}\log(R_{d,p,t})\times N_{d,p,t}+\delta_d+\tau_{p,t} +v_{p,j}+\rho_{j,t}+\epsilon_{j,d,p,t}
+        $$}
+    \end{block}
+
+    \only<2>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA5-1}
+                \begin{tabular}{lcccc}
+                
+                &$\log(\text{Wage})$ & \multicolumn{3}{c}{$\log(\text{Value of Ouput})$} \\ \cline{3-5}
+                &  & All & Non-tradable & Tradable \\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor{citrine}{$0.043^{***}$} & \textcolor{citrine}{$0.096^{***}$} & \textcolor{citrine}{$0.126^{***}$} & \textcolor{citrine}{$0.011$} \\
+                 & $(0.012)$ & $(0.035)$& $(0.041)$ & $(0.078)$\\
+                 $\log(\text{Rainfall})\times\text{NREGA}$ & \textcolor{citrine}{$-0.032^{**}$} & \textcolor{citrine}{$-0.038$} & \textcolor{citrine}{$-0.086^{*}$} & \textcolor{citrine}{$0.138$}\\
+                 & $(0.014)$ & $(0.037)$& $(0.044)$ & $(0.091)$\\
+                 &\\
+                 N & 31911 & 31984 & 25097 & 6887 \\
+                 FEs: district, phase-year & Yes & Yes & Yes & Yes\\
+                 FEs: phase-industry, industry-year  & Yes & Yes & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+    \only<3>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA5-2}
+                \begin{tabular}{lccc}
+                
+                 & \multicolumn{3}{c}{$\log(\text{Man-days})$} \\ \cline{2-4}
+                 & All & Non-tradable & Tradable \\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor{citrine}{$0.044^{***}$} & \textcolor{citrine}{$0.069^{***}$} & \textcolor{citrine}{$-0.020$}\\
+                 & $(0.020)$ & $(0.025)$& $(0.061)$ \\
+                 $\log(\text{Rainfall})\times\text{NREGA}$ & \textcolor{citrine}{$-0.016$} & \textcolor{citrine}{$-0.044$} & \textcolor{citrine}{$0.042$}\\
+                 & $(0.027)$ & $(0.028)$& $(0.060)$ \\
+                 &\\
+                 N & 31911 & 25046 & 6865 \\
+                 FEs: district, phase-year & Yes & Yes & Yes\\
+                 FEs: phase-industry, industry-year  & Yes & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+    \only<4>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA5-3}
+                \begin{tabular}{lccc}
+                
+                 & \multicolumn{3}{c}{$\log(\text{Workers})$} \\ \cline{2-4}
+                 & All & Non-tradable & Tradable \\
+                \hline
+                $\log(\text{Rainfall})$ & \textcolor{citrine}{$0.040^{***}$} & \textcolor{citrine}{$0.062^{***}$} & \textcolor{citrine}{$-0.027$}\\
+                 & $(0.018)$ & $(0.023)$& $(0.057)$ \\
+                 $\log(\text{Rainfall})\times\text{NREGA}$ & \textcolor{citrine}{$-0.005$} & \textcolor{citrine}{$-0.030$} & \textcolor{citrine}{$0.031$}\\
+                 & $(0.026)$ & $(0.027)$& $(0.057)$ \\
+                 &\\
+                 N & 31940 & 25063 & 6877 \\
+                 FEs: district, phase-year & Yes & Yes & Yes\\
+                 FEs: phase-industry, industry-year  & Yes & Yes & Yes
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+ \end{frame}
+
+ \begin{frame}{NREGA Phase: Local Industrial Production and Employment}
+    \only<1-2>{
+        \begin{columns}[T]
+            \begin{column}{0.47\textwidth}
+                \begin{figure}
+                    \centering
+                    \includegraphics[height = 0.55 \textheight]{images/total.png}
+
+                    Distribution of Tradable Level
+                    
+                    All Districts
+                \end{figure}
+            \end{column}
+
+            \uncover<2>{\begin{column}{0.47\textwidth}
+                \begin{figure}
+                    \centering
+                    \includegraphics[height = 0.55 \textheight]{images/phase3.png}
+
+                    Distribution of Tradable Level
+                    
+                    \textcolor{mygreen}{By NREGA Phases}
+                \end{figure}
+            \end{column}}
+        \end{columns}
+
+        
+    }
+
+    \only<3->{\begin{block}{Prediction: non-tradable $\beta>0$, $\gamma<0$}
+        The effect is more pronounce in Phase 1-2 of NREGA, due to the \underline{\textit{pre-treatment}} volatility differences. %Fig5
+    \end{block}}
+
+    \only<3>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA6-1}
+                \begin{tabular}{lccc}
+                
+                    & \multicolumn{3}{c}{$\log(\text{Value of Output})$} \\ \cline{2-4}
+                    & All & Non-tradable & Tradable \\
+                   \hline
+                   $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 1-2}}$ & \textcolor{citrine}{$0.321^{***}$} & \textcolor{citrine}{$0.355^{***}$} & \textcolor{citrine}{$-0.046$}\\
+                    & $(0.073)$ & $(0.074)$& $(0.174)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 1-2}}\times\text{NREGA}$ & \textcolor{citrine}{$-0.104^*$} & \textcolor{citrine}{$-0.160^{**}$} & \textcolor{citrine}{$0.121$}\\
+                    & $(0.054)$ & $(0.075)$& $(0.143)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 3}}$ & \textcolor{citrine}{$0.031$} & \textcolor{citrine}{$0.055$} & \textcolor{citrine}{$0.024$}\\
+                    & $(0.039)$ & $(0.044)$& $(0.082)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 3}}\times\text{NREGA}$ & \textcolor{citrine}{$-0.020$} & \textcolor{citrine}{$-0.063$} & \textcolor{citrine}{$0.163$}\\
+                    & $(0.042)$ & $(0.051)$& $(0.119)$ 
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+    \only<4>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA6-2}
+                \begin{tabular}{lccc}
+                
+                    & \multicolumn{3}{c}{$\log(\text{Value of Man-days})$} \\ \cline{2-4}
+                    & All & Non-tradable & Tradable \\
+                   \hline
+                   $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 1-2}}$ & \textcolor{citrine}{$0.153^{***}$} & \textcolor{citrine}{$0.195^{***}$} & \textcolor{citrine}{$-0.032$}\\
+                    & $(0.050)$ & $(0.050)$& $(0.116)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 1-2}}\times\text{NREGA}$ & \textcolor{citrine}{$-0.079^*$} & \textcolor{citrine}{$-0.119^{**}$} & \textcolor{citrine}{$-0.030$}\\
+                    & $(0.041)$ & $(0.046)$& $(0.095)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 3}}$ & \textcolor{citrine}{$0.014$} & \textcolor{citrine}{$0.032$} & \textcolor{citrine}{$-0.017$}\\
+                    & $(0.021)$ & $(0.026)$& $(0.064)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 3}}\times\text{NREGA}$ & \textcolor{citrine}{$0.015$} & \textcolor{citrine}{$-0.007$} & \textcolor{citrine}{$0.101$}\\
+                    & $(0.032)$ & $(0.032)$& $(0.084)$ 
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+
+    \only<5>{
+        \begin{table}[h!]
+            \footnotesize
+            \begin{center}
+                \label{tab:NREGA6-3}
+                \begin{tabular}{lccc}
+                
+                    & \multicolumn{3}{c}{$\log(\text{Workers})$} \\ \cline{2-4}
+                    & All & Non-tradable & Tradable \\
+                   \hline
+                   $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 1-2}}$ & \textcolor{citrine}{$0.139^{***}$} & \textcolor{citrine}{$0.185^{***}$} & \textcolor{citrine}{$-0.047$}\\
+                    & $(0.042)$ & $(0.039)$& $(0.110)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 1-2}}\times\text{NREGA}$ & \textcolor{citrine}{$-0.063^*$} & \textcolor{citrine}{$-0.105^{**}$} & \textcolor{citrine}{$-0.018$}\\
+                    & $(0.037)$ & $(0.041)$& $(0.089)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 3}}$ & \textcolor{citrine}{$0.012$} & \textcolor{citrine}{$0.026$} & \textcolor{citrine}{$-0.022$}\\
+                    & $(0.020)$ & $(0.025)$& $(0.059)$ \\
+                    $\log(\text{Rainfall})\textcolor{citrine}{\times \text{Phase 3}}\times\text{NREGA}$ & \textcolor{citrine}{$0.022$} & \textcolor{citrine}{$0.005$} & \textcolor{citrine}{$0.074$}\\
+                    & $(0.031)$ & $(0.030)$& $(0.081)$ 
+                \end{tabular}
+            \end{center}
+        \end{table}
+    }
+    
+
+ \end{frame}
+
+ \begin{frame}{DiD Validation: Pre-Trends}
+    \only<1>{
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.7 \textheight]{images/pretrend1.png}
+            \end{figure}
+    }
+    \only<2>{
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.7 \textheight]{images/pretrend2.png}
+            \end{figure}
+    }
+    \only<3>{
+        \begin{figure}
+            \centering
+            \includegraphics[height = 0.7 \textheight]{images/pretrend3.png}
+        \end{figure}
+    }
+ \end{frame}
+
+ 
+ 
