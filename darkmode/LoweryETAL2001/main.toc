@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Experiments}{22}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Experiment 1: Black vs White Experimenter}{23}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Experiment 2: Asian-American vs European-American participants}{28}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Experiment 3: Asking Participants Not to Be Prejudiced vs. NOT Asking}{37}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{4}{Experiment 4: Subliminal Priming Procedure}{39}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Discussion}{42}{0}{3}

@@ -1,0 +1,1170 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{bargh1999cognitive}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=eda187f1d856e0151cd316e53f92a47b}{%
+           family={Bargh},
+           familyi={B\bibinitperiod},
+           given={JA},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {New York: Guilford Press}%
+      }
+      \strng{namehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{fullhash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{bibnamehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{authorbibnamehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{authornamehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{authorfullhash}{eda187f1d856e0151cd316e53f92a47b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The cognitive monster: The case against the controllability of automatic stereotype effects. Dual-process theories in social psychology}
+      \field{year}{1999}
+    \endentry
+    \entry{bargh1994four}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=eda187f1d856e0151cd316e53f92a47b}{%
+           family={Bargh},
+           familyi={B\bibinitperiod},
+           given={JA},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{fullhash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{bibnamehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{authorbibnamehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{authornamehash}{eda187f1d856e0151cd316e53f92a47b}
+      \strng{authorfullhash}{eda187f1d856e0151cd316e53f92a47b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Handbook ref-weird cognition,(2nd ed., Vol. 1). Hillsdale, NJ: Erlbaum}
+      \field{title}{The four horsemen of automaticity: Intention, awareness, efficiency, and control as separate issues in social cognition}
+      \field{year}{1994}
+    \endentry
+    \entry{bargh1996automaticity}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=2,uniquepart=given,hash=5d52bac71157de6ab0b0324efe2f88c0}{%
+           family={Bargh},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=fb15a691583ec94aafe0be6e7da4878f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ae36fb908cea5e0b278c05706f20f628}{%
+           family={Burrows},
+           familyi={B\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{4ab03aa10b40ab6617000ab14a3c6acf}
+      \strng{fullhash}{9699e4ac31fb4502c99048ca003a06af}
+      \strng{bibnamehash}{9699e4ac31fb4502c99048ca003a06af}
+      \strng{authorbibnamehash}{9699e4ac31fb4502c99048ca003a06af}
+      \strng{authornamehash}{4ab03aa10b40ab6617000ab14a3c6acf}
+      \strng{authorfullhash}{9699e4ac31fb4502c99048ca003a06af}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{2}
+      \field{title}{Automaticity of social behavior: Direct effects of trait construct and stereotype activation on action.}
+      \field{volume}{71}
+      \field{year}{1996}
+      \field{pages}{230}
+      \range{pages}{1}
+    \endentry
+    \entry{blair2001imagining}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=38d3fbbfcf3905657f732f2aabcf219d}{%
+           family={Blair},
+           familyi={B\bibinitperiod},
+           given={Irene\bibnamedelima V},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5912086210a1a39f28551c21ba427833}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jennifer\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2fcf258101c5a4f4ab9f06b6bbf3e011}{%
+           family={Lenton},
+           familyi={L\bibinitperiod},
+           given={Alison\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{9fd5fe21ce45b6266fccd61990bf4cfc}
+      \strng{fullhash}{f60c8d6246cbaa9ecc037c15295d662b}
+      \strng{bibnamehash}{f60c8d6246cbaa9ecc037c15295d662b}
+      \strng{authorbibnamehash}{f60c8d6246cbaa9ecc037c15295d662b}
+      \strng{authornamehash}{9fd5fe21ce45b6266fccd61990bf4cfc}
+      \strng{authorfullhash}{f60c8d6246cbaa9ecc037c15295d662b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{5}
+      \field{title}{Imagining stereotypes away: the moderation of implicit stereotypes through mental imagery.}
+      \field{volume}{81}
+      \field{year}{2001}
+      \field{pages}{828}
+      \range{pages}{1}
+    \endentry
+    \entry{blanchard1991reducing}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c4ab6ccc307eb231ba9563cf8db90989}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Fletcher\bibnamedelima A},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=698566388771859744fa53656dfc9b42}{%
+           family={Lilly},
+           familyi={L\bibinitperiod},
+           given={Teri},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=906e90e98ec836b8e135bb7686e47b17}{%
+           family={Vaughn},
+           familyi={V\bibinitperiod},
+           given={Leigh\bibnamedelima Ann},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{ec21da40065850c5def477f752b23bff}
+      \strng{fullhash}{97b2f4319690bb0e8befab77395c7565}
+      \strng{bibnamehash}{97b2f4319690bb0e8befab77395c7565}
+      \strng{authorbibnamehash}{97b2f4319690bb0e8befab77395c7565}
+      \strng{authornamehash}{ec21da40065850c5def477f752b23bff}
+      \strng{authorfullhash}{97b2f4319690bb0e8befab77395c7565}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{number}{2}
+      \field{title}{Reducing the expression of racial prejudice}
+      \field{volume}{2}
+      \field{year}{1991}
+      \field{pages}{101\bibrangedash 105}
+      \range{pages}{5}
+    \endentry
+    \entry{chaiken1999dual}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ad746167c0d599e7fdb8c56da6b90ac3}{%
+           family={Chaiken},
+           familyi={C\bibinitperiod},
+           given={Shelly},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5a2a1dab731e737f980219276b526b13}{%
+           family={Trope},
+           familyi={T\bibinitperiod},
+           given={Yaacov},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Guilford Press}%
+      }
+      \strng{namehash}{2cf025e2afe4a0a62d8652b44d78e971}
+      \strng{fullhash}{2cf025e2afe4a0a62d8652b44d78e971}
+      \strng{bibnamehash}{2cf025e2afe4a0a62d8652b44d78e971}
+      \strng{authorbibnamehash}{2cf025e2afe4a0a62d8652b44d78e971}
+      \strng{authornamehash}{2cf025e2afe4a0a62d8652b44d78e971}
+      \strng{authorfullhash}{2cf025e2afe4a0a62d8652b44d78e971}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dual-process theories in social psychology}
+      \field{year}{1999}
+    \endentry
+    \entry{chen1997nonconscious}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fb15a691583ec94aafe0be6e7da4878f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=2,uniquepart=given,hash=5d52bac71157de6ab0b0324efe2f88c0}{%
+           family={Bargh},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a013b06114aa4b9db1217985b15a3826}
+      \strng{fullhash}{a013b06114aa4b9db1217985b15a3826}
+      \strng{bibnamehash}{a013b06114aa4b9db1217985b15a3826}
+      \strng{authorbibnamehash}{a013b06114aa4b9db1217985b15a3826}
+      \strng{authornamehash}{a013b06114aa4b9db1217985b15a3826}
+      \strng{authorfullhash}{a013b06114aa4b9db1217985b15a3826}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Social Psychology}
+      \field{number}{5}
+      \field{title}{Nonconscious behavioral confirmation processes: The self-fulfilling consequences of automatic stereotype activation}
+      \field{volume}{33}
+      \field{year}{1997}
+      \field{pages}{541\bibrangedash 560}
+      \range{pages}{20}
+    \endentry
+    \entry{clark1996using}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5824d944c8fd91d5548a22be5dd8f917}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Herbert\bibnamedelima H},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{5824d944c8fd91d5548a22be5dd8f917}
+      \strng{fullhash}{5824d944c8fd91d5548a22be5dd8f917}
+      \strng{bibnamehash}{5824d944c8fd91d5548a22be5dd8f917}
+      \strng{authorbibnamehash}{5824d944c8fd91d5548a22be5dd8f917}
+      \strng{authornamehash}{5824d944c8fd91d5548a22be5dd8f917}
+      \strng{authorfullhash}{5824d944c8fd91d5548a22be5dd8f917}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using language}
+      \field{year}{1996}
+    \endentry
+    \entry{crosby1980recent}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=e5ab7c5bd754db5656000407106990e3}{%
+           family={Crosby},
+           familyi={C\bibinitperiod},
+           given={Faye},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ae82eeff8574490f135ccc7c618c7ee6}{%
+           family={Bromley},
+           familyi={B\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=89f16f2ef57473750ce288d8e835c157}{%
+           family={Saxe},
+           familyi={S\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{ed68aacfbf7f122ae7b32821a6afafdf}
+      \strng{fullhash}{b5f5b669dd51f2a7bfed8a8c1f58cd82}
+      \strng{bibnamehash}{b5f5b669dd51f2a7bfed8a8c1f58cd82}
+      \strng{authorbibnamehash}{b5f5b669dd51f2a7bfed8a8c1f58cd82}
+      \strng{authornamehash}{ed68aacfbf7f122ae7b32821a6afafdf}
+      \strng{authorfullhash}{b5f5b669dd51f2a7bfed8a8c1f58cd82}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological bulletin}
+      \field{number}{3}
+      \field{title}{Recent unobtrusive studies of Black and White discrimination and prejudice: A literature review.}
+      \field{volume}{87}
+      \field{year}{1980}
+      \field{pages}{546}
+      \range{pages}{1}
+    \endentry
+    \entry{dasgupta2000automatic}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=3a324de07b24291cb6e9b31be2d39bc2}{%
+           family={Dasgupta},
+           familyi={D\bibinitperiod},
+           given={Nilanjana},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e86adde6690f6ce56da09ef34998b350}{%
+           family={McGhee},
+           familyi={M\bibinitperiod},
+           given={Debbie\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=52881c21597ece293640aeaf15a1b018}{%
+           family={Greenwald},
+           familyi={G\bibinitperiod},
+           given={Anthony\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2237ce22c1646606434e2f07ad11e6f5}{%
+           family={Banaji},
+           familyi={B\bibinitperiod},
+           given={Mahzarin\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{02119e1814ac510db8755396ca6164ec}
+      \strng{fullhash}{cf7b9623d33436a1323542250b19e986}
+      \strng{bibnamehash}{cf7b9623d33436a1323542250b19e986}
+      \strng{authorbibnamehash}{cf7b9623d33436a1323542250b19e986}
+      \strng{authornamehash}{02119e1814ac510db8755396ca6164ec}
+      \strng{authorfullhash}{cf7b9623d33436a1323542250b19e986}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Social Psychology}
+      \field{number}{3}
+      \field{title}{Automatic preference for White Americans: Eliminating the familiarity explanation}
+      \field{volume}{36}
+      \field{year}{2000}
+      \field{pages}{316\bibrangedash 328}
+      \range{pages}{13}
+    \endentry
+    \entry{devine1989stereotypes}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1bf8403b62021b7cfbbf3edc6592ae42}{%
+           family={Devine},
+           familyi={D\bibinitperiod},
+           given={Patricia\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{1bf8403b62021b7cfbbf3edc6592ae42}
+      \strng{fullhash}{1bf8403b62021b7cfbbf3edc6592ae42}
+      \strng{bibnamehash}{1bf8403b62021b7cfbbf3edc6592ae42}
+      \strng{authorbibnamehash}{1bf8403b62021b7cfbbf3edc6592ae42}
+      \strng{authornamehash}{1bf8403b62021b7cfbbf3edc6592ae42}
+      \strng{authorfullhash}{1bf8403b62021b7cfbbf3edc6592ae42}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{1}
+      \field{title}{Stereotypes and prejudice: Their automatic and controlled components.}
+      \field{volume}{56}
+      \field{year}{1989}
+      \field{pages}{5}
+      \range{pages}{1}
+    \endentry
+    \entry{devine1999automaticity}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1bf8403b62021b7cfbbf3edc6592ae42}{%
+           family={Devine},
+           familyi={D\bibinitperiod},
+           given={Patricia\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=765973fc400aa0f5b7694ec9d8807d00}{%
+           family={Monteith},
+           familyi={M\bibinitperiod},
+           given={Margo\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Guilford Press}%
+      }
+      \strng{namehash}{948a61436457291ab0ad10e52f69cb5f}
+      \strng{fullhash}{948a61436457291ab0ad10e52f69cb5f}
+      \strng{bibnamehash}{948a61436457291ab0ad10e52f69cb5f}
+      \strng{authorbibnamehash}{948a61436457291ab0ad10e52f69cb5f}
+      \strng{authornamehash}{948a61436457291ab0ad10e52f69cb5f}
+      \strng{authorfullhash}{948a61436457291ab0ad10e52f69cb5f}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automaticity and control in stereotyping.}
+      \field{year}{1999}
+    \endentry
+    \entry{fazio1995variability}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=309a0acd7100c5bd732e372f808759ac}{%
+           family={Fazio},
+           familyi={F\bibinitperiod},
+           given={Russell\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0089ad88412cabdae00ca2b93d47a305}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Joni\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b774050676b401fe1f07beacc5c0668}{%
+           family={Dunton},
+           familyi={D\bibinitperiod},
+           given={Bridget\bibnamedelima C},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c376e5137f2fbe3b3d6e78b49bfbcf44}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Carol\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{71d653f080631070ad4a227e76345d96}
+      \strng{fullhash}{c77823bb5d71043d6e9db2ccb1bf2d6e}
+      \strng{bibnamehash}{c77823bb5d71043d6e9db2ccb1bf2d6e}
+      \strng{authorbibnamehash}{c77823bb5d71043d6e9db2ccb1bf2d6e}
+      \strng{authornamehash}{71d653f080631070ad4a227e76345d96}
+      \strng{authorfullhash}{c77823bb5d71043d6e9db2ccb1bf2d6e}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{6}
+      \field{title}{Variability in automatic activation as an unobtrusive measure of racial attitudes: A bona fide pipeline?}
+      \field{volume}{69}
+      \field{year}{1995}
+      \field{pages}{1013}
+      \range{pages}{1}
+    \endentry
+    \entry{greenwald1995implicit}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=52881c21597ece293640aeaf15a1b018}{%
+           family={Greenwald},
+           familyi={G\bibinitperiod},
+           given={Anthony\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2237ce22c1646606434e2f07ad11e6f5}{%
+           family={Banaji},
+           familyi={B\bibinitperiod},
+           given={Mahzarin\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{39b8ad48b085906c1d5f93761e8da5ff}
+      \strng{fullhash}{39b8ad48b085906c1d5f93761e8da5ff}
+      \strng{bibnamehash}{39b8ad48b085906c1d5f93761e8da5ff}
+      \strng{authorbibnamehash}{39b8ad48b085906c1d5f93761e8da5ff}
+      \strng{authornamehash}{39b8ad48b085906c1d5f93761e8da5ff}
+      \strng{authorfullhash}{39b8ad48b085906c1d5f93761e8da5ff}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological review}
+      \field{number}{1}
+      \field{title}{Implicit social cognition: attitudes, self-esteem, and stereotypes.}
+      \field{volume}{102}
+      \field{year}{1995}
+      \field{pages}{4}
+      \range{pages}{1}
+    \endentry
+    \entry{greenwald1998measuring}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=52881c21597ece293640aeaf15a1b018}{%
+           family={Greenwald},
+           familyi={G\bibinitperiod},
+           given={Anthony\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e86adde6690f6ce56da09ef34998b350}{%
+           family={McGhee},
+           familyi={M\bibinitperiod},
+           given={Debbie\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=20503d8960c4706245246818ef2b46ab}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Jordan\bibnamedelima LK},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{2eed33aaa13be2d7f05b11b29017059b}
+      \strng{fullhash}{4f1b30725b4f1a01a1490f6661946c22}
+      \strng{bibnamehash}{4f1b30725b4f1a01a1490f6661946c22}
+      \strng{authorbibnamehash}{4f1b30725b4f1a01a1490f6661946c22}
+      \strng{authornamehash}{2eed33aaa13be2d7f05b11b29017059b}
+      \strng{authorfullhash}{4f1b30725b4f1a01a1490f6661946c22}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{6}
+      \field{title}{Measuring individual differences in implicit cognition: the implicit association test.}
+      \field{volume}{74}
+      \field{year}{1998}
+      \field{pages}{1464}
+      \range{pages}{1}
+    \endentry
+    \entry{higgins1984social}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=695fd5fc218c24baa21fccb4673ae7f5}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={E\bibnamedelima Tory},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=8b72fb898c4658ecc6d6b3b700954759}{%
+           family={McCann},
+           familyi={M\bibinitperiod},
+           given={C\bibnamedelima Douglas},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{1ab8e2943b5c3608a151efff12935580}
+      \strng{fullhash}{1ab8e2943b5c3608a151efff12935580}
+      \strng{bibnamehash}{1ab8e2943b5c3608a151efff12935580}
+      \strng{authorbibnamehash}{1ab8e2943b5c3608a151efff12935580}
+      \strng{authornamehash}{1ab8e2943b5c3608a151efff12935580}
+      \strng{authorfullhash}{1ab8e2943b5c3608a151efff12935580}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Personality and Social Psychology}
+      \field{number}{1}
+      \field{title}{Social encoding and subsequent attitudes, impressions, and memory:" Context-driven" and motivational aspects of processing.}
+      \field{volume}{47}
+      \field{year}{1984}
+      \field{pages}{26}
+      \range{pages}{1}
+    \endentry
+    \entry{kawakami2000just}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=595246525d1ded200f59dd99bbef35be}{%
+           family={Kawakami},
+           familyi={K\bibinitperiod},
+           given={Kerry},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f81c8979044b1904cff6d2c562ec44bf}{%
+           family={Dovidio},
+           familyi={D\bibinitperiod},
+           given={John\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=58ef3b034f4624865d88614a7422e30f}{%
+           family={Moll},
+           familyi={M\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5a97d5e2ad1066ddec6b6d028155c465}{%
+           family={Hermsen},
+           familyi={H\bibinitperiod},
+           given={Sander},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8f5cb070f3973c93782ccc9677e48f6d}{%
+           family={Russin},
+           familyi={R\bibinitperiod},
+           given={Abby},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{e8e6119209ef6d5d85eb7f5c15727a51}
+      \strng{fullhash}{83b4a0887fe5de49ea44ee3c9842873f}
+      \strng{bibnamehash}{83b4a0887fe5de49ea44ee3c9842873f}
+      \strng{authorbibnamehash}{83b4a0887fe5de49ea44ee3c9842873f}
+      \strng{authornamehash}{e8e6119209ef6d5d85eb7f5c15727a51}
+      \strng{authorfullhash}{83b4a0887fe5de49ea44ee3c9842873f}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{5}
+      \field{title}{Just say no (to stereotyping): effects of training in the negation of stereotypic associations on stereotype activation.}
+      \field{volume}{78}
+      \field{year}{2000}
+      \field{pages}{871}
+      \range{pages}{1}
+    \endentry
+    \entry{lepore1997category}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=80db1919d91e2fff6ac39b23a59adf4c}{%
+           family={Lepore},
+           familyi={L\bibinitperiod},
+           given={Lorella},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7e44b0319d9fb6013d97388abf271eda}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Rupert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{fd7eb86014ebbbf5a5eb8d9b007ffbb2}
+      \strng{fullhash}{fd7eb86014ebbbf5a5eb8d9b007ffbb2}
+      \strng{bibnamehash}{fd7eb86014ebbbf5a5eb8d9b007ffbb2}
+      \strng{authorbibnamehash}{fd7eb86014ebbbf5a5eb8d9b007ffbb2}
+      \strng{authornamehash}{fd7eb86014ebbbf5a5eb8d9b007ffbb2}
+      \strng{authorfullhash}{fd7eb86014ebbbf5a5eb8d9b007ffbb2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{2}
+      \field{title}{Category and stereotype activation: Is prejudice inevitable?}
+      \field{volume}{72}
+      \field{year}{1997}
+      \field{pages}{275}
+      \range{pages}{1}
+    \endentry
+    \entry{lowery2001social}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=240872adebc8912f447961c6c3bae7d1}{%
+           family={Lowery},
+           familyi={L\bibinitperiod},
+           given={Brian\bibnamedelima S},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c5c4ad61ef9c6fecf6b4db664a77420f}{%
+           family={Hardin},
+           familyi={H\bibinitperiod},
+           given={Curtis\bibnamedelima D},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ed2694c239a23013722d0dcdc10343c4}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={Stacey},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{48fd12745f52cfd75bb2c48b475152b9}
+      \strng{fullhash}{0613ce736793d999c5e98872b46c4064}
+      \strng{bibnamehash}{0613ce736793d999c5e98872b46c4064}
+      \strng{authorbibnamehash}{0613ce736793d999c5e98872b46c4064}
+      \strng{authornamehash}{48fd12745f52cfd75bb2c48b475152b9}
+      \strng{authorfullhash}{0613ce736793d999c5e98872b46c4064}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{5}
+      \field{title}{Social influence effects on automatic racial prejudice.}
+      \field{volume}{81}
+      \field{year}{2001}
+      \field{pages}{842}
+      \range{pages}{1}
+    \endentry
+    \entry{mccann1983self}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b72fb898c4658ecc6d6b3b700954759}{%
+           family={McCann},
+           familyi={M\bibinitperiod},
+           given={C\bibnamedelima Douglas},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a7f7608b2b0f841c90a5b35e475e0cef}{%
+           family={Hancock},
+           familyi={H\bibinitperiod},
+           given={Rodney\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4d968d096e5eedbb45d36e39165f2235}
+      \strng{fullhash}{4d968d096e5eedbb45d36e39165f2235}
+      \strng{bibnamehash}{4d968d096e5eedbb45d36e39165f2235}
+      \strng{authorbibnamehash}{4d968d096e5eedbb45d36e39165f2235}
+      \strng{authornamehash}{4d968d096e5eedbb45d36e39165f2235}
+      \strng{authorfullhash}{4d968d096e5eedbb45d36e39165f2235}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Social Psychology}
+      \field{number}{2}
+      \field{title}{Self-monitoring in communicative interactions: Social cognitive consequences of goal-directed message modification}
+      \field{volume}{19}
+      \field{year}{1983}
+      \field{pages}{109\bibrangedash 121}
+      \range{pages}{13}
+    \endentry
+    \entry{mccann1992personal}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b72fb898c4658ecc6d6b3b700954759}{%
+           family={McCann},
+           familyi={M\bibinitperiod},
+           given={C\bibnamedelima Douglas},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=0392bfd57ea9ecdfe8551e7aceac16b3}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={Tory\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications, Inc}%
+      }
+      \strng{namehash}{8c72490fd6d7eb42c02ce15d7258f0b0}
+      \strng{fullhash}{8c72490fd6d7eb42c02ce15d7258f0b0}
+      \strng{bibnamehash}{8c72490fd6d7eb42c02ce15d7258f0b0}
+      \strng{authorbibnamehash}{8c72490fd6d7eb42c02ce15d7258f0b0}
+      \strng{authornamehash}{8c72490fd6d7eb42c02ce15d7258f0b0}
+      \strng{authorfullhash}{8c72490fd6d7eb42c02ce15d7258f0b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Personal and contextual factors in communication: A review of the'communication game.'}
+      \field{year}{1992}
+    \endentry
+    \entry{mcconahay1981has}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=b3ad1db6986324f8e320c5ccbf108dc9}{%
+           family={McConahay},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7d06cd49634962c0d67ff40713c55589}{%
+           family={Hardee},
+           familyi={H\bibinitperiod},
+           given={Betty\bibnamedelima B},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b22f832e89a93ba95864514648992458}{%
+           family={Batts},
+           familyi={B\bibinitperiod},
+           given={Valerie},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{fb17856dafcc10d8d8176fcef6ece209}
+      \strng{fullhash}{30b1cc94a32bd9cfdb6b06eec597ea6e}
+      \strng{bibnamehash}{30b1cc94a32bd9cfdb6b06eec597ea6e}
+      \strng{authorbibnamehash}{30b1cc94a32bd9cfdb6b06eec597ea6e}
+      \strng{authornamehash}{fb17856dafcc10d8d8176fcef6ece209}
+      \strng{authorfullhash}{30b1cc94a32bd9cfdb6b06eec597ea6e}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of conflict resolution}
+      \field{number}{4}
+      \field{title}{Has racism declined in America? It depends on who is asking and what is asked}
+      \field{volume}{25}
+      \field{year}{1981}
+      \field{pages}{563\bibrangedash 579}
+      \range{pages}{17}
+    \endentry
+    \entry{moskowitz1999preconscious}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=8dc90ad919cbee040e831e4b3e61f266}{%
+           family={Moskowitz},
+           familyi={M\bibinitperiod},
+           given={Gordon\bibnamedelima B},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fec554a8ccea2c150b40d0da4616864f}{%
+           family={Gollwitzer},
+           familyi={G\bibinitperiod},
+           given={Peter\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a536368ecb94f869884c0549839b4341}{%
+           family={Wasel},
+           familyi={W\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d9800ae47cb4e9f9d0b172b9fcc3cb09}{%
+           family={Schaal},
+           familyi={S\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{4ec9055823569242d67e884ebccad31d}
+      \strng{fullhash}{fa85103c65402d8c54701c3ecaa906c4}
+      \strng{bibnamehash}{fa85103c65402d8c54701c3ecaa906c4}
+      \strng{authorbibnamehash}{fa85103c65402d8c54701c3ecaa906c4}
+      \strng{authornamehash}{4ec9055823569242d67e884ebccad31d}
+      \strng{authorfullhash}{fa85103c65402d8c54701c3ecaa906c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{1}
+      \field{title}{Preconscious control of stereotype activation through chronic egalitarian goals.}
+      \field{volume}{77}
+      \field{year}{1999}
+      \field{pages}{167}
+      \range{pages}{1}
+    \endentry
+    \entry{moskowitz2000preconsciously}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=8dc90ad919cbee040e831e4b3e61f266}{%
+           family={Moskowitz},
+           familyi={M\bibinitperiod},
+           given={Gordon\bibnamedelima B},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fc20fb258875453541b83648b38dff00}{%
+           family={Salomon},
+           familyi={S\bibinitperiod},
+           given={Amanda\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0becff81524d9770a3b65f1e075aeba9}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Constance\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Guilford Press}%
+      }
+      \strng{namehash}{9ac668fa79b7d0df69f609f1adf583a5}
+      \strng{fullhash}{8098c20cd03ff0c9c44c802f0411adc2}
+      \strng{bibnamehash}{8098c20cd03ff0c9c44c802f0411adc2}
+      \strng{authorbibnamehash}{8098c20cd03ff0c9c44c802f0411adc2}
+      \strng{authornamehash}{9ac668fa79b7d0df69f609f1adf583a5}
+      \strng{authorfullhash}{8098c20cd03ff0c9c44c802f0411adc2}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social Cognition}
+      \field{number}{2}
+      \field{title}{Preconsciously controlling stereotyping: Implicitly activated egalitarian goals prevent the activation of stereotypes}
+      \field{volume}{18}
+      \field{year}{2000}
+      \field{pages}{151\bibrangedash 177}
+      \range{pages}{27}
+    \endentry
+    \entry{plant1998internal}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d8cc82ac9b3e2ecbaccd7d8efd89a787}{%
+           family={Plant},
+           familyi={P\bibinitperiod},
+           given={E\bibnamedelima Ashby},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bf8403b62021b7cfbbf3edc6592ae42}{%
+           family={Devine},
+           familyi={D\bibinitperiod},
+           given={Patricia\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{5cf26b2b0829ef258f8ad88628e82091}
+      \strng{fullhash}{5cf26b2b0829ef258f8ad88628e82091}
+      \strng{bibnamehash}{5cf26b2b0829ef258f8ad88628e82091}
+      \strng{authorbibnamehash}{5cf26b2b0829ef258f8ad88628e82091}
+      \strng{authornamehash}{5cf26b2b0829ef258f8ad88628e82091}
+      \strng{authorfullhash}{5cf26b2b0829ef258f8ad88628e82091}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{3}
+      \field{title}{Internal and external motivation to respond without prejudice.}
+      \field{volume}{75}
+      \field{year}{1998}
+      \field{pages}{811}
+      \range{pages}{1}
+    \endentry
+    \entry{pratto1994social}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a1772a2286d680fb03f6a80bff670b79}{%
+           family={Pratto},
+           familyi={P\bibinitperiod},
+           given={Felicia},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=551dc97f4e9b61207fb61ca187006848}{%
+           family={Sidanius},
+           familyi={S\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d8d10d0ccb8a4ca5cdbbe8ab7488157f}{%
+           family={Stallworth},
+           familyi={S\bibinitperiod},
+           given={Lisa\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7e8f2a6d11769e80ff8e58a11f0e1500}{%
+           family={Malle},
+           familyi={M\bibinitperiod},
+           given={Bertram\bibnamedelima F},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{5c55346a78ddf75439e0822a753d65a0}
+      \strng{fullhash}{6ff611990528906cc478719beef412fb}
+      \strng{bibnamehash}{6ff611990528906cc478719beef412fb}
+      \strng{authorbibnamehash}{6ff611990528906cc478719beef412fb}
+      \strng{authornamehash}{5c55346a78ddf75439e0822a753d65a0}
+      \strng{authorfullhash}{6ff611990528906cc478719beef412fb}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{4}
+      \field{title}{Social dominance orientation: A personality variable predicting social and political attitudes.}
+      \field{volume}{67}
+      \field{year}{1994}
+      \field{pages}{741}
+      \range{pages}{1}
+    \endentry
+    \entry{sinclair1999reactions}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ffb05436514eb03669d97b2b08038a1b}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=23b81527fc391ea703f394ac9c1b7eaf}{%
+           family={Kunda},
+           familyi={K\bibinitperiod},
+           given={Ziva},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{ed85e453928c40381e689a4a6c5b2b76}
+      \strng{fullhash}{ed85e453928c40381e689a4a6c5b2b76}
+      \strng{bibnamehash}{ed85e453928c40381e689a4a6c5b2b76}
+      \strng{authorbibnamehash}{ed85e453928c40381e689a4a6c5b2b76}
+      \strng{authornamehash}{ed85e453928c40381e689a4a6c5b2b76}
+      \strng{authorfullhash}{ed85e453928c40381e689a4a6c5b2b76}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{5}
+      \field{title}{Reactions to a black professional: motivated inhibition and activation of conflicting stereotypes.}
+      \field{volume}{77}
+      \field{year}{1999}
+      \field{pages}{885}
+      \range{pages}{1}
+    \endentry
+    \entry{wittenbrink2001spontaneous}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c7327bee8aaff92b7d5160c98404b5e5}{%
+           family={Wittenbrink},
+           familyi={W\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=05ef9faa57e11c959cfcd6cd5265eafe}{%
+           family={Judd},
+           familyi={J\bibinitperiod},
+           given={Charles\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c7277a54d7eadff9f8e0d90b74dc2f24}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Bernadette},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{5fbea5665fdeb1ae583d927387b12373}
+      \strng{fullhash}{668b93d07adbe4bc44c48a38de4d569e}
+      \strng{bibnamehash}{668b93d07adbe4bc44c48a38de4d569e}
+      \strng{authorbibnamehash}{668b93d07adbe4bc44c48a38de4d569e}
+      \strng{authornamehash}{5fbea5665fdeb1ae583d927387b12373}
+      \strng{authorfullhash}{668b93d07adbe4bc44c48a38de4d569e}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{5}
+      \field{title}{Spontaneous prejudice in context: variability in automatically activated attitudes.}
+      \field{volume}{81}
+      \field{year}{2001}
+      \field{pages}{815}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
