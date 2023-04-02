@@ -1,0 +1,87 @@
+\section{Introduction}
+\frame{\sectionpage}
+
+\begin{frame}{Inspiration: Variable Selection}
+    \uncover<+->{Considering the problem of estimating
+    \begin{align*}
+        F_{\mathbf{Y}\mid\mathbf{X}}
+    \end{align*}
+    where the \textit{\underline{outcome}} $\mathbf{Y}$ is determined by the set of $p$ potential determining \underline{\textit{covariates}} $\mathbf{X}=\left( \mathbf{X}_1,\cdots,\mathbf{X}_p \right)$
+    }
+    \vspace*{5pt}
+    
+    \uncover<+->{\hfill How to achieve \textcolor{glaucous!65!white}{\textbf{\underline{sparsity}}}?}
+
+\end{frame}
+
+\begin{frame}{This Paper: The Problem}
+    \small
+    \begin{align*}
+        \left( X_{i,1},\cdots,X_{i,p},Y_i \right) &\overset{\text{i.i.d.}}{\sim} F_{\mathbf{XY}} & i=1,\cdots,n
+    \end{align*}
+    Main assumptions:
+    \begin{itemize}
+        \item<+-> \textcolor{glaucous!65!white}{\textbf{NO} \textit{knowledge}} of the conditional distribution $\mathbf{Y}\mid \mathbf{X}_1,\cdots,\mathbf{X}_p$
+        \item<+-> the joint distribution of the covariates $F_{\mathbf{X}}$ is \textcolor{glaucous!65!white}{\textbf{known}}
+    \end{itemize}
+
+    \uncover<+->{
+        \vspace*{5pt}
+        \textcolor{glaucous!65!white}{\textbf{Sparsity}}: the \underline{\textit{smallest}} subset $\mathcal{S} \subset \left\{1,\cdots,p\right\}$ s.t. conditional on $\left\{\mathbf{X}_j\right\}_{j\in\mathcal{S}}$, $\mathbf{Y}$ is independent of all \textit{other} variables
+    }
+
+    \uncover<+->{
+        \vspace*{10pt}
+        controlling the \textcolor{glaucous!65!white}{\textbf{type-I error}}: \underline{\textit{false discovery rate (FDR)}} {\scriptsize \citep{Benjamini1995}} 
+        {\scriptsize
+        \begin{align*}
+            FDR \coloneqq \mathbb{E}[FDP] = \mathbb{E}\left[ \frac{\#\left\{j:j\in\hat{\mathcal{S}}\setminus\mathcal{S}\right\}}{\#\left\{j:j\in\hat{\mathcal{S}}\right\}} \right]
+        \end{align*}}
+    }
+    \vspace*{10pt}
+    
+\end{frame}
+
+\begin{frame}{This Paper: Framework}
+    Following the \textcolor{glaucous!65!white}{\textbf{knockoff}} procedure {\scriptsize \citep{Barber2015}}
+    \begin{itemize}
+        \item<+-> construct \textit{\underline{knockoff}} variables
+        \begin{itemize}
+            \item[-] \textcolor{glaucous!65!white}{\textbf{NOT}} associated with the response conditional on the original covariates
+            \item[-] \textcolor{glaucous!65!white}{\textbf{MIRRORING}} the structure of the original covariates
+        \end{itemize}
+        \item<+-> use the knockoff variables as \textit{\underline{controls}} for the real covariates 
+        \begin{itemize}
+            \item[-] select real covariates considerably \textcolor{glaucous!65!white}{\textbf{MORE associated}} with the response than their knockoff counterparts
+        \end{itemize}
+    \end{itemize}
+
+    \uncover<+->{
+        \vspace*{10pt}
+        Extending it to $p>n$ and non-linear models
+        
+        \hfill adding the \textcolor{glaucous!65!white}{\underline{\textit{model-X}}} perspective: treating $X_{ij}$ as \textcolor{glaucous!65!white}{\textbf{random}}
+    }
+\end{frame}
+
+\begin{frame}{Contributions}
+    The first paper focused on the case of Gaussian linear model with $p \leq n$ and fixed design matrix $\mathbf{X}$
+    \begin{itemize}
+        \item<2-> \underline{\textbf{set-up}}
+        
+        assuming full knowledge about the \textcolor{glaucous!65!white}{\underline{\textit{covariate distribution}}}
+        
+        {\footnotesize instead of assuming a \underline{\textit{pamametric model}} for the response conditional on the covariates}
+        \vspace*{5pt}
+        \item<3-> \underline{\textbf{advantages}}
+        \begin{itemize}
+            \item[$\diamond$] extend the knockoff framework to \underline{\textit{high-dimension}} settings
+            \item[$\diamond$] can accomodate {\textit{any}} model
+            \item<4->[$\diamond$] \textcolor{glaucous!65!white}{\textit{\underline{Selection with inference}}}: obtain \underline{\textit{valid p-values}} while rigorously controlling finite sample type-I error, instead of
+            \begin{itemize}
+                \item[$\cross$] high-dimension $n<p$: rely on \textcolor{glaucous!65!white}{\textit{strong sparsity}} and \textcolor{glaucous!65!white}{\textit{parametric}} assumptions
+                \item[$\cross$] marginal testing: testing \textcolor{glaucous!65!white}{\textit{unconditional}} independence between $\mathbf{Y}$ and $\mathbf{X}_j$
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{frame}

@@ -1,0 +1,20 @@
+\section*{Appendix}
+
+ \frame{\sectionpage}
+
+\begin{frame}{Proof of Proposition 1}\label{proof_prop1}
+    \small 
+    In the case of a logistic regression model:
+    \begin{align*}
+        \mathbb{E}[\mathbf{Y}\mid \mathbf{X}] = \mathbb{P}(\mathbf{Y}=\mathbf{1}\mid \mathbf{X}) = \frac{\exp(\eta)}{1+\exp(\eta)} &= g^{-1}(\eta), & \eta =&\beta_1\mathbf{X}_1 +\cdots \beta_p\mathbf{X}_p
+    \end{align*}
+    \begin{itemize}
+        \item $\beta_j = 0 \Rightarrow \mathbf{Y}\ind \mathbf{X}_j\mid\mathbf{X}_{-j}$: if $\beta_j = 0$, then
+        $$
+        P_{\mathbf{Y},\mathbf{X}_j\mid\mathbf{X}_{-j}}(\mathbf{y},\mathbf{x}_j\mid \mathbf{x}_{-j}) = \underbrace{P_{\mathbf{Y}\mid \mathbf{X}_j,\mathbf{X}_{-j}}(\mathbf{y}\mid \mathbf{x}_j,\mathbf{x}_{-j})}_{\text{independent of } \mathbf{X}_j} P_{\mathbf{X}_j\mid \mathbf{X}_{-j}}(\mathbf{x}_j\mid \mathbf{x}_{-j})
+        $$
+        \item $\beta_j = 0 \Leftarrow \mathbf{Y}\ind \mathbf{X}_j\mid\mathbf{X}_{-j}$: if $\mathbf{Y}$ and $\mathbf{X}_j$ are conditionally independent, the the likelihood function $\mathbb{E}[\mathbf{Y}\mid \mathbf{X}]$ must, conditional on $\mathbf{X}_{-j}$, factorize into a function of $\mathbf{Y}$ times a function of $\mathbf{X}_j$. That is, conditional on $\mathbf{X}_{-j}$, the odds ratio must not depend on $\mathbf{X}_j$, i.e., $\exp(\beta_j\mathbf{X}_j)$ must be constant, hence $\beta_j =0$  \hfill \hyperlink{prop1}{\beamerbutton{back}}
+    \end{itemize}
+    
+
+\end{frame}

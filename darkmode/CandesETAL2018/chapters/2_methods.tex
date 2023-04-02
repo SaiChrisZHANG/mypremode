@@ -1,0 +1,386 @@
+\section{Problem and Methodology}
+    
+    \frame{\sectionpage}
+
+    \begin{frame}{Problem: Variable Selection}
+    For $n$ IID sample
+        \begin{align*}
+            \left( X_{i,1},\cdots,X_{i,p},Y_i \right) &\overset{\text{i.i.d.}}{\sim} F_{\mathbf{XY}} & i=1,\cdots,n
+        \end{align*}
+    The problem is find the \textcolor{glaucous!65!white}{\textit{smallest}} subset $\mathcal{S}$, s.t., conditionally on $\left\{ \mathbf{X}_j \right\}_{j\in\mathcal{S}}$, $\mathbf{Y}$ is independent of \textcolor{glaucous!65!white}{\textit{all other}} variables.
+
+    \uncover<2->{
+        \vspace*{10pt}
+    \begin{columns}
+        \begin{column}{0.95\textwidth}
+            \small
+            \begin{block}{\textit{Definition 1}}
+                $\mathbf{X}_j$ is \textit{\underline{null}} iff $\mathbf{Y}$ is independent of $\mathbf{X}_j$ conditional on the other variables $\mathbf{X}_{-j}=\left\{\mathbf{X}_1,\cdots,\mathbf{X}_p\right\}\setminus \left\{\mathbf{X}_j\right\}$. The subset of of all null variables is denoted by $\mathcal{H}_0\subset \left\{1,\cdots,p\right\}$. Variable $\mathbf{X}_j$ is \textit{\underline{non-null}} or \textit{\underline{relevant}}, if $j\in \mathcal{H}_0$
+            \end{block}
+        \end{column}
+    \end{columns}
+    }
+    \end{frame}
+
+    \begin{frame}{Problem: Controlling FDR}\label{prop1}
+        For a selection rule the selects a subset $\hat{\mathcal{S}}$ of covariates, we have 
+        \begin{align*}
+            \mathrm{FDR} \coloneqq \mathbb{E}\left[ \frac{\lvert \hat{\mathcal{S}}\cap \mathcal{H}_0 \rvert}{ \lvert \hat{\mathcal{S}} \rvert } \only<2->{\textcolor{glaucous!65!white}{ =\frac{\#\left\{ j:j\in\hat{\mathcal{S}}\setminus \mathcal{S}\right\} }{\#\left\{ j:j\in\hat{\mathcal{S}}\right\} }}} \right]
+        \end{align*}
+    
+    \vspace*{-5pt}
+    \uncover<3->{
+    \begin{columns}
+        \begin{column}{0.95\textwidth}
+            \small
+            \begin{block}{\textit{Proposition 1 (GLM) }}
+                For a family of random variables $\mathbf{X}_1,\cdots,\mathbf{X}_p$ s.t. one \textit{\underline{cannot}} perfectly predict any of them from knowledge of the others. If the likelihood of $\mathbf{Y}$ follows a GLM, then $$ \mathbf{Y} \ind \mathbf{X}_j\mid \mathbf{X}_{-j} \Leftrightarrow \beta_j =0$$ hence, $\mathcal{H}_0$ from Def. 1 is exactly the set $\left\{j:\beta_j=0\right\}$. \hfill \hyperlink{proof_prop1}{\beamerbutton{proof}}
+            \end{block}
+        \end{column}
+    \end{columns}
+    }
+    \end{frame}
+
+    \begin{frame}{Methodology: Model-X Knockoffs}
+        \begin{columns}
+            \begin{column}{0.95\textwidth}
+                \small
+                \begin{block}{\textit{Definition 2: MX Knockoffs}}
+                    \underline{\textit{MX knockoffs}} for the family of random variables $\mathbf{X}=(\mathbf{X}_1,\cdots,\mathbf{X}_p)$ are a new family of random variables $\tilde{\mathbf{X}} = (\tilde{\mathbf{X}}_1,\cdots,\tilde{\mathbf{X}}_p)$ constructed with the following 2 properties:
+                    \begin{itemize}
+                        \item[(a)] for any subset $S \subset \left\{1,\cdots,p \right\}$, $$ (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)} \overset{\mathrm{d}}{=}(\mathbf{X},\tilde{\mathbf{X}}) $$
+                        \item[(b)] $\tilde{\mathbf{X}}\ind \mathbf{Y}\mid \mathbf{X}$ if there is a response $\mathbf{Y}$
+                    \end{itemize}
+                \end{block}
+            \end{column}
+        \end{columns}
+
+        \vspace*{10pt}
+        \uncover<2->{\footnotesize
+        $(\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)}$ is obtained from $(\mathbf{X},\tilde{\mathbf{X}})$ by swapping the entries $\mathbf{X}_j$ and $\tilde{\mathbf{X}}_j$ for each $j\in S$. Example: $$ \left( \mathbf{X}_1,\mathbf{X}_2,\mathbf{X}_3,\tilde{\mathbf{X}}_1,\tilde{\mathbf{X}}_2,\tilde{\mathbf{X}}_3 \right)_{\mathrm{swap}(\left\{2,3\right\})} \overset{\mathrm{d}}{=} \left( \mathbf{X}_1,\tilde{\mathbf{X}}_2,\tilde{\mathbf{X}}_3,\tilde{\mathbf{X}}_1,\mathbf{X}_2,\mathbf{X}_3 \right)$$}
+    \end{frame}
+
+    \begin{frame}{Methodology: Model-X Knockoffs}
+        Suppose $\mathbf{X}\sim \mathcal{N}(0,\boldsymbol{\Sigma})$, then $(\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)}$ satisfies $ (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)} \overset{\mathrm{d}}{=}(\mathbf{X},\tilde{\mathbf{X}}) $ if 
+        \begin{align*}
+            (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)} \overset{\mathrm{d}}{=}(\mathbf{X},\tilde{\mathbf{X}}) &\sim \mathcal{N}(0,\mathbf{G}), & \text{where } \mathbf{G}&=\begin{pmatrix}
+                \boldsymbol{\Sigma} & \boldsymbol{\Sigma}-\mathrm{diag}(s)\\
+                \boldsymbol{\Sigma}-\mathrm{diag}(s) & \boldsymbol{\Sigma}
+            \end{pmatrix}
+        \end{align*}
+        where $\mathrm{diag}(s)$ is any \textit{diagonal matrix} s.t. $\boldsymbol{G}$ is \textit{\underline{positive semidefinite}}. 
+        
+        \vspace*{10pt}
+        For $\mathbf{P}$, the permutation matrix encoding the swap,
+        $$
+        \mathbf{PGP} = \mathbf{G}
+        $$
+    \end{frame}
+
+    \begin{frame}{Constructing Knockoff Variable}
+        \begin{align*}
+            (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)} \overset{\mathrm{d}}{=}(\mathbf{X},\tilde{\mathbf{X}}) &\sim \mathcal{N}(0,\mathbf{G}), & \text{where } \mathbf{G}&=\begin{pmatrix}
+                \boldsymbol{\Sigma} & \boldsymbol{\Sigma}-\mathrm{diag}(s)\\
+                \boldsymbol{\Sigma}-\mathrm{diag}(s) & \boldsymbol{\Sigma}
+            \end{pmatrix}
+        \end{align*}
+
+        then we can sample the knockoff vector $\tilde{\mathbf{X}}$ from the conditional distribution
+        $$
+        \tilde{\mathbf{X}} \mid \mathbf{X} \overset{\mathrm{d}}{=}\mathcal{N}(\mu,\mathbf{V})
+        $$
+        where 
+        \begin{align*}
+            \mu &= \mathbf{X} - \mathbf{X}\boldsymbol{\Sigma}^{-1}\mathrm{diag}(s)\\
+            \mathbf{V} &= 2\mathrm{diag}(s) - \mathrm{diag}(s)\boldsymbol{\Sigma}^{-1}\mathrm{diag}(s)
+        \end{align*}
+
+    \end{frame}
+
+    \begin{frame}{Exchangeability of Null Covariates and Their Knockoffs}
+        For \underline{\textit{MX knockoffs}}, swapping \textit{null} covariates with their knockoffs would \textbf{not} change the joint distribution of the original covariate $\mathbf{X}$ and their knockoffs $\tilde{\mathbf{X}}$, conditional on the repsonse $\mathbf{Y}$:
+
+        \begin{columns}
+            \begin{column}{0.95\textwidth}
+                \small
+                \begin{block}{\textit{Lemma 1: MX Knockoffs}}
+                    Take any subset $S\subset \mathcal{H}_0$ of nulls, then
+                    $$
+                    \left( \mathbf{X},\tilde{\mathbf{X}} \right)\mid \mathbf{y} \overset{\mathrm{d}}{=} \left(\mathbf{X},\tilde{\mathbf{X}}\right)_{\mathrm{swap}(S)}\mid \mathbf{y}
+                    $$
+                \end{block}
+            \end{column}
+        \end{columns}
+    \end{frame}
+
+    \begin{frame}{Feature Statistics}
+        To provide evidence \textit{against} the hypothesis that $\mathbf{X}_j$ is null, we compute statistics $W_j$ for each $j\in\left\{ 1,\cdots,p \right\}$ 
+        $$
+        W_j = w_j\left\{ (\mathbf{X},\tilde{\mathbf{X}}),\mathbf{y} \right\}
+        $$
+        and check whether $W_j$ is large enough.
+
+        \uncover<2->{
+            \vspace*{10pt}
+            Following \citet{Barber2015}, impose a \textit{\underline{flip sign property}}: swapping the $j$th variable with its knockoff has the effect of changing the sign of $W_j$ 
+            $$
+             w_j\left\{ (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)},\mathbf{y} \right\} = \begin{cases}
+                w_j\left\{ (\mathbf{X},\tilde{\mathbf{X}}),\mathbf{y} \right\}, & j\not\in S \\
+                -w_j \left\{ (\mathbf{X},\tilde{\mathbf{X}}),\mathbf{y} \right\}, & j\in S
+             \end{cases}
+            $$
+        }
+
+    \end{frame}
+
+    \begin{frame}{Feature Statistics}
+        Consider a statistic $\mathbf{T}$ for each original and knockoff variable $$ \mathbf{T} \overset{\Delta}{=} (\mathbf{Z},\tilde{\mathbf{Z}}) = (Z_1,\cdots,Z_p,\tilde{Z}_1,\cdots,\tilde{Z}_p) = t\left\{ (\mathbf{X},\tilde{\mathbf{X}}), \mathbf{y}\right\} $$
+        if the components of $\mathbf{T}$ are switched in the same way: $$ (\mathbf{Z},\tilde{\mathbf{Z}})_{\mathrm{swap}(S)} = t\left\{ (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)},\mathbf{y} \right\} $$
+        set $$W_j = f_j(Z_j,\tilde{Z}_j)$$ where $f_j$ is any antisymmetric function (\underline{$f(v,u)=-f(u,v)$}) to achieve the flip sign condition.
+    \end{frame}
+
+    \begin{frame}{Feature Statistics: \textit{Lasso coefficient difference (LCD)}}
+        Consider the Lasso \textit{\underline{augmented with \textcolor{glaucous!65!white}{knockoffs}}} 
+        $$
+        \min_{b\in\mathbb{R}^{2p}}\frac{1}{2}\lVert y - (\mathbf{X},\tilde{\mathbf{X}})b \rVert^2_2 + \lambda \lVert b \rVert _1
+        $$
+        which has solution $ \hat{b}(\lambda) = (\hat{b}_1(\lambda),\cdots,\hat{b}_p(\lambda),\hat{b}_{p+1}(\lambda),\cdots,\hat{b}_{2p}(\lambda)) $, then
+        $$
+        W_j = Z_j -\tilde{Z}_j = \lvert \hat{b}_j(\lambda) \rvert - \lvert \hat{b}_{j+p}(\lambda) \rvert
+        $$
+
+        \vspace*{5pt}
+        {\small
+        \begin{itemize}
+            \item<2-> a large positive value of $W_j$ provides some evidence that the distribution of $\mathbf{Y}$ depends on $\mathbf{X}_j$
+            \item<3-> the value of $\lambda$ can be chosen in any data-dependent fashion for a pair of $\mathbf{y}$ and $(\mathbf{X},\tilde{\mathbf{X}})$ 
+        \end{itemize}
+        }
+        
+    \end{frame}
+
+    \begin{frame}{Feature Statistics: \textit{Lasso coefficient difference (LCD)}}
+        $$
+        W_j = Z_j -\tilde{Z}_j = \lvert \hat{b}_j(\lambda) \rvert - \lvert \hat{b}_{j+p}(\lambda) \rvert
+        $$
+
+        
+        \begin{columns}
+            \begin{column}{0.95\textwidth}
+                \footnotesize
+                \begin{block}{\textit{Lemma 2}}
+                    Conditional on $\left( \lvert W_1 \rvert,\cdots, \lvert W_p \rvert \right)$, the sign of the null $W_j$s ($j\in \mathcal{H}_0$) are i.i.d. coin flips
+                \end{block}
+                \vspace*{5pt}
+                \uncover<2->{Proof: for a sequence independent random variables $\boldsymbol{\epsilon}=(\epsilon_1,\cdots,\epsilon_p)$ s.t. $\epsilon_j = \pm 1$ with probability $\frac{1}{2}$ if $j\in\mathcal{H}_0$, and $\epsilon_j=1$ otherwise, put $S=\left\{j:\epsilon_j=-1\right\}\subset \mathcal{H}_0$}
+                \begin{itemize}
+                    \item<3-> flip sign property: $W_{\mathrm{swap}(S)} \overset{\Delta}{=}w \left\{ (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)},\mathbf{y} \right\} \textcolor{glaucous!65!white}{\boxed{\overset{\mathrm{d}}{=}}} \epsilon \odot W = (\epsilon_1W1,\cdots,\epsilon_pW_p)$
+                    \item<4-> Lemma 1: $W_{\mathrm{swap}(S)}\overset{\mathrm{d}}{=} W$
+                \end{itemize}
+                \uncover<4->{which establishes $W \overset{\mathrm{d}}{=} \epsilon \odot W $}
+            \end{column}
+        \end{columns}
+
+    \end{frame}
+
+    \begin{frame}{Methodology: False Discovery Rate Control}
+        Since the null $W_j$s ($j\in\mathcal{H}_0$) are i.i.d. coin flips conditional on $\left( \lvert W_1 \rvert,\cdots, \lvert W_p \rvert \right)$ (Lemma 2), they are \textcolor{glaucous!65!white}{\underline{\textit{symmetric}}}
+        $$
+         \# \left\{ j: W_j\leq -t,j\in\mathcal{H}_0  \right\} \overset{\mathrm{d}}{=} \# \left\{ j: W_j\geq t,j\in\mathcal{H}_0  \right\}
+        $$
+
+        and for any fixed threshold $t>0$
+        $$
+        \# \left\{ j:W_j\leq -t \right\} \geq \# \left\{ j: W_j\leq -t,j\in\mathcal{H}_0  \right\}
+        $$
+        so for the false discovery proportion FDP\only<2->{, an \textcolor{glaucous!65!white}{\textit{\underline{upward-biased}}} estimate is}: 
+        $$
+        \only<1>{\mathrm{FDP}(t)}\only<2>{\textcolor{glaucous!65!white}{\widehat{\mathrm{FDP}}(t)}} = \frac{ \only<1>{\#\left\{j: W_j\geq t,j\in\mathcal{H}_0 \right\}} \only<2>{\textcolor{glaucous!65!white}{\# \left\{j: W_j\leq -t \right\}} } }{ \#\left\{ j:W_j\geq t \right\} }
+        $$
+    \end{frame}
+    
+    \begin{frame}{FDR Process \citep{Barber2015}}
+        \begin{columns}
+            \begin{column}{0.95\textwidth}
+                \footnotesize
+                \only<1->{\begin{block}{\only<1>{\textit{Theorem 1: Modified FDR}}\only<2>{\textit{Theorem 1: Usual FDR}}}
+                    Choose a threshold $\tau >0$ by setting 
+                    $$
+                    \tau = \min \left\{ t>0: \frac{ \only<2>{\textcolor{glaucous!65!white}{1+}} {\# \left\{j: W_j\leq -t \right\}} }{ \#\left\{j: W_j\geq t \right\} } \leq q \right\} 
+                    $$
+                    where $q$ is the target FDR level. Then the procedure selecting the variables: $$ \hat{S} = \left\{ j:W_j\geq \tau \right\} $$
+                    controlling the \textit{\underline{modified FDR}} defined as $$ \mathrm{mFDR} = \mathbb{E}\left[ \frac{\lvert \left\{ j\in\hat{S}\cap \mathcal{H}_0 \right\} \rvert}{ \lvert\hat{S} \rvert\only<1>{+1/q} \only<2>{\textcolor{glaucous!65!white}{\vee 1}} } \right] \leq q $$
+                    {These results are \textit{\underline{non-asymptotic}} and hold \textit{\underline{conditionally}} on the response $\mathbf{y}$}
+                \end{block}
+                \vspace*{3pt}}
+            \end{column}
+        \end{columns}
+        
+    \end{frame}
+
+    \begin{frame}{Constructing Model-X Knockoffs}
+        \begin{columns}
+            \begin{column}{0.95\textwidth}
+                {\scriptsize
+                \begin{block}{\textit{Definition 2: MX Knockoffs}}
+                    \underline{\textit{MX knockoffs}} for the family of random variables $\mathbf{X}=(\mathbf{X}_1,\cdots,\mathbf{X}_p)$ are a new family of random variables $\tilde{\mathbf{X}} = (\tilde{\mathbf{X}}_1,\cdots,\tilde{\mathbf{X}}_p)$ constructed with the following 2 properties:
+                    \begin{itemize}
+                        \item[(a)] for any subset $S \subset \left\{1,\cdots,p \right\}$, $$ (\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)} \overset{\mathrm{d}}{=}(\mathbf{X},\tilde{\mathbf{X}}) $$
+                        \item[(b)] $\tilde{\mathbf{X}}\ind \mathbf{Y}\mid \mathbf{X}$ if there is a response $\mathbf{Y}$
+                    \end{itemize}
+                \end{block}}
+                \vspace*{5pt}
+                \uncover<2>{
+                    \small
+                    which gives:
+                    \begin{block}{\textit{Proposition 2: MX Knockoffs}}
+                        The random variables $ (\tilde{\mathbf{X}}_1,\cdots,\tilde{\mathbf{X}}_p) $ are \underline{\textit{MX knockoffs}} for $({\mathbf{X}}_1,\cdots,{\mathbf{X}}_p)$ if and only if for any $j\in \left\{1,\cdots,p\right\}$, the pair $({\mathbf{X}}_j,\tilde{\mathbf{X}}_j)$ is \textit{\underline{exchangeable}} conditional on all the other variables and their knockoffs.
+                    \end{block}
+                }
+                \vspace*{3pt}
+            \end{column}
+        \end{columns}
+    \end{frame}
+
+    \begin{frame}{Constructing Model-X Knockoffs}
+        Goal: constructing pairs that are \textit{\underline{conditionally exchangeable}}
+        \uncover<2->{
+            \begin{columns}
+                \begin{column}{0.95\textwidth}
+                    {\small
+                    \begin{block}{\textit{Algorithm 1: Sequential Conditional Independent Pairs}}
+                        $j=1$ 
+                        
+                        \textbf{while} $j\leq p$ \textbf{do}
+
+                        \ \ \ \ \textbf{sample} $\tilde{\mathbf{X}}_j$ from $\mathcal{L}(\mathbf{X}_j\mid \mathbf{X}_{-j},\tilde{\mathbf{X}}_{1:j-1})$
+
+                        \ \ \ \  $j=j+1$
+
+                        \textbf{end}
+                    \end{block}}
+                \end{column}
+            \end{columns} 
+        }
+        \vspace*{10pt}
+        \uncover<3->{Example: $p=3$ 
+        
+        \begin{itemize}
+            \footnotesize
+            \item<4-> $j=1$: sample $\tilde{\mathbf{X}}_1$ from $\mathcal{L}(\mathbf{X}_1 \mid \mathbf{X}_{2:3})$
+            \item<5-> $j=2$: sample $\tilde{\mathbf{X}}_2$ from $\mathcal{L}(\mathbf{X}_2\mid \mathbf{X}_1,\mathbf{X}_3,\tilde{\mathbf{X}}_1)$ 
+            \item<6-> $j=3$: sample $\tilde{\mathbf{X}}_3$ from $\mathcal{L}(\mathbf{X}_3\mid \mathbf{X}_{1:2},\tilde{\mathbf{X}}_{1:2})$ \hfill 
+        \end{itemize}
+        }
+    \end{frame}
+
+    \begin{frame}{Constructing Model-X Knockoffs \textit{Approximately}}
+        \begin{columns}
+            \begin{column}{0.95\textwidth}
+                {\scriptsize
+                \begin{block}{\textit{Definition 2: MX Knockoffs}}
+                    \underline{\textit{MX knockoffs}} $\tilde{\mathbf{X}} = (\tilde{\mathbf{X}}_1,\cdots,\tilde{\mathbf{X}}_p)$ constructed with the following 2 properties:
+                    \begin{itemize}
+                        \item[(a)] for any subset $S \subset \left\{1,\cdots,p \right\}$, $$ \boxed{(\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap}(S)} \overset{\mathrm{d}}{=}(\mathbf{X},\tilde{\mathbf{X}})} $$
+                        \item[(b)] $\tilde{\mathbf{X}}\ind \mathbf{Y}\mid \mathbf{X}$ if there is a response $\mathbf{Y}$
+                    \end{itemize}
+                \end{block}}
+            \end{column}
+        \end{columns}
+        \vspace*{10pt}
+        \uncover<2->{\small An approximate constructions: $(\mathbf{X},\tilde{\mathbf{X}})_{\mathrm{swap(S)}}$ and $(\mathbf{X},\tilde{\mathbf{X}})$ have the same first 2 moments \uncover<3->{ \begin{align*} \mathrm{cov}(\mathbf{X},\tilde{\mathbf{X}})&=\mathbf{G} & \mathbf{G}=
+            \begin{pmatrix}
+                \boldsymbol{\Sigma} & \boldsymbol{\Sigma}-\mathrm{diag}(s)\\
+                \boldsymbol{\Sigma}-\mathrm{diag}(s) & \boldsymbol{\Sigma}
+            \end{pmatrix}
+         \end{align*} } 
+         \uncover<4>{\footnotesize For Gaussian $(\mathbf{X},\tilde{\mathbf{X}})$, $s$ is chosen s.t. $\mathbf{G}$ is positive semidefinite }}
+    \end{frame}
+
+    \begin{frame}{Constructing Model-X Knockoffs \textit{Approximately}}
+        \small
+         \begin{itemize}
+            \item<2-> \textcolor{glaucous!65!white}{\underline{\textit{equicorrelated}}} construction: 
+            $$
+            s^{\mathrm{EQ}}_j = 2\lambda_{\min}(\boldsymbol{\Sigma})\wedge 1,\ \forall j
+            $$
+            minimizing the \underline{\textit{correlation between variable knockoff pairs}} subject to the constraint that all such pairs \underline{\textit{must have the same correlation}}
+            \item<3-> \textcolor{glaucous!65!white}{\underline{\textit{semidefinite programme}}} construction: 
+            \begin{align*}
+                \text{minimize} & & \sum_j\left\vert 1-s_j^{\mathrm{SDP}} \right\vert \\
+                \text{subject to} & & s_j^{\mathrm{SDP}}\geq 0, \ \mathrm{diag}\left(s^{\mathrm{SDP}}\right)\preceq 2\boldsymbol{\Sigma}
+            \end{align*}
+            minimizing the \underline{\textit{sum of the absolute values}} of variable knockoff correlations between \underline{\textit{all} suitable $s$}
+         \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Construct Model-X Knockoffs \textit{Approximately}}
+        
+        {\footnotesize 
+        \begin{itemize}
+            \item \textcolor{glaucous!65!white}{\underline{\textit{equicorrelated}}} construction: 
+            $$
+            s^{\mathrm{EQ}}_j = 2\lambda_{\min}(\boldsymbol{\Sigma})\wedge 1,\ \forall j
+            $$
+            \item \textcolor{glaucous!65!white}{\underline{\textit{semidefinite programme}}} construction: 
+            \begin{align*}
+                \text{minimize} && \sum_j\left\vert 1-s_j^{\mathrm{SDP}} \right\vert \\
+                \text{subject to} && s_j^{\mathrm{SDP}}\geq 0, \ \mathrm{diag}\left(s^{\mathrm{SDP}}\right)\preceq 2\boldsymbol{\Sigma}
+            \end{align*}
+        \end{itemize}
+        }
+        {\small 
+        challenges with large $p$
+        \begin{itemize}
+            \item<2-> $\lambda_{\min}(\boldsymbol{\Sigma})$ tends to be extremely small: computationally easy, but \textbf{low power} of $s_j^{\mathrm{EQ}}$
+            \item<3-> SDP (a convex problem) is computationally expensive 
+        \end{itemize}
+        }
+    \end{frame}
+
+    \begin{frame}{Construct Model-X Knockoffs \textit{Approximately}}
+        Following a two-step procedure:
+        \begin{itemize}
+            \item<+-> Step 1: choose an \textcolor{glaucous!65!white}{\underline{\textit{approximation}}} $\boldsymbol{\Sigma}_{\mathrm{approx}}$ of $\boldsymbol{\Sigma}$  and solve
+            \begin{align*}
+                \text{minimize} && \sum_j\left\vert 1-\hat{s}_j \right\vert \\
+                \text{subject to} && \hat{s}_j\geq 0, \ \mathrm{diag}\left(\hat{s}_j\right)\preceq 2\boldsymbol{\Sigma}_{\mathrm{approx}}
+            \end{align*}
+            \item<+-> Step 2: solve 
+            \begin{align*}
+                \text{maximize} && \gamma \\
+                \text{subject to} && \mathrm{diag}\left(\gamma \hat{s}\right)\preceq 2\boldsymbol{\Sigma}
+            \end{align*}
+            and set $s^{\mathrm{ASDP}}=\gamma \hat{s}$
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Construct Model-X Knockoffs \textit{Approximately}}
+       
+        \begin{columns}
+            \begin{column}{0.95\textwidth}
+                {\scriptsize
+                \begin{block}{\small \textit{Approximate semidefinite programming}}
+                    {\begin{itemize}
+                        \item Step 1: choose an \textcolor{glaucous!65!white}{\underline{\textit{approximation}}} $\boldsymbol{\Sigma}_{\mathrm{approx}}$ of $\boldsymbol{\Sigma}$  and solve
+                        \begin{align*}
+                            \text{minimize }\ & \sum_j\left\vert 1-\hat{s}_j \right\vert & \text{subject to }\ & \hat{s}_j\geq 0, \ \mathrm{diag}\left(\hat{s}_j\right)\preceq 2\boldsymbol{\Sigma}_{\mathrm{approx}}
+                        \end{align*}
+                        \item Step 2: solve 
+                        \begin{align*}
+                            \text{maximize }\ & \gamma & \text{subject to }\ & \mathrm{diag}\left(\gamma \hat{s}\right)\preceq 2\boldsymbol{\Sigma}
+                        \end{align*}
+                        and set $s^{\mathrm{ASDP}}=\gamma \hat{s}$
+                    \end{itemize}}
+                \end{block}}
+            \end{column}
+        \end{columns}
+
+        \vspace*{5pt}
+        \begin{itemize}
+            \small
+            \item<2->[-] \textcolor{glaucous!65!white}{\underline{\textit{equicorrelated}}}: $\boldsymbol{\Sigma}=\mathbf{I}\Rightarrow$ $\hat{s}_j =1$, $\gamma = 2\times \lambda_{\min}\boldsymbol{\Sigma}\wedge 1$
+            \item<3->[-] \textcolor{glaucous!65!white}{\underline{\textit{semidefinite programme}}}: $\boldsymbol{\Sigma}=\boldsymbol{\Sigma}$, $\hat{s}_j = s^{\mathrm{SDP}}$, $\gamma=1$
+        \end{itemize}
+
+    \end{frame}

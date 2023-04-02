@@ -1,0 +1,148 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Barber2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=826fc96de04a5307c256bfb0b6202e0f}{%
+           family={Barber},
+           familyi={B\bibinitperiod},
+           given={Rina\bibnamedelima Foygel},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b96f054008cba65b83fbb3b55747ec63}{%
+           family={Candes},
+           familyi={C\bibinitperiod},
+           given={Emmanuel\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec38a183df67602fc957441f13f01188}
+      \strng{fullhash}{ec38a183df67602fc957441f13f01188}
+      \strng{bibnamehash}{ec38a183df67602fc957441f13f01188}
+      \strng{authorbibnamehash}{ec38a183df67602fc957441f13f01188}
+      \strng{authornamehash}{ec38a183df67602fc957441f13f01188}
+      \strng{authorfullhash}{ec38a183df67602fc957441f13f01188}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Statistics}
+      \field{number}{5}
+      \field{title}{Controlling the False Discovery Rate via Knockoffs}
+      \field{volume}{43}
+      \field{year}{2015}
+      \field{pages}{2055\bibrangedash 2085}
+      \range{pages}{31}
+    \endentry
+    \entry{Benjamini1995}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2bf06df9b6fb1b6a6811f2965ef58db2}{%
+           family={Benjamini},
+           familyi={B\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=486dfb83d695169656e5706b50266208}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={Yosef},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{fullhash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{bibnamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorbibnamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authornamehash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \strng{authorfullhash}{0ba4be1a60b0ea36e468eb3f8db88a98}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society: Series B (Methodological)}
+      \field{number}{1}
+      \field{title}{Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing}
+      \field{volume}{57}
+      \field{year}{1995}
+      \field{pages}{289\bibrangedash 300}
+      \range{pages}{12}
+    \endentry
+    \entry{candes2018panning}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=2e1f57caecf9d2f35fb1b154515830c1}{%
+           family={Cand{è}s},
+           familyi={C\bibinitperiod},
+           given={Emmanuel\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2eb00838f3cea970c7377bfea9631787}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Jianqing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a1ab16be9c4f427e777468e60b1edaa0}{%
+           family={Janson},
+           familyi={J\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0f66fa2ea251428c6943aaa92cd79812}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Jinchi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{0ac08d142d8633ad007fe27e4ac74f01}
+      \strng{fullhash}{917cc3b42fdcd5807f87aa88455172b7}
+      \strng{bibnamehash}{917cc3b42fdcd5807f87aa88455172b7}
+      \strng{authorbibnamehash}{917cc3b42fdcd5807f87aa88455172b7}
+      \strng{authornamehash}{0ac08d142d8633ad007fe27e4ac74f01}
+      \strng{authorfullhash}{917cc3b42fdcd5807f87aa88455172b7}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society: Series B (Statistical Methodology)}
+      \field{number}{3}
+      \field{title}{Panning for gold: `model-x' knockoffs for high dimensional controlled variable selection}
+      \field{volume}{80}
+      \field{year}{2018}
+      \field{pages}{551\bibrangedash 577}
+      \range{pages}{27}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
